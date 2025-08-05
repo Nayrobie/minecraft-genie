@@ -1,0 +1,324 @@
+Amob(short formobile,mobile entity, ormobile object)[1]is an AI-driven gameentity. All mobs can be attacked or hurt (fromfalling, attacked by aplayeror another mob, falling into thevoid, hit by anarrow, etc, with the exception of protectedcreakings), and have some form of voluntary movement. Different types of mobs often have unique AI andloot.
+Mobsspawnin various ways. Most mobs spawn naturally, depending on thelight level,biome, and their surroundings. For example, most animals are found in bright areas on the surface, while hostile monsters are commonly found in the dark (whether it's acave,monster room,mansion, or at night). Animals usually spawn upon chunk generation, while hostile monsters spawn and despawn in a certain radius around the player.
+Some mobs, including passive and neutral animals, and evenhoglins, have the ability to bebredby theplayer, creating offspring.Villagerscannot be directly bred by the player, instead randomly breeding depending on the time of day and the number ofbeds, which allows players to manipulate their likelihood of breeding.
+Most mobs never spawn ontransparentblocks, in water (except fish, dolphins, turtles, and other aquatic creatures), in lava (except forstriders), onbedrock, or on blocksless than a full block tall(such asslabsplaced on the bottom half). The exception ismonster spawners, from which monsters can spawn naturally on any block includingair.
+Some mobs (like thesnow golemand thewither) require that theplayer"construct" them before being able to spawn. Theiron golemcan spawn naturally and can also be constructed. Theender dragoncan be respawned with fourend crystals. A rare occurrence of spawning are thejockeymobs, which is a mob riding another mob.
+Playerscan also spawn mobs easily by usingspawn eggsinCreative modeor the/summoncommand.
+Many mobs despawn (cease to exist) after a certain amount of time if far enough from the player. InJava Edition, most passive mobs do not despawn, while most monsters do. InBedrock Edition, almost all mobs despawn. Mobs can be prevented from despawning if they are named with aname tag, and inJava Edition[verify], also in aboat.
+Mobs are affected by the environment in the same ways as the player; they are subject tophysics, and they can behurtby the same things that harm the player (catching on fire, falling, drowning, attacks from weapons, the /kill command, etc.). Some mobs may be resistant or immune to certain hazards, such as someNethermobs, which are immune to fire. Allaquaticmobs exceptdolphinsare immune to drowning. Mobs can rideminecartsand other mobs can climb upladders. When mobs are killed, they turn to smoke particles anddropitems that may be useful resources.
+Each type of mob inMinecrafthas a certain AI (artificial intelligence) system with different behaviors and mechanics. Mobs ordinarily wander around at random if there is a player within 32 blocks and usually avoid walking off blocks high enough to cause falling damage. Many mobs have an advanced path-finding system that allows them to navigate through obstacles to get to a desired object or destination.Passive mobsflee in random directions after being hurt, whilehostile mobsface and chase/attack theplayeras soon as the player comes close.Neutral mobsremain neutral until a player or mob provokes it (usually by attacking), at which point the neutral mob becomes hostile toward and attacks the entity that hit it. Most mobs are aware of players within (aEuclidian distance) 16blocksof them, but some can see farther. Conversely, most mobs can be heard by players up to 16 blocks away. Mobs are harmless to players inCreativemode.
+Most mobs cannot see through most solid blocks, including semi-transparent blocks such asice,glass,tall grass, orglass panes. InJava Edition, all mobs (except forwardens[2]) try to avoid walking overrailsunless pushed onto the rails by other mobs.
+Using specificname tagson mobs can result in unusual behavior or rendering. SeeName Tag§ Easter eggsfor details.
+Mobs are listed and classified by their nature from the player's perspective. For more details on a particular mob, click on them to view their individual page.
+Passive mobs are harmless mobs (except forpufferfish) that do not attempt to attack the player, even when provoked or attacked, though some of them may attack other mobs. Most of them can bebredortamed.
+These passive mobs are designed primarily for coding, education, or interactive learning rather than regular gameplay.
+Neutral mobs are sometimes passive and sometimes hostile toward the player. These mobs usually require provocation from the player in one way or another to attack or become hostile, while some can be naturally-hostile and have a way to be pacified.
+Hostile mobs are dangerous, aggressive mobs that always attack the player within their respective detection ranges. Certain non-hostile mobs such aschickens,skeleton horsesandspiderscan be mounted by hostile mobs onrare occasions, and become hostile.
+Boss mobs are special hostile mobs that are tougher and more dangerous than other mobs. They do not spawn randomly and are confronted intentionally. All boss mobs have abossbarfeaturing their name and health. Boss mobs provide unique challenges and equivalent rewards, such as XP or useful items.
+These mobs are planned to be added in the upcomingFall Drop 2025.
+These mobs can not spawn without the use of/summonorspawn eggs. Old villagers and old zombie villagers cannot be spawned at all.
+Removed mobs are mobs that no longer exist in current versions of the game.
+Mobs that were added asApril Fools' Day jokesinJava Edition, and cannot be found in the normal version.
+Mobs that were announced by Mojang as potential additions to the game, but either got scrapped or shelved indefinitely.
+Mobs that were briefly mentioned byMojang Studioson social media and other platforms.
+Most of the mobs are classified into categories, such as theanimalsor themonsters. Some creatures are then further classified into more specific groups, based on detailed characteristics and properties they share with other members of that group. There are a total of four mob classifications that display unique characteristics from other mobs.
+Some mobs are weak or immune to certain type of damage. For example, aquatic creatures, such asturtlesandguardians, take more damage from tridents that are enchanted withImpaling‌[Java Editiononly]‌[untilJE Combat Tests]. All undead mobs are healed bypotionsofHarmingand take extra damage from weapons enchanted withSmite, along with taking damage from potions ofHealing. Many of these weaknesses and immunities are a result of what category (see below) of mobs that mob falls into.
+This group of mobs includesbogged,drowned, old zombie villagers,husks,phantoms,skeletons,skeleton horses,strays,withers,wither skeletons,zoglins,zombies,zombie horses,zombie villagers, andzombified piglins. These mobs are damaged by potions of Healing, healed by potions of Harming, are unaffected by Regeneration and Poison, and are immune to drowning (except for husks and zombies, which transform into zombies and drowned if submerged underwater, respectively). Zombies, zombie villagers, drowned, skeletons, strays, bogged, and phantoms burn when under direct sunlight, unless they are touching water or wearing a helmet. Under theFire Resistanceeffect, these undead mobs still catch fire in direct sunlight but are not damaged by it. All undead mobs except for drowned, phantoms, and withers cannot swim and sink when in water. All undead mobs take extra damage from weapons enchanted withSmite, and are ignored by withers.
+Many undead mobs can spawn with the ability to pick upitemsand equipment from the ground. Some can sometimes spawn wearingarmor, or holdingtoolsorweapons.
+This group of mobs includesaxolotls,dolphins,squid,glow squid,guardians,elder guardians,tadpoles,turtles,cod,salmon,pufferfish, andtropical fish, but not drowned.[7]They take extra damage from tridents enchanted withImpaling,‌[Java Editiononly]‌[untilJE Combat Tests]and, except axolotls, do not cause pufferfish to inflate nor take damage from them. All aquatic mobs except dolphins are immune to drowning, and all except guardians, elder guardians, and turtles take suffocation damage if out of water for too long. Aquatic mobs have the ability to freely swim vertically, whereas other mobs simply float on the surface of thewateror sink.
+This group consists of mobs based onarthropods, namelybees,cave spiders,endermites,silverfish, andspiders. They take extra damage and receive theSlownessIV effect when attacked withweaponsenchanted withBane of Arthropods.
+This group includespillagers,illusioners‌[JEonly],evokers, andvindicators. They are immune to evoker fangsdamageand ignored by vindicators named "Johnny". They are hostile toward adultvillagers,wandering traders,iron golemsandplayersinSurvivalorAdventuremode.Ravagers,witches, andvexesaccompany them inraidsbut are not illagers themselves. Illusioners (and witches‌[Bedrock Editiononly]) can see players or targets through blocks.
+Some non-boss mobs resist a certain percentage ofknockbackfrom attacks.
+The following table also applies toMinecraft Educationand theChina Editionvariants, with theBedrock Editioncorresponding toMinecraft Education.
+Camera
+Advancements are made when a player accomplishes something that is either rare to accomplish or sometimes easy to do so (such asAdventurefor killing or getting killed by an entity).
+The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.
+Issues relating to "Mob" are maintained on thebug tracker. Issues should be reported and viewedthere.
+
+Tradingis agameplaymechanic that allowsplayersto exchangeemeraldsforitems, and vice versa, withvillagersandwandering traders.
+Pressinguseon an adultvillagerwith a profession, or on awandering trader, opens a menu, allowing a player to trade with that merchant. This action pauses any pathfinding the merchant was doing and makes it face you. If the merchant takesdamagewhile trading, the trading menu closes. The same thing happens if they walk or are transported far enough away.
+All transactions involveemeralds. Trading is the only legitimate method of acquiring theglobe banner pattern,woodland explorer maps,trial explorer mapsandocean explorer mapsinSurvivalmode. It is also the onlyrenewableway to obtainbells,diamondgear[note 1],lapis lazuli‌[BEonly],bottles o' enchanting,glass,sand,red sand,coral blocks,arrow of decay‌[BEonly]andsmall dripleaves.
+Villagers have five career levels that can be increased by trading with them. Each villager starts at the "novice" level. A villager's level can be seen in the trading menu. The badge they wear can also be identified: stone for a novice, iron for an apprentice, gold for a journeyman, emerald for an expert, and diamond for a master. Trading until the villager's trading bar gets full unlocks the next level of trades. When a player trades with a villager, both the villager and the player gainexperience. All villager trades reward the player with 3–6experience, plus an additional 5 experience if the villager levels up due to the trade. Trading with a wandering trader also rewards the player with some experience, although the trader does not have experience levels to gain. A villager levels up when its experience bar becomes full and gains up to two‌[JEonly]or three‌[BEonly]new trades, along with keeping their old ones. Additionally, a villager receives aRegenerationeffect, and becomes surrounded by purple particles for ten seconds.
+Trades from the Master level would still reward the villager with experience, but it has no actual effect as the villager can't level up any further.
+Each badge is 2x3 pixels, except the Novice (stone) badge, which is 4x4 pixels.
+InJava Edition, villagers have a maximum of 10 trades. Each level unlocks a maximum of two new trades. If a level has a pool of more than two trades, the two offered trades are chosen randomly from the set.
+InBedrock Edition, villagers have 7–10 trade slots. A slot with multiple possible trades will display only one trade; for example, farmer villagers have 4 potential trades in their first trade slot, so each trade has a1⁄4chance to be chosen.[untilVillager Trade Rebalancing][verify]
+A villager'sprofessiondictates the trading pool used to determine its trades. For example, villagers wearing straw hats are farmers, so their trades are based on the Farmer trade pool. Each profession unlocks a predefined and finite set of offers. Different professions are assigned to each villager based on their job-site block. This profession is indicated by their appearance and in the trading interface. Novice villagers who have not traded can lose their profession and change back into unemployed villagers if their claimed job site block is removed. Removing and then replacing a job site block can alter the trades offered, and a villager with no experience resets its trades every so often. Once a player trades with a villager, the villager keeps its profession forever and subsequently locks in the offered trades.
+Each trade can be used a maximum number of times, after which the villager runs out of stock and trade becomes disabled. The exact number is different for each item and referenced in the tables below. When villagers work at theirjob site blocks, they activate their offers again, up to twice per day. InBedrock Edition, villagers need to be linked to a bed to restock their trades (it is not necessary for them to sleep, but require a bed nearby). When an offer is disabled, a red "X" appears in the trading interface inJava Edition, or the trading slot becomes red inBedrock Edition, and the villager displays the same particle effect as an offer being created.
+When buying items from players, villagers ignoreadditional item data; this allows, for example, selling renamed or enchanted items, as well aslodestone compassesinstead of regularcompassesinJava Edition. When theVillager Trade Rebalanceexperiment is enabled, taiga armorers can also accept damaged armor.
+The price of an item rises and falls depending on three factors. Items with a high price multiplier (0.2) are affected by these changes more than items with a low multiplier (0.05). All price fluctuations affect only the first item involved in trade; for example, for an initial trade of 32 sticks for 1 emerald, the price might be driven down to 1 stick or up to 64 sticks for 1 emerald, but never for 2 emeralds. Additionally, no quantity can go lower than 1 or higher than the stack size.
+The first factor is demand. An item that was sold out gets a price increase for all players when resupplied. If a player does not trade for a higher-priced item, the price is reduced the next time the villager resupplies. Demand is tracked per item, not pervillager, so a villager can offer a higher-priced trade for a single item while other items are cheaper. Trades that have a price multiplier of 0 are not affected by demand.
+The second way to affect prices is theHero of the Villageeffect, gained from successfully completing a raid, which temporarily reduces prices for the affected player depending on the level of the effect.
+Finally, players get personal discounts or penalties‌[Java Editiononly]based on their reputation with a particular villager. A positive reputation is gained bycuringzombie villagers (the cured villager gives a much larger permanent discount than the temporary discount given by nearby villagers). Giving azombie villagertheWeaknesseffect and then feeding it agolden applestarts the curing process. After five minutes, it transforms into a villager. The permanent discount is capped at one cure, while the temporary discount is capped at eight cures[needs testing]. Players can also gain negative reputation by hitting or killing villagers, and positive reputation by trading. InBedrock Edition, negative reputation can reduce or eliminate discounts but does not result in penalties.
+If the player attempts to trade with a non-trading villager inJava Edition, they grunt and bob their head, but if the player tries to do the same thing inBedrock Edition, nothing happens.
+Nitwits are green-coated villagers. They cannot gain a profession.
+While they can be used for breeding, it is not possible to get a baby nitwit by feeding the adult nitwits, even if using two nitwits as adults.
+Villagers without a job cannot trade. They only wear their biome outfits. An unemployed villager gains a profession by claiming an unclaimedjob site block. For example, an unclaimedcartography tableconverts an unemployed villager into a cartographer when the villager claims it, and both the villager and the table emit green particles. An inaccessible (or destroyed) job site block causes the connected villager to lose its profession, but that does not affect the player'spopularityin the village.
+The villager pictured on the right is from the plains biome. To see villager professions dressed for other biomes, seeVillagers§ Professions.
+InJava Edition, starting from Novice, at each level two additional trades become available, unless there is only one trade within that level. If there are more than two possible trades, two are randomly selected.
+InBedrock Edition, one trade is chosen randomly from each slot available. For example, if there are two items on the same slot, then only one of them will show up in the trade.
+Job site block:Blast Furnace
+Job site block:Smoker
+Job site block:Cartography Table
+Job site block:Brewing Stand
+Job site block:Composter
+Job site block:Barrel
+Job site block:Fletching Table
+Job site block:Cauldron
+Job site block:Lectern
+If theVillager Trade Rebalanceexperimentis turned on, librarians offer specific enchanted books depending on which biome they come from. Enchantments for the Novice, Apprentice, and Journeyman book trades are randomly selected from the "Common" pool, with a randomized level. At Master level, librarians are guaranteed to sell an enchanted book with a specific enchantment.
+Job site block:Stonecutter
+Job site block:Loom
+Job site block:Smithing Table
+Job site block:Grindstone
+Thewandering traderoffers nine trades in total: two random trades from purchasing table, two random trades from special selling table, and five random trades from ordinary selling table. These trades are not divided into categories; for example, a single wandering trader can sell 2 different saplings. Each individual trade is equally likely.[verify]
+In the trading GUI, the trade offers are always listed in this order:
+3
+Issues relating to "Trading", "Trades", or "Trade system" are maintained on thebug tracker. Issues should be reported and viewedthere.
+More
+
+Brewingis the process of creatingpotions,splash potions,lingering potions, andmedicine‌[Minecraft Educationonly]by adding various ingredients towater bottlesin abrewing stand.
+There is no provided in-game recipe book for brewing.
+Base ingredients are ingredients that can be added directly to awater bottle.Nether wartsare used to make awkward potions, and are the fundamental of the base ingredients, as it is required to make the majority of potions.
+Modifiers are ingredients used to alter the properties of a potion or to change a potion effect into a different one. Thefermented spider eyeis unique as it is the only modifier that can convert awater bottledirectly into a usablepotion.
+Generally, upgrading a potion involves a trade-off between duration and potency. A potion with an enhanced effect has shorter duration, and a potion with extended duration cannot have an enhanced effect. However:
+A fermented spider eye changes a potion's base effect, often reversing it or producing a negative potion.
+By adding gunpowder, a drinking potion can be turned into asplash potion, which can be thrown to coat entities within the place of impact with a status effect. Subsequently, adding dragon's breath to a splash potion makes a lingering potion, creating a cloud that inflicts effects on entities that enter its area.
+Effect ingredients imbue an awkward potion with a particular effect but do not alter potion duration or intensity. When added directly to a water bottle, most of these ingredients produce a mundane potion. The exceptions to this are the golden carrot, pufferfish, turtle shell, and phantom membrane, which cannot be added directly to a water bottle. A corrupted version of a potion can be made by adding afermented spider eyeto it.
+Base potions are potions without effects, brewed by adding a single base ingredient to a water bottle. Of these, only the awkward potion can be imbued with an effect ingredient to create a potion with an effect.‌[Java Editiononly]
+Effect potions are primarily created by adding an effect ingredient to an awkward potion, which is created by adding nether wart to a water bottle. Certain effects require a potion to be corrupted by a fermented spider eye. The potion ofWeaknesscan additionally be created by simply adding a fermented spider eye to a water bottle, and it is the only potion that can be brewed withoutnether wart.
+Undead mobsreact differently to effects than other mobs. They take damage from potions ofHealing, gain health from potions ofHarming, and are unaffected by potions ofPoisonandRegeneration.
+Enhanced:Instant HealthII: Restores health by 8HP.
+Enhanced:RegenerationII: Restores health byevery 1.25 seconds.
+Enhanced:StrengthII: Increases player's melee attack damage by 6HP.
+Enhanced:SpeedII: Increases movement speed, sprinting speed, and jumping length by 40%.
+Enhanced:Jump BoostII: Increases jump height by 150%.
+Enhanced:PoisonII: Depletes health by 1HPevery 0.6 seconds.
+Can also be brewed with a fermented spider eye and a potion of Strength, awkward, mundane, long mundane, or thick potion.‌[BEonly]
+Enhanced:Instant DamageII: Inflicts 12HP× 6damage.
+Enhanced:SlownessIV: Reduces movement speed by 60%.
+Enhanced:SlownessVI,ResistanceIV: Reduces movement speed by 90% and reduces incoming damage by 80%.
+Cures are brewed from awkward potions using differentelements. Drinking these removes the specified bad effect. They cannot be modified into splash, lingering, extended, or enhanced versions.
+The potion ofLuck‌[JEonly]and the potion ofDecay‌[BEonly]cannot be brewed, and can be obtained only through commands or theCreative inventory.
+Issues relating to "Brewing" are maintained on thebug tracker. Issues should be reported and viewedthere.
+More
+
+Enchantingis the process of augmentingarmor,tools, andweapons. Aglintanimation appears on items to show that they are enchanted.
+There are four ways to enchant an item in Survival mode:
+A player may also obtain items already enchanted:
+Server operators and players insingleplayerworlds withcheatsenabled can also enchantitemsusingcommandssuch as/enchant. When enchanted with the/givecommand, the maximum enchantment level is 255 on Java Edition. InCreativemode, items can be enchanted via an anvil andenchanted books, with noexperiencepoints required. Enchanted books are available in the Creative mode inventory, with individual book displays for the highest level of each enchantment and other levels available via the "Search" tab.
+Theenchanted golden apple, despite its name and glint, is not the enchanted form of any item and is completely different from thegolden apple.
+An item can be enchanted by using an enchanting table and placing the item and 1–3lapis lazuliin the input slots. Upon placing the item, three (pseudo)randomized options appear on the right of the GUI. The glyphs, written inStandard Galactic Alphabet, do not affect the enchantment, but hovering over a presented enchantment shows one enchantment to be applied. On mobile devices, the player can tap an enchantment before putting in the lapis lazuli or hold the enchantment before release. The only choices available have a level requirement equal to or below the player's current level and a lapis lazuli requirement equal to or below the number of lapis lazuli placed in the table. Each option imbues the item with a randomized set of enchantments that are dependent on the number of experience levels required (e.g. a level 30 enchantment can give a pickaxe the "Efficiency II" enchantment); the actual level cost and the number of lapis lazuli required have no effect.
+Although the player must have at least the level requirement to get an enchantment, the number of levels that the player is charged is the same as the lapis lazuli requirement. For example, if the third enchantment listed is a level 30 enchantment, the player must have at least 30 levels, but pay only 3 levels and 3 lapis lazuli.
+The level requirement influences the quantity, type, and level of enchantments instilled in the item, with a higher experience level generally resulting in more and/or higher-level enchantments. Nevertheless, there is a significant random factor, and even a level 30 enchantment (the maximum) doesn't guarantee more than one enchantment, or even that enchantments are "maximum strength" — a level 30 enchantment can still yield Fortune II or Efficiency III alone, for example. On the other hand, it is possiblе for multiple different enchantments to be given from one use of the enchanting table. For example, a level 30 enchantment applied to a pickaxe may yield both Efficiency IV and Unbreaking III. However, certain selected enchants never give any additional enchantment, regardless of which tool is enchanted, such as Efficiency IV and Knockback II.‌[BEonly][verify]
+To increase the enchantment level,bookshelvescan be placed next to theenchanting tablewhile keeping one block ofairbetween them. To gain access to the previously mentioned level 30 enchantments, a minimum of 15 bookshelves need to be placed around the enchanting table. See theEnchantment Mechanicspage for more detailed information on this.
+Enchanting abookproduces an enchanted book, which does nothing on its own, but effectively "saves" the enchantment for later application to another item with ananvil.
+Unlike with an anvil, using the enchanting table while on Creative still costs experience. However, if theplayerdoesn't have enough experience, then experience reduces to zero and the enchantment still works, even when using the enchanting table while already at level zero.
+Enchanting any item at any enchantment level changes the player's enchantment seed, which changes the possible enchantments for every item at every enchantment level. Thus, if none of the available enchantments for a tool are desired, 1 lapis lazuli and 1levelcould be spent to enchant a book or a differenttoolto refresh the list.
+The possible enchantments depend on the player's enchantment seed, the item type, and material, and the enchantment level (1–30). The following actions donotaffect the possible enchantments:
+Changing the enchantment levels offered by adding, removing, or blocking bookshelves alters the enchantments shown, but does not change possible enchantments; using another enchanting table with the previous bookshelf number still shows the previous enchantments. The enchantments for a particular enchantment level (with the same seed and item) do also differ depending on which row they appear in, but they are not "better" or "worse" based on the row despite the different resource costs.
+An anvil can be used to combine the enchantments of twoitems, sacrificing one of them and repairing the other. The items must be compatible; they must either be the same type and material (such as two iron swords) or an item and an enchanted book with an applicable enchantment (such as a bow and anInfinityenchanted book).
+Combining two enchanted items, books or one of each with the same enchantment at the same level produces an item or book with the next higher level of that enchantment up to the maximum allowed in Survival mode; for example, a book withThornsI andUnbreakingII combined with a book withUnbreakingII produces a book with Thorns I and Unbreaking III.
+To combine items, the player places the target item in the anvil's first slot and the sacrifice item in the second slot. If the combination is allowed, the resulting enchanted item appears in the anvil's output slot and an experience level cost, labeled "Enchantment Cost", appears below (green if the player has enough experience levels, red if they don't). To complete the enchanting, the player removes the enchanted item from the anvil's output slot, and their experience level is reduced accordingly.
+The experience cost depends on the enchantments, with highly enchanted items costing more. If the target item is also being repaired, that costs more as well. The target item can also be renamed, at additional cost. There is also an accumulating surcharge for prior work done on anvils. In Survival mode, work that costs more than 39 levels of experience is refused although it may still be possible to perform the same work in steps. For example, a damaged enchanted bow may be repaired on an anvil with an ordinary bow, and then another enchanted bow may be used to combine enchantments with the repaired bow.
+Enchanted books can be made by enchanting a book in anenchanting tableat the cost ofexperiencepoints. They can also be found in the chests of several structures, purchased withemeraldsfrom a librarian villager, or caught while fishing.
+Enchanted books can be applied to tools, weapons, and armor, or combined with other enchanted books in ananvil. In this way, some enchantments that cannot normally be obtained on an item through use of the enchanting table can still be applied to those items, such as applyingThornsto boots.
+Although enchanted books can have multiple enchantments of any type, only enchantments appropriate to a given item type are applied to that item when combined in an anvil. For example, an enchanted book may have both the Respiration and Power enchantments, but the Respiration enchantment is lost if the book is applied to anything but a helmet. Likewise, the Power enchantment is lost if the book is applied to anything but a bow.
+In Creative mode, enchanted books can be used to apply any enchantment to any item, such as a stick havingKnockbackII on Java Edition. However, mutually-exclusive enchantments, such asInfinityandMending, cannot be applied this way or even via/enchant(though both enchantments function as normal when obtained on a bow through the/givecommand).
+The experience costs forusingbooks are considerably less than for combining items with similar enchantments since the books themselves cost levels to create. However, it's still an extra cost, and enchanting items directly has a chance to get multiple enchantments. The advantage of books is that they can be stockpiled for use on an item of choice and allow forcontrolledcombinations. For example, a Silk Touch book can be used on anaxe,pickaxe, orshovel, and the player can decide which item receives which enchantment.
+UseOrder Calculatorto minimize experience loss when merging two items.
+The main way to disenchant items is via thegrindstoneor by repairing the items via the crafting grid. Using the grindstone removes all enchantments (except forcurses) but gives some experience back based on the level of the enchantment(s) and their value.
+If ablockis placed, it loses all the enchantments it has.
+Each enchantment in the table below includes attributes that are possible for the player to acquire legitimately inSurvivalmode. Other combinations are possible inCreativemode or with cheats, mods, or third-party software.
+Enchantments that have multiple levels are shown with their maximum level numbers. Mutually exclusive enchantments can be combined usingcommands(e.g.,/give@s bow[enchantments={infinity:1,mending:1}]). Also, a player can exceed the maximum levels of enchantments (e.g.,/give@s netherite_sword[enchantments={fire_aspect:10}]). However, if that number goes above10thetranslation stringis exposed and it looks like this:
+[1]
+The tables below summarize the enchantments that can be obtained on specific items inBedrock Editionand inJava EditionSurvival mode (Any enchantment can be applied to any item inJava EditionCreative mode). Enchantments that can be applied to both hand slot items and armor slot items are listed in both tables.
+Depth Strider(III)
+The table below shows the effective limits for enchantments (also foundhere).
+Mending
+Java Edition:
+Bedrock Edition:
+Java Edition
+Bedrock Edition:
+Issues relating to "Enchanting", "Enchantment", or "Enchanted" are maintained on thebug tracker. Issues should be reported and viewedthere.
+More
+
+Blocksare the basic units of structure inMinecraftthat make up the game's world. Many blocks can be collected and placed anywhere, as well as be used as helpful resources.
+Blocks are arranged in a3-dimensional gridof 1-cubic-meter cells, although some blocks appear to occupy a partial cell; these includeslabs,snowlayers,ladders,vines,stairs,turtle eggs, andsea pickles, among others.
+Collectively, blocks andfluidsmake up the in-game environment, and most can be harvested and utilized in various fashions. Some blocks, such asdirtandsandstone, areopaqueand occupy their entire cubic meter, while others, such asglassandflowers, aretransparentor non-solid.Explosionsdestroy some blocks more easily than they destroy others, while some are virtually immune to explosions. They can still betheoreticllyexploded.
+Airis a special block that acts as a substitute for the absence of blocks. It has two variants:cave airandvoid air.‌[Java Editiononly]
+Some blocks, such assea lanternsandglowstone, emitlight, the amount of which varies widely; seethis table of light valuesfor further information. Opaque blocks completely block light, while transparent blocks have no effect on light, block the light, or merely weaken it.
+Almost all blocks ignore gravity, except forsand,red sand,gravel,anvilsof all damage levels,dragon eggs, all colors ofconcrete powder,scaffolding,snowlayers‌[BEonly],pointed dripstone,suspicious sand, andsuspicious gravel. Theseturn into entitieswhen their support is removed.
+When broken, blocks emitsoundsandparticlesassociated with themselves, except in the following cases:
+Most solid blocks are 1 meter high (3.28084... feet or1250⁄381feet), but several blocks have non-standard block heights, such asslabs.
+A player can automatically step up from a lower to a higher height if the difference is at most 0.6 (3⁄5) of a block or 1.9685... feet (250⁄127feet).
+The textures on the faces of most blocks are 16×16 pixels. Exceptions includecandles,sculk sensors, etc. Most blocks are proportionately one cubic meter by default, but their shape can be changed usingmodels.
+Most blocks have static textures, but these blocks areanimated:water,lava,Nether portal,end portal,end gateway,prismarine(slab; stairs; wall),sea lantern,magma block,seagrass,kelp,fire,lantern, litcampfireand their soul variants, litblast furnace,heat block‌[BE&eduonly],stems,hyphae, litsmoker,stonecutter,sculk,sculk shrieker,sculk sensor,calibrated sculk sensor,sculk vein, andcommand block.
+Players can change their textures by changing their files in-game. The following explains how. In the menu, go to "Options", then select the "Resource Pack" option. Two panels appear: "Available" and "Selected" (theDefaultresource pack should be under "Selected").
+Usingresource packs, the player can change the textures and resolution of blocks, including whether their texture is animated. They can also change the shapes of blocks usingmodelsand the size of blocks to any size with equal width and height, though sizes that are a power of two tend to work better.
+Technical blocks serve various purposes during events within the game, or use a separate name spaced ID in order to avoid unnecessary combinations ofblock states. InJava Editiontechnical blocks do not exist as items, while inBedrock Editionthey may be obtained using inventory editors or add-ons.
+These blocks can be accessed only inMinecraft Educationand inBedrock Editionwhen education options are enabled (Elementsare not listed here). InBedrock Edition, boards, posters, and slates can be obtained only through inventory editors.
+These blocks were removed from the game entirely.
+These blocks were "retconned" into other blocks through a major simultaneous name and texture change.
+Some blocks and states of blocks were distinguished via numerical metadata in previous versions of the game. Having metadata values outside of the accepted range could produce unintended results for some block IDs.
+These blocks only exist inApril Fools' Day joke versionsof the game.
+Unique blocks are defined as having unique namespaced IDs in current versions of Java Edition, excluding obvious technical variants such as potted plants and wall attachments of blocks, but including the rose. Unintentional metadata variants are also not included.
+Issues relating to "Block" are maintained on thebug tracker. Issues should be reported and viewedthere.
+
+Anitemis an object that can exist withininventoriesofplayers,mobs, orarmor stands; in various storage blocks (likechestsordroppers), as well as initem framesandglow item frames.
+Some items, whenused, place ablock(ItemBlock) orentity(minecart, spawn eggs, etc.) version of themselves into the game world. Put simply, they are an item when in theinventory, and a block when placed. For example,boatsturn into an entity when placed, andbedsturn into a group of blocks when placed. When selected in thehotbar, items briefly display their names above theHUD.
+The only method by which an item can be properly displayed within the game environment is to place it into anitem frame.
+If an item that does not become a block is dropped, it becomes anentityrepresented by a sprite that floats above the ground. It remains for 5 minutes in a loadedchunkbefore despawning (except for thenether star), unless the player walks over it to pick it up, it is picked up by a mob,hopperorminecart with hopper, or it is destroyed byfire,lava,cactus,explosion,void, or/kill.
+A submerged object ascends toward the water's surface. If the water is flowing, the object is pushed along with it.
+Hoppers draw in any items that are placed above them if they are notpoweredby redstone.
+Items can either stack up to 64 or 16, or not stack at all:
+Items corresponding directly to blocks in name and ID are excluded from this list for the sake of brevity.
+These items, when highlighted in a player's hotbar (aka "held"), in the off hand, or equipped in an armor slot, can be used by eitherattackoruse, or can serve a specific purpose (for example, offer the player advantage or disadvantage). Some can be used any time, others only when aiming at specific blocks or entities.
+The player cannot interact with or directly use these items; however, they are used fortrading,brewing,enchanting, orcraftingingredients for other items that do have direct uses. Clocks and recovery compasses are exceptions, as they merely serve an informative function (although clocks also attract piglins as a dropped item entity).
+Spawn eggs spawn the entity inside them. They cannot be obtained in Survival mode.
+These items can be accessed only inMinecraft Education. Theagent spawn egg,portfolio, andcameraare obtainable throughCreativemode and the/givecommand. Thegarbageitem is obtainable only through invalidlab tablerecipes or via inventory editing.
+Some items are unimplemented, or have been mentioned to be implemented in the future.
+Removed items no longer exist in current versions of the game.
+Joke items are present only inApril Fools' Day jokeversions in the game.
+Mobs and some other entities are capable of holding items as well as having them equipped in certain slots; in some cases, this results in the item being displayed visually. A table of mobs that do this is as follows.
+Note that this does not countequipment, which uses a separate system.
+Issues relating to "Item" are maintained on thebug tracker. Issues should be reported and viewedthere.
+
+Craftingis the process of constructingtools,items, andblocksinMinecraftthat can be performed via theinventory, acrafting table, or automatically using acrafter.
+Players inSurvivalandAdventuremode, as well asCreativeinBedrock EditionandSpectatorinJava Edition, have access to a2×2 crafting gridfrom their inventory screen. Players craft by arranging items in the crafting grid to match a given recipe. Small crafting recipes that are at most 2×2 can be made there, including woodenplanks,sticks,crafting tables, andtorches.
+To craft more complex items, a crafting table must be created, placed, andused. This brings up an interface with a larger 3×3 crafting grid in which the player can use to craft any crafting recipe in the game. Recipes fitting the 2×2 grid can also be crafted in the crafting table's 3×3 grid. There is arecipe bookbutton in the inventory where the player can access all of their unlocked crafting recipes.
+Some recipes don't require their ingredients to be arranged in a specific way on the crafting grid. These are commonly known as"shapeless"recipes. For example, players may craft afermented spider eyeby placing its ingredients anywhere within the grid.
+Most recipes must have their ingredients placed in the correct relative positions on the crafting grid. These are commonly known as"shaped" recipes. Ingredients in shaped recipes can be moved up, down, left, or right. They can also be flipped side-ways. For example, a 3×1 recipe, such asbread, can be made using the top, middle, or bottom row of the 3×3 grid, and abowmay be made with the strings placed on the left instead of on the right.
+There are recipes that may not be moved or mirrored in this way. These are commonly known as"fixed"recipes. For example, dyes in banner recipes - only available inBedrock Edition- must be specifically placed to achieve the desired pattern. No fixed recipes exist inJava Edition, but they can be added bydata packs,add-ons, ormods.
+Unlike other in-game actions such assmelting,brewing, andenchanting, crafting is completely silent.
+Crafting can be automated using thecrafter.
+The simplest way to do this is for the player to add the items for the crafting into the crafter manually, however this process can itself be automated usinghoppers. In order to control which slots the hopper puts the item into it is possible to disable certain slots to prevent the input of items. When items are put into a crafter automatically they fill every enabled slot equally from left to right and top to bottom, in that order. If all slots are disabled, then hoppers connected to it cannot put items in it.
+The crafter can craft anything that a normal crafting table can.
+Crafters require aredstone signalto activate.
+Automated crafting is useful in bothstorage systemsandautomated farms, as it provides a way to automatically craft items and blocks that once required manual input.
+The recipe book is a mechanic that serves as a catalog ofrecipesand as a crafting guide. It shows every crafting recipe that the player has unlocked.
+Crafting recipes are organized in several different categories. The categories differ betweenJavaandBedrock.
+InBedrock Edition, categories consist of craftable items from eachCreative inventorytab.
+InJava Edition, the categories are as follows:
+Recipes, including crafting recipes, can be configured bydata packsinJava Editionoradd-onsinBedrock Edition.
+To save space, some recipes are animated (requiresJavaScript). On this wiki, shapeless recipes are marked with a pair of intertwined arrows on the crafting table graphic, while fixed crafting recipes are marked by an exclamation point. These symbols do not appear in the game.
+Someitemshad different crafting recipes and have since been updated in later versions ofMinecraft.
+Indev 0.31 20100130
+Infdev 20100227-1414
+Alpha v1.0.14
+Recipe becameshapeless.
+13w36a
+Changed to 3wheatinstead of 6.
+Indev 20100223
+Note: Wool was called Cloth, and Leather Armor was called Cloth Armor at that time.
+Alpha v1.0.8
+Beta 1.3
+Beta 1.3
+Changed to 4stringinstead of 9.
+Beta 1.6.6
+Beta 1.6.6
+Recipe becameshapeless.
+Beta 1.9 Prerelease 3
+1.1
+13w23a
+Alpha v1.0.6
+Recipe becameshapeless.
+12w17a
+14w32b
+12w34b
+19w45a
+1.19.4-pre1
+1.20-pre1
+22w45a
+22w45a
+24w33a
+25w02a
+25w18a
+Was changed to matchJava Edition.
+Beta 1.14.0.2
+Beta/Preview 1.19.60.20
+Beta/Preview 1.19.60.20
+Was changed to matchJava Edition.
+Beta/Preview 1.20.10.20
+Was changed to matchJava Edition.
+Beta/Preview 1.20.10.20
+Was changed to matchJava Edition.
+Beta/Preview 1.20.10.21
+Beta/Preview 1.21.60.25
+Beta/Preview 1.21.90.21
+Someitemscould be crafted previously, but cannot be crafted in the current version ofMinecraft.
+"Dandelion Yellow" and "Rose Red" are the former names for Yellow dye and Red dye, respectively.
+Issues relating to "Crafting" are maintained on thebug tracker. Issues should be reported and viewedthere.
+More
+
+Smeltingis the process of obtaining refined goods from raw materials by heating them in afurnaceorblast furnace. When items are smelted in either type of furnace,experienceis dropped. Likecrafting, smelting uses recipes to determine what item is produced. Smelting is one of the two functions of afurnace(the second beingcooking food) and the sole function of ablast furnace.
+The furnace interface contains three item slots: the upper left slot for the item that needs to be smelted, the lower left slot for fuel, and the right slot where output items accumulate and can be retrieved by the player. Flames above the fuel slot act as a gauge showing the amount of fuel left of the current fuel item. An arrow in the middle shows the progress of smelting the current item.
+The furnace takes 10 seconds (200 in-game ticks) to smelt an item. It begins to smelt if both input item and fuel are placed into the corresponding slots, and there is space in the output slot.
+When starting, a fuel item is consumed immediately, filling the fuel gauge. Different fuels will fuel the furnace for different amounts of time. The fuel gauge indicates how much of that fuel's burn time remains, and gradually decreases even if the input slot becomes empty. When a fuel item is fully consumed and the input slot is not empty, another one is taken from the fuel slot, and the gauge resets.
+The furnace processes one input item at a time, which remains in the input slot during the 10-second process. So if multiple types of items or more than one stack of item need to be smelted, the player need to move in the item manually or using hoppers.
+The arrow indicates the progress on how much the input has been smelted and how much more it needs to be smelted. When the arrow is full, the input item is removed from the input stack and an output item is added to the output stack. Smelting of the next input item then begins immediately.
+Furnaces stop smelting under any of four conditions:
+If smelting stops while a fuel item is still burning, the furnace continues to run visually, but no more input items are processed. If the fuel has been exhausted when an item has been partly smelted, the smelting progress is undone at double speed, and the item remains in the input stack.
+Smelting is suspended if thechunkthe furnace is in becomes unloaded. It resumes when the chunk is loaded again.
+Smokersandblast furnacesuse the same GUI interface as regular furnaces and function similarly to regular furnaces. They smelt twice as quickly as furnaces, requiring only 5 seconds (100 game ticks) to smelt 1 item; they consume the same amount of fuel as regular furnaces per item smelted. Blast furnaces can only smelt ores, while smokers can only cook food; any other item can be smelted only in regular furnaces.
+All smeltingrecipescan be used in the furnace, but only subsets are available in the blast furnace and smoker.
+The furnace, blast furnace and smoker keep track of experience for each item as smelting is completed for them, accumulating it in a hidden counter. The counter remembers the total earned experience even if a hopper is used to remove the items from the output slot. Experience is awarded to the player who uses the interface to remove items manually, after which the counter is reset. If the player takes some of the output but leaves some in the slot, the experience corresponding to items left in the furnace is retained and not awarded to the player. For fractional experience values, first multiply this value by the number of smelted items removed from the furnace, then award the player the integer part, and if there is a fractional part remaining, this represents the chance of an additional experience point.
+All food recipes can be used in a furnace or smoker. Food can alternatively be cooked on a campfire.
+All ore recipes can be used in a furnace or blast furnace.
+The following additionalorescanbe smelted, but it's more efficient to mine them with an appropriate pickaxe. In most cases mining them saves fuel and yields more product and experience, especially if the pickaxe has aFortuneenchantment. Smelting them, though, allows obtaining them from an automatic device. The ore blocks themselves can be obtained only with theSilk Touchenchantment.
+These recipes can be used in a furnace or blast furnace to recycle unneeded gear (tools, weapons, armor and horse armor).
+These recipes are exclusive to the furnace.
+Nether Bricks
+Basalt
+Sand
+There are multiple fuels that can be used to smelt items. The type of fuel that should be used depends on the number of items in question.
+For larger jobs, a singlelava bucketor ablock of coalcan smelt more items than can fit in the furnace, a lava bucket being able to smelt 100 blocks and ablock of coalbeing able to smelt 80 —both input and output are limited to a maximum of astackof 64 items (with some items not being able to be stacked or being possible to stack only 16 of them).
+This is the specific table for all the fuels:
+The smelting process can be automated withhopperson the top and bottom of the furnace. For larger smelting jobs, a third hopper on the side of the furnace can feed in fuel and, in case of lava being used as fuel, any emptybucketscome out of the bottom hopper. This automatically feeds and empties the furnace so that different materials can be smelted in the same batch with no loss.
+Whenever a hopper or minecart with hopper removes items from a furnace, any experience earned from cooking or smelting the removed items is saved in the furnace and awarded to the next player who either breaks the furnace or manually removes an item from the furnace's output slot. This saved experience is in addition to that earned for the manually removed item(s).
+Issues relating to "Smelting" are maintained on thebug tracker. Issues should be reported and viewedthere.
+More
+
+The list below containstutorialsdescribing various factors and mechanics ofMinecraft.
+These tutorials are designed to help newcomers toMinecraftget a basic understanding of the game.
+Getting to know the game better. These are for when the player is comfortably established.
+These tutorials provide information on how the furnaces and the enchantment system work.
+Tutorials that involve a non-standard environment.
+Tutorials that require using exploits or commands.
+These tutorials provide information on how to break blocks automatically, usually by an explosion.
+These tutorials provide information on crop and mob farming. In most cases, the player has a choice among a variety of farming methods and designs. While a huge automatic farm may be useful where large supplies of something are needed, it's important to remember that a small, simple farm can easily provide enough resources for an early-game player, or casual use in general.
+These tutorials provide information on redstone mechanisms.
+These tutorials provide technical information on servers and tips for multiplayer.
+These tutorials provide information on technical matters, such as mods and snapshots.
+The following tutorials are obsolete and intended for older versions ofMinecraft. They are kept here for historical purposes.
+
+Aredstone circuitis a build that is primarily focused on dealing with logic and redstone signals. Circuits can be used to transmit redstone signals, perform operations withlogic gates, store data, shorten or lengthen redstone signals, make clocks, and more.
+A useful distinction can be made between acircuitperforming operations on signals (generating, modifying, combining, etc.), and amechanismusing the environment (moving blocks, opening doors, changing the light level, producing sound, etc). Making this distinction allows us to talk about the various circuits separately, and let all players choose whichever circuits are useful for their purposes. The machines controlled by redstone circuits can range from simple devices such as automatic doors and light switches to complex devices such as elevators, automatic farms, or even in-game computers. However,thisarticle provides only an overview of redstonecircuitsas above. These can be used to control simple mechanisms, or combined as parts of a larger build. Each circuit type on this page has links to its own page, which provides greater detail about them and give schematics for multiple variations of each.
+Before working with any but the most basic redstone circuits, an understanding of some basic concepts is required: "power", "signal strength", "redstone ticks", and "block updates". Some relevant articles are listed below:
+Most circuits are described usingSchematicdiagrams; some of these require multiple images to show one or two layers per image. See theHelp:Schematicpage for details on how various blocks and components are represented.
+The wiki describes circuit size (the volume of the rectangular solid it occupies) with the notation ofdepth×width×height, including support/floor blocks, but not including inputs/outputs.
+Another method used for describing circuit size in theMinecraftcommunity is to ignore non-redstone blocks simply used for support (for example, blocks under redstone dust or repeaters). However, this method is unable to distinguish betweenflatand1-highcircuits, as well as some other circuit differences.
+Sometimes it is convenient to compare circuits simply by the area of their footprint (e.g., 3×4 for a circuit three-block wide by four blocks long), or by a single dimension important in a particular context (e.g., length in a sequence of sub-circuits, height in a confined space, etc.).
+Several features may be considered desirable design goals:
+Other design goals may include reducing the delay a sub-circuit adds to a larger circuit, reducing the use of resource-expensive components (redstone, nether quartz, etc.), and re-arranging or redesigning a circuit to make it as small as possible.
+Some components are not available before a player has access to the Nether, which limits the designs available. In particular,redstone comparators,observersanddaylight detectorsrequirenether quartz, which is available only from the Nether. Additionally, redstone lamps requireglowstone, which is occasionally available fromtradingorwitches, but is much more plentiful in the Nether.
+Although the number of ways to construct circuits is endless, certain patterns of construction occur repeatedly. The following sections attempt to categorize the circuits that have proven useful to theMinecraftcommunity, while the main articles describe the specific circuits that fall into those categories.
+Some of these circuits might be used by themselves for simple control of mechanisms, but frequently the player needs to combine them into more complex circuits to meet the needs of a mechanism.
+Some aspects of signal transmission can be helpful to understand: transmission types, vertical transmission, repeaters, and diodes.
+Comparator
+A comparator has two modes: comparing and subtracting. Comparing mode compares the signal strength from the side with the input; if the side signal is stronger than the input signal, the output is off, otherwise it is on. In Subtracting mode, the comparator subtracts the side signal from the input.
+Alogic gateis a circuit that takes one or more inputs and produces a single output when some condition has been met. The strength of the input signal in these circuits usually doesn't matter. When an input or output supplies a redstone signal, it is usually just referred to as "on", and when there is no signal, it is referred to as "off". For example, an AND gate takes two redstone signals as input, and outputs a redstone signal only if both inputs are greater than 0. That is, an AND gate is on only when both inputs are on.
+In electronic or programming diagrams, logic gates are typically shown as if they were individual devices; However, when building redstone devices inMinecraft, all logic gates are formed from multiple blocks and components, which interact to produce the desired results.
+Apulse circuitproduces a redstone signal for a specified amount of time, changes the duration of an input signal, or reacts to signals of a particular duration. Other circuits or mechanisms may require pulses of a particular duration to operate properly, or can use pulse duration to convey information.
+A circuit that is stable in one output state and unstable in the other is known as amonostable circuit.[note 1]Many pulse circuits are monostable because their OFF state is stable, but their ON state soon reverts to OFF.
+A clock circuit is a pulse generator that produces a loop of specific pulses repeatedly. Some are designed to run forever, while others can be stopped and started.
+A simple clock with only two states of equal duration is named for the duration of its ON state (e.g., for example, a clock that alternates between a 5-tick ON state and a 5-tick OFF state is called a 5-clock) while others are usually named for their period (the time it takes for the clock to return to its original state; for example, a "1-minute clock" might produce a 1-tick pulse every 60 seconds).
+Memory circuits maintain their output until they receive a signal that tells them to change their output. In simple terms, memory circuits stay on or off until they receive a signal telling them to turn off or on. This means that a memory circuit's state (output) depends on the current input and the previous inputs. Most other circuits just temporarily generate an output based on the current input.
+Most memory circuits are called "latches" or "flip-flops"; these are named after real-life electronic circuits because they behave similarly. Some basic types of memory circuits are outlined below. Seeherefor an explanation of technical terms.
+Memory circuits are named based on the kinds of input they take and any logic gates they use.
+Many other memory circuits are possible.
+Pistonsallow players to design circuits that are smaller and/or faster than the standard, redstone-only counterparts. An understanding of standardredstone circuitsis helpful, as this tutorial is focused on the circuit design rather than the function. The main components here aresticky pistons, regular pistons,redstone wire,repeatersandredstone torches.
+There are several benefits of piston circuitry:
+These circuits aren't generally needed for redstone projects, but might find use in complex projects, proofs of concept, and thought experiments. Some examples:
+More
+
