@@ -1,0 +1,15 @@
+# Python virtual environments
+.python-version
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache files
+__pycache__/
+
+# Ruff cache
+.ruff_cache/
