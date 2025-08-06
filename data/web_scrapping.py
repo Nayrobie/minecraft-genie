@@ -11,14 +11,14 @@ What it does:
 - Saves the results to a text file: lore_docs.txt
 
 How to run:
-    poetry run python data/web_scraping.py
+    poetry run python data/web_scrapping.py
 """
 
 WIKI_PAGES = {
-    "mobs": "https://minecraft.wiki/w/Mob",
     "trading": "https://minecraft.wiki/w/Trading",
     "brewing": "https://minecraft.wiki/w/Brewing",
     "enchanting": "https://minecraft.wiki/w/Enchanting",
+    "mobs": "https://minecraft.wiki/w/Mob",
     "blocks": "https://minecraft.wiki/w/Block",
     "items": "https://minecraft.wiki/w/Item",
     "crafting": "https://minecraft.wiki/w/Crafting",
@@ -35,18 +35,60 @@ def _scrape_page(url: str) -> str:
     Args:
         url (str): The URL of the wiki page to scrape.
     Returns:
-        str: The text content of the page.
+        str: The text content of the page including paragraphs and tables in original order.
     """
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
     if DEBUG:
-        print(soup.prettify()[:2000])  # Print first 2000 characters for debugging
+        print(soup.prettify()[:2000])  # Print first 2000 characters
 
-    paragraphs = soup.find_all("p")
-    content = "\n".join(p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True))
-    return content
+    content_parts = []
+    
+    # Find all relevant elements in order (paragraphs, tables, headers, etc.)
+    elements = soup.find_all(["p", "table", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li"])
+    
+    for element in elements:
+        if element.name == "table":
+            # Process table
+            table_content = []
+            rows = element.find_all("tr")
+            for row in rows:
+                cells = row.find_all(["th", "td"])
+                if cells:
+                    row_text = " | ".join(cell.get_text(strip=True) for cell in cells if cell.get_text(strip=True))
+                    if row_text:
+                        table_content.append(row_text)
+            
+            if table_content:
+                content_parts.append("\nTABLE:\n" + "\n".join(table_content) + "\n")
+        
+        elif element.name in ["h1", "h2", "h3", "h4", "h5", "h6"]:
+            # Process headers
+            header_text = element.get_text(strip=True)
+            if header_text:
+                content_parts.append(f"\n{element.name.upper()}: {header_text}\n")
+        
+        elif element.name in ["ul", "ol"]:
+            # Process lists
+            list_items = element.find_all("li")
+            if list_items:
+                list_content = []
+                for li in list_items:
+                    li_text = li.get_text(strip=True)
+                    if li_text:
+                        list_content.append(f"- {li_text}")
+                if list_content:
+                    content_parts.append("\n".join(list_content))
+        
+        elif element.name == "p":
+            # Process paragraphs
+            text = element.get_text(strip=True)
+            if text:
+                content_parts.append(text)
+    
+    return "\n\n".join(content_parts)
 
 def _scrape_multiple_pages(pages: dict) -> dict:
     """
@@ -56,29 +98,32 @@ def _scrape_multiple_pages(pages: dict) -> dict:
     Returns:
         dict: A dictionary with page names as keys and their text content as values.
     """
-    all_texts = []
+    all_content = {}
     for label, url in pages.items():
         print(f"➡️ Scraping {label} from {url}...")
         try:
             content = _scrape_page(url)
-            all_texts.append(content)
+            all_content[label] = content
         except requests.RequestException as e:
             print(f"❌ Error scraping {label}: {e}")
+            all_content[label] = ""
     print("✅ Scraping completed.")
-    return all_texts
+    return all_content
 
-def _save_to_file(texts: list[str], path: str) -> None:
+def _save_to_file(content_dict: dict, path: str) -> None:
     """
-    Saves a list of text chunks to a file, separated by double newlines.
+    Saves a dictionary of text content to a file, with each section labeled by its key.
 
     Args:
-        texts (List[str]): The list of string contents to save.
+        content_dict (dict): Dictionary with page names as keys and their text content as values.
         path (str): Path to the output file.
     """
     with open(path, "w", encoding="utf-8") as f:
-        for chunk in texts:
-            f.write(chunk + "\n\n")
-    print(f"✅ Saved {len(texts)} chunks to {path}.")
+        for page_name, content in content_dict.items():
+            f.write(f"### {page_name.upper()} \n\n")
+            f.write(content)
+            f.write(f"\n\n")
+    print(f"✅ Saved {len(content_dict)} sections to {path}.")
 
 if __name__ == "__main__":
     results = _scrape_multiple_pages(WIKI_PAGES)
