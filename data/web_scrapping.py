@@ -102,6 +102,7 @@ def _clean_scraped_text(text: str) -> str:
     """
     Clean up scraped text by performing multiple cleaning operations:
     - Removes everything between "H2: Contents" and the next "H2:" header
+    - Removes unwanted H2 sections (Video, History, Trivia, Gallery, Screenshots, References, Navigation)
     - Removes footnote reference letters after up arrow (↑abcd → ↑)
     - Cleans up excessive whitespace and line breaks
     
@@ -113,10 +114,18 @@ def _clean_scraped_text(text: str) -> str:
     import re
     
     # Pattern to match "H2: Contents" followed by everything until the next "H2:"
-    pattern = r'H2: Contents.*?(?=H2: |\Z)'
+    contents_pattern = r'H2: Contents.*?(?=H2: |\Z)'
     
     # Remove the contents sections (case insensitive)
-    cleaned_text = re.sub(pattern, '', text, flags=re.DOTALL | re.IGNORECASE)
+    cleaned_text = re.sub(contents_pattern, '', text, flags=re.DOTALL | re.IGNORECASE)
+    
+    # Remove unwanted H2 sections and everything that follows until the next H2 or end
+    unwanted_sections = ['Video', 'History', 'Trivia', 'Gallery', 'Screenshots', 'References', 'Navigation', 'Issues']
+    
+    for section in unwanted_sections:
+        # Pattern to match "H2: SectionName" followed by everything until the next "H2:" or end
+        section_pattern = rf'H2: {section}.*?(?=H2: |\Z)'
+        cleaned_text = re.sub(section_pattern, '', cleaned_text, flags=re.DOTALL | re.IGNORECASE)
     
     # Remove footnote reference letters after up arrow (↑abcd)
     # Pattern: ↑ followed by lowercase letters until we hit an uppercase letter or non-letter
