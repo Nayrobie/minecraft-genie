@@ -40,6 +40,15 @@ def _scrape_page(url: str) -> str:
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
+    
+    # Remove edit links from HTML before processing
+    for edit_link in soup.find_all(['span', 'a'], class_=['mw-editsection', 'mw-editsection-bracket']):
+        edit_link.decompose()
+    
+    # Remove other unwanted elements
+    for unwanted in soup.find_all(['span'], class_=['mw-headline']):
+        if unwanted.find('span', class_='mw-editsection'):
+            unwanted.find('span', class_='mw-editsection').decompose()
 
     if DEBUG:
         print(soup.prettify()[:2000])  # Print first 2000 characters
