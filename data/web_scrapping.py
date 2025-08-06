@@ -45,7 +45,6 @@ def _scrape_page(url: str) -> str:
     for edit_link in soup.find_all(['span', 'a'], class_=['mw-editsection', 'mw-editsection-bracket']):
         edit_link.decompose()
     
-    # Remove other unwanted elements
     for unwanted in soup.find_all(['span'], class_=['mw-headline']):
         if unwanted.find('span', class_='mw-editsection'):
             unwanted.find('span', class_='mw-editsection').decompose()
@@ -99,6 +98,29 @@ def _scrape_page(url: str) -> str:
     
     return "\n\n".join(content_parts)
 
+def _clean_scraped_text(text: str) -> str:
+    """
+    Clean up scraped text by removing contents sections and extra line breaks.
+    Removes everything between "H2: Contents" and the next "H2:" header,
+    and cleans up excessive whitespace.
+    Args:
+        text (str): The scraped text content.
+    Returns:
+        str: Cleaned text with contents sections and extra line breaks removed.
+    """
+    import re
+    
+    # Pattern to match "H2: Contents" followed by everything until the next "H2:"
+    pattern = r'H2: Contents.*?(?=H2: |\Z)'
+    
+    # Remove the contents sections (case insensitive)
+    cleaned_text = re.sub(pattern, '', text, flags=re.DOTALL | re.IGNORECASE)
+    
+    # Clean up any multiple newlines left behind
+    cleaned_text = re.sub(r'\n\s*\n\s*\n', '\n\n', cleaned_text)
+    
+    return cleaned_text.strip()
+
 def _scrape_multiple_pages(pages: dict) -> dict:
     """
     Scrape multiple wiki pages and return their content.
@@ -112,6 +134,7 @@ def _scrape_multiple_pages(pages: dict) -> dict:
         print(f"➡️ Scraping {label} from {url}...")
         try:
             content = _scrape_page(url)
+            content = _clean_scraped_text(content)
             all_content[label] = content
         except requests.RequestException as e:
             print(f"❌ Error scraping {label}: {e}")

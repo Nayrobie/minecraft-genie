@@ -1,105 +1,22 @@
 ### TRADING 
 
-
 H1: Trading
-
 
 Tradingis agameplaymechanic that allowsplayersto exchangeemeraldsforitems, and vice versa, withvillagersandwandering traders.
 
-
-H2: Contents
-
-
-- 1Mechanics1.1Level1.2Trades1.3Sale prices
-- 1.1Level
-- 1.2Trades
-- 1.3Sale prices
-- 2Non-trading villagers2.1Nitwit2.2Unemployed villager
-- 2.1Nitwit
-- 2.2Unemployed villager
-- 3Trade offers3.1Armorer3.2Butcher3.3Cartographer3.4Cleric3.5Farmer3.6Fisherman3.7Fletcher3.8Leatherworker3.9Librarian3.9.1Villager Trade Rebalance3.10Mason3.11Shepherd3.12Toolsmith3.13Weaponsmith
-- 3.1Armorer
-- 3.2Butcher
-- 3.3Cartographer
-- 3.4Cleric
-- 3.5Farmer
-- 3.6Fisherman
-- 3.7Fletcher
-- 3.8Leatherworker
-- 3.9Librarian3.9.1Villager Trade Rebalance
-- 3.9.1Villager Trade Rebalance
-- 3.10Mason
-- 3.11Shepherd
-- 3.12Toolsmith
-- 3.13Weaponsmith
-- 4Wandering trader offers
-- 5Notes
-- 6Achievements
-- 7Advancements
-- 8Video
-- 9History9.1Java Edition9.2Bedrock Edition9.3Legacy Console Edition
-- 9.1Java Edition
-- 9.2Bedrock Edition
-- 9.3Legacy Console Edition
-- 10Issues
-- 11Trivia
-- 12Gallery12.1Renders12.2Screenshots12.3Development images
-- 12.1Renders
-- 12.2Screenshots
-- 12.3Development images
-- 13References
-- 14Navigation
-
-- 1.1Level
-- 1.2Trades
-- 1.3Sale prices
-
-- 2.1Nitwit
-- 2.2Unemployed villager
-
-- 3.1Armorer
-- 3.2Butcher
-- 3.3Cartographer
-- 3.4Cleric
-- 3.5Farmer
-- 3.6Fisherman
-- 3.7Fletcher
-- 3.8Leatherworker
-- 3.9Librarian3.9.1Villager Trade Rebalance
-- 3.9.1Villager Trade Rebalance
-- 3.10Mason
-- 3.11Shepherd
-- 3.12Toolsmith
-- 3.13Weaponsmith
-
-- 3.9.1Villager Trade Rebalance
-
-- 9.1Java Edition
-- 9.2Bedrock Edition
-- 9.3Legacy Console Edition
-
-- 12.1Renders
-- 12.2Screenshots
-- 12.3Development images
-
-
 H2: Mechanics
-
 
 Pressinguseon an adultvillagerwith a profession, or on awandering trader, opens a menu, allowing a player to trade with that merchant. This action pauses any pathfinding the merchant was doing and makes it face you. If the merchant takesdamagewhile trading, the trading menu closes. The same thing happens if they walk or are transported far enough away.
 
 All transactions involveemeralds. Trading is the only legitimate method of acquiring theglobe banner pattern,woodland explorer maps,trial explorer mapsandocean explorer mapsinSurvivalmode. It is also the onlyrenewableway to obtainbells,diamondgear[note 1],lapis lazuli‌[BEonly],bottles o' enchanting,glass,sand,red sand,coral blocks,arrow of decay‌[BEonly]andsmall dripleaves.
 
-
 H3: Level
-
 
 Villagers have five career levels that can be increased by trading with them. Each villager starts at the "novice" level. A villager's level can be seen in the trading menu. The badge they wear can also be identified: stone for a novice, iron for an apprentice, gold for a journeyman, emerald for an expert, and diamond for a master. Trading until the villager's trading bar gets full unlocks the next level of trades. When a player trades with a villager, both the villager and the player gainexperience. All villager trades reward the player with 3–6experience, plus an additional 5 experience if the villager levels up due to the trade. Trading with a wandering trader also rewards the player with some experience, although the trader does not have experience levels to gain. A villager levels up when its experience bar becomes full and gains up to two‌[JEonly]or three‌[BEonly]new trades, along with keeping their old ones. Additionally, a villager receives aRegenerationeffect, and becomes surrounded by purple particles for ten seconds.
 
 Trades from the Master level would still reward the villager with experience, but it has no actual effect as the villager can't level up any further.
 
 Each badge is 2x3 pixels, except the Novice (stone) badge, which is 4x4 pixels.
-
 
 TABLE:
 Level | Badge | Name | Total villager experience required
@@ -109,24 +26,19 @@ Level | Badge | Name | Total villager experience required
 4 | Expert | 150
 5 | Master | 250
 
-
 InJava Edition, villagers have a maximum of 10 trades. Each level unlocks a maximum of two new trades. If a level has a pool of more than two trades, the two offered trades are chosen randomly from the set.
 
 InBedrock Edition, villagers have 7–10 trade slots. A slot with multiple possible trades will display only one trade; for example, farmer villagers have 4 potential trades in their first trade slot, so each trade has a1⁄4chance to be chosen.[untilVillager Trade Rebalancing][verify]
 
 A villager'sprofessiondictates the trading pool used to determine its trades. For example, villagers wearing straw hats are farmers, so their trades are based on the Farmer trade pool. Each profession unlocks a predefined and finite set of offers. Different professions are assigned to each villager based on their job-site block. This profession is indicated by their appearance and in the trading interface. Novice villagers who have not traded can lose their profession and change back into unemployed villagers if their claimed job site block is removed. Removing and then replacing a job site block can alter the trades offered, and a villager with no experience resets its trades every so often. Once a player trades with a villager, the villager keeps its profession forever and subsequently locks in the offered trades.
 
-
 H3: Trades
-
 
 Each trade can be used a maximum number of times, after which the villager runs out of stock and trade becomes disabled. The exact number is different for each item and referenced in the tables below. When villagers work at theirjob site blocks, they activate their offers again, up to twice per day. InBedrock Edition, villagers need to be linked to a bed to restock their trades (it is not necessary for them to sleep, but require a bed nearby). When an offer is disabled, a red "X" appears in the trading interface inJava Edition, or the trading slot becomes red inBedrock Edition, and the villager displays the same particle effect as an offer being created.
 
 When buying items from players, villagers ignoreadditional item data; this allows, for example, selling renamed or enchanted items, as well aslodestone compassesinstead of regularcompassesinJava Edition. When theVillager Trade Rebalanceexperiment is enabled, taiga armorers can also accept damaged armor.
 
-
 H3: Sale prices
-
 
 The price of an item rises and falls depending on three factors. Items with a high price multiplier (0.2) are affected by these changes more than items with a low multiplier (0.05). All price fluctuations affect only the first item involved in trade; for example, for an initial trade of 32 sticks for 1 emerald, the price might be driven down to 1 stick or up to 64 sticks for 1 emerald, but never for 2 emeralds. Additionally, no quantity can go lower than 1 or higher than the stack size.
 
@@ -136,29 +48,21 @@ The second way to affect prices is theHero of the Villageeffect, gained from suc
 
 Finally, players get personal discounts or penalties‌[Java Editiononly]based on their reputation with a particular villager. A positive reputation is gained bycuringzombie villagers (the cured villager gives a much larger permanent discount than the temporary discount given by nearby villagers). Giving azombie villagertheWeaknesseffect and then feeding it agolden applestarts the curing process. After five minutes, it transforms into a villager. The permanent discount is capped at one cure, while the temporary discount is capped at eight cures[needs testing]. Players can also gain negative reputation by hitting or killing villagers, and positive reputation by trading. InBedrock Edition, negative reputation can reduce or eliminate discounts but does not result in penalties.
 
-
 H2: Non-trading villagers
-
 
 If the player attempts to trade with a non-trading villager inJava Edition, they grunt and bob their head, but if the player tries to do the same thing inBedrock Edition, nothing happens.
 
-
 H3: Nitwit
-
 
 Nitwits are green-coated villagers. They cannot gain a profession.
 
 While they can be used for breeding, it is not possible to get a baby nitwit by feeding the adult nitwits, even if using two nitwits as adults.
 
-
 H3: Unemployed villager
-
 
 Villagers without a job cannot trade. They only wear their biome outfits. An unemployed villager gains a profession by claiming an unclaimedjob site block. For example, an unclaimedcartography tableconverts an unemployed villager into a cartographer when the villager claims it, and both the villager and the table emit green particles. An inaccessible (or destroyed) job site block causes the connected villager to lose its profession, but that does not affect the player'spopularityin the village.
 
-
 H2: Trade offers
-
 
 The villager pictured on the right is from the plains biome. To see villager professions dressed for other biomes, seeVillagers§ Professions.
 
@@ -166,12 +70,9 @@ InJava Edition, starting from Novice, at each level two additional trades become
 
 InBedrock Edition, one trade is chosen randomly from each slot available. For example, if there are two items on the same slot, then only one of them will show up in the trade.
 
-
 H3: Armorer
 
-
 Job site block:Blast Furnace
-
 
 TABLE:
 Armorer
@@ -196,15 +97,11 @@ Expert | 8 | 50% | 100% | 19–33 ×Emerald | Enchanted Diamond Leggings[t 1] | 
 Master | 9 | 50% | 100% | 13–27 ×Emerald | Enchanted Diamond Helmet[t 1] | 3 | High | 30
 50% | 100% | 21–35 ×Emerald | Enchanted Diamond Chestplate[t 1] | 3 | High | 30
 
-
 - ↑abcdWhen creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
-
 
 H3: Butcher
 
-
 Job site block:Smoker
-
 
 TABLE:
 Butcher
@@ -222,21 +119,15 @@ Journeyman | 5 | 50% | 100% | 10 ×Raw Beef | Emerald | 16 | Low | 20
 Expert | 6 | 100% | 100% | 10 ×Dried Kelp Block | Emerald | 12 | Low | 30
 Master | 7 | 100% | 100% | 10 ×Sweet Berries | Emerald | 12 | Low | 30
 
-
-
 H3: Cartographer
 
-
 Job site block:Cartography Table
-
 
 TABLE:
 Desert | Jungle | Plains | Savanna | Snow | Swamp | Taiga
 Group 1 | Savanna Village Map | Savanna Village Map | Savanna Village Map | Desert Village Map | Plains Village Map | Snowy Village Map | Plains Village Map
 Group 2 | Plains Village Map | Desert Village Map | Taiga Village Map | Plains Village Map | Taiga Village Map | Taiga Village Map | Snowy Village Map
 Group 3 | Jungle Explorer Map | Swamp Explorer Map | – | Jungle Explorer Map | Swamp Explorer Map | Jungle Explorer Map | Swamp Explorer Map
-
-
 
 TABLE:
 Cartographer
@@ -254,18 +145,14 @@ Expert | 7 | 100% | 12% | 7 ×Emerald | Item Frame | 12 | Low | 15
 Master | 9 | 100% | 100% | 8 ×Emerald | Globe Banner Pattern | 12 | Low | 30
 10 | 100% | 100% | 14 ×Emerald+Compass | Woodland Explorer Map | 12 | High | 30
 
-
 - ↑The structure that the map leads to depends on the biome the villager is from. Seethe table abovefor more details. Each of the three possible maps are counted as independent trades, so a villager trading multiple maps is possible.
 - ↑abinJava Edition, all copies of the map traded by a particular villager lead to the same structure. In worlds that do not have the structure, this trade is not offered.
 inBedrock Edition, Cartographers adopting the profession in the Nether or the End do not offer explorer maps.
 - ↑The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
 
-
 H3: Cleric
 
-
 Job site block:Brewing Stand
-
 
 TABLE:
 Cleric
@@ -283,13 +170,9 @@ Expert | 7 | 50% | 67% | 4 ×Turtle Scute | Emerald | 12 | Low | 30
 Master | 9 | 100% | 100% | 22 ×Nether Wart | Emerald | 12 | Low | 30
 10 | 100% | 100% | 3 ×Emerald | Bottle o' Enchanting | 12 | Low | 30
 
-
-
 H3: Farmer
 
-
 Job site block:Composter
-
 
 TABLE:
 Farmer
@@ -315,7 +198,6 @@ Expert | 7 | 17% | 29% | Emerald | Suspicious Stew[t 1] | 12 | Low | 15
 Master | 9 | 50% | 100% | 3 ×Emerald | 3 ×Golden Carrot | 12 | Low | 30
 50% | 100% | 4 ×Emerald | 3 ×Glistering Melon Slice | 12 | Low | 30
 
-
 - ↑The stew gives 6 seconds ofBlindnessinJava Editionand 5-7 seconds inBedrock Edition
 - ↑The stew gives 8 seconds ofJump BoostinJava Editionand 7-10 seconds inBedrock Edition
 - ↑The stew gives 5 seconds ofNight VisioninJava Editionand 7-10 seconds inBedrock Edition
@@ -323,12 +205,9 @@ Master | 9 | 50% | 100% | 3 ×Emerald | 3 ×Golden Carrot | 12 | Low | 30
 - ↑The stew gives 0.35 seconds ofSaturationinJava Editionand 0.3-0.35 seconds inBedrock Edition
 - ↑The stew gives 7 seconds ofWeaknessinJava Editionand 6-8 seconds inBedrock Edition
 
-
 H3: Fisherman
 
-
 Job site block:Barrel
-
 
 TABLE:
 Fisherman
@@ -347,16 +226,12 @@ Expert | 7 | 100% | 100% | 6 ×Tropical Fish | Emerald | 12 | Low | 30
 Master | 8 | 100% | 100% | 4 ×Pufferfish | Emerald | 12 | Low | 30
 9 | 100% | 100% | Boat[t 2] | Emerald | 12 | Low | 30
 
-
 - ↑When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
 - ↑The type of boat trade depends on the biome outfit of the villager. Plains villagers buy oak boats, taiga and snowy villagers buy spruce boats, desert and jungle villagers buy jungle boats, savanna villagers buy acacia boats, and swamp villagers buy dark oak boats.
 
-
 H3: Fletcher
 
-
 Job site block:Fletching Table
-
 
 TABLE:
 Fletcher
@@ -375,16 +250,12 @@ Master | 9 | 100% | 67% | 8 ×Tripwire Hook | Emerald | 12 | Low | 30
 10 | 50% | 67% | 8–22 ×Emerald | Enchanted Crossbow[t 1] | 3 | Low | 15
 50% | 67% | 2 ×Emerald+ 5 ×Arrow | 5 ×Tipped Arrow[t 2] | 12 | Low | 30
 
-
 - ↑abWhen creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
 - ↑InJava Edition, the type of arrow is chosen randomly from all possible brewable potions with effects, including extended and strengthened versions.InBedrock Edition, the type of arrow is randomly chosen from 15 options:Night Vision,Invisibility,Leaping,Fire Resistance,Swiftness,Slowness,Water Breathing,Healing,Harming,Poison,Regeneration,Strength,Weakness,Turtle Master, orDecay(Level 2).
 
-
 H3: Leatherworker
 
-
 Job site block:Cauldron
-
 
 TABLE:
 Leatherworker
@@ -403,15 +274,11 @@ Expert | 7 | 100% | 100% | 4 ×Turtle Scute | Emerald | 12 | Low | 30
 Master | 9 | 50% | 100% | 5 ×Emerald | Leather Cap[t 1] | 12 | High | 30
 50% | 100% | 6 ×Emerald | Saddle | 12 | High | 30
 
-
 - ↑abcdefgThe leather armor has a random color created by two dyes (possibly the same dye twice.)
-
 
 H3: Librarian
 
-
 Job site block:Lectern
-
 
 TABLE:
 Librarian
@@ -432,17 +299,13 @@ Expert | 7 | 100% | 50% | Book and Quill+Book and Quill[t 2] | Emerald | 12 | Lo
 33% | 50% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | High | 15
 Master | 9 | 100% | 100% | 20 ×Emerald | Name Tag | 12 | Low | 30
 
-
 - ↑abcdThe enchantment is chosen randomly with equal chance of anyenchantmenttype occurring (except forSoul Speed,Swift Sneak, andWind Burst) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once.
 The price in emeralds depends on the enchantment level and "treasure" status. The minimum price of a book is given by 2 + 3 * (enchantment level), while the maximum price is 6 + 13 * (enchantment level). The possible values are 5–19 emeralds for Lvl I, 8–32 for Lvl II, 11–45 for Lvl III, 14–58 for Lvl IV, and 17–71 for Lvl V. Fortreasure enchantmentsthe price is doubled. The cost is capped at 64 emeralds. All values below this cap are equally probable.
 - ↑InJava Editiononly one is requested per trade because ofMC-248042— Librarian's book and quill trade is always discounted to 1 since books are unstackable. InBedrock Edition, the second book is placed in another slot instead.
 
-
 H4: Villager Trade Rebalance
 
-
 If theVillager Trade Rebalanceexperimentis turned on, librarians offer specific enchanted books depending on which biome they come from. Enchantments for the Novice, Apprentice, and Journeyman book trades are randomly selected from the "Common" pool, with a randomized level. At Master level, librarians are guaranteed to sell an enchanted book with a specific enchantment.
-
 
 TABLE:
 Biome | "Common" enchantments | Guaranteed book at Master
@@ -454,13 +317,9 @@ Taiga | Blast ProtectionFire AspectFlame | FortuneII
 Jungle | Feather FallingProjectile ProtectionPower | UnbreakingII
 Swamp | Depth StriderRespirationCurse of Vanishing | Mending
 
-
-
 H3: Mason
 
-
 Job site block:Stonecutter
-
 
 TABLE:
 Mason
@@ -483,15 +342,11 @@ Expert | 7 | 100% | 6% | 12 ×Nether Quartz | Emerald | 12 | Low | 30
 Master | 9 | 50% | 100% | Emerald | Quartz Pillar | 12 | Low | 30
 50% | 100% | Emerald | Block of Quartz | 12 | Low | 30
 
-
 - ↑abThe list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
-
 
 H3: Shepherd
 
-
 Job site block:Loom
-
 
 TABLE:
 Shepherd
@@ -524,15 +379,11 @@ Expert | 7 | 17% | 9% | 12 ×Brown Dye | Emerald | 16 | Low | 30
 8 | 100% | 94% | 3 ×Emerald | Any color Banner[t 1] | 12 | Low | 15
 Master | 9 | 100% | 100% | 2 ×Emerald | 3 ×Painting | 12 | Low | 30
 
-
 - ↑abcdThe list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
-
 
 H3: Toolsmith
 
-
 Job site block:Smithing Table
-
 
 TABLE:
 Toolsmith
@@ -555,15 +406,11 @@ Expert | 7 | 100% | 67% | Diamond | Emerald | 12 | Low | 30
 50% | 67% | 10–24 ×Emerald | Enchanted Diamond Shovel[t 1] | 3 | High | 15
 Master | 9 | 100% | 100% | 18–32 ×Emerald | Enchanted Diamond Pickaxe[t 1] | 3 | High | 30
 
-
 - ↑abcdefWhen creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
-
 
 H3: Weaponsmith
 
-
 Job site block:Grindstone
-
 
 TABLE:
 Weaponsmith
@@ -579,12 +426,9 @@ Expert | 7 | 100% | 100% | Diamond | Emerald | 12 | Low | 30
 8 | 100% | 100% | 17–31 ×Emerald | Enchanted Diamond Axe[t 1] | 3 | High | 15
 Master | 9 | 100% | 100% | 13–27 ×Emerald | Enchanted Diamond Sword[t 1] | 3 | High | 30
 
-
 - ↑abcWhen creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
 
-
 H2: Wandering trader offers
-
 
 Thewandering traderoffers nine trades in total: two random trades from purchasing table, two random trades from special selling table, and five random trades from ordinary selling table. These trades are not divided into categories; for example, a single wandering trader can sell 2 different saplings. Each individual trade is equally likely.[verify]
 
@@ -593,7 +437,6 @@ In the trading GUI, the trade offers are always listed in this order:
 - 2 purchasing trades
 - 2 special selling trades
 - 5 ordinary selling trades
-
 
 TABLE:
 Purchasing table
@@ -605,8 +448,6 @@ Milk Bucket | 1 | 2 | 2
 Water Bucket | 1 | 2 | 2
 Fermented Spider Eye | 1 | 3 | 2
 
-
-
 TABLE:
 Selling table (special)
 Price | Item | Count | Trades untildisabled
@@ -617,8 +458,6 @@ One of 9Logs | 8 | 4
 5 | Potion of InvisibilityDuration: 8:00 | 1 | 1
 6 | Blue Ice | 1 | 6
 6-20 | Enchanted[note 2]Iron Pickaxe | 1 | 1
-
-
 
 TABLE:
 Selling table (ordinary)
@@ -656,20 +495,14 @@ Firefly Bush | 1 | 12
 5 | One of 8saplingsormangrove propagule | 1 | 8
 Nautilus Shell | 1 | 5
 
-
 3
 
-
 H2: Notes
-
 
 - ↑Technically, diamond armor (not other types of diamond gear) can also be obtained renewably from zombies and skeletons; however, these mobs only have a 0.04% (1⁄25,000) chance to spawn with diamond armor, rendering this an extremely impractical way to obtain such armor.
 - ↑When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
 
-
 H2: Achievements
-
-
 
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
@@ -680,11 +513,7 @@ Star trader | Trade with avillagerat the build height limit. | — | 20 | Silver
 The Haggler | Acquire or spend 30 Emeralds by trading withvillagersor withwandering trader. [sic] | — | 30 | Silver
 Treasure Hunter | Acquire a map from a cartographervillager, then enter the revealed structure | Visit the structure indicated while the purchased map is in your main hand (hotbar). | 40 | Silver
 
-
-
 H2: Advancements
-
-
 
 TABLE:
 Icon | Advancement | In-game description | Actual requirements (if different)
@@ -695,25 +524,15 @@ Star Trader | Trade with a Villager at thebuild height limit | Stand on any bloc
 Suit Up | Protect yourself with a piece of iron armor | Have any type of ironarmorin the inventory.
 What a Deal! | Successfully trade with a Villager | Take an item from avillagerorwandering trader'stradingoutput slot.
 
-
-
 H2: Video
 
-
-
 H2: History
-
-
 
 TABLE:
 Java Edition Beta
 August 31, 2010 | The first timeNotchhinted at plans for a possible future trading system was in an interview duringMinecraftCon. The implementation ofvillagesthemselves and their inhabitants wasn't even confirmed at this point, but Notch still had a couple of ideas: "If you treat the villagers well, they become friendly to you and might start throwing things at you as gifts. If you treat them badly though by attacking and killing them they hate you and might chase you."Notch also mentioned a meter of how much "villagers like you."
 
-
-
 H3: Java Edition
-
-
 
 TABLE:
 Java Edition
@@ -783,11 +602,7 @@ The taiga armorer can swap one piece of diamond armor for another.
 1.20.5ExperimentUpdate 1.21 | 24w12a | Added thetrial chambersmaps, sold by journeyman-level cartographers.
 1.21.5 | 25w07a | Updated trades for cartographers and wandering traders are no longer behind the "Villager Trade Rebalance" experimental toggle.
 
-
-
 H3: Bedrock Edition
-
-
 
 TABLE:
 Pocket Edition
@@ -824,11 +639,7 @@ Some of the existing trades from wandering traders have reduced prices.
 1.20.30 | Preview 1.20.30.21 | A villager now only gives a big discount the first time it is cured from a zombie villager. There are no longer multiple stacked discounts if a villager is zombified and cured multiple times.
 1.20.80ExperimentUpdate 1.21 | Preview 1.20.80.23 | Added the trial chambers maps, sold by journeyman-level cartographers.
 
-
-
 H3: Legacy Console Edition
-
-
 
 TABLE:
 Legacy Console Edition
@@ -849,56 +660,38 @@ Added new trades through the stone mason villager profession andwandering trader
 1.95 | Stone masonvillagersnow sell 4 chiseled stone bricks for 1 emerald instead of 1 for 20 emeralds.
 Stone masonvillagersnow sell 12 glazed terracotta for 1 emerald instead of buying it.
 
-
-
 H2: Issues
-
 
 Issues relating to "Trading", "Trades", or "Trade system" are maintained on thebug tracker. Issues should be reported and viewedthere.
 
-
 H2: Trivia
-
 
 - While diamonds are not renewable (except via vault, which is impractical in normal gameplay), many of their products (armor, tools, and weapons) are renewable via trading.
 
-
 H2: Gallery
 
-
-
 H3: Renders
-
 
 - An unemployed villager refuses a player trying to trade.
 - A nitwit villager refuses a player trying to trade.
 - A Villager presenting the emeralds.
 
-
 H3: Screenshots
-
 
 - The trading menu beforeBedrock Edition 1.11.0.
 - Trading options of a master-level weaponsmith.
 
-
 H3: Development images
-
 
 - The first image of the trading system released by Jeb. The currency item (later updated to theemerald) can be seen in the inventory.
 - An enhanced version of Jeb's screenshot showing the original ore texture more clearly.
 
-
 H2: References
-
 
 - ↑https://web.archive.org/web/20150316193400/http://www.minecraftforum.net/forums/archive/future-updates/384441-1-5-new-blocks-items#c11
 - ↑MC-181190— The discount for curing a villager is multiplied if the villager is reinfected and cured again — resolved as "Fixed".
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteGameplay
@@ -912,7 +705,6 @@ User interface | Action barBossbarChatDeath messagesGame mode switcherHeads-up d
 Visuals | ColorBlock colorsItem colorsEffect colorsMiscellaneous colorsEmotesEnchantment glintErrorLightResource packScreen effectsSkinsCharacterSkin packThird-person viewVibrant Visuals
 Removed | Sword blockingMaterials
 Unintended | Update SuppressionDuplication
-
 
 - v
 - t
@@ -1128,13 +920,9 @@ More
 - Unknown Bedrock version history
 - Check version
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -1142,16 +930,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - Edit
@@ -1160,9 +944,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -1176,9 +958,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -1189,9 +969,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -1200,9 +978,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -1213,9 +989,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -1229,9 +1003,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -1239,9 +1011,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -1250,9 +1020,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -1262,9 +1030,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -1292,69 +1058,11 @@ H3: In other languages
 
 ### BREWING 
 
-
 H1: Brewing
-
 
 Brewingis the process of creatingpotions,splash potions,lingering potions, andmedicine‌[Minecraft Educationonly]by adding various ingredients towater bottlesin abrewing stand.
 
-
-H2: Contents
-
-
-- 1Brewing equipment
-- 2Ingredients2.1Base ingredients and modifiers2.1.1Enhancement2.1.2Corrupting effect2.1.3Splash and lingering potions2.2Effect ingredients
-- 2.1Base ingredients and modifiers2.1.1Enhancement2.1.2Corrupting effect2.1.3Splash and lingering potions
-- 2.1.1Enhancement
-- 2.1.2Corrupting effect
-- 2.1.3Splash and lingering potions
-- 2.2Effect ingredients
-- 3Brewing recipes3.1Base potions3.2Effect potions3.2.1Positive effects3.2.2Negative effects3.2.3Mixed effects3.3Cures3.4Unbrewable potions
-- 3.1Base potions
-- 3.2Effect potions3.2.1Positive effects3.2.2Negative effects3.2.3Mixed effects
-- 3.2.1Positive effects
-- 3.2.2Negative effects
-- 3.2.3Mixed effects
-- 3.3Cures
-- 3.4Unbrewable potions
-- 4History
-- 5Issues
-- 6Trivia
-- 7Gallery7.1Textures
-- 7.1Textures
-- 8See also
-- 9References
-- 10External links
-- 11Navigation
-
-- 2.1Base ingredients and modifiers2.1.1Enhancement2.1.2Corrupting effect2.1.3Splash and lingering potions
-- 2.1.1Enhancement
-- 2.1.2Corrupting effect
-- 2.1.3Splash and lingering potions
-- 2.2Effect ingredients
-
-- 2.1.1Enhancement
-- 2.1.2Corrupting effect
-- 2.1.3Splash and lingering potions
-
-- 3.1Base potions
-- 3.2Effect potions3.2.1Positive effects3.2.2Negative effects3.2.3Mixed effects
-- 3.2.1Positive effects
-- 3.2.2Negative effects
-- 3.2.3Mixed effects
-- 3.3Cures
-- 3.4Unbrewable potions
-
-- 3.2.1Positive effects
-- 3.2.2Negative effects
-- 3.2.3Mixed effects
-
-- 7.1Textures
-
-
 H2: Brewing equipment
-
-
 
 TABLE:
 Name | Icon | Use
@@ -1363,21 +1071,15 @@ Water | A water source block can be used to fill infinite glass bottles.
 Blaze powder | Fuels the brewing stand. Holds 20 charges.
 Water bottle | The starting base for all potions, made by filling aglass bottlefrom acauldronor awatersource block.
 
-
-
 H2: Ingredients
-
 
 There is no provided in-game recipe book for brewing.
 
-
 H3: Base ingredients and modifiers
-
 
 Base ingredients are ingredients that can be added directly to awater bottle.Nether wartsare used to make awkward potions, and are the fundamental of the base ingredients, as it is required to make the majority of potions.
 
 Modifiers are ingredients used to alter the properties of a potion or to change a potion effect into a different one. Thefermented spider eyeis unique as it is the only modifier that can convert awater bottledirectly into a usablepotion.
-
 
 TABLE:
 Name | Icon | When added to water bottle | When added as a modifier
@@ -1388,19 +1090,14 @@ Fermented spider eye | Potion of Weakness | Changes the effect of a potion.
 Gunpowder | Splash water bottle | Turns a potion into a splash potion.
 Dragon's breath | Lingering water bottle(from splash water bottle) | Turns a splash potion into a lingering potion.
 
-
-
 H4: Enhancement
-
 
 Generally, upgrading a potion involves a trade-off between duration and potency. A potion with an enhanced effect has shorter duration, and a potion with extended duration cannot have an enhanced effect. However:
 
 - Upgrading the effect of a potion that has no time parameter (e.g.Instant Health) withglowstone dustinvolves no trade-off.
 - Increasing the time of a potion that has no effects with different levels (e.g.Fire Resistance) withredstone dustinvolves no trade-off.
 
-
 H4: Corrupting effect
-
 
 A fermented spider eye changes a potion's base effect, often reversing it or producing a negative potion.
 
@@ -1411,9 +1108,7 @@ A fermented spider eye changes a potion's base effect, often reversing it or pro
 
 - Enhanced potions ofLeapingorSwiftnesscannot be corrupted.
 
-
 H4: Splash and lingering potions
-
 
 By adding gunpowder, a drinking potion can be turned into asplash potion, which can be thrown to coat entities within the place of impact with a status effect. Subsequently, adding dragon's breath to a splash potion makes a lingering potion, creating a cloud that inflicts effects on entities that enter its area.
 
@@ -1425,12 +1120,9 @@ By adding gunpowder, a drinking potion can be turned into asplash potion, which 
 
 - InBedrock Editionthere is an easier way of using cauldronsfor the same effect.
 
-
 H3: Effect ingredients
 
-
 Effect ingredients imbue an awkward potion with a particular effect but do not alter potion duration or intensity. When added directly to a water bottle, most of these ingredients produce a mundane potion. The exceptions to this are the golden carrot, pufferfish, turtle shell, and phantom membrane, which cannot be added directly to a water bottle. A corrupted version of a potion can be made by adding afermented spider eyeto it.
-
 
 TABLE:
 Name | Icon | Effect | Effect when corrupted
@@ -1450,17 +1142,11 @@ Stone | Infested
 Cobweb | Weaving
 Slime block | Oozing
 
-
-
 H2: Brewing recipes
-
-
 
 H3: Base potions
 
-
 Base potions are potions without effects, brewed by adding a single base ingredient to a water bottle. Of these, only the awkward potion can be imbued with an effect ingredient to create a potion with an effect.‌[Java Editiononly]
-
 
 TABLE:
 Potion | Reagent, base | Precursor to
@@ -1468,19 +1154,13 @@ Awkward potion | Effect potions
 Mundane potion | None‌[JEonly]Effect Potions‌[BEonly]
 Thick potion | None‌[JEonly]Effect Potions‌[BEonly]
 
-
-
 H3: Effect potions
-
 
 Effect potions are primarily created by adding an effect ingredient to an awkward potion, which is created by adding nether wart to a water bottle. Certain effects require a potion to be corrupted by a fermented spider eye. The potion ofWeaknesscan additionally be created by simply adding a fermented spider eye to a water bottle, and it is the only potion that can be brewed withoutnether wart.
 
 Undead mobsreact differently to effects than other mobs. They take damage from potions ofHealing, gain health from potions ofHarming, and are unaffected by potions ofPoisonandRegeneration.
 
-
 H4: Positive effects
-
-
 
 TABLE:
 Potion | Reagent, base | Extended | Enhanced | Effects
@@ -1495,7 +1175,6 @@ Potion of Water Breathing(3:00) | Potion of Water Breathing(8:00) | — | Water 
 Potion of Leaping(3:00) | Potion of Leaping(8:00) | Potion of Leaping(1:30) | Jump Boost: Increases jump height by 50%.Enhanced:Jump BoostII: Increases jump height by 150%.
 Potion of Slow Falling(1:30) | Potion of Slow Falling(4:00) | — | Slow Falling: Fall speed and acceleration is significantly reduced and fall damage is completely negated.
 
-
 Enhanced:Instant HealthII: Restores health by 8HP.
 
 Enhanced:RegenerationII: Restores health byevery 1.25 seconds.
@@ -1506,10 +1185,7 @@ Enhanced:SpeedII: Increases movement speed, sprinting speed, and jumping length 
 
 Enhanced:Jump BoostII: Increases jump height by 150%.
 
-
 H4: Negative effects
-
-
 
 TABLE:
 Potion | Reagent, base(s) | Extended | Enhanced | Effects | Notes
@@ -1522,7 +1198,6 @@ Potion of Weaving(3:00) | — | — | Weaving:Spawns 2–3 cobwebs nearby when k
 Potion of Infestation(3:00) | — | — | Infested: Has a 10% chance to spawn 1–2 silverfish nearby when hit | —
 Potion of Wind Charging(3:00) | — | — | Wind Charged: Emits a wind burst when killed | —
 
-
 Enhanced:PoisonII: Depletes health by 1HPevery 0.6 seconds.
 
 Can also be brewed with a fermented spider eye and a potion of Strength, awkward, mundane, long mundane, or thick potion.‌[BEonly]
@@ -1534,24 +1209,17 @@ Enhanced:SlownessIV: Reduces movement speed by 60%.
 - Spawns 2–3 cobwebs nearby when killed
 - Doubles walking speed through cobwebs (from 25% to 50%)
 
-
 H4: Mixed effects
-
-
 
 TABLE:
 Potion | Reagent, base | Extended | Enhanced | Effects
 Potion of the Turtle Master(0:20) | Potion of the Turtle Master(0:40) | Potion of the Turtle Master(0:20) | SlownessIV,ResistanceIII: Reduces movement speed by 60% and reduces incoming damage by 60%.Enhanced:SlownessVI,ResistanceIV: Reduces movement speed by 90% and reduces incoming damage by 80%.
 
-
 Enhanced:SlownessVI,ResistanceIV: Reduces movement speed by 90% and reduces incoming damage by 80%.
-
 
 H3: Cures
 
-
 Cures are brewed from awkward potions using differentelements. Drinking these removes the specified bad effect. They cannot be modified into splash, lingering, extended, or enhanced versions.
-
 
 TABLE:
 Potion | Reagent, base | Effect
@@ -1560,17 +1228,11 @@ Elixir | CuresWeakness
 Eye drops | CuresBlindness
 Tonic | CuresNausea
 
-
-
 H3: Unbrewable potions
-
 
 The potion ofLuck‌[JEonly]and the potion ofDecay‌[BEonly]cannot be brewed, and can be obtained only through commands or theCreative inventory.
 
-
 H2: History
-
-
 
 TABLE:
 Java Edition
@@ -1630,58 +1292,40 @@ TU57 | CU49 | 1.57 | 1.56 | 1.56 | Patch 27 | 1.0.7 | Splash potions only have3�
 The durations of extended potions of Regeneration and Poison have been increased from 1:30 back to 2:00. The duration of strong potions of poison has been increased from 0:21.6 back to 0:22.5.
 TU69 | 1.76 | 1.76 | 1.76 | Patch 38 | Added potions of the Turtle Master and Slow Falling.
 
-
-
 H2: Issues
-
 
 Issues relating to "Brewing" are maintained on thebug tracker. Issues should be reported and viewedthere.
 
-
 H2: Trivia
-
 
 - AlthoughJebsaid that inJava Edition Beta 1.9 Prerelease 3there would be 161 possible different potion combinations with 2,653 in the future, in the actual third pre-release only 22 different potions could be made without the use of external programs. Of those, 19 potions had one of 8 different effects.
 - By modifying theitemNBT using an editor orcommands, it is possible to get a potion that cannot be upgraded into a splash potion.
 
-
 H2: Gallery
-
-
 
 H3: Textures
 
-
 - Texture file for the brewing user interface
 
-
 H2: See also
-
 
 - Crafting
 - Enchanting
 - Medicine‌[Minecraft Educationonly]
 - Smelting
 
-
 H2: References
-
 
 - ↑"The Mundane Potion is a remnant of an abandoned procedural brewing system—meaning that the recipes were meant to be different each time you generated a Minecraft world. But this didn't turn out to be much fun for the player and the system was abandoned, leaving the Mundane Potion without a purpose. "It's sort of like an appendix," says Jens"–Tom Stone, February 21, 2017
 - ↑"A quick discussion with @notch led me in on a new way of doing the potion brewing. Cauldron is out..."–@jeb_(Jens Bergensten) on X (formerly Twitter), September 30, 2011
 
-
 H2: External links
-
 
 - Minecraft Forum: All About Potions And Brewing - 1.9 Reference Guide
 - Minecraft Potions - A Visual Guide
 - Minecraft Commands - A Searchable Minecraft Database
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteBrewing
@@ -1691,7 +1335,6 @@ Bottles | GlassWater
 Potions | AwkwardMundaneThickUncraftable‌[JEonly]Night VisionInvisibilityLeapingFire ResistanceSwiftnessSlownessTurtle MasterWater BreathingHealingHarmingPoisonRegenerationStrengthWeaknessSlow FallingWind ChargingWeavingOozingInfestationLuck‌[JEonly]Decay‌[BEonly]JokeCaringSharingBigSmallStickyPotato OilPoisonousTypesPotionSplash PotionLingering Potion | Joke | CaringSharingBigSmallStickyPotato OilPoisonous | Types | PotionSplash PotionLingering Potion
 Joke | CaringSharingBigSmallStickyPotato OilPoisonous
 Types | PotionSplash PotionLingering Potion
-
 
 - v
 - t
@@ -1750,10 +1393,8 @@ Types | PotionSplash PotionLingering Potion
 - Luck‌[JEonly]
 - Decay‌[BEonly]
 
-
 TABLE:
 Joke | CaringSharingBigSmallStickyPotato OilPoisonous
-
 
 - Caring
 - Sharing
@@ -1765,15 +1406,12 @@ Joke | CaringSharingBigSmallStickyPotato OilPoisonous
 
 - Poisonous
 
-
 TABLE:
 Types | PotionSplash PotionLingering Potion
-
 
 - Potion
 - Splash Potion
 - Lingering Potion
-
 
 TABLE:
 vteGameplay
@@ -1787,7 +1425,6 @@ User interface | Action barBossbarChatDeath messagesGame mode switcherHeads-up d
 Visuals | ColorBlock colorsItem colorsEffect colorsMiscellaneous colorsEmotesEnchantment glintErrorLightResource packScreen effectsSkinsCharacterSkin packThird-person viewVibrant Visuals
 Removed | Sword blockingMaterials
 Unintended | Update SuppressionDuplication
-
 
 - v
 - t
@@ -1997,13 +1634,9 @@ More
 - Minecraft Education specific information
 - Unknown Java version history
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -2011,16 +1644,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - Edit
@@ -2029,9 +1658,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -2045,9 +1672,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -2058,9 +1683,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -2069,9 +1692,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -2082,9 +1703,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -2098,9 +1717,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -2108,9 +1725,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -2119,9 +1734,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -2131,9 +1744,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -2161,61 +1772,11 @@ H3: In other languages
 
 ### ENCHANTING 
 
-
 H1: Enchanting
-
 
 Enchantingis the process of augmentingarmor,tools, andweapons. Aglintanimation appears on items to show that they are enchanted.
 
-
-H2: Contents
-
-
-- 1Enchanting equipment
-- 2Enchanting methods2.1Enchanting table2.1.1Affecting offered enchantments2.2Anvil combinations2.3Enchanted books2.3.1Best Enchanting order
-- 2.1Enchanting table2.1.1Affecting offered enchantments
-- 2.1.1Affecting offered enchantments
-- 2.2Anvil combinations
-- 2.3Enchanted books2.3.1Best Enchanting order
-- 2.3.1Best Enchanting order
-- 3Disenchanting
-- 4Summary of enchantments
-- 5Summary of enchantments by item
-- 6Maximum effective values for enchantments
-- 7Data values7.1Item data
-- 7.1Item data
-- 8Sounds
-- 9Video
-- 10History
-- 11Issues
-- 12Gallery12.1Screenshots12.2Development images
-- 12.1Screenshots
-- 12.2Development images
-- 13Trivia
-- 14See also
-- 15References
-- 16External links
-- 17Navigation
-
-- 2.1Enchanting table2.1.1Affecting offered enchantments
-- 2.1.1Affecting offered enchantments
-- 2.2Anvil combinations
-- 2.3Enchanted books2.3.1Best Enchanting order
-- 2.3.1Best Enchanting order
-
-- 2.1.1Affecting offered enchantments
-
-- 2.3.1Best Enchanting order
-
-- 7.1Item data
-
-- 12.1Screenshots
-- 12.2Development images
-
-
 H2: Enchanting equipment
-
-
 
 TABLE:
 Name | Icon | Usage
@@ -2226,10 +1787,7 @@ Anvil | Used to combine enchanted items (tools, armor, weapons, etc.), add encha
 Grindstone | Used to remove all non-curse enchantments on an item, returning a small amount of experience, and optionally combine the durability of two items (plus an additional 5% durability) an item for no experience.
 Enchanted Book | Can be combined with another item through an anvil to add certain enchantments to the item. This costs experience points based on the enchantment and its level.
 
-
-
 H2: Enchanting methods
-
 
 There are four ways to enchant an item in Survival mode:
 
@@ -2251,9 +1809,7 @@ Server operators and players insingleplayerworlds withcheatsenabled can also enc
 
 Theenchanted golden apple, despite its name and glint, is not the enchanted form of any item and is completely different from thegolden apple.
 
-
 H3: Enchanting table
-
 
 An item can be enchanted by using an enchanting table and placing the item and 1–3lapis lazuliin the input slots. Upon placing the item, three (pseudo)randomized options appear on the right of the GUI. The glyphs, written inStandard Galactic Alphabet, do not affect the enchantment, but hovering over a presented enchantment shows one enchantment to be applied. On mobile devices, the player can tap an enchantment before putting in the lapis lazuli or hold the enchantment before release. The only choices available have a level requirement equal to or below the player's current level and a lapis lazuli requirement equal to or below the number of lapis lazuli placed in the table. Each option imbues the item with a randomized set of enchantments that are dependent on the number of experience levels required (e.g. a level 30 enchantment can give a pickaxe the "Efficiency II" enchantment); the actual level cost and the number of lapis lazuli required have no effect.
 
@@ -2267,9 +1823,7 @@ Enchanting abookproduces an enchanted book, which does nothing on its own, but e
 
 Unlike with an anvil, using the enchanting table while on Creative still costs experience. However, if theplayerdoesn't have enough experience, then experience reduces to zero and the enchantment still works, even when using the enchanting table while already at level zero.
 
-
 H4: Affecting offered enchantments
-
 
 Enchanting any item at any enchantment level changes the player's enchantment seed, which changes the possible enchantments for every item at every enchantment level. Thus, if none of the available enchantments for a tool are desired, 1 lapis lazuli and 1levelcould be spent to enchant a book or a differenttoolto refresh the list.
 
@@ -2284,9 +1838,7 @@ The possible enchantments depend on the player's enchantment seed, the item type
 
 Changing the enchantment levels offered by adding, removing, or blocking bookshelves alters the enchantments shown, but does not change possible enchantments; using another enchanting table with the previous bookshelf number still shows the previous enchantments. The enchantments for a particular enchantment level (with the same seed and item) do also differ depending on which row they appear in, but they are not "better" or "worse" based on the row despite the different resource costs.
 
-
 H3: Anvil combinations
-
 
 An anvil can be used to combine the enchantments of twoitems, sacrificing one of them and repairing the other. The items must be compatible; they must either be the same type and material (such as two iron swords) or an item and an enchanted book with an applicable enchantment (such as a bow and anInfinityenchanted book).
 
@@ -2296,9 +1848,7 @@ To combine items, the player places the target item in the anvil's first slot an
 
 The experience cost depends on the enchantments, with highly enchanted items costing more. If the target item is also being repaired, that costs more as well. The target item can also be renamed, at additional cost. There is also an accumulating surcharge for prior work done on anvils. In Survival mode, work that costs more than 39 levels of experience is refused although it may still be possible to perform the same work in steps. For example, a damaged enchanted bow may be repaired on an anvil with an ordinary bow, and then another enchanted bow may be used to combine enchantments with the repaired bow.
 
-
 H3: Enchanted books
-
 
 Enchanted books can be made by enchanting a book in anenchanting tableat the cost ofexperiencepoints. They can also be found in the chests of several structures, purchased withemeraldsfrom a librarian villager, or caught while fishing.
 
@@ -2310,22 +1860,16 @@ In Creative mode, enchanted books can be used to apply any enchantment to any it
 
 The experience costs forusingbooks are considerably less than for combining items with similar enchantments since the books themselves cost levels to create. However, it's still an extra cost, and enchanting items directly has a chance to get multiple enchantments. The advantage of books is that they can be stockpiled for use on an item of choice and allow forcontrolledcombinations. For example, a Silk Touch book can be used on anaxe,pickaxe, orshovel, and the player can decide which item receives which enchantment.
 
-
 H4: Best Enchanting order
-
 
 UseOrder Calculatorto minimize experience loss when merging two items.
 
-
 H2: Disenchanting
-
 
 The main way to disenchant items is via thegrindstoneor by repairing the items via the crafting grid. Using the grindstone removes all enchantments (except forcurses) but gives some experience back based on the level of the enchantment(s) and their value.
 If ablockis placed, it loses all the enchantments it has.
 
-
 H2: Summary of enchantments
-
 
 Each enchantment in the table below includes attributes that are possible for the player to acquire legitimately inSurvivalmode. Other combinations are possible inCreativemode or with cheats, mods, or third-party software.
 
@@ -2333,7 +1877,6 @@ Each enchantment in the table below includes attributes that are possible for th
 - Primary Items:Theitemsthat can receive the enchantment legitimately in Survival mode by using anenchanting table. Items of any material can be enchanted (some more easily than others – seeEnchantment mechanics).
 - Secondary Items:Items that, inSurvivalmode, cannot receive the enchantment from an enchanting table but can from an enchanted book with an anvil.
 - Weight:Relative probability of the enchantment being offered.
-
 
 TABLE:
 Name | Summary | Treasure[note 1] | Tradable[note 2] | IncompatibleWith | MaxLevel | PrimaryItems | SecondaryItems | Weight
@@ -2381,18 +1924,14 @@ Unbreaking | Gives a chance for items to ignore durability loss, effectively inc
 Wind Burst | Causes a burst of wind upon executing a mace smash attack that launches the attacker upward. | Yes | No | III | 2
 Cleaving​[upcomingJE Combat Tests] | Increases the damage and shield stun time of an axe. | No | Yes | Sharpness, Bane of Arthropods, Smite | III | 2
 
-
 - ↑Treasure enchantments are those that can't be obtained using anenchanting tableand aren't generated onrandomlyenchanted equipment sold by villagers or worn by mobs. If a treasure enchantment is tradable, it has double the price (before capping to 64 emeralds) compared to a non-treasure enchantment of the same level.
 - ↑Tradable enchantments are those that can be generated onEnchanted Bookssold bylibrarians.This does not cover book trading options in theVillager Trade Rebalanceexperiment.Randomlyenchanted tradable equipment generates only non-treasure enchantments.
 
-
 H2: Summary of enchantments by item
-
 
 Enchantments that have multiple levels are shown with their maximum level numbers. Mutually exclusive enchantments can be combined usingcommands(e.g.,/give@s bow[enchantments={infinity:1,mending:1}]). Also, a player can exceed the maximum levels of enchantments (e.g.,/give@s netherite_sword[enchantments={fire_aspect:10}]). However, if that number goes above10thetranslation stringis exposed and it looks like this:
 
 [1]
-
 
 TABLE:
 Item | Any combination of | Only one from each column
@@ -2422,7 +1961,6 @@ Brush
 Compass | Curse of Vanishing
 Recovery Compass‌[BEonly]
 
-
 - ↑abOnly golden weapons can receive Sharpness V directly through the enchanting table. For all other weapon tiers (wooden, stone, iron, diamond, and netherite), ananvilis required to apply Sharpness V to them, thoughironanddiamond swordscan generate with Sharpness V inend cityandbastion remnantchests andiron axeswith Sharpness V can be found intrial chambersbarrels.
 - ↑Tools of any material except stone and diamond can receive up to Efficiency V through the enchanting table.Stonetools can receive up to level IV through the enchanting table, but can be given Efficiency V by combining 2 items with Efficiency IV in ananvil. Diamond tools with efficiency V can also be found inend cityandbastion remnantchests.
 - ↑Channeling and Loyalty can be used together but neither can be used with Riptide.
@@ -2431,7 +1969,6 @@ The tables below summarize the enchantments that can be obtained on specific ite
 
 - An enchanting tableindicates the item can receive the enchantment from anenchanting table.
 - An anvilindicates the itemcannotreceive the enchantment from an enchanting table, but can receive the enchantment by using ananvilto combine the item with an enchanted book or another enchanted item.
-
 
 TABLE:
 Enchantment (Max) | ‌[JEonly] | ‌[BEonly] | ‌[BEonly]
@@ -2466,8 +2003,6 @@ Sweeping Edge(III)
 Unbreaking(III)
 Wind Burst(III)
 
-
-
 TABLE:
 Enchantment (Max)
 Aqua Affinity(I)
@@ -2488,15 +2023,11 @@ Thorns(III) | ‌[JEonly] | ‌[JEonly] | ‌[JEonly]
 ‌[BEonly] | ‌[BEonly] | ‌[BEonly]
 Unbreaking(III)
 
-
 Depth Strider(III)
-
 
 H2: Maximum effective values for enchantments
 
-
 The table below shows the effective limits for enchantments (also foundhere).
-
 
 TABLE:
 Enchantment | Stackable | Effective min | Effective max | Notes
@@ -2543,16 +2074,11 @@ Thorns | Individual Procs | 1 | 2147483647 | Chance of hitting is0.15 * levelDea
 Unbreaking | First | 1 | 255 | Items have a 1 inlevel + 1chance to take damage. Armor has a0.6chance to take damage even if it would otherwise skip it.Higher levels are treated as 255
 Wind Burst | Adds | 1 | 255 | Adds1.15 + 0.35 * levelby launching
 
-
 Mending
-
 
 H2: Data values
 
-
-
 H3: Item data
-
 
 Java Edition:
 
@@ -2583,38 +2109,27 @@ Java Edition:
 
 Bedrock Edition:
 
-
 H2: Sounds
 
-
 Java Edition
-
 
 TABLE:
 Sounds
 Sound | Subtitles | Source | Description | Resource location | Translation key | Volume | Pitch | Attenuationdistance
 ​Enchanting Table used | Blocks | When an item is enchanted | block.enchantment_table.use​[sound 1]​ | subtitles.block.enchantment_table.use​​[sound 1]​ | 1.0 | 0.9-1.0 | 16
 
-
 - ↑abMC-218109
 
 Bedrock Edition:
-
 
 TABLE:
 Sounds
 Sound | Source | Description | Resource location | Volume | Pitch
 Blocks | When an item is enchanted | block.enchanting_table.use | 1.0 | 1.0
 
-
-
 H2: Video
 
-
-
 H2: History
-
-
 
 TABLE:
 October 1, 2011 | The first images of the enchantment screen are revealed, with enchantments written in theStandard Galactic Alphabet. The first enchantment translates into "Well Played Internets You Are Good", the second translates into "These Names Will Be Random And Confusing", and the third translates to "Each Spell Costs Experience Levels". The Standard Galactic Alphabet or SGA was originally created by Tom Hall for use in theCommander Keenseries of computer games.
@@ -2675,20 +2190,13 @@ TU36 | CU25 | 1.28 | 1.28 | 1.28 | Patch 7 | Up to 3 enchantments of the held it
 New Nintendo 3DS Edition
 0.1.0 | Added enchantments.
 
-
-
 H2: Issues
-
 
 Issues relating to "Enchanting", "Enchantment", or "Enchanted" are maintained on thebug tracker. Issues should be reported and viewedthere.
 
-
 H2: Gallery
 
-
-
 H3: Screenshots
-
 
 - A sword with 4 enchantments on it.
 - A diamond pickaxe with multiple high-level enchantments, right after enchanting. (pre-1.13)
@@ -2697,9 +2205,7 @@ H3: Screenshots
 - Table of enchantment probabilities for books.
 - The GUI of the enchantment table inPocket Editionwhile the Pocket UI Profile is activated (top = no item, bottom = with item hovering on the second line).
 
-
 H3: Development images
-
 
 - Enchant screen. Posted byNotch.
 - Some enchantments. Posted byJeb.
@@ -2707,15 +2213,11 @@ H3: Development images
 - First image of enchanting inPocket Edition.
 - Underwater, with and without theRespirationenchantment comparison. This feature wasremovedin1.13.
 
-
 H2: Trivia
-
 
 - Enchantments on items are always listed in the same order on their tooltips, that being: Curse of Binding, Curse of Vanishing, Riptide, Channeling, Wind Burst, Frost Walker, Sharpness, Smite, Bane of Arthropods, Impaling, Power, Density, Breach, Piercing, Sweeping Edge, Multishot, Fire Aspect, Flame, Knockback, Punch, Protection, Blast Protection, Fire Protection, Projectile Protection, Feather Falling, Fortune, Looting, Silk Touch, Luck of the Sea, Efficiency, Quick Charge, Lure, Respiration, Aqua Affinity, Soul Speed, Swift Sneak, Depth Strider, Thorns, Loyalty, Unbreaking, Infinity, and Mending.
 
-
 H2: See also
-
 
 - Enchanting/Levels
 - Tutorial:Best enchantments guide
@@ -2724,24 +2226,17 @@ H2: See also
 - Smelting
 - Enchanting mechanics
 
-
 H2: References
-
 
 - ↑MC-248616— The strings for enchantment and effect levels above 10 are not translated — resolved as "Invalid".
 - ↑MC-231508— Enchantments are capped at level 255 — resolved as "Works As Intended".
 
-
 H2: External links
-
 
 - Getting Started with Enchantments in Minecraft–Minecraft Help Center
 - All Enchantments in Minecraft–Minecraft Help Center
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteGameplay
@@ -2755,7 +2250,6 @@ User interface | Action barBossbarChatDeath messagesGame mode switcherHeads-up d
 Visuals | ColorBlock colorsItem colorsEffect colorsMiscellaneous colorsEmotesEnchantment glintErrorLightResource packScreen effectsSkinsCharacterSkin packThird-person viewVibrant Visuals
 Removed | Sword blockingMaterials
 Unintended | Update SuppressionDuplication
-
 
 - v
 - t
@@ -2957,7 +2451,6 @@ More
 - Update Suppression
 - Duplication
 
-
 TABLE:
 vteEnchantments
 Durability | MendingUnbreaking
@@ -2977,7 +2470,6 @@ Fishing Rod | Luck of the SeaLure
 Curse | Curse of BindingCurse of Vanishing
 Joke | Potatofication
 
-
 - v
 - t
 - e
@@ -2995,12 +2487,10 @@ Joke | Potatofication
 - Protection
 - Thorns
 
-
 TABLE:
 Helmet | Aqua AffinityRespiration
 Leggings | Swift Sneak
 Boots | Depth StriderFeather FallingFrost WalkerSoul Speed
-
 
 - Aqua Affinity
 - Respiration
@@ -3015,12 +2505,10 @@ Boots | Depth StriderFeather FallingFrost WalkerSoul Speed
 - Bane of Arthropods
 - Smite
 
-
 TABLE:
 Sword | Fire AspectKnockbackLootingSharpnessSweeping Edge‌[JEonly]
 Axe | Cleaving​[upcomingJE Combat Tests]Sharpness
 Mace | BreachDensityFire AspectWind Burst
-
 
 - Fire Aspect
 - Knockback
@@ -3068,13 +2556,9 @@ Mace | BreachDensityFire AspectWind Burst
 - Pages with Bedrock sound tables
 - Pages with YouTube videos
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -3082,16 +2566,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - Edit
@@ -3100,9 +2580,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -3116,9 +2594,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -3129,9 +2605,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -3140,9 +2614,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -3153,9 +2625,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -3169,9 +2639,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -3179,9 +2647,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -3190,9 +2656,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -3202,9 +2666,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -3232,85 +2694,11 @@ H3: In other languages
 
 ### MOBS 
 
-
 H1: Mob
-
 
 Amob(short formobile,mobile entity, ormobile object)[1]is an AI-driven gameentity. All mobs can be attacked or hurt (fromfalling, attacked by aplayeror another mob, falling into thevoid, hit by anarrow, etc, with the exception of protectedcreakings), and have some form of voluntary movement. Different types of mobs often have unique AI andloot.
 
-
-H2: Contents
-
-
-- 1Spawning1.1Despawning
-- 1.1Despawning
-- 2Behavior
-- 3List of mobs3.1Passive mobs3.1.1Educationmobs3.2Neutral mobs3.3Hostile mobs3.3.1Boss mobs3.4Upcoming mobs3.5Unused mobs3.6Similar entities3.7Removed mobs3.8Joke mobs3.9Unimplemented mobs3.10Mentioned mobs
-- 3.1Passive mobs3.1.1Educationmobs
-- 3.1.1Educationmobs
-- 3.2Neutral mobs
-- 3.3Hostile mobs3.3.1Boss mobs
-- 3.3.1Boss mobs
-- 3.4Upcoming mobs
-- 3.5Unused mobs
-- 3.6Similar entities
-- 3.7Removed mobs
-- 3.8Joke mobs
-- 3.9Unimplemented mobs
-- 3.10Mentioned mobs
-- 4Classification4.1Weaknesses and immunities4.2Undead mobs4.3Aquatic mobs4.4Arthropods4.5Illagers4.6Knockback resistance
-- 4.1Weaknesses and immunities
-- 4.2Undead mobs
-- 4.3Aquatic mobs
-- 4.4Arthropods
-- 4.5Illagers
-- 4.6Knockback resistance
-- 5Platform availability
-- 6Damage dealt by mobs
-- 7Achievements
-- 8Advancements
-- 9Videos
-- 10History
-- 11Issues
-- 12Trivia
-- 13Gallery13.1In other media
-- 13.1In other media
-- 14Notes
-- 15References
-- 16External links
-- 17Navigation
-
-- 1.1Despawning
-
-- 3.1Passive mobs3.1.1Educationmobs
-- 3.1.1Educationmobs
-- 3.2Neutral mobs
-- 3.3Hostile mobs3.3.1Boss mobs
-- 3.3.1Boss mobs
-- 3.4Upcoming mobs
-- 3.5Unused mobs
-- 3.6Similar entities
-- 3.7Removed mobs
-- 3.8Joke mobs
-- 3.9Unimplemented mobs
-- 3.10Mentioned mobs
-
-- 3.1.1Educationmobs
-
-- 3.3.1Boss mobs
-
-- 4.1Weaknesses and immunities
-- 4.2Undead mobs
-- 4.3Aquatic mobs
-- 4.4Arthropods
-- 4.5Illagers
-- 4.6Knockback resistance
-
-- 13.1In other media
-
-
 H2: Spawning
-
 
 Mobsspawnin various ways. Most mobs spawn naturally, depending on thelight level,biome, and their surroundings. For example, most animals are found in bright areas on the surface, while hostile monsters are commonly found in the dark (whether it's acave,monster room,mansion, or at night). Animals usually spawn upon chunk generation, while hostile monsters spawn and despawn in a certain radius around the player.
 
@@ -3322,15 +2710,11 @@ Some mobs (like thesnow golemand thewither) require that theplayer"construct" th
 
 Playerscan also spawn mobs easily by usingspawn eggsinCreative modeor the/summoncommand.
 
-
 H3: Despawning
-
 
 Many mobs despawn (cease to exist) after a certain amount of time if far enough from the player. InJava Edition, most passive mobs do not despawn, while most monsters do. InBedrock Edition, almost all mobs despawn. Mobs can be prevented from despawning if they are named with aname tag, and inJava Edition[verify], also in aboat.
 
-
 H2: Behavior
-
 
 Mobs are affected by the environment in the same ways as the player; they are subject tophysics, and they can behurtby the same things that harm the player (catching on fire, falling, drowning, attacks from weapons, the /kill command, etc.). Some mobs may be resistant or immune to certain hazards, such as someNethermobs, which are immune to fire. Allaquaticmobs exceptdolphinsare immune to drowning. Mobs can rideminecartsand other mobs can climb upladders. When mobs are killed, they turn to smoke particles anddropitems that may be useful resources.
 
@@ -3340,84 +2724,60 @@ Most mobs cannot see through most solid blocks, including semi-transparent block
 
 Using specificname tagson mobs can result in unusual behavior or rendering. SeeName Tag§ Easter eggsfor details.
 
-
 H2: List of mobs
-
 
 Mobs are listed and classified by their nature from the player's perspective. For more details on a particular mob, click on them to view their individual page.
 
-
 H3: Passive mobs
-
 
 Passive mobs are harmless mobs (except forpufferfish) that do not attempt to attack the player, even when provoked or attacked, though some of them may attack other mobs. Most of them can bebredortamed.
 
-
 H4: Educationmobs
-
 
 These passive mobs are designed primarily for coding, education, or interactive learning rather than regular gameplay.
 
 - ↑abUnused inBedrock Edition
 
-
 H3: Neutral mobs
-
 
 Neutral mobs are sometimes passive and sometimes hostile toward the player. These mobs usually require provocation from the player in one way or another to attack or become hostile, while some can be naturally-hostile and have a way to be pacified.
 
-
 H3: Hostile mobs
-
 
 Hostile mobs are dangerous, aggressive mobs that always attack the player within their respective detection ranges. Certain non-hostile mobs such aschickens,skeleton horsesandspiderscan be mounted by hostile mobs onrare occasions, and become hostile.
 
-
 H4: Boss mobs
-
 
 Boss mobs are special hostile mobs that are tougher and more dangerous than other mobs. They do not spawn randomly and are confronted intentionally. All boss mobs have abossbarfeaturing their name and health. Boss mobs provide unique challenges and equivalent rewards, such as XP or useful items.
 
-
 H3: Upcoming mobs
-
 
 These mobs are planned to be added in the upcomingFall Drop 2025.
 
-
 H3: Unused mobs
-
 
 These mobs can not spawn without the use of/summonorspawn eggs. Old villagers and old zombie villagers cannot be spawned at all.
 
 - ↑abc‌[Bedrock EditionandMinecraft Educationonly]
 - ↑ab‌[Java Editiononly]
 
-
 H3: Similar entities
-
 
 These entities are grouped within the “living entities” category in the game code. InBedrock Edition, they are all under the mob class.
 
 - ↑Unused inBedrock Edition
 
-
 H3: Removed mobs
-
 
 Removed mobs are mobs that no longer exist in current versions of the game.
 
 - ↑Removed in Java Edition, but existing with human model inMinecraft Classic (JavaScript remake)
 
-
 H3: Joke mobs
-
 
 Mobs that were added asApril Fools' Day jokesinJava Edition, and cannot be found in the normal version.
 
-
 H3: Unimplemented mobs
-
 
 Mobs that were announced by Mojang as potential additions to the game, but either got scrapped or shelved indefinitely.
 
@@ -3426,58 +2786,41 @@ Mobs that were announced by Mojang as potential additions to the game, but eithe
 - ↑Added as a particle effect emitted fromfirefly bushes, no plans to add it as a mob in any future update.
 - ↑abcdPlanned to be introduced in a currently unknown future update.
 
-
 H3: Mentioned mobs
-
 
 Mobs that were briefly mentioned byMojang Studioson social media and other platforms.
 
 - ↑always mentioned as"removed Herobrine"in the changelogs of the updates.
 
-
 H2: Classification
-
 
 Most of the mobs are classified into categories, such as theanimalsor themonsters. Some creatures are then further classified into more specific groups, based on detailed characteristics and properties they share with other members of that group. There are a total of four mob classifications that display unique characteristics from other mobs.
 
-
 H3: Weaknesses and immunities
-
 
 Some mobs are weak or immune to certain type of damage. For example, aquatic creatures, such asturtlesandguardians, take more damage from tridents that are enchanted withImpaling‌[Java Editiononly]‌[untilJE Combat Tests]. All undead mobs are healed bypotionsofHarmingand take extra damage from weapons enchanted withSmite, along with taking damage from potions ofHealing. Many of these weaknesses and immunities are a result of what category (see below) of mobs that mob falls into.
 
-
 H3: Undead mobs
-
 
 This group of mobs includesbogged,drowned, old zombie villagers,husks,phantoms,skeletons,skeleton horses,strays,withers,wither skeletons,zoglins,zombies,zombie horses,zombie villagers, andzombified piglins. These mobs are damaged by potions of Healing, healed by potions of Harming, are unaffected by Regeneration and Poison, and are immune to drowning (except for husks and zombies, which transform into zombies and drowned if submerged underwater, respectively). Zombies, zombie villagers, drowned, skeletons, strays, bogged, and phantoms burn when under direct sunlight, unless they are touching water or wearing a helmet. Under theFire Resistanceeffect, these undead mobs still catch fire in direct sunlight but are not damaged by it. All undead mobs except for drowned, phantoms, and withers cannot swim and sink when in water. All undead mobs take extra damage from weapons enchanted withSmite, and are ignored by withers.
 
 Many undead mobs can spawn with the ability to pick upitemsand equipment from the ground. Some can sometimes spawn wearingarmor, or holdingtoolsorweapons.
 
-
 H3: Aquatic mobs
-
 
 This group of mobs includesaxolotls,dolphins,squid,glow squid,guardians,elder guardians,tadpoles,turtles,cod,salmon,pufferfish, andtropical fish, but not drowned.[7]They take extra damage from tridents enchanted withImpaling,‌[Java Editiononly]‌[untilJE Combat Tests]and, except axolotls, do not cause pufferfish to inflate nor take damage from them. All aquatic mobs except dolphins are immune to drowning, and all except guardians, elder guardians, and turtles take suffocation damage if out of water for too long. Aquatic mobs have the ability to freely swim vertically, whereas other mobs simply float on the surface of thewateror sink.
 
-
 H3: Arthropods
-
 
 This group consists of mobs based onarthropods, namelybees,cave spiders,endermites,silverfish, andspiders. They take extra damage and receive theSlownessIV effect when attacked withweaponsenchanted withBane of Arthropods.
 
-
 H3: Illagers
-
 
 This group includespillagers,illusioners‌[JEonly],evokers, andvindicators. They are immune to evoker fangsdamageand ignored by vindicators named "Johnny". They are hostile toward adultvillagers,wandering traders,iron golemsandplayersinSurvivalorAdventuremode.Ravagers,witches, andvexesaccompany them inraidsbut are not illagers themselves. Illusioners (and witches‌[Bedrock Editiononly]) can see players or targets through blocks.
 
-
 H3: Knockback resistance
 
-
 Some non-boss mobs resist a certain percentage ofknockbackfrom attacks.
-
 
 TABLE:
 Mob | Knockback resistance
@@ -3497,13 +2840,9 @@ Zombie | 0%–5% (determined on spawn)
 Zombie Villager | 0%–5% (determined on spawn)
 Zombified Piglin | 0%–5% (determined on spawn)
 
-
-
 H2: Platform availability
 
-
 The following table also applies toMinecraft Educationand theChina Editionvariants, with theBedrock Editioncorresponding toMinecraft Education.
-
 
 TABLE:
 Mob | Java Edition | Bedrock Edition
@@ -3598,17 +2937,11 @@ Zombie Horse | Yes | Yes
 Zombie Villager | Yes | Yes
 Zombified Piglin | Yes | Yes
 
-
 Camera
-
 
 H2: Damage dealt by mobs
 
-
-
 H2: Achievements
-
-
 
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
@@ -3647,13 +2980,9 @@ The Healing Power of Friendship! | Team up with anaxolotland win a fight | Be ne
 Whatever Floats Your Goat | Get in a boat and float with agoat | Use a boat and put a goat inside that boat, then ride it. | 20 | Bronze
 With Our Powers Combined! | Have all 3 froglights in your inventory | Acquire at least one of each pearlescent, verdant, and ochrefroglightsin your inventory at the same time. | 30 | Gold
 
-
-
 H2: Advancements
 
-
 Advancements are made when a player accomplishes something that is either rare to accomplish or sometimes easy to do so (such asAdventurefor killing or getting killed by an entity).
-
 
 TABLE:
 Icon | Advancement | In-game description | Actual requirements (if different)
@@ -3685,7 +3014,6 @@ What a Deal! | Successfully trade with a Villager | Take an item from avillagero
 Arbalistic | Kill five uniquemobswith onecrossbowshot | Armor Standalso counts for this advancement.This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.
 Over-Overkill | Deal 50 hearts of damage in a single hit using theMace | Damage can be dealt to any mob, even those that do not have 50 hearts of health overall.
 Who's the Pillager Now? | Give a Pillager a taste of their own medicine | Kill apillagerwith acrossbowshot.
-
 
 - Absorption
 - Bad Omen
@@ -3887,14 +3215,9 @@ The source of the effects is irrelevant for the purposes of this advancement. Ot
 - Turtle
 - Wolf
 
-
 H2: Videos
 
-
-
 H2: History
-
-
 
 TABLE:
 Java Edition pre-Classic
@@ -4095,16 +3418,11 @@ Zombie pigmen have been renamed to zombified piglin.
 1.20.12 | 1.20.10.0 | Added camels and sniffers.
 1.21.03 | Preview 1.21.01.0 | Added armadillos, breeze and bogged.
 
-
-
 H2: Issues
-
 
 Issues relating to "Mob" are maintained on thebug tracker. Issues should be reported and viewedthere.
 
-
 H2: Trivia
-
 
 - InJava Edition, the rarest mob is a zombie villagerchicken jockeywearing full enchanted diamond armor and holding an enchantediron swordin its left hand.
 - There are manyblocksin the game that do not take up a full block, such as trapdoors, and mobs actually see many of these as full blocks.Mobs mistake some blocks forair, such ascarpets,snow, andstring.
@@ -4114,13 +3432,9 @@ H2: Trivia
 
 - Mobs mistake some blocks forair, such ascarpets,snow, andstring.
 
-
 H2: Gallery
 
-
-
 H3: In other media
-
 
 - Official T-shirt artwork "Animal Totem" made byJINX.
 - Official T-shirt artwork "Creatures" made by JINX.
@@ -4133,13 +3447,9 @@ H3: In other media
 - Concept art of mob gargoyles forA Minecraft Movie.
 - Artwork featuring various mobs, as well as players.
 
-
 H2: Notes
 
-
-
 H2: References
-
 
 - ↑Mob (video games)or a single entity in a group when referring toMinecraft.
 - ↑MC-249642— Wardens can't pass over rails — resolved as "Fixed".
@@ -4149,16 +3459,11 @@ H2: References
 - ↑abchttps://bsky.app/profile/jebox.bsky.social/post/3lklkycfmx22b
 - ↑MC-128249 - comment from cojomax99
 
-
 H2: External links
-
 
 - Everything you need to know about Minecraft mobs– Minecraft.net on September 22, 2023
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteEntities
@@ -4200,11 +3505,9 @@ Joke | Falling BlockGravtaterObsidian BoatPink Wither Skull
 Mentioned | Minecart with Dispenser
 Removed | Shot Purple Arrow
 
-
 - v
 - t
 - e
-
 
 TABLE:
 Mobs
@@ -4224,7 +3527,6 @@ Mentioned | AlpacaBarnacleCrabFireflyGlareGreat HungerIceologerMeerkatMoobloomOs
 Removed | BuilderMD3 Test MobMobMonster
 Mob types | AnimalAquaticArthropodIllagerJockeyMonsterUndead
 Other | Mob variants
-
 
 - Allay
 - Armadillo
@@ -4258,12 +3560,10 @@ Other | Mob variants
 - Tropical Fish
 - Turtle
 
-
 TABLE:
 Villagers | ArmorerButcherCartographerClericFarmerFishermanFletcherLeatherworkerLibrarianMasonShepherdToolsmithWeaponsmithWandering Trader
 BE&eduonly | AgentNPC
 Upcoming | Copper Golem
-
 
 - Armorer
 - Butcher
@@ -4353,11 +3653,9 @@ Upcoming | Copper Golem
 
 - Zombie Horse
 
-
 TABLE:
 JEonly | GiantIllusioner
 BE&eduonly | Elder Guardian GhostOld VillagerOld Zombie Villager
-
 
 - Giant
 - Illusioner
@@ -4384,10 +3682,8 @@ BE&eduonly | Elder Guardian GhostOld VillagerOld Zombie Villager
 - Toxifin Slab
 - Warden (boss)
 
-
 TABLE:
 Pet variants | Pet ArmadilloPet AxolotlPet BeePet CatPet ChickenPet CowPet CreeperPet FoxPet FrogPet MooshroomPet Polar BearPet SlimePet TurtlePet Wolf
-
 
 - Pet Armadillo
 - Pet Axolotl
@@ -4439,7 +3735,6 @@ Pet variants | Pet ArmadilloPet AxolotlPet BeePet CatPet ChickenPet CowPet Creep
 
 - Mob variants
 
-
 TABLE:
 Other entities
 Player | AlexAriEfeKaiMakenaNoorSteveSunnyZuri
@@ -4459,7 +3754,6 @@ JEonly | DisplayBlockItemTextInteractionMarker
 Joke | Falling BlockGravtaterObsidian BoatPink Wither Skull
 Mentioned | Minecart with Dispenser
 Removed | Shot Purple Arrow
-
 
 - Alex
 - Ari
@@ -4495,10 +3789,8 @@ Removed | Shot Purple Arrow
 - Suspicious Gravel
 - Suspicious Sand
 
-
 TABLE:
 BE&eduonly | Falling BlockDeprecated AnvilSnowPrimed Underwater TNT
-
 
 - Falling BlockDeprecated AnvilSnow
 - Deprecated Anvil
@@ -4524,10 +3816,8 @@ BE&eduonly | Falling BlockDeprecated AnvilSnowPrimed Underwater TNT
 - with Hopper
 - with TNT
 
-
 TABLE:
 Java Editiononly | Minecart with Furnacewith Monster Spawner
-
 
 - Minecart with Furnacewith Monster Spawner
 - with Monster Spawner
@@ -4560,11 +3850,9 @@ Java Editiononly | Minecart with Furnacewith Monster Spawner
 
 - Lingering Potion
 
-
 TABLE:
 Java Editiononly | Shot Spectral Arrow
 BE&EEonly | Thrown Ice Bomb
-
 
 - Shot Spectral Arrow
 
@@ -4574,10 +3862,8 @@ BE&EEonly | Thrown Ice Bomb
 - Leash Knot
 - Painting
 
-
 TABLE:
 Java Editiononly | Item FrameGlow
-
 
 - Item FrameGlow
 - Glow
@@ -4593,18 +3879,14 @@ Java Editiononly | Item FrameGlow
 - Lightning Bolt
 - Ominous Item Spawner
 
-
 TABLE:
 BE&eduonly | BalloonCamera
-
 
 - Balloon
 - Camera
 
-
 TABLE:
 JEonly | DisplayBlockItemTextInteractionMarker
-
 
 - DisplayBlockItemText
 - Block
@@ -4628,7 +3910,6 @@ JEonly | DisplayBlockItemTextInteractionMarker
 
 - Shot Purple Arrow
 
-
 TABLE:
 vteEnvironment
 Geography | AltitudeBiomeChunksFeatureStructureLightTerrain featuresVoidWorldWorld borderWorld boundaryWorld generation
@@ -4649,7 +3930,6 @@ Removed | Far LandsJava EditiononlyCustomMap themeMap shapeMap typeLevel preview
 Java Editiononly | CustomMap themeMap shapeMap typeLevel previewerOld CustomizedWinter mode
 Bedrock Editiononly | OldNether Reactor
 LCE&New 3DSonly | Amplified WorldsWorld size
-
 
 - v
 - t
@@ -4683,10 +3963,8 @@ LCE&New 3DSonly | Amplified WorldsWorld size
 - Default
 - Superflat
 
-
 TABLE:
 JEonly | AMPLIFIEDSingle biomeDebug modeLarge Biomes
-
 
 - AMPLIFIED
 - Single biome
@@ -4698,10 +3976,8 @@ JEonly | AMPLIFIEDSingle biomeDebug modeLarge Biomes
 - Enchanting library
 - Nether portal
 
-
 TABLE:
 Pre-generated | End portal
-
 
 - End portal
 
@@ -4734,12 +4010,10 @@ Pre-generated | End portal
 - Snowfall
 - Thunderstorm
 
-
 TABLE:
 Dimensions | BridgeGenerated dimensionsHubMineThe MoonPotato
 Playerconstructions | Funky PortalOther PortalPre-generatedLunar Base | Pre-generated | Lunar Base
 Pre-generated | Lunar Base
-
 
 - Bridge
 - Generated dimensions
@@ -4751,21 +4025,17 @@ Pre-generated | Lunar Base
 - Funky Portal
 - Other Portal
 
-
 TABLE:
 Pre-generated | Lunar Base
-
 
 - Lunar Base
 
 - Far Lands
 
-
 TABLE:
 Java Editiononly | CustomMap themeMap shapeMap typeLevel previewerOld CustomizedWinter mode
 Bedrock Editiononly | OldNether Reactor
 LCE&New 3DSonly | Amplified WorldsWorld size
-
 
 - Custom
 - Map theme
@@ -4791,13 +4061,9 @@ LCE&New 3DSonly | Amplified WorldsWorld size
 - Java Edition upcoming
 - Bedrock Edition upcoming
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -4805,16 +4071,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - View source
@@ -4822,9 +4084,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -4838,9 +4098,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -4851,9 +4109,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -4862,9 +4118,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -4875,9 +4129,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -4891,9 +4143,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -4901,9 +4151,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -4912,9 +4160,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -4924,9 +4170,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -4954,65 +4198,11 @@ H3: In other languages
 
 ### BLOCKS 
 
-
 H1: Block
-
 
 Blocksare the basic units of structure inMinecraftthat make up the game's world. Many blocks can be collected and placed anywhere, as well as be used as helpful resources.
 
-
-H2: Contents
-
-
-- 1Behavior
-- 2Block height
-- 3Textures
-- 4List of blocks4.1Technical blocks4.2Educationblocks4.3Removed blocks4.3.1Outright removed blocks4.3.2Removed through substitution4.3.3Non-standard metadata variants4.4Joke blocks
-- 4.1Technical blocks
-- 4.2Educationblocks
-- 4.3Removed blocks4.3.1Outright removed blocks4.3.2Removed through substitution4.3.3Non-standard metadata variants
-- 4.3.1Outright removed blocks
-- 4.3.2Removed through substitution
-- 4.3.3Non-standard metadata variants
-- 4.4Joke blocks
-- 5Videos
-- 6History6.1Block additions and removals6.2Block model additions6.3Other changes6.4April Fools blocks
-- 6.1Block additions and removals
-- 6.2Block model additions
-- 6.3Other changes
-- 6.4April Fools blocks
-- 7Issues
-- 8Trivia
-- 9Gallery9.1Screenshots9.2In other media
-- 9.1Screenshots
-- 9.2In other media
-- 10See also
-- 11References
-- 12Navigation
-
-- 4.1Technical blocks
-- 4.2Educationblocks
-- 4.3Removed blocks4.3.1Outright removed blocks4.3.2Removed through substitution4.3.3Non-standard metadata variants
-- 4.3.1Outright removed blocks
-- 4.3.2Removed through substitution
-- 4.3.3Non-standard metadata variants
-- 4.4Joke blocks
-
-- 4.3.1Outright removed blocks
-- 4.3.2Removed through substitution
-- 4.3.3Non-standard metadata variants
-
-- 6.1Block additions and removals
-- 6.2Block model additions
-- 6.3Other changes
-- 6.4April Fools blocks
-
-- 9.1Screenshots
-- 9.2In other media
-
-
 H2: Behavior
-
 
 Blocks are arranged in a3-dimensional gridof 1-cubic-meter cells, although some blocks appear to occupy a partial cell; these includeslabs,snowlayers,ladders,vines,stairs,turtle eggs, andsea pickles, among others.
 
@@ -5033,17 +4223,13 @@ When broken, blocks emitsoundsandparticlesassociated with themselves, except in 
 - If the block is one of a few blocks such as rails or redstone wire, supported by another block and its supporting block is removed.[5]
 - If the block isleavesand decays.[6]
 
-
 H2: Block height
-
 
 Most solid blocks are 1 meter high (3.28084... feet or1250⁄381feet), but several blocks have non-standard block heights, such asslabs.
 
 A player can automatically step up from a lower to a higher height if the difference is at most 0.6 (3⁄5) of a block or 1.9685... feet (250⁄127feet).
 
-
 H2: Textures
-
 
 The textures on the faces of most blocks are 16×16 pixels. Exceptions includecandles,sculk sensors, etc. Most blocks are proportionately one cubic meter by default, but their shape can be changed usingmodels.
 
@@ -5056,9 +4242,7 @@ Players can change their textures by changing their files in-game. The following
 
 Usingresource packs, the player can change the textures and resolution of blocks, including whether their texture is animated. They can also change the shapes of blocks usingmodelsand the size of blocks to any size with equal width and height, though sizes that are a power of two tend to work better.
 
-
 H2: List of blocks
-
 
 - Acacia Button
 - Acacia Door
@@ -6099,9 +5283,7 @@ H2: List of blocks
 - Yellow Wool
 - Zombie Head
 
-
 H3: Technical blocks
-
 
 Technical blocks serve various purposes during events within the game, or use a separate name spaced ID in order to avoid unnecessary combinations ofblock states. InJava Editiontechnical blocks do not exist as items, while inBedrock Editionthey may be obtained using inventory editors or add-ons.
 
@@ -6246,9 +5428,7 @@ Technical blocks serve various purposes during events within the game, or use a 
 - Yellow Wall Banner
 - Zombie Wall Head
 
-
 H3: Educationblocks
-
 
 These blocks can be accessed only inMinecraft Educationand inBedrock Editionwhen education options are enabled (Elementsare not listed here). InBedrock Edition, boards, posters, and slates can be obtained only through inventory editors.
 
@@ -6304,13 +5484,9 @@ These blocks can be accessed only inMinecraft Educationand inBedrock Editionwhen
 - Underwater TNT
 - Underwater Torch
 
-
 H3: Removed blocks
 
-
-
 H4: Outright removed blocks
-
 
 These blocks were removed from the game entirely.
 
@@ -6325,9 +5501,7 @@ These blocks were removed from the game entirely.
 - Shrub
 - Structure Air
 
-
 H4: Removed through substitution
-
 
 These blocks were "retconned" into other blocks through a major simultaneous name and texture change.
 
@@ -6337,9 +5511,7 @@ These blocks were "retconned" into other blocks through a major simultaneous nam
 - Rose
 - Smooth Stone Bricks‌[BEonly]
 
-
 H4: Non-standard metadata variants
-
 
 Some blocks and states of blocks were distinguished via numerical metadata in previous versions of the game. Having metadata values outside of the accepted range could produce unintended results for some block IDs.
 
@@ -6347,9 +5519,7 @@ Some blocks and states of blocks were distinguished via numerical metadata in pr
 - Seamless Stone Slab
 - Six-sided Piston
 
-
 H3: Joke blocks
-
 
 These blocks only exist inApril Fools' Day joke versionsof the game.
 
@@ -6435,20 +5605,13 @@ These blocks only exist inApril Fools' Day joke versionsof the game.
 - Vicious Potato
 - Weak Roots
 
-
 H2: Videos
-
-
 
 H2: History
 
-
-
 H3: Block additions and removals
 
-
 Unique blocks are defined as having unique namespaced IDs in current versions of Java Edition, excluding obvious technical variants such as potted plants and wall attachments of blocks, but including the rose. Unintentional metadata variants are also not included.
-
 
 TABLE:
 Java Edition pre-Classic
@@ -6769,11 +5932,7 @@ China Edition
 August 8, 2017 | Added all blocks from and prior toJava Edition 1.12.
 January 28, 2018 | Addedbanners,jukebox,coarse dirt, andstructure block.
 
-
-
 H3: Block model additions
-
-
 
 TABLE:
 Java Edition pre-Classic
@@ -6834,11 +5993,7 @@ Beta 1.9 Prerelease 6 | Added the dragon egg model.
 22w11a | Added the hanging mangrove propagule model.
 1.20 | 23w12a | Added pitcher pod and sniffer egg models.
 
-
-
 H3: Other changes
-
-
 
 TABLE:
 Java Edition pre-Classic
@@ -6883,11 +6038,7 @@ v0.9.0 | build 1 | Removedrose.
 v0.12.1 | build 1 | Nether reactor core is no longer obtainable insurvivalorcreative.
 v0.13.0 | build 1 | Removed crafting recipe and functionality of thestonecutter. It can still be found in the creativeinventory.
 
-
-
 H3: April Fools blocks
-
-
 
 TABLE:
 Java Edition
@@ -6898,26 +6049,17 @@ Java Edition
 23w13a_or_b | Added thecheese,copper sink,copper spleaves,packed air,pickaxe block,place block,other portal, andgolden chest.
 24w14potato | Added thebig brain,block of amber,floatato,floatater,frying table,pedestal,peelgrass block,poisonous potato cutter,potato portal,potato battery,potato refinery,powerful potato,potato flower,potato bud,potato stem,potato planks, slabs, stairs, fences, fence gates, pressure plates, buttons, doors, trapdoors, and hanging signs;potato leaves,potato fruit,potato pedicule,potato sprouts,strong roots,weak roots, andterre de pomme.
 
-
-
 H2: Issues
-
 
 Issues relating to "Block" are maintained on thebug tracker. Issues should be reported and viewedthere.
 
-
 H2: Trivia
-
 
 - Certain blocks may interpret positions they cannot be placed in by normal means as a valid position. For example, asignplaced in midair via/setblockremains in midair even when updated, until either it is broken, or a block is placed below it and broken.
 
-
 H2: Gallery
 
-
-
 H3: Screenshots
-
 
 - Some blocks inClassic 0.26 SURVIVAL TEST.
 - All blocks inClassic 0.0.21a.
@@ -6926,9 +6068,7 @@ H3: Screenshots
 - All of the blocks inJava Edition 1.21.6.
 - All the blocks with unique textures added between 1.13 and 1.18.
 
-
 H3: In other media
-
 
 - Artwork ofZuripointing at many bamboo blocks.
 - Time lapse of a house belonging to Zuri, featured in theTrails & Tales trailer.[8]
@@ -6936,9 +6076,7 @@ H3: In other media
 - Official T-shirt artwork "Periodic Table" featuring blocks (release version), made byJINX.
 - Official T-shirt artwork "One More Block" made by JINX.
 
-
 H2: See also
-
 
 - Entity
 - Data values
@@ -6950,9 +6088,7 @@ H2: See also
 - Air
 - List of blocks by version
 
-
 H2: References
-
 
 - ↑"[MC-135869] Gravity-affected blocks broken when falling into an invalid space do not make a sound or produce particles - Jira"–Mojira, August 10, 2018.
 - ↑"[MC-135868] Anvils broken by falling or overusage do not produce particles - Jira"–Mojira, August 10, 2018.
@@ -6963,10 +6099,7 @@ H2: References
 - ↑"This snapshot may be very crashy because @_grum redefined the concept of "air". We're keeping an eye on the crash list though!"–@Dinnerbone(Nathan Adams) on X (formerly Twitter), September 20, 2013
 - ↑https://x.com/Brikk_Animation/status/1687479159151362051
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteBlocks
@@ -7038,11 +6171,9 @@ All editions | Directionless HopperSeamless Stone SlabSix-sided Hay BaleSix-side
 Java Editiononly | Faceless FurnaceFaceless Jack o'LanternGreen ShrubPottedInaccessible "Boring" BlocksInvisible stairsMisaligned torchRedstoneNether portal postOverripe Melon StemAttachedOverripe Pumpkin StemAttachedOvergrown CocoaOvereaten CakeOvergrown Wheat CropsPotted non-flower blockSnowy DirtCoarseStrange buttons
 Bedrock Editiononly | Bell StandDiorite BellGranite BellPolishedSix-sided Bone BlockSix-sided Purpur PillarSix-sided Quartz PillarSmokeless Campfire
 
-
 - v
 - t
 - e
-
 
 TABLE:
 Structural
@@ -7052,7 +6183,6 @@ Overworld | BricksPacked MudMud BricksBlock of ResinResin BricksChiseledSandston
 The Nether | NetherrackNether BricksChiseledCrackedRedBlackstonePolished BlackstoneChiseledPolished Blackstone BricksCrackedBasaltPolishedSmooth
 The End | End StoneBricksPurpur BlockPillar
 Ore/Mineral | Block of QuartzBricksChiseledPillarSmoothBlock of CopperChiseledCutGrateBlock of IronBlock of GoldBlock of AmethystBlock of CoalBlock of DiamondBlock of EmeraldBlock of Lapis LazuliBlock of NetheriteBlock of Redstone
-
 
 - LogsStripped
 - Stripped
@@ -7226,7 +6356,6 @@ Ore/Mineral | Block of QuartzBricksChiseledPillarSmoothBlock of CopperChiseledCu
 - Cut
 - Grate
 
-
 TABLE:
 Ornamental
 Decorative | BookshelfCrying ObsidianGilded BlackstoneHoneycomb BlockReinforced Deepslate
@@ -7234,7 +6363,6 @@ Partial Blocks | ChainCopper Chain​[upcoming]Dirt PathFencesWoodenNether Brick
 Dyeable/Dyed | WoolCarpetsTerracottaStainedGlazedConcretePowderGlassPaneTintedStained GlassPane
 Lighting | CandleDyedEnd RodFroglightGlowstoneJack o'LanternLanternCopper​[upcoming]SoulSea LanternTorchCopper​[upcoming]Soul
 BE&eduonly | Colored TorchesElementsHardened GlassPaneHardened Stained GlassPane
-
 
 - Bookshelf
 - Crying Obsidian
@@ -7329,7 +6457,6 @@ BE&eduonly | Colored TorchesElementsHardened GlassPaneHardened Stained GlassPane
 
 - Pane
 
-
 TABLE:
 Natural
 Sediment/Soil | DirtCoarseGrass BlockMyceliumPodzolRooted DirtGravelMudClaySandRedSoul SandSoul SoilCrimson NyliumWarped Nylium
@@ -7344,7 +6471,6 @@ Sculk | SculkSculk CatalystSculk SensorCalibratedSculk ShriekerSculk Vein
 Fluid | LavaWater
 Fluid/Related | Bubble ColumnIceBluePackedSnowPowderBlock
 Non-physical | AirCave‌[JEonly]Void‌[JEonly]FireSoul
-
 
 - DirtCoarseGrass BlockMyceliumPodzolRooted Dirt
 - Coarse
@@ -7629,14 +6755,12 @@ Non-physical | AirCave‌[JEonly]Void‌[JEonly]FireSoul
 
 - Soul
 
-
 TABLE:
 Utility
 Interactable | AnvilChippedDamagedBarrelBeaconBrewing StandCartography TableChestEnderCopper​[upcoming]Crafting TableEnchanting TableFurnaceBlastSmokerGrindstoneLecternLoomShelf​[upcoming]Shulker BoxDyedSignHangingSmithing TableStonecutter
 Utilizable | BannersOminousBeehiveBedsBellCakewith CandleCampfireSoulCauldronLavaPowder SnowWaterChiseled BookshelfComposterConduitCopper Golem Statue​[upcoming]Decorated PotEnd GatewayEnd PortalEnd Portal FrameFarmlandFletching TableFlower PotFrosted IceHeadsSkeletonWither SkeletonZombieCreeperPiglinDragonHeavy CoreJukeboxLadderLodestoneMonster SpawnerNether PortalRespawn AnchorScaffoldingSpongeWetSuspicious GravelSuspicious SandTNTTrial SpawnerOminousVaultOminous
 Redstone/Mechanical | ButtonsWoodenStonePolished BlackstoneCopper BulbCrafterDaylight DetectorDispenserDropperDoorsCopperIronWoodenHoney BlockHopperLeverLightning RodNote BlockObserverPistonStickyHeadMovingPressure PlatesWoodenStonePolished BlackstoneHeavy WeightedLight WeightedRailActivatorDetectorPoweredRedstone LampRedstone WireComparatorRepeaterTorchSlime BlockTargetTrapped ChestTrapdoorsCopperIronWoodenFence GatesTripwire HookTripwire
 BE&eduonly | AllowBorderChalkboardCompound CreatorDenyElement ConstructorHeat BlockItem FrameGlowLab TableMaterial ReducerUnderwater TNTUnderwater Torch
-
 
 - AnvilChippedDamaged
 - Chipped
@@ -7849,13 +6973,11 @@ BE&eduonly | AllowBorderChalkboardCompound CreatorDenyElement ConstructorHeat Bl
 
 - Glow
 
-
 TABLE:
 Creativeorcommandsonly
 All editions | BarrierCommand BlockChainRepeatingJigsaw BlockLightPetrified Oak SlabPlayer HeadStructure BlockVoid
 Java Editiononly | Test BlockTest Instance Block
 China Editiononly | mod_oremicro_block
-
 
 - Barrier
 - Command BlockChainRepeating
@@ -7879,14 +7001,12 @@ China Editiononly | mod_oremicro_block
 - mod_ore
 - micro_block
 
-
 TABLE:
 Removed
 All editions | Grassless DirtSeamless Stone Slab
 Java Editiononly | ClothDead Coral BlockGearLava SpawnerLocked chestRosePottedShrubWater Spawner
 Bedrock Editiononly | Blue Rosegrass_carriedleaves_carriedFernFernSmooth Stone BricksStructure Airmysterious_frame_slot
 MinecraftEduonly | Big SignBorder blockBuild allow blockBuild disallow blockFoundation blockHome BlockInformation blockInformation SignNumber BlockSpawn BlockTeleport Block
-
 
 - Grassless Dirt
 - Seamless Stone Slab
@@ -7924,12 +7044,10 @@ MinecraftEduonly | Big SignBorder blockBuild allow blockBuild disallow blockFoun
 - Spawn Block
 - Teleport Block
 
-
 TABLE:
 Unused
 Bedrock Editiononly | Chalkboard
 BE&eduonly | Camera BlockChiseled Purpurtile.client_request_placeholder_block.nameDeprecated Anviltile.deprecated_purpur_block_2.nameGlowing Obsidiantile.info_update.nametile.info_update2.nameInvisible BedrockNether Reactor Coretile.reserved6.nameStonecutter (old)Unknown
-
 
 - Chalkboard
 
@@ -7949,11 +7067,9 @@ BE&eduonly | Camera BlockChiseled Purpurtile.client_request_placeholder_block.na
 
 - tile.info_update2.name
 
-
 TABLE:
 Unimplemented
 All editions | Blue BerriesBranchesCopper ButtonColored PlanksCoral SlabDeadDirt SlabEmpty BarrelFish BarrelFurniturePaeoniaSand LayerSculk JawSpike BlockWax Block
-
 
 - Blue Berries
 - Branches
@@ -7975,7 +7091,6 @@ All editions | Blue BerriesBranchesCopper ButtonColored PlanksCoral SlabDeadDirt
 
 - Fish Barrel
 
-
 TABLE:
 Joke
 April Fools 2013 | Block of CoalEtho SlabTinted GlassTorch (Burnt-out)
@@ -7985,7 +7100,6 @@ April Fools 2022 | How did we get here?
 April Fools 2023 | CheeseCopper SinkFilledCopper SpleavesGolden ChestOther PortalPacked AirPickaxe BlockPlace Block
 April Fools 2024 | Baked Potato BricksExpiredCharredBig BrainBlock of AmberBlock of Potato PeelsCorruptedFloataterFloatatoFrying TableGravtaterPedestalPeelgrass BlockCorruptedPoison FarmlandPoison PathPoisonous Mashed PotatoPoisonous Potato BlockCompressedDouble CompressedTriple CompressedQuadruple CompressedPoisonous Potato CutterPoisonous Potato Head BlockPoisonous Potato HeadpiecePoisonous Potato OreDeepslatePotato BatteryPotato BudPotato flowerPotato FruitPotato LeavesPotato PediculePotato PortalPotato RefineryPotato SproutsPotato StemPlanksSlabStairsDoorTrapdoorButtonPressure PlateSignHanging SignFenceFence GatePotoneCopper OreDiamond OreGold OreIron OreLapis Lazuli OreRedstone OreResin OrePowerful PotatoStrong RootsTaterstoneTerre de PommeVicious PotatoWeak Roots
 April Fools 2025 | Dimension ControlMine Travelling BlockMine RevisitorMine CrafterMob TrophyShimmering DoorSkyTrophy
-
 
 - Block of Coal
 - Etho Slab
@@ -8121,13 +7235,11 @@ April Fools 2025 | Dimension ControlMine Travelling BlockMine RevisitorMine Craf
 - Sky
 - Trophy
 
-
 TABLE:
 Extreme metadata variants
 All editions | Directionless HopperSeamless Stone SlabSix-sided Hay BaleSix-sided Piston
 Java Editiononly | Faceless FurnaceFaceless Jack o'LanternGreen ShrubPottedInaccessible "Boring" BlocksInvisible stairsMisaligned torchRedstoneNether portal postOverripe Melon StemAttachedOverripe Pumpkin StemAttachedOvergrown CocoaOvereaten CakeOvergrown Wheat CropsPotted non-flower blockSnowy DirtCoarseStrange buttons
 Bedrock Editiononly | Bell StandDiorite BellGranite BellPolishedSix-sided Bone BlockSix-sided Purpur PillarSix-sided Quartz PillarSmokeless Campfire
-
 
 - Directionless Hopper
 - Seamless Stone Slab
@@ -8176,7 +7288,6 @@ Bedrock Editiononly | Bell StandDiorite BellGranite BellPolishedSix-sided Bone B
 
 - Polished
 
-
 TABLE:
 vteEnvironment
 Geography | AltitudeBiomeChunksFeatureStructureLightTerrain featuresVoidWorldWorld borderWorld boundaryWorld generation
@@ -8197,7 +7308,6 @@ Removed | Far LandsJava EditiononlyCustomMap themeMap shapeMap typeLevel preview
 Java Editiononly | CustomMap themeMap shapeMap typeLevel previewerOld CustomizedWinter mode
 Bedrock Editiononly | OldNether Reactor
 LCE&New 3DSonly | Amplified WorldsWorld size
-
 
 - v
 - t
@@ -8231,10 +7341,8 @@ LCE&New 3DSonly | Amplified WorldsWorld size
 - Default
 - Superflat
 
-
 TABLE:
 JEonly | AMPLIFIEDSingle biomeDebug modeLarge Biomes
-
 
 - AMPLIFIED
 - Single biome
@@ -8246,10 +7354,8 @@ JEonly | AMPLIFIEDSingle biomeDebug modeLarge Biomes
 - Enchanting library
 - Nether portal
 
-
 TABLE:
 Pre-generated | End portal
-
 
 - End portal
 
@@ -8282,12 +7388,10 @@ Pre-generated | End portal
 - Snowfall
 - Thunderstorm
 
-
 TABLE:
 Dimensions | BridgeGenerated dimensionsHubMineThe MoonPotato
 Playerconstructions | Funky PortalOther PortalPre-generatedLunar Base | Pre-generated | Lunar Base
 Pre-generated | Lunar Base
-
 
 - Bridge
 - Generated dimensions
@@ -8299,21 +7403,17 @@ Pre-generated | Lunar Base
 - Funky Portal
 - Other Portal
 
-
 TABLE:
 Pre-generated | Lunar Base
-
 
 - Lunar Base
 
 - Far Lands
 
-
 TABLE:
 Java Editiononly | CustomMap themeMap shapeMap typeLevel previewerOld CustomizedWinter mode
 Bedrock Editiononly | OldNether Reactor
 LCE&New 3DSonly | Amplified WorldsWorld size
-
 
 - Custom
 - Map theme
@@ -8340,13 +7440,9 @@ LCE&New 3DSonly | Amplified WorldsWorld size
 - Bedrock Edition upcoming
 - Verify
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -8354,16 +7450,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - View source
@@ -8371,9 +7463,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -8387,9 +7477,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -8400,9 +7488,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -8411,9 +7497,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -8424,9 +7508,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -8440,9 +7522,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -8450,9 +7530,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -8461,9 +7539,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -8473,9 +7549,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -8503,68 +7577,11 @@ H3: In other languages
 
 ### ITEMS 
 
-
 H1: Item
-
 
 Anitemis an object that can exist withininventoriesofplayers,mobs, orarmor stands; in various storage blocks (likechestsordroppers), as well as initem framesandglow item frames.
 
-
-H2: Contents
-
-
-- 1Behavior1.1Stacking
-- 1.1Stacking
-- 2Lists of items2.1In the game2.1.1Items that create blocks, fluids or entities2.1.2Items with use in the world2.1.3Items with indirect use in the world2.1.4Spawn eggs2.1.5Exclusive to Minecraft Education2.2Unimplemented items2.3Removed items2.4Joke items
-- 2.1In the game2.1.1Items that create blocks, fluids or entities2.1.2Items with use in the world2.1.3Items with indirect use in the world2.1.4Spawn eggs2.1.5Exclusive to Minecraft Education
-- 2.1.1Items that create blocks, fluids or entities
-- 2.1.2Items with use in the world
-- 2.1.3Items with indirect use in the world
-- 2.1.4Spawn eggs
-- 2.1.5Exclusive to Minecraft Education
-- 2.2Unimplemented items
-- 2.3Removed items
-- 2.4Joke items
-- 3Display by entities
-- 4Videos
-- 5History5.1Item additions and removals5.2Other changes5.3April Fools items
-- 5.1Item additions and removals
-- 5.2Other changes
-- 5.3April Fools items
-- 6Issues
-- 7Gallery7.1Mojang images
-- 7.1Mojang images
-- 8See also
-- 9Notes
-- 10Navigation
-
-- 1.1Stacking
-
-- 2.1In the game2.1.1Items that create blocks, fluids or entities2.1.2Items with use in the world2.1.3Items with indirect use in the world2.1.4Spawn eggs2.1.5Exclusive to Minecraft Education
-- 2.1.1Items that create blocks, fluids or entities
-- 2.1.2Items with use in the world
-- 2.1.3Items with indirect use in the world
-- 2.1.4Spawn eggs
-- 2.1.5Exclusive to Minecraft Education
-- 2.2Unimplemented items
-- 2.3Removed items
-- 2.4Joke items
-
-- 2.1.1Items that create blocks, fluids or entities
-- 2.1.2Items with use in the world
-- 2.1.3Items with indirect use in the world
-- 2.1.4Spawn eggs
-- 2.1.5Exclusive to Minecraft Education
-
-- 5.1Item additions and removals
-- 5.2Other changes
-- 5.3April Fools items
-
-- 7.1Mojang images
-
-
 H2: Behavior
-
 
 Some items, whenused, place ablock(ItemBlock) orentity(minecart, spawn eggs, etc.) version of themselves into the game world. Put simply, they are an item when in theinventory, and a block when placed. For example,boatsturn into an entity when placed, andbedsturn into a group of blocks when placed. When selected in thehotbar, items briefly display their names above theHUD.
 
@@ -8576,9 +7593,7 @@ A submerged object ascends toward the water's surface. If the water is flowing, 
 
 Hoppers draw in any items that are placed above them if they are notpoweredby redstone.
 
-
 H3: Stacking
-
 
 Items can either stack up to 64 or 16, or not stack at all:
 
@@ -8587,17 +7602,11 @@ Items can either stack up to 64 or 16, or not stack at all:
 - Some other items do not stack at all, such as anything with adurability(weapons,armor, andtools), filledbuckets, andpotions.
 - All items can technically be forced to stack up to 99‌[JEonly]or 127‌[BEonly]usingcommands.
 
-
 H2: Lists of items
-
-
 
 H3: In the game
 
-
-
 H4: Items that create blocks, fluids or entities
-
 
 Items corresponding directly to blocks in name and ID are excluded from this list for the sake of brevity.
 
@@ -8676,9 +7685,7 @@ Items corresponding directly to blocks in name and ID are excluded from this lis
 - Wheat Seeds
 - Wind Charge
 
-
 H4: Items with use in the world
-
 
 These items, when highlighted in a player's hotbar (aka "held"), in the off hand, or equipped in an armor slot, can be used by eitherattackoruse, or can serve a specific purpose (for example, offer the player advantage or disadvantage). Some can be used any time, others only when aiming at specific blocks or entities.
 
@@ -8905,9 +7912,7 @@ These items, when highlighted in a player's hotbar (aka "held"), in the off hand
 - Yellow Dye
 - Yellow Harness
 
-
 H4: Items with indirect use in the world
-
 
 The player cannot interact with or directly use these items; however, they are used fortrading,brewing,enchanting, orcraftingingredients for other items that do have direct uses. Clocks and recovery compasses are exceptions, as they merely serve an informative function (although clocks also attract piglins as a dropped item entity).
 
@@ -9015,9 +8020,7 @@ The player cannot interact with or directly use these items; however, they are u
 - Wayfinder Armor Trim
 - Wild Armor Trim
 
-
 H4: Spawn eggs
-
 
 Spawn eggs spawn the entity inside them. They cannot be obtained in Survival mode.
 
@@ -9106,9 +8109,7 @@ Spawn eggs spawn the entity inside them. They cannot be obtained in Survival mod
 - Zombie Villager Spawn Egg
 - Zombified Piglin Spawn Egg
 
-
 H4: Exclusive to Minecraft Education
-
 
 These items can be accessed only inMinecraft Education. Theagent spawn egg,portfolio, andcameraare obtainable throughCreativemode and the/givecommand. Thegarbageitem is obtainable only through invalidlab tablerecipes or via inventory editing.
 
@@ -9164,17 +8165,13 @@ These items can be accessed only inMinecraft Education. Theagent spawn egg,portf
 - Yellow Balloon
 - Yellow Glow Stick
 
-
 H3: Unimplemented items
-
 
 Some items are unimplemented, or have been mentioned to be implemented in the future.
 
 - Ruby(texture)
 
-
 H3: Removed items
-
 
 Removed items no longer exist in current versions of the game.
 
@@ -9188,9 +8185,7 @@ Removed items no longer exist in current versions of the game.
 - Studded Boots
 - Quiver
 
-
 H3: Joke items
-
 
 Joke items are present only inApril Fools' Day jokeversions in the game.
 
@@ -9282,14 +8277,11 @@ Joke items are present only inApril Fools' Day jokeversions in the game.
 - Wind Wand
 - Yellow Key
 
-
 H2: Display by entities
-
 
 Mobs and some other entities are capable of holding items as well as having them equipped in certain slots; in some cases, this results in the item being displayed visually. A table of mobs that do this is as follows.
 
 Note that this does not countequipment, which uses a separate system.
-
 
 TABLE:
 Entity | Left hand | Right hand | On head | Notes
@@ -9382,19 +8374,11 @@ Zombified Piglin | thirdperson_lefthand | thirdperson_righthand | head
 Other entities
 Armor Stand | thirdperson_lefthand[verify] | ​[more information needed] | head
 
-
-
 H2: Videos
-
-
 
 H2: History
 
-
-
 H3: Item additions and removals
-
-
 
 TABLE:
 Java Edition Indev
@@ -9677,11 +8661,7 @@ release | Addedender pearl,dragon egg,chorus flower,chorus fruit,popped chorus f
 1.20.12 | 1.20.10.0 | Addedbamboo raft,bamboo raft with chest,cherry boat,cherry boat with chest,pottery sherds,brush,smithing templates,torchflower seeds,pitcher pod,Relicmusic disc, and spawn eggs forcamel,sniffer,iron golem,snow golem,ender dragon, andwither.
 1.21.03 | Preview 1.21.01.0 | Addedarmadillo scute,wolf armor,trial key,wind charges,mace,breeze rods, twobanner patterns, threepottery sherds, twosmithing templates,ominous bottles,ominous trial keys, potion and arrow ofInfestation,Oozing,Weaving, andWind Charging,trial explorer map,Creator,Creator (Music Box), andPrecipicemusic discs, and spawn egg forarmadillo,boggedandbreeze.
 
-
-
 H3: Other changes
-
-
 
 TABLE:
 Java Edition Classic
@@ -9707,11 +8687,7 @@ Bedrock Edition
 1.4.0 | beta 1.2.20.1 | Dropped items now float in water.
 1.16.0 | beta 1.15.0.51 | Dropped items now turn into a 3D model and spin.
 
-
-
 H3: April Fools items
-
-
 
 TABLE:
 Java Edition
@@ -9721,41 +8697,27 @@ Java Edition
 20w14∞ | Addeda very fine itemandfootprint.
 23w13a or b | Addedbottles of entityand their splash variants,bottle of void,potion of BigandSmalland their splash, lingering, and arrow variants,la baguette,le tricolore, 17tag items, new thingbanner pattern,dupe hack, andlonger string.
 
-
-
 H2: Issues
-
 
 Issues relating to "Item" are maintained on thebug tracker. Issues should be reported and viewedthere.
 
-
 H2: Gallery
-
-
 
 H3: Mojang images
 
-
 - A vending machine with an assortment ofMinecraftitems.
 
-
 H2: See also
-
 
 - Item repair
 - Item durability
 - Item (entity)
 
-
 H2: Notes
-
 
 - ↑Only exists as a seperate item inBedrock Edition. InJava Edition, lodestone compasses are only regular compasses with stored data.
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteItems
@@ -9828,11 +8790,9 @@ April Fools 2023 | AirBitBottle of EntitySplashBottle of VoidLa BaguetteLe Trico
 April Fools 2024 | Amber GemBatato Spawn EggDentGolden Poisonous PotatoEnchantedHash BrownsHot potatoLashing PotatoMega Spud Spawn EggPlaguewhale Slab Spawn EggPoisonous PolytraPoisonous Pota-ToesPoisonous Potato ChestplatePoisonous Potato ChipsPoisonous Potato FriesPoisonous Potato HammerPoisonous Potato PlantPoisonous Potato SlicesPoisonous Potato SticksPoisonous Potato Zombie Spawn EggPotato EyePotato of KnowledgePotion of StickySplashLingeringArrowPotato OilPoisonousPotato Oil (Potion)SplashLingeringArrowPoisonous Potato Oil (Potion)SplashLingeringArrowPotato PeelerPotato PeelsCorruptedPotatiesh, Greatstaff of the PeasantToxic BeamToxic ResinToxifin Slab Spawn EggVenomous Potato
 April Fools 2025 | Displacement WandEye of ExitFire WandGraveMineMine IngredientMusic Disc And Action!Shazboots!Shimmering KeySky BoxWind Wand
 
-
 - v
 - t
 - e
-
 
 TABLE:
 Equipment
@@ -9841,7 +8801,6 @@ Weapons | AxeMaceBowCrossbowSwordTrident
 Ammunition | ArrowTipped ArrowFirework RocketJEonlySpectral Arrow | JEonly | Spectral Arrow
 JEonly | Spectral Arrow
 Armor | BootsChestplateHelmetTurtle ShellHorse ArmorLeggingsWolf Armor
-
 
 - Axe
 - Brush
@@ -9870,10 +8829,8 @@ Armor | BootsChestplateHelmetTurtle ShellHorse ArmorLeggingsWolf Armor
 - Tipped Arrow
 - Firework Rocket
 
-
 TABLE:
 JEonly | Spectral Arrow
-
 
 - Spectral Arrow
 
@@ -9887,7 +8844,6 @@ JEonly | Spectral Arrow
 
 - Turtle Shell
 
-
 TABLE:
 Utilities
 Aesthetic | Armor StandItem FrameGlowPainting
@@ -9899,7 +8855,6 @@ JEonly | Minecart with Furnace
 Music discs | 13catblockschirpfarmallmellohistalstradward11waitotherside5PigstepRelicCreatorMusic BoxPrecipiceTearsLava Chicken
 Other utility | Bone MealBowlBundleDyedEnchanted BookEnd CrystalEye of EnderFire ChargeFirework RocketGoat HornHarnessLeadSaddleTotem of UndyingTrial KeyOminousWind ChargeBE&eduonlyBalloonGlow StickIce BombMedicineSparklerSuper Fertilizer | BE&eduonly | BalloonGlow StickIce BombMedicineSparklerSuper Fertilizer
 BE&eduonly | BalloonGlow StickIce BombMedicineSparklerSuper Fertilizer
-
 
 - Armor Stand
 - Item FrameGlow
@@ -9964,10 +8919,8 @@ BE&eduonly | BalloonGlow StickIce BombMedicineSparklerSuper Fertilizer
 - with Hopper
 - with TNT
 
-
 TABLE:
 JEonly | Minecart with Furnace
-
 
 - Minecart with Furnace
 
@@ -10017,10 +8970,8 @@ JEonly | Minecart with Furnace
 
 - Ominous
 
-
 TABLE:
 BE&eduonly | BalloonGlow StickIce BombMedicineSparklerSuper Fertilizer
-
 
 - Balloon
 - Glow Stick
@@ -10029,7 +8980,6 @@ BE&eduonly | BalloonGlow StickIce BombMedicineSparklerSuper Fertilizer
 - Sparkler
 - Super Fertilizer
 
-
 TABLE:
 Food
 Natural | AppleBeetrootCarrotChorus FruitGlow BerriesMelon SliceSweet BerriesPotatoBakedPoisonousSpider Eye
@@ -10037,7 +8987,6 @@ Supernatural | Golden AppleEnchantedGolden Carrot
 Uncooked food | Raw BeefRaw ChickenRaw MuttonRaw PorkchopRaw RabbitRaw CodRaw SalmonTropical FishPufferfishRotten Flesh
 Cooked food | SteakCooked ChickenCooked MuttonCooked PorkchopCooked RabbitCooked CodCooked SalmonDried Kelp
 Crafted | BreadCookieHoney BottleStewsMushroomRabbitSuspiciousBeetroot SoupPumpkin Pie
-
 
 - Apple
 - Beetroot
@@ -10095,7 +9044,6 @@ Crafted | BreadCookieHoney BottleStewsMushroomRabbitSuspiciousBeetroot SoupPumpk
 - Suspicious
 - Beetroot Soup
 
-
 TABLE:
 Ingredients
 Seeds | Beetroot SeedsCocoa BeansMelon SeedsNether WartPitcher PodPumpkin SeedsTorchflower SeedsWheat Seeds
@@ -10106,7 +9054,6 @@ Dyes | WhiteLight GrayGrayBlackBrownRedOrangeYellowLimeGreenCyanLight BlueBluePu
 Banner patterns | Bordure IndentedCreeper ChargeField MasonedFlowFlower ChargeGlobeGusterSkull ChargeSnoutThing
 Pottery sherds | AnglerArcherArms UpBladeBrewerBurnDangerExplorerFlowFriendGusterHeartHeartbreakHowlMinerMournerPlentyPrizeScrapeSheafShelterSkullSnort
 Smithing templates | Armor TrimBoltCoastDuneEyeFlowHostRaiserRibSentryShaperSilenceSnoutSpireTideVexWardWayfinderWildNetherite Upgrade
-
 
 - Beetroot Seeds
 - Cocoa Beans
@@ -10202,10 +9149,8 @@ Smithing templates | Armor TrimBoltCoastDuneEyeFlowHostRaiserRibSentryShaperSile
 
 - Nugget
 
-
 TABLE:
 BE&eduonly | BleachCompounds
-
 
 - Bleach
 - Compounds
@@ -10302,7 +9247,6 @@ BE&eduonly | BleachCompounds
 - Wayfinder
 - Wild
 
-
 TABLE:
 Creativeorcommandsonly
 Creativeonly | Spawn EggsJEonlyDebug StickMinecart with Command BlockUnused PaintingseduonlyCameraPhotoPortfolio | JEonly | Debug StickMinecart with Command BlockUnused Paintings | eduonly | CameraPhotoPortfolio
@@ -10313,14 +9257,11 @@ JEonly | Knowledge Book
 BEonly | Minecart with Command Block
 China Editiononly | Mod armor (China Edition)Mod (China Edition)
 
-
 - Spawn Eggs
-
 
 TABLE:
 JEonly | Debug StickMinecart with Command BlockUnused Paintings
 eduonly | CameraPhotoPortfolio
-
 
 - Debug Stick
 - Minecart with Command Block
@@ -10333,11 +9274,9 @@ eduonly | CameraPhotoPortfolio
 - Ender Dragon Spawn Egg
 - Wither Spawn Egg
 
-
 TABLE:
 JEonly | Knowledge Book
 BEonly | Minecart with Command Block
-
 
 - Knowledge Book
 
@@ -10346,14 +9285,12 @@ BEonly | Minecart with Command Block
 - Mod armor (China Edition)
 - Mod (China Edition)
 
-
 TABLE:
 Removed
 Java Editiononly | Cauldron PotionsHorse SaddleReverted Potions
 Bedrock Editiononly | Copper Horn
 Legacy Consoleonly | debug fourj item
 MinecraftEduonly | Block Inspector
-
 
 - Cauldron Potions
 - Horse Saddle
@@ -10365,12 +9302,10 @@ MinecraftEduonly | Block Inspector
 
 - Block Inspector
 
-
 TABLE:
 Unused
 Java Editiononly | Potion of LuckUncraftable Potion
 Bedrock Editiononly | CameraPhotoPortfolioPotion of DecayUnused Potions
-
 
 - Potion of Luck
 - Uncraftable Potion
@@ -10381,13 +9316,11 @@ Bedrock Editiononly | CameraPhotoPortfolioPotion of DecayUnused Potions
 - Potion of Decay
 - Unused Potions
 
-
 TABLE:
 Unimplemented
 All editions | RubyQuiver
 Java Editiononly | Crystallized HoneyMinecart with DispenserStudded Armor
 Bedrock Editiononly | Minecart with FurnaceHoglin Meat
-
 
 - Ruby
 - Quiver
@@ -10399,7 +9332,6 @@ Bedrock Editiononly | Minecart with FurnaceHoglin Meat
 - Minecart with Furnace
 - Hoglin Meat
 
-
 TABLE:
 Joke
 April Fools 2015 | Obsidian Boat
@@ -10409,7 +9341,6 @@ April Fools 2020 | FootprintA Very Fine Item
 April Fools 2023 | AirBitBottle of EntitySplashBottle of VoidLa BaguetteLe Tricoloreminecraft:dupe_hackMoon Cow Spawn EggNew Thing Banner PatternLonger StringPotion of BigSplashLingeringArrowPotion of SmallSplashLingeringArrowTag
 April Fools 2024 | Amber GemBatato Spawn EggDentGolden Poisonous PotatoEnchantedHash BrownsHot potatoLashing PotatoMega Spud Spawn EggPlaguewhale Slab Spawn EggPoisonous PolytraPoisonous Pota-ToesPoisonous Potato ChestplatePoisonous Potato ChipsPoisonous Potato FriesPoisonous Potato HammerPoisonous Potato PlantPoisonous Potato SlicesPoisonous Potato SticksPoisonous Potato Zombie Spawn EggPotato EyePotato of KnowledgePotion of StickySplashLingeringArrowPotato OilPoisonousPotato Oil (Potion)SplashLingeringArrowPoisonous Potato Oil (Potion)SplashLingeringArrowPotato PeelerPotato PeelsCorruptedPotatiesh, Greatstaff of the PeasantToxic BeamToxic ResinToxifin Slab Spawn EggVenomous Potato
 April Fools 2025 | Displacement WandEye of ExitFire WandGraveMineMine IngredientMusic Disc And Action!Shazboots!Shimmering KeySky BoxWind Wand
-
 
 - Obsidian Boat
 
@@ -10531,7 +9462,6 @@ April Fools 2025 | Displacement WandEye of ExitFire WandGraveMineMine Ingredient
 - Sky Box
 - Wind Wand
 
-
 TABLE:
 vteEnvironment
 Geography | AltitudeBiomeChunksFeatureStructureLightTerrain featuresVoidWorldWorld borderWorld boundaryWorld generation
@@ -10552,7 +9482,6 @@ Removed | Far LandsJava EditiononlyCustomMap themeMap shapeMap typeLevel preview
 Java Editiononly | CustomMap themeMap shapeMap typeLevel previewerOld CustomizedWinter mode
 Bedrock Editiononly | OldNether Reactor
 LCE&New 3DSonly | Amplified WorldsWorld size
-
 
 - v
 - t
@@ -10586,10 +9515,8 @@ LCE&New 3DSonly | Amplified WorldsWorld size
 - Default
 - Superflat
 
-
 TABLE:
 JEonly | AMPLIFIEDSingle biomeDebug modeLarge Biomes
-
 
 - AMPLIFIED
 - Single biome
@@ -10601,10 +9528,8 @@ JEonly | AMPLIFIEDSingle biomeDebug modeLarge Biomes
 - Enchanting library
 - Nether portal
 
-
 TABLE:
 Pre-generated | End portal
-
 
 - End portal
 
@@ -10637,12 +9562,10 @@ Pre-generated | End portal
 - Snowfall
 - Thunderstorm
 
-
 TABLE:
 Dimensions | BridgeGenerated dimensionsHubMineThe MoonPotato
 Playerconstructions | Funky PortalOther PortalPre-generatedLunar Base | Pre-generated | Lunar Base
 Pre-generated | Lunar Base
-
 
 - Bridge
 - Generated dimensions
@@ -10654,21 +9577,17 @@ Pre-generated | Lunar Base
 - Funky Portal
 - Other Portal
 
-
 TABLE:
 Pre-generated | Lunar Base
-
 
 - Lunar Base
 
 - Far Lands
 
-
 TABLE:
 Java Editiononly | CustomMap themeMap shapeMap typeLevel previewerOld CustomizedWinter mode
 Bedrock Editiononly | OldNether Reactor
 LCE&New 3DSonly | Amplified WorldsWorld size
-
 
 - Custom
 - Map theme
@@ -10699,13 +9618,9 @@ LCE&New 3DSonly | Amplified WorldsWorld size
 - Java Edition upcoming
 - Bedrock Edition upcoming
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -10713,16 +9628,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - View source
@@ -10730,9 +9641,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -10746,9 +9655,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -10759,9 +9666,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -10770,9 +9675,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -10783,9 +9686,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -10799,9 +9700,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -10809,9 +9708,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -10820,9 +9717,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -10832,9 +9727,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -10862,79 +9755,13 @@ H3: In other languages
 
 ### CRAFTING 
 
-
 H1: Crafting
-
 
 Craftingis the process of constructingtools,items, andblocksinMinecraftthat can be performed via theinventory, acrafting table, or automatically using acrafter.
 
-
-H2: Contents
-
-
-- 1Crafting system1.1Manual crafting1.2Automated crafting1.3Recipe book1.4Recipe system
-- 1.1Manual crafting
-- 1.2Automated crafting
-- 1.3Recipe book
-- 1.4Recipe system
-- 2Complete recipe list2.1Building blocks2.2Decoration blocks2.3Redstone2.4Transportation2.5Foodstuffs2.6Tools2.7Utilities2.8Combat2.9Brewing2.10Materials2.11Miscellaneous2.12Changed recipes2.12.1Java Edition2.12.2Bedrock Edition2.13Removed recipes
-- 2.1Building blocks
-- 2.2Decoration blocks
-- 2.3Redstone
-- 2.4Transportation
-- 2.5Foodstuffs
-- 2.6Tools
-- 2.7Utilities
-- 2.8Combat
-- 2.9Brewing
-- 2.10Materials
-- 2.11Miscellaneous
-- 2.12Changed recipes2.12.1Java Edition2.12.2Bedrock Edition
-- 2.12.1Java Edition
-- 2.12.2Bedrock Edition
-- 2.13Removed recipes
-- 3Video
-- 4Achievements
-- 5History
-- 6Issues
-- 7Gallery7.1Development images
-- 7.1Development images
-- 8See also
-- 9Navigation
-
-- 1.1Manual crafting
-- 1.2Automated crafting
-- 1.3Recipe book
-- 1.4Recipe system
-
-- 2.1Building blocks
-- 2.2Decoration blocks
-- 2.3Redstone
-- 2.4Transportation
-- 2.5Foodstuffs
-- 2.6Tools
-- 2.7Utilities
-- 2.8Combat
-- 2.9Brewing
-- 2.10Materials
-- 2.11Miscellaneous
-- 2.12Changed recipes2.12.1Java Edition2.12.2Bedrock Edition
-- 2.12.1Java Edition
-- 2.12.2Bedrock Edition
-- 2.13Removed recipes
-
-- 2.12.1Java Edition
-- 2.12.2Bedrock Edition
-
-- 7.1Development images
-
-
 H2: Crafting system
 
-
-
 H3: Manual crafting
-
 
 Players inSurvivalandAdventuremode, as well asCreativeinBedrock EditionandSpectatorinJava Edition, have access to a2×2 crafting gridfrom their inventory screen. Players craft by arranging items in the crafting grid to match a given recipe. Small crafting recipes that are at most 2×2 can be made there, including woodenplanks,sticks,crafting tables, andtorches.
 
@@ -10948,9 +9775,7 @@ There are recipes that may not be moved or mirrored in this way. These are commo
 
 Unlike other in-game actions such assmelting,brewing, andenchanting, crafting is completely silent.
 
-
 H3: Automated crafting
-
 
 Crafting can be automated using thecrafter.
 
@@ -10962,9 +9787,7 @@ Crafters require aredstone signalto activate.
 
 Automated crafting is useful in bothstorage systemsandautomated farms, as it provides a way to automatically craft items and blocks that once required manual input.
 
-
 H3: Recipe book
-
 
 The recipe book is a mechanic that serves as a catalog ofrecipesand as a crafting guide. It shows every crafting recipe that the player has unlocked.
 
@@ -10980,77 +9803,44 @@ InJava Edition, the categories are as follows:
 - The fourth tab containsfoodand miscellaneous items.
 - The fifth tab containsredstonematerials.
 
-
 H3: Recipe system
-
 
 Recipes, including crafting recipes, can be configured bydata packsinJava Editionoradd-onsinBedrock Edition.
 
-
 H2: Complete recipe list
 
-
 To save space, some recipes are animated (requiresJavaScript). On this wiki, shapeless recipes are marked with a pair of intertwined arrows on the crafting table graphic, while fixed crafting recipes are marked by an exclamation point. These symbols do not appear in the game.
-
 
 TABLE:
 Shaped recipes | Shapeless recipes | Fixed recipes
 
-
-
 H3: Building blocks
-
-
 
 H3: Decoration blocks
 
-
-
 H3: Redstone
-
-
 
 H3: Transportation
 
-
-
 H3: Foodstuffs
-
-
 
 H3: Tools
 
-
-
 H3: Utilities
-
-
 
 H3: Combat
 
-
-
 H3: Brewing
-
-
 
 H3: Materials
 
-
-
 H3: Miscellaneous
-
-
 
 H3: Changed recipes
 
-
 Someitemshad different crafting recipes and have since been updated in later versions ofMinecraft.
 
-
 H4: Java Edition
-
-
 
 TABLE:
 Original | Changed | Description | Version changed
@@ -11180,373 +9970,269 @@ String+Slimeball
 Ingredients | Craftingrecipe
 String
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Iron IngotorGold IngotorDiamond
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Iron IngotorGold IngotorDiamond
-
 
 Indev 0.31 20100130
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Oak Planks+Light Gray Wool
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Stick+Light Gray Wool
 
-
 Infdev 20100227-1414
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Iron Ingot+Stick+Feather | 4
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Flint+Stick+Feather | 4
 
-
 Alpha v1.0.14
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Iron Ingot+Flint
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Iron Ingot+Flint
-
 
 Recipe becameshapeless.
 
 13w36a
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Wheat
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Wheat
-
 
 Changed to 3wheatinstead of 6.
 
 Indev 20100223
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Light Gray Wool
-
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Leather
 
-
 Note: Wool was called Cloth, and Leather Armor was called Cloth Armor at that time.
 
 Alpha v1.0.8
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Cobblestone | 3
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Cobblestone | 6
 
-
 Beta 1.3
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Oak PlanksorStone
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Oak PlanksorStone
 
-
 Beta 1.3
 
-
 TABLE:
 Ingredients | Craftingrecipe
 String
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 String
-
 
 Changed to 4stringinstead of 9.
 
 Beta 1.6.6
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Glowstone Dust
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Glowstone Dust
-
 
 Beta 1.6.6
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Brown MushroomorRed Mushroom+Bowl
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Brown Mushroom+Red Mushroom+Bowl
-
 
 Recipe becameshapeless.
 
 Beta 1.9 Prerelease 3
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Block of Gold+Apple
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Gold Nugget+Apple
-
 
 1.1
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Gold Nugget+Apple
-
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Gold Ingot+Apple
 
-
 13w23a
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Snowball
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Snowball
-
 
 Alpha v1.0.6
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Paper
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Paper+Leather
-
 
 Recipe becameshapeless.
 
 12w17a
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Stick | 2
-
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Oak Planks+Stick | 3
 
-
 14w32b
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Stone
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Stone
-
 
 12w34b
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Oak FenceorSpruce FenceorAcacia FenceorDark Oak FenceorBirch FenceorJungle Fence+Birch PlanksorJungle PlanksorOak PlanksorSpruce PlanksorAcacia Planks+Dark Oak Planks
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
 
-
 19w45a
-
 
 TABLE:
 Ingredients | Craftingrecipe
 String+Stick
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Feather+Copper Ingot+Stick
 
-
 1.19.4-pre1
-
 
 TABLE:
 Ingredients | Craftingrecipe
 White Carpet+MatchingColored Dye | 888888888888888
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 AnyCarpet+MatchingDye
 
-
 1.20-pre1
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Bamboo
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Block of BambooorBlock of Stripped Bamboo | 2
 
-
 22w45a
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Chain+Bamboo Planks | 2
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Chain+Block of Stripped Bamboo | 6
 
-
 22w45a
-
 
 TABLE:
 Ingredients | Craftingrecipe
 String+Rabbit Hide
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 String+Leather
 
-
 24w33a
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Chiseled Stone Bricks+Netherite Ingot
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Chiseled Stone Bricks+Iron Ingot
 
-
 25w02a
-
 
 TABLE:
 Ingredients | Craftingrecipe
 String+Slimeball
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 String
 
-
 25w18a
 
-
 H4: Bedrock Edition
-
-
 
 TABLE:
 Original | Changed | Description | Version changed
@@ -11591,133 +10277,97 @@ String+Slimeball
 Ingredients | Craftingrecipe
 String
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Honeycomb
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Honeycomb
-
 
 Was changed to matchJava Edition.
 
 Beta 1.14.0.2
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Bamboo
-
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Block of BambooorBlock of Stripped Bamboo | 2
 
-
 Beta/Preview 1.19.60.20
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Chain+Bamboo Planks | 2
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Chain+Block of Stripped Bamboo | 6
 
-
 Beta/Preview 1.19.60.20
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Oak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks+Wooden Shovel
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Oak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks
 
-
 Was changed to matchJava Edition.
 
 Beta/Preview 1.20.10.20
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Stick+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Oak PlanksorSpruce PlanksorAcacia PlanksorDark Oak PlanksorBirch Planks+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
-
 
 Was changed to matchJava Edition.
 
 Beta/Preview 1.20.10.20
 
-
 TABLE:
 Ingredients | Craftingrecipe
 Bamboo Planks+Wooden Shovel
-
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Bamboo Planks
 
-
 Was changed to matchJava Edition.
 
 Beta/Preview 1.20.10.21
-
 
 TABLE:
 Ingredients | Craftingrecipe
 Chiseled Stone Bricks+Netherite Ingot
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 Chiseled Stone Bricks+Iron Ingot
 
-
 Beta/Preview 1.21.60.25
-
 
 TABLE:
 Ingredients | Craftingrecipe
 String+Slimeball
 
-
-
 TABLE:
 Ingredients | Craftingrecipe
 String
 
-
 Beta/Preview 1.21.90.21
-
 
 H3: Removed recipes
 
-
 Someitemscould be crafted previously, but cannot be crafted in the current version ofMinecraft.
-
 
 TABLE:
 Name | Ingredients | Craftingrecipe | Description
@@ -11737,17 +10387,11 @@ Redstone Repeater | Redstone Torch+Redstone Dust+AnyStone | Version added:BE: ?
 Redstone Comparator | Redstone Torch+Nether Quartz+AnyStone | Version added:BE: ?Version removed:BE: ?Description: In older versions,redstone comparatorscould be crafted usingstone,andesite,granite,diorite, and their polished variants. However, the recipes then changed to use only stone.
 String | Cobweb | 9 | Version added:BE:alpha 1.1.0.0Version Removed:BE:beta 1.20.10.20
 
-
 "Dandelion Yellow" and "Rose Red" are the former names for Yellow dye and Red dye, respectively.
-
 
 H2: Video
 
-
-
 H2: Achievements
-
-
 
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
@@ -11757,11 +10401,7 @@ Time to Farm! | Make a Hoe. | Pick up any type ofhoefrom acrafting tableoutput. 
 Time to Mine! | Use planks and sticks to make apickaxe. | Pick up a woodenpickaxefrom acrafting tableoutput. | 10 | Bronze
 Time to Strike! | Use planks and sticks to make a sword. | Pick up any type ofswordfrom acrafting tableoutput. | 10 | Bronze
 
-
-
 H2: History
-
-
 
 TABLE:
 Java Edition Indev
@@ -11818,20 +10458,13 @@ TU54 | CU44 | 1.52 | 1.52 | 1.52 | Patch 24 | 1.0.4 | Updated dye crafting syste
 New Nintendo 3DS Edition
 0.1.0 | Added crafting system with a block selection menu, identical to that of Legacy Console.
 
-
-
 H2: Issues
-
 
 Issues relating to "Crafting" are maintained on thebug tracker. Issues should be reported and viewedthere.
 
-
 H2: Gallery
 
-
-
 H3: Development images
-
 
 - An early mockup of crafting by Notch.
 - First mockup of MATTIS.
@@ -11843,19 +10476,14 @@ H3: Development images
 - Pocket Editioncrafting interface in inventory.
 - Pocket Editioncrafting interface in crafting table.
 
-
 H2: See also
-
 
 - Brewing
 - Enchanting
 - Smelting
 - Item durability
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteGameplay
@@ -11869,7 +10497,6 @@ User interface | Action barBossbarChatDeath messagesGame mode switcherHeads-up d
 Visuals | ColorBlock colorsItem colorsEffect colorsMiscellaneous colorsEmotesEnchantment glintErrorLightResource packScreen effectsSkinsCharacterSkin packThird-person viewVibrant Visuals
 Removed | Sword blockingMaterials
 Unintended | Update SuppressionDuplication
-
 
 - v
 - t
@@ -12078,13 +10705,9 @@ More
 - Pages with YouTube videos
 - Java Edition specific information
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -12092,16 +10715,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - Edit
@@ -12110,9 +10729,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -12126,9 +10743,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -12139,9 +10754,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -12150,9 +10763,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -12163,9 +10774,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -12179,9 +10788,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -12189,9 +10796,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -12200,9 +10805,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -12212,9 +10815,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -12242,54 +10843,13 @@ H3: In other languages
 
 ### SMELTING 
 
-
 H1: Smelting
-
 
 Smeltingis the process of obtaining refined goods from raw materials by heating them in afurnaceorblast furnace. When items are smelted in either type of furnace,experienceis dropped. Likecrafting, smelting uses recipes to determine what item is produced. Smelting is one of the two functions of afurnace(the second beingcooking food) and the sole function of ablast furnace.
 
-
-H2: Contents
-
-
-- 1Methods1.1Furnace1.2Blast furnace and smoker
-- 1.1Furnace
-- 1.2Blast furnace and smoker
-- 2Recipes2.1Food2.2Ores2.3Gear2.4Furnace-only
-- 2.1Food
-- 2.2Ores
-- 2.3Gear
-- 2.4Furnace-only
-- 3Fuel
-- 4Hopper automation
-- 5Achievements
-- 6Advancements
-- 7History
-- 8Issues
-- 9Trivia
-- 10Gallery10.1Screenshots
-- 10.1Screenshots
-- 11See also
-- 12References
-- 13Navigation
-
-- 1.1Furnace
-- 1.2Blast furnace and smoker
-
-- 2.1Food
-- 2.2Ores
-- 2.3Gear
-- 2.4Furnace-only
-
-- 10.1Screenshots
-
-
 H2: Methods
 
-
-
 H3: Furnace
-
 
 The furnace interface contains three item slots: the upper left slot for the item that needs to be smelted, the lower left slot for fuel, and the right slot where output items accumulate and can be retrieved by the player. Flames above the fuel slot act as a gauge showing the amount of fuel left of the current fuel item. An arrow in the middle shows the progress of smelting the current item.
 
@@ -12312,15 +10872,11 @@ If smelting stops while a fuel item is still burning, the furnace continues to r
 
 Smelting is suspended if thechunkthe furnace is in becomes unloaded. It resumes when the chunk is loaded again.
 
-
 H3: Blast furnace and smoker
-
 
 Smokersandblast furnacesuse the same GUI interface as regular furnaces and function similarly to regular furnaces. They smelt twice as quickly as furnaces, requiring only 5 seconds (100 game ticks) to smelt 1 item; they consume the same amount of fuel as regular furnaces per item smelted. Blast furnaces can only smelt ores, while smokers can only cook food; any other item can be smelted only in regular furnaces.
 
-
 H2: Recipes
-
 
 All smeltingrecipescan be used in the furnace, but only subsets are available in the blast furnace and smoker.
 
@@ -12330,12 +10886,9 @@ The furnace, blast furnace and smoker keep track of experience for each item as 
 - When smelting 6sea picklesand removing all 6lime dye, the value is 0.2×6 = 1.2, so this grants 1 point, plus a 20% chance of another 1 point.
 - The fractional experience stays within the furnace when the final total is not an integer, so the leftover experience is attributed to the next round of smelting.
 
-
 H3: Food
 
-
 All food recipes can be used in a furnace or smoker. Food can alternatively be cooked on a campfire.
-
 
 TABLE:
 Product | Ingredient | Exp | Usage
@@ -12349,13 +10902,9 @@ Cooked Rabbit | Raw Rabbit | 0.35 | Fills5 (), while raw fills3 ().
 Cooked Cod | Raw Cod | 0.35 | Fills5 (), while raw fills2 ().
 Cooked Salmon | Raw Salmon | 0.35 | Fills6 (), while raw fills2 ().
 
-
-
 H3: Ores
 
-
 All ore recipes can be used in a furnace or blast furnace.
-
 
 TABLE:
 Product | Ingredient | Exp | Usage
@@ -12365,9 +10914,7 @@ Gold Ingot | Raw Gold | 1 | Used to craft various items, includingnetherite ingo
 Gold Ingot | Nether Gold Ore | 1 | Used to craft various items, and as a currency forbarteringwithpiglins.When normally mined drops 2–6 gold nuggets and0–1XP.
 Netherite Scrap | Ancient Debris | 2 | Used to craftnetherite ingots, which can be used to upgrade diamond gear and craftnetherite blocks.
 
-
 The following additionalorescanbe smelted, but it's more efficient to mine them with an appropriate pickaxe. In most cases mining them saves fuel and yields more product and experience, especially if the pickaxe has aFortuneenchantment. Smelting them, though, allows obtaining them from an automatic device. The ore blocks themselves can be obtained only with theSilk Touchenchantment.
-
 
 TABLE:
 Product | Ingredient | Exp | Usage
@@ -12381,13 +10928,9 @@ Iron Ingot | Iron Ore | 0.7 | Used to craft various items.
 Copper Ingot | Copper Ore | 0.7 | Used to craft various items.
 Gold Ingot | Gold Ore | 1 | Used to craft various items, and as a currency forbarteringwithpiglins.
 
-
-
 H3: Gear
 
-
 These recipes can be used in a furnace or blast furnace to recycle unneeded gear (tools, weapons, armor and horse armor).
-
 
 TABLE:
 Product | Ingredient | Exp | Usage
@@ -12395,13 +10938,9 @@ Iron Nugget | Tools,armorandhorse armormade fromiron, chainmail armor | 0.1 | Ca
 Gold Nugget | Tools, armor and horse armor made fromgold | 0.1 | Can be crafted intogolden carrots,glistering melons, orgold ingots.
 Copper Nugget​[upcoming] | Tools and armor made fromcopper | 0.1 | Can be crafted intocopper ingots.
 
-
-
 H3: Furnace-only
 
-
 These recipes are exclusive to the furnace.
-
 
 TABLE:
 Product | Ingredient | Exp | Usage
@@ -12430,23 +10969,19 @@ Nether Brick | Netherrack | 0.1 | Used to makeNether bricks,Nether brick fencesa
 Resin Brick | Resin Clump | 0.1 | Used to makeresin bricks.
 Leaf Litter | Leaves | 0.1 | Can be used as fuel for smelting.
 
-
 Nether Bricks
 
 Basalt
 
 Sand
 
-
 H2: Fuel
-
 
 There are multiple fuels that can be used to smelt items. The type of fuel that should be used depends on the number of items in question.
 
 For larger jobs, a singlelava bucketor ablock of coalcan smelt more items than can fit in the furnace, a lava bucket being able to smelt 100 blocks and ablock of coalbeing able to smelt 80 —both input and output are limited to a maximum of astackof 64 items (with some items not being able to be stacked or being possible to stack only 16 of them).
 
 This is the specific table for all the fuels:
-
 
 TABLE:
 Fuel | Burning time(seconds)[note 1] | Number of operations per fuel | Number of operations per stack (64) of fuel[note 2] | Seconds per log[note 3] | Seconds per bamboo[note 4] | Amount needed to smelt a stack (64) of items | Notes
@@ -12520,7 +11055,6 @@ Any WoolCarpet | 3.3567 ticks | 0.335 | 21.44 | None used | None used | 1913⁄6
 Bamboo | 2.550 ticks | 0.25 | 16 | None used | 2.5 | 256
 Scaffolding | 2.550 ticks | 0.25 | 16 | None used | 2.5 | 256
 
-
 - ↑All times given are for fuel burned in afurnace. When burned in ablast furnaceorsmoker, fuel is burned twice as fast but produces the same number of items.
 - ↑Items in red are not stackable, items in yellow only stack up to 16.
 - ↑Calculated as the burning time in seconds divided by the number of logs used to make one fuel when all wood ingredients are made from logs. Items in red are not made entirely of wood.
@@ -12528,18 +11062,13 @@ Scaffolding | 2.550 ticks | 0.25 | 16 | None used | 2.5 | 256
 - ↑80 seconds of fuel per log, but 10 seconds are needed to smelt the charcoal, so the net time is 70 seconds.
 - ↑abcdefWooden slabs have the same burn time as planks due to a bug; seeMCPE-94368.
 
-
 H2: Hopper automation
-
 
 The smelting process can be automated withhopperson the top and bottom of the furnace. For larger smelting jobs, a third hopper on the side of the furnace can feed in fuel and, in case of lava being used as fuel, any emptybucketscome out of the bottom hopper. This automatically feeds and empties the furnace so that different materials can be smelted in the same batch with no loss.
 
 Whenever a hopper or minecart with hopper removes items from a furnace, any experience earned from cooking or smelting the removed items is saved in the furnace and awarded to the next player who either breaks the furnace or manually removes an item from the furnace's output slot. This saved experience is in addition to that earned for the manually removed item(s).
 
-
 H2: Achievements
-
-
 
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
@@ -12553,21 +11082,13 @@ Renewable Energy | Smelt wood trunks using charcoal to make more charcoal. | Sme
 Smelt Everything! | Connect 3 Chests to a singleFurnaceusing 3Hoppers. | Be within the range of three chests connected to a Furnace with 3 Hoppers.Note: The demonstration shown in the image would not give the achievement. | 15 | Bronze
 Super Fuel | Power aFurnacewith Lava | Smelt an item using a lava bucket on afurnace,blast furnaceorsmokerand pick up the resulting item from the output slot. | 20 | Bronze
 
-
-
 H2: Advancements
-
-
 
 TABLE:
 Icon | Advancement | In-game description | Actual requirements (if different)
 Acquire Hardware | Smelt an Iron Ingot | Have aniron ingotin the inventory.
 
-
-
 H2: History
-
-
 
 TABLE:
 Java Edition Indev
@@ -12630,33 +11151,22 @@ Ores can now be smelted using ablast furnaceand food using asmoker.
 New Nintendo 3DS Edition
 1.1.06 | Smelting various ores in furnaces now rewards players with experience points.
 
-
-
 H2: Issues
-
 
 Issues relating to "Smelting" are maintained on thebug tracker. Issues should be reported and viewedthere.
 
-
 H2: Trivia
-
 
 - A wooden tool burns the same regardless of its remaining durability. A used-up tool is just as effective as fuel as a new tool.
 - "Smelting" is a broad term in the context of Minecraft while in the real world, smelting has a more precise definition.[8]
 
-
 H2: Gallery
-
-
 
 H3: Screenshots
 
-
 - In game encyclopedia entry on Furnace: "A Furnace allows you to cook or smelt items. For example, you can smelt Iron Ore into Iron Ingots."
 
-
 H2: See also
-
 
 - Smelting on Wikipedia
 - Brewing
@@ -12665,9 +11175,7 @@ H2: See also
 - Enchanting
 - Furnace
 
-
 H2: References
-
 
 - ↑MC-210211— Smelting cactus gives too much experience since 1.13
 - ↑"Crafting and Mining in Minecraft"(archive)  – Nizzotch on YouTube, January 29, 2010
@@ -12678,10 +11186,7 @@ H2: References
 - ↑MC-260192— You can't make Charcoal with Cherry Logs or Wood — resolved as "Fixed".
 - ↑"Block of the Week: Furnace"by Duncan Geere  –Minecraft.net, September 15, 2017.
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteGameplay
@@ -12695,7 +11200,6 @@ User interface | Action barBossbarChatDeath messagesGame mode switcherHeads-up d
 Visuals | ColorBlock colorsItem colorsEffect colorsMiscellaneous colorsEmotesEnchantment glintErrorLightResource packScreen effectsSkinsCharacterSkin packThird-person viewVibrant Visuals
 Removed | Sword blockingMaterials
 Unintended | Update SuppressionDuplication
-
 
 - v
 - t
@@ -12903,13 +11407,9 @@ More
 - Pages with broken file links
 - Unknown Java version history
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -12917,16 +11417,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - Edit
@@ -12935,9 +11431,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -12951,9 +11445,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -12964,9 +11456,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -12975,9 +11465,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -12988,9 +11476,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -13004,9 +11490,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -13014,9 +11498,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -13025,9 +11507,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -13037,9 +11517,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -13067,86 +11545,11 @@ H3: In other languages
 
 ### TUTORIALS 
 
-
 H1: Tutorials
-
 
 The list below containstutorialsdescribing various factors and mechanics ofMinecraft.
 
-
-H2: Contents
-
-
-- 1Introductory1.1Newcomer survival1.2Shelters
-- 1.1Newcomer survival
-- 1.2Shelters
-- 2General2.1Enchanting and smelting2.2Non-standard survival2.3Advanced
-- 2.1Enchanting and smelting
-- 2.2Non-standard survival
-- 2.3Advanced
-- 3Challenges3.1Non-standard survival3.2Challenge maps
-- 3.1Non-standard survival
-- 3.2Challenge maps
-- 4Construction4.1Block breaking
-- 4.1Block breaking
-- 5Farming5.1Items5.2Mobs
-- 5.1Items
-- 5.2Mobs
-- 6Mechanisms6.1Basic redstone6.2Various devices6.3Detectors6.4Minecarts6.5Traps6.6Pistons6.7Tripwire6.8Advanced redstone
-- 6.1Basic redstone
-- 6.2Various devices
-- 6.3Detectors
-- 6.4Minecarts
-- 6.5Traps
-- 6.6Pistons
-- 6.7Tripwire
-- 6.8Advanced redstone
-- 7Multiplayer7.1Server setup
-- 7.1Server setup
-- 8Technical8.1Maps8.2Resource packs8.3Data packs8.4CreatingMinecraftmedia8.5Game installation
-- 8.1Maps
-- 8.2Resource packs
-- 8.3Data packs
-- 8.4CreatingMinecraftmedia
-- 8.5Game installation
-- 9Legacy tutorials
-- 10Navigation
-
-- 1.1Newcomer survival
-- 1.2Shelters
-
-- 2.1Enchanting and smelting
-- 2.2Non-standard survival
-- 2.3Advanced
-
-- 3.1Non-standard survival
-- 3.2Challenge maps
-
-- 4.1Block breaking
-
-- 5.1Items
-- 5.2Mobs
-
-- 6.1Basic redstone
-- 6.2Various devices
-- 6.3Detectors
-- 6.4Minecarts
-- 6.5Traps
-- 6.6Pistons
-- 6.7Tripwire
-- 6.8Advanced redstone
-
-- 7.1Server setup
-
-- 8.1Maps
-- 8.2Resource packs
-- 8.3Data packs
-- 8.4CreatingMinecraftmedia
-- 8.5Game installation
-
-
 H2: Introductory
-
 
 These tutorials are designed to help newcomers toMinecraftget a basic understanding of the game.
 
@@ -13159,9 +11562,7 @@ These tutorials are designed to help newcomers toMinecraftget a basic understand
 - Java Edition
 - Bedrock Edition
 
-
 H3: Newcomer survival
-
 
 - Beginner's guideYour first 10 minutesThe second dayThe third day
 - Your first 10 minutes
@@ -13178,9 +11579,7 @@ H3: Newcomer survival
 - The second day
 - The third day
 
-
 H3: Shelters
-
 
 - Best biomes for homes
 - Best building materials
@@ -13191,9 +11590,7 @@ H3: Shelters
 
 - Types
 
-
 H2: General
-
 
 Getting to know the game better. These are for when the player is comfortably established.
 
@@ -13250,9 +11647,7 @@ Getting to know the game better. These are for when the player is comfortably es
 
 - Trading
 
-
 H3: Enchanting and smelting
-
 
 These tutorials provide information on how the furnaces and the enchantment system work.
 
@@ -13261,9 +11656,7 @@ These tutorials provide information on how the furnaces and the enchantment syst
 - Automatic smelting
 - Manual smelting
 
-
 H3: Non-standard survival
-
 
 Tutorials that involve a non-standard environment.
 
@@ -13275,9 +11668,7 @@ Tutorials that involve a non-standard environment.
 - The Void
 - Thunderstorm survival
 
-
 H3: Advanced
-
 
 Tutorials that require using exploits or commands.
 
@@ -13287,9 +11678,7 @@ Tutorials that require using exploits or commands.
 - Summoning jockeys
 - X-ray glitches
 
-
 H2: Challenges
-
 
 - Acquiring a conduit
 - Archaeology
@@ -13316,9 +11705,7 @@ H2: Challenges
 
 - If it escapes
 
-
 H3: Non-standard survival
-
 
 - Adventure survival
 - Custom maps
@@ -13345,16 +11732,12 @@ H3: Non-standard survival
 
 - Bedrock Edition
 
-
 H3: Challenge maps
-
 
 - Beating a challenge map
 - Creating a challenge map
 
-
 H2: Construction
-
 
 - Adding beauty to constructions
 - Airlock
@@ -13393,9 +11776,7 @@ H2: Construction
 - Roof construction guidelines
 - Roof decorations
 
-
 H3: Block breaking
-
 
 These tutorials provide information on how to break blocks automatically, usually by an explosion.
 
@@ -13403,15 +11784,11 @@ These tutorials provide information on how to break blocks automatically, usuall
 - Igniting TNT underwater
 - Wither cage
 
-
 H2: Farming
-
 
 These tutorials provide information on crop and mob farming. In most cases, the player has a choice among a variety of farming methods and designs. While a huge automatic farm may be useful where large supplies of something are needed, it's important to remember that a small, simple farm can easily provide enough resources for an early-game player, or casual use in general.
 
-
 H3: Items
-
 
 - Amethyst
 - Armor
@@ -13484,9 +11861,7 @@ H3: Items
 - Wool
 - Duplication
 
-
 H3: Mobs
-
 
 - Mob farming
 - Mob grinding
@@ -13530,15 +11905,11 @@ H3: Mobs
 - Zombie villager
 - Zombified piglin
 
-
 H2: Mechanisms
-
 
 These tutorials provide information on redstone mechanisms.
 
-
 H3: Basic redstone
-
 
 - Redstone tutorials: Roundup of all redstone-related tutorials (some are also linked below)
 - Redstone dust: The core material that enables most redstone devices, being crafted into many of them and also placed to carry signals.
@@ -13547,9 +11918,7 @@ H3: Basic redstone
 - Redstone circuits: Lists various types of reusable circuits that can be used to manipulate signals, with sub-pages giving examples of the various types.
 - Redstone tips: Hints and advice for building your redstone devices.
 
-
 H3: Various devices
-
 
 - Automatic respawn anchor recharger: Recharges respawn anchors so they can be used again.
 - Combination locks: Locks that only open with the right combination entered.
@@ -13566,17 +11935,13 @@ H3: Various devices
 - Rube Goldberg machine: Complexity and spectacle!
 - Shulker box storage: A storage system that relies on shulker boxes.
 
-
 H3: Detectors
-
 
 - Block update detector: Sends a signal if a block state changes.
 - Comparator update detector: Sends a signal if a comparator detects a change in a block.
 - Daylight detector: Sends a signal if the light changes.
 
-
 H3: Minecarts
-
 
 - Minecarts: Large railway systems can benefit from redstone at the terminals.
 - Storage minecarts: Loading and unloading chests and hopper minecarts.Digital: Digital method of loading and unloading chests and hopper minecarts.
@@ -13584,18 +11949,14 @@ H3: Minecarts
 
 - Digital: Digital method of loading and unloading chests and hopper minecarts.
 
-
 H3: Traps
-
 
 - Snow golems
 - TNT cannons
 - Trapdoor uses
 - TrapsandTrap design
 
-
 H3: Pistons
-
 
 - Piston uses
 - Piston circuits
@@ -13603,15 +11964,11 @@ H3: Pistons
 - Zero-ticking
 - Instant repeaters
 
-
 H3: Tripwire
-
 
 - Tripwire techniques
 
-
 H3: Advanced redstone
-
 
 - Advanced redstone circuits
 - Arithmetic logic
@@ -13623,9 +11980,7 @@ H3: Advanced redstone
 - Redstone computers
 - Redstone telegraph
 
-
 H2: Multiplayer
-
 
 These tutorials provide technical information on servers and tips for multiplayer.
 
@@ -13642,9 +11997,7 @@ These tutorials provide technical information on servers and tips for multiplaye
 - PvP Bedrock
 - PvP bases
 
-
 H3: Server setup
-
 
 - Setting up aJava EditionserverSetting up a Minecraft Forge serverSetting up a Spigot server
 - Setting up a Minecraft Forge server
@@ -13666,9 +12019,7 @@ H3: Server setup
 - OpenBSD startup script
 - Ubuntu startup script
 
-
 H2: Technical
-
 
 These tutorials provide information on technical matters, such as mods and snapshots.
 
@@ -13683,9 +12034,7 @@ These tutorials provide information on technical matters, such as mods and snaps
 - Downgrading
 - Creating Forge mods
 
-
 H3: Maps
-
 
 - Custom maps
 - Map downloads
@@ -13693,18 +12042,14 @@ H3: Maps
 - Falling blocks
 - Updating old terrain
 
-
 H3: Resource packs
-
 
 - Creating a resource pack
 - Loading a resource pack
 - Models
 - Sound directory
 
-
 H3: Data packs
-
 
 - Creating a data pack
 - Installing a data pack
@@ -13715,17 +12060,13 @@ H3: Data packs
 - Adding custom enchantments
 - Repairing a world corrupted by a data pack
 
-
 H3: CreatingMinecraftmedia
-
 
 - Videos
 - Livestreaming
 - Hide Server IP
 
-
 H3: Game installation
-
 
 - Installing a snapshot
 - InstallingMinecraft Previewand beta versions
@@ -13741,9 +12082,7 @@ H3: Game installation
 - Create a Mac OS X startup daemon
 - Java Editionon Chrome OS
 
-
 H2: Legacy tutorials
-
 
 The following tutorials are obsolete and intended for older versions ofMinecraft. They are kept here for historical purposes.
 
@@ -13768,10 +12107,7 @@ The following tutorials are obsolete and intended for older versions ofMinecraft
 - Custom world generation
 - Obtaining discontinued features— Information on how to obtain features that could only be collected in older versions but can be updated into future versions.
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteTutorials
@@ -13828,18 +12164,15 @@ Challenges | Survival with no enabled data packs
 Construction | Man-made lake
 Other | Custom texture packsHow to get a crash report (old)Installing modsSetting up a Spigot serverUpdate LWJGLUpdate MinecraftCustom world generation
 
-
 - v
 - t
 - e
-
 
 TABLE:
 Introductory
 Basics | Menu screenJava EditionBedrock EditionGame termsPlaying with a controller
 Newcomersurvival | Beginner's guideFirst ten minutesSecond dayThird dayBest biomes to useHunger managementThings to doThings not to doSimple tips and tricksSurvival mode progression
 Shelters | Best biomes for homesBest building materialsBuilding and constructionNavigationSheltersTypes
-
 
 - Menu screenJava EditionBedrock Edition
 - Java Edition
@@ -13874,12 +12207,10 @@ Shelters | Best biomes for homesBest building materialsBuilding and construction
 
 - Types
 
-
 TABLE:
 General
 General | Achievement guideAdvancement guideMinecraftNetherThe EndAdventureHusbandryAdventuringBest enchantments guideBreaking a fallBreaking bedrockChunk loaderCombatComplete main adventureCreating a villageDual wieldingDesert survivalEnd survivalExploring cavernsGathering resources on peaceful difficultyGetting food quicklyGetting max gearHeadless pistonsHitboxesHorsesIndestructible end crystalsManaging slimes in superflat modeMappingMeasuring distanceMinecraft in educationMiningAncient DebrisDiamondsFossilsNether hubNether portalsNether survivalOrganizationPillar jumpingPhantom-proofingSpawn-proofingSummoning jockeysThings to do when boredThe VoidThunderstorm survivalTime-saving tipsTransportation methodsUnits of measureVillage mechanicsTradingX-ray glitchesZombie siege defense
 Enchantingand smelting | EnchantingAnvil mechanicsAutomatic smeltingManual smelting
-
 
 - Achievement guide
 - Advancement guideMinecraftNetherThe EndAdventureHusbandry
@@ -13951,13 +12282,11 @@ Enchantingand smelting | EnchantingAnvil mechanicsAutomatic smeltingManual smelt
 - Automatic smelting
 - Manual smelting
 
-
 TABLE:
 Challenges
 General | Acquiring a conduitArchaeologyCuring a zombie villagerConquering a mountainDefeating a bastion remnantDefeating an End cityDefeating a monster roomDefeating an ocean monumentDefeating a Nether fortressDefeating a pillager outpostDefeating a strongholdDefeating templesDefeating trial chambersDefeating a woodland mansionDefeating a village raidDefeating the Ender dragonDefeating the WitherIf it escapesExploring an ancient cityLocating a strongholdObtaining every music discObtaining every block
 Non-standardsurvival | Adventure mode survivalCustom mapsHalf hearted hardcoreHardcore modeSurviving in a single area indefinitelyInfinite desert survivalIsland survivalManhuntMob switchNomadic experienceTrapping every mobSkyblock survivalSkywars survivalSpeedrunningStarting in the NetherStarting in the EndSuperflat survivalJava EditionBedrock EditionUltra hardcore survivalThe World Starts With OneGetting to the world borderVillage only survival
 Challenge maps | Beating a challenge mapCreating a challenge map
-
 
 - Acquiring a conduit
 - Archaeology
@@ -14014,12 +12343,10 @@ Challenge maps | Beating a challenge mapCreating a challenge map
 - Beating a challenge map
 - Creating a challenge map
 
-
 TABLE:
 Constructions
 Constructions | Adding beauty to constructionsAirlockArchitectural termsBuilding a cruise shipBuilding a metropolisBuilding a rollercoasterBuilding micro sheltersBuilding safe homesBuilding water featuresChunk banColor paletteCreating shapesDefenseElevatorsEndless circling poolFurnitureGlazed terracotta patternsHiking trailMaking nice floorsPixel artRanchesRoof typesCurved roofsRoof construction guidelinesRoof decorationsSecret doorSettlement guideUnderwater homeWalls and buttressesWater gateWater-powered boat transportation
 Block breaking | Blast chamberIgniting TNT underwaterWither cage
-
 
 - Adding beauty to constructions
 - Airlock
@@ -14061,12 +12388,10 @@ Block breaking | Blast chamberIgniting TNT underwaterWither cage
 - Igniting TNT underwater
 - Wither cage
 
-
 TABLE:
 Farming
 Blocks and items | AmethystArmorAzaleaBambooBasaltBedrockBeetrootBlaze RodBone MealCactusCarrotCat giftChorus FruitClayCobblestoneCocoa BeansCopperDirtDragon's breathDripstoneEggEnchanted Golden AppleExperienceFernFishFlowerFroglightGhast TearGlow BerriesGlow Ink SacGlow LichenGoat HornGoldHanging RootsHoneyIceIronKelpLavaMeatMossMudMushroomMusic DiscNautilus ShellNether growthNether vineNether WartObsidianOminous BottlePotatoPowder SnowPumpkin, MelonRooted DirtSculkTurtle ScuteSeagrassSea PickleSnowSoul SoilSugar CaneSweet BerriesTreeTridentVineVillager trading hallWheatWither RoseWoolDuplication
 Mobs | Mob farmingMob grindingMonster spawner trapsAllayAnimalsAxolotlBeeBlazeBreezeCatCave SpiderChickenCreeperDrownedEnder DragonEndermanFoxFrogGhastGlow squidGoatGuardianHoglinIron golemMagma cubePhantomPiglin barteringPillagerRaidShulkerSkeleton horseSlimeSquidTurtleVillagerWandering traderWardenWitchWitherWither SkeletonWolfZombieZombie villagerZombified piglin
-
 
 - Amethyst
 - Armor
@@ -14184,7 +12509,6 @@ Mobs | Mob farmingMob grindingMonster spawner trapsAllayAnimalsAxolotlBeeBlazeBr
 - Zombie villager
 - Zombified piglin
 
-
 TABLE:
 Mechanisms
 Various devices | RedstoneCircuitsComponentsDustMechanicsTipsAutomatic respawn anchor rechargerCombination locksCommand blockCrafterFlying machinesHopperTNTItem sortingItem transportationMechanismsObserver stabilizerRandomizersRedstone musicDoorbellRube Goldberg machineShulker box storage
@@ -14194,7 +12518,6 @@ Traps | Snow golemsTNT cannonsTrapdoor usesTrap designTraps
 Pistons | Piston usesPiston circuitsQuasi-ConnectivityZero-tickingInstant repeaters
 Tripwire | Tripwire techniques
 Advancedredstone | Advanced redstone circuitsArithmetic logicCalculatorCommand statsHourly clockMorse codePrinterRedstone computersRedstone telegraph
-
 
 - RedstoneCircuitsComponentsDustMechanicsTips
 - Circuits
@@ -14263,12 +12586,10 @@ Advancedredstone | Advanced redstone circuitsArithmetic logicCalculatorCommand s
 - Redstone computers
 - Redstone telegraph
 
-
 TABLE:
 Multiplayer
 General | Griefing preventionHiding chestsMultiplayer SurvivalSpawn jailPlaying on serversPvPBasesJoining a LAN world with alternate accounts
 Server setup | Setting up aJava EditionserverForge serverHamachi serverSetting up aBedrock EditionserverServer maintenanceSetting up a LAN worldServer startup scriptFreeBSDOpenBSDUbuntuRamdisk enabled server
-
 
 - Griefing prevention
 - Hiding chests
@@ -14300,7 +12621,6 @@ Server setup | Setting up aJava EditionserverForge serverHamachi serverSetting u
 - OpenBSD
 - Ubuntu
 
-
 TABLE:
 Technical
 General | Creating Forge modsMoving structures using structure blocks from world to worldImproving frame rateMinecrafthelp FAQNote Block StudioPrograms and editorsRunning the data generatorUpdate JavaSeeMinecraft's codeDowngradingRestoring a hardcore world
@@ -14309,7 +12629,6 @@ Resource packs | Creating a resource packLoading a resource packModelsSound dire
 Data packs | Adding a new dimensionAdding custom enchantmentsAdding custom paintingsAdding custom trimsCreating a data packCustom structuresInstalling a data packRepairing a world corrupted by a data pack
 CreatingMinecraftmedia | Creating videosLivestreamingHide Server IP
 Game installation | Installing snapshotsInstallingMinecraft Previewand beta versionsHow to get a crash reportInstalling Forge modsCustom Minecraft directoryPlaying and savingMinecrafton a thumb drivePlaying and savingMinecrafton a thumb drive with the old launcherRecover corrupted saved world dataRun Minecraft through Google DriveSave game data to Dropbox (world data only)Saved data Dropbox guideCreate a Mac OS X startup daemonPlayingJava Editionon ChromeOS
-
 
 - Creating Forge mods
 - Moving structures using structure blocks from world to world
@@ -14361,7 +12680,6 @@ Game installation | Installing snapshotsInstallingMinecraft Previewand beta vers
 - Create a Mac OS X startup daemon
 - PlayingJava Editionon ChromeOS
 
-
 TABLE:
 Outdated
 Farming | Potion farmingEnd of light mob farmsDoor-based iron golem farming
@@ -14371,7 +12689,6 @@ Contraptions | Minecart boosterRepeater reboot systemInstant wireWater ladderWat
 Challenges | Survival with no enabled data packs
 Construction | Man-made lake
 Other | Custom texture packsHow to get a crash report (old)Installing modsSetting up a Spigot serverUpdate LWJGLUpdate MinecraftCustom world generation
-
 
 - Potion farming
 - End of light mob farms
@@ -14402,7 +12719,6 @@ Other | Custom texture packsHow to get a crash report (old)Installing modsSettin
 - Update Minecraft
 - Custom world generation
 
-
 TABLE:
 vteMinecraft
 General game aspectsHelpControlsOptionsTutorialsMechanicsMenu screensAspectsBackgroundPanoramaHistoricalLogoSplashInstancesTitle ScreenSelect WorldCreate New WorldWorld OptionsLoading world screenPause menuGame customizationAdd-onsModsData packsResource packsTexture packTexture atlasSkinCapesCharacter CreatorMiscellaneousAutosaveCharacterCredit sequence§End PoemEaster eggsHerobrineData valuesRenderingSoundVersion formatsVersion typesGame dropConcept artKey artMinecraft LauncherMinecraft Preview | General game aspects | Help | ControlsOptionsTutorialsMechanics | Menu screens | AspectsBackgroundPanoramaHistoricalLogoSplashInstancesTitle ScreenSelect WorldCreate New WorldWorld OptionsLoading world screenPause menu | Aspects | BackgroundPanoramaHistoricalLogoSplash | Instances | Title ScreenSelect WorldCreate New WorldWorld OptionsLoading world screenPause menu | Game customization | Add-onsModsData packsResource packsTexture packTexture atlasSkinCapesCharacter Creator | Miscellaneous | AutosaveCharacterCredit sequence§End PoemEaster eggsHerobrineData valuesRenderingSoundVersion formatsVersion typesGame dropConcept artKey artMinecraft LauncherMinecraft Preview
@@ -14426,11 +12742,9 @@ Discontinued | Legacy ConsoleXbox 360 EditionXbox One EditionPlayStation 3 Editi
 Legacy Console | Xbox 360 EditionXbox One EditionPlayStation 3 EditionPlayStation 4 EditionPlayStation Vita EditionWii U EditionNintendo Switch Edition
 Other | Minecraft 4kMinecraftEduPi EditionProtocolNew Nintendo 3DS Edition
 
-
 - v
 - t
 - e
-
 
 TABLE:
 General game aspects
@@ -14441,17 +12755,14 @@ Instances | Title ScreenSelect WorldCreate New WorldWorld OptionsLoading world s
 Game customization | Add-onsModsData packsResource packsTexture packTexture atlasSkinCapesCharacter Creator
 Miscellaneous | AutosaveCharacterCredit sequence§End PoemEaster eggsHerobrineData valuesRenderingSoundVersion formatsVersion typesGame dropConcept artKey artMinecraft LauncherMinecraft Preview
 
-
 - Controls
 - Options
 - Tutorials
 - Mechanics
 
-
 TABLE:
 Aspects | BackgroundPanoramaHistoricalLogoSplash
 Instances | Title ScreenSelect WorldCreate New WorldWorld OptionsLoading world screenPause menu
-
 
 - BackgroundPanoramaHistorical
 - PanoramaHistorical
@@ -14509,7 +12820,6 @@ Instances | Title ScreenSelect WorldCreate New WorldWorld OptionsLoading world s
 
 - §End Poem
 
-
 TABLE:
 Editions
 Java | DemoLocations
@@ -14523,18 +12833,15 @@ Discontinued | Legacy ConsoleXbox 360 EditionXbox One EditionPlayStation 3 Editi
 Legacy Console | Xbox 360 EditionXbox One EditionPlayStation 3 EditionPlayStation 4 EditionPlayStation Vita EditionWii U EditionNintendo Switch Edition
 Other | Minecraft 4kMinecraftEduPi EditionProtocolNew Nintendo 3DS Edition
 
-
 - DemoLocations
 - Locations
 
 - Locations
 
-
 TABLE:
 Merged | Pocket EditionWindows 10 Edition
 Ports to consoles | Xbox OneNintendo SwitchPS4PS5Xbox Series X|S
 Discontinued | Gear VR EditionApple TV EditionFire TV Edition
-
 
 - Pocket Edition
 
@@ -14557,11 +12864,9 @@ Discontinued | Gear VR EditionApple TV EditionFire TV Edition
 - Minecraft Classic
 - Minecraft Education
 
-
 TABLE:
 Legacy Console | Xbox 360 EditionXbox One EditionPlayStation 3 EditionPlayStation 4 EditionPlayStation Vita EditionWii U EditionNintendo Switch Edition
 Other | Minecraft 4kMinecraftEduPi EditionProtocolNew Nintendo 3DS Edition
-
 
 - Xbox 360 Edition
 
@@ -14593,13 +12898,9 @@ Other | Minecraft 4kMinecraftEduPi EditionProtocolNew Nintendo 3DS Edition
 - Java Edition specific information
 - Pages using the Exclusive template customtext parameter
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -14607,16 +12908,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - Edit
@@ -14625,9 +12922,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -14641,9 +12936,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -14654,9 +12947,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -14665,9 +12956,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -14678,9 +12967,7 @@ H3: Recent versions
 - Preview: 1.21.110.22
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -14694,9 +12981,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -14704,9 +12989,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -14715,9 +12998,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -14727,9 +13008,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
@@ -14757,9 +13036,7 @@ H3: In other languages
 
 ### REDSTONE 
 
-
 H1: Redstone circuits
-
 
 Aredstone circuitis a build that is primarily focused on dealing with logic and redstone signals. Circuits can be used to transmit redstone signals, perform operations withlogic gates, store data, shorten or lengthen redstone signals, make clocks, and more.
 
@@ -14772,46 +13049,11 @@ Before working with any but the most basic redstone circuits, an understanding o
 - TheMechanisms tutorialcomplements this article with an assortment of mechanism designs using circuits described here.
 - TheRedstone tipstutorial gives general advice about building redstone menchanisms
 
-
-H2: Contents
-
-
-- 1Describing circuits1.1Size1.2Features
-- 1.1Size
-- 1.2Features
-- 2Circuit types2.1Transmission circuit2.2Logic circuit2.3Pulse circuit2.4Clock circuit2.5Memory circuit2.6Piston circuits2.7Miscellaneous circuits
-- 2.1Transmission circuit
-- 2.2Logic circuit
-- 2.3Pulse circuit
-- 2.4Clock circuit
-- 2.5Memory circuit
-- 2.6Piston circuits
-- 2.7Miscellaneous circuits
-- 3Achievements
-- 4Video
-- 5References
-- 6Navigation
-
-- 1.1Size
-- 1.2Features
-
-- 2.1Transmission circuit
-- 2.2Logic circuit
-- 2.3Pulse circuit
-- 2.4Clock circuit
-- 2.5Memory circuit
-- 2.6Piston circuits
-- 2.7Miscellaneous circuits
-
-
 H2: Describing circuits
-
 
 Most circuits are described usingSchematicdiagrams; some of these require multiple images to show one or two layers per image. See theHelp:Schematicpage for details on how various blocks and components are represented.
 
-
 H3: Size
-
 
 The wiki describes circuit size (the volume of the rectangular solid it occupies) with the notation ofdepth×width×height, including support/floor blocks, but not including inputs/outputs.
 
@@ -14819,9 +13061,7 @@ Another method used for describing circuit size in theMinecraftcommunity is to i
 
 Sometimes it is convenient to compare circuits simply by the area of their footprint (e.g., 3×4 for a circuit three-block wide by four blocks long), or by a single dimension important in a particular context (e.g., length in a sequence of sub-circuits, height in a confined space, etc.).
 
-
 H3: Features
-
 
 Several features may be considered desirable design goals:
 
@@ -14829,17 +13069,13 @@ Other design goals may include reducing the delay a sub-circuit adds to a larger
 
 Some components are not available before a player has access to the Nether, which limits the designs available. In particular,redstone comparators,observersanddaylight detectorsrequirenether quartz, which is available only from the Nether. Additionally, redstone lamps requireglowstone, which is occasionally available fromtradingorwitches, but is much more plentiful in the Nether.
 
-
 H2: Circuit types
-
 
 Although the number of ways to construct circuits is endless, certain patterns of construction occur repeatedly. The following sections attempt to categorize the circuits that have proven useful to theMinecraftcommunity, while the main articles describe the specific circuits that fall into those categories.
 
 Some of these circuits might be used by themselves for simple control of mechanisms, but frequently the player needs to combine them into more complex circuits to meet the needs of a mechanism.
 
-
 H3: Transmission circuit
-
 
 Some aspects of signal transmission can be helpful to understand: transmission types, vertical transmission, repeaters, and diodes.
 
@@ -14858,19 +13094,14 @@ Comparator
 
 A comparator has two modes: comparing and subtracting. Comparing mode compares the signal strength from the side with the input; if the side signal is stronger than the input signal, the output is off, otherwise it is on. In Subtracting mode, the comparator subtracts the side signal from the input.
 
-
 TABLE:
 ...
 
-
-
 H3: Logic circuit
-
 
 Alogic gateis a circuit that takes one or more inputs and produces a single output when some condition has been met. The strength of the input signal in these circuits usually doesn't matter. When an input or output supplies a redstone signal, it is usually just referred to as "on", and when there is no signal, it is referred to as "off". For example, an AND gate takes two redstone signals as input, and outputs a redstone signal only if both inputs are greater than 0. That is, an AND gate is on only when both inputs are on.
 
 In electronic or programming diagrams, logic gates are typically shown as if they were individual devices; However, when building redstone devices inMinecraft, all logic gates are formed from multiple blocks and components, which interact to produce the desired results.
-
 
 TABLE:
 A | On | On | Off | Off | Question Answered
@@ -14890,26 +13121,19 @@ A IMPLIES B | ON | Off | ON | ON | If A is on, is B also on?
 B IMPLIES A | ON | ON | Off | ON | If B is on, is A also on?
 A OR B | ON | ON | ON | Off | Is either input on?
 
-
-
 H3: Pulse circuit
-
 
 Apulse circuitproduces a redstone signal for a specified amount of time, changes the duration of an input signal, or reacts to signals of a particular duration. Other circuits or mechanisms may require pulses of a particular duration to operate properly, or can use pulse duration to convey information.
 
 A circuit that is stable in one output state and unstable in the other is known as amonostable circuit.[note 1]Many pulse circuits are monostable because their OFF state is stable, but their ON state soon reverts to OFF.
 
-
 H3: Clock circuit
-
 
 A clock circuit is a pulse generator that produces a loop of specific pulses repeatedly. Some are designed to run forever, while others can be stopped and started.
 
 A simple clock with only two states of equal duration is named for the duration of its ON state (e.g., for example, a clock that alternates between a 5-tick ON state and a 5-tick OFF state is called a 5-clock) while others are usually named for their period (the time it takes for the clock to return to its original state; for example, a "1-minute clock" might produce a 1-tick pulse every 60 seconds).
 
-
 H3: Memory circuit
-
 
 Memory circuits maintain their output until they receive a signal that tells them to change their output. In simple terms, memory circuits stay on or off until they receive a signal telling them to turn off or on. This means that a memory circuit's state (output) depends on the current input and the previous inputs. Most other circuits just temporarily generate an output based on the current input.
 
@@ -14919,9 +13143,7 @@ Memory circuits are named based on the kinds of input they take and any logic ga
 
 Many other memory circuits are possible.
 
-
 H3: Piston circuits
-
 
 Pistonsallow players to design circuits that are smaller and/or faster than the standard, redstone-only counterparts. An understanding of standardredstone circuitsis helpful, as this tutorial is focused on the circuit design rather than the function. The main components here aresticky pistons, regular pistons,redstone wire,repeatersandredstone torches.
 
@@ -14932,16 +13154,11 @@ There are several benefits of piston circuitry:
 - Pistons' ability to move blocks within the world makes them a natural for memory circuits, as well as the obvious doorways and switchable bridges. With slime or honey blocks involved, entire structures can "get up and move" (see alsotutorial on flying machines).
 - Piston circuits can sharply reduce the use of redstone in favor of wood, stone, and iron.
 
-
 H3: Miscellaneous circuits
-
 
 These circuits aren't generally needed for redstone projects, but might find use in complex projects, proofs of concept, and thought experiments. Some examples:
 
-
 H2: Achievements
-
-
 
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
@@ -14949,21 +13166,13 @@ PS4 | Other
 Crafters Crafting Crafters | Be near aCrafterwhen it crafts a Crafter | — | 10 | Bronze
 Inception | Push apistonwith a piston, then pull the original piston with that piston. | — | 20 | Silver
 
-
-
 H2: Video
-
-
 
 H2: References
 
-
 - ↑Note: Some players refer to edge detectors as monostable circuits
 
-
 H2: Navigation
-
-
 
 TABLE:
 vteRedstone
@@ -14980,18 +13189,15 @@ Mechanisms | BellCopper BulbCrafterDropperDispenserDoorsCopperIronWoodenFence Ga
 Other | Block of AmethystHoney BlockMinecartwith Chestwith Command Blockwith Furnacewith Hopperwith Monster Spawnerwith TNTMovable and immovable blocksSlime BlockWhite WoolRedstone OreDeepslate
 Joke | Etho SlabFloataterPickaxe BlockPlace BlockPotato WoodButtonDoorFence GatePressure PlateTrapdoorPotato BatteryPotone Redstone OreUSB Charger Block
 
-
 - v
 - t
 - e
-
 
 TABLE:
 Redstone circuits&tutorials
 Redstone basics | Redstone componentsRedstone mechanicsConductivity
 Redstone circuits | Clock circuitsLogic circuitsMemory circuitsMiscellaneous circuitsPulse circuitsTransmission circuits
 Featured tutorials | Advanced redstone circuitsBlock update detector (BUD)Comparator update detector (CUD)MechanismsPiston circuitsQuasi-connectivityRedstone music
-
 
 - Redstone components
 - Redstone mechanics
@@ -15012,7 +13218,6 @@ Featured tutorials | Advanced redstone circuitsBlock update detector (BUD)Compar
 - Quasi-connectivity
 - Redstone music
 
-
 TABLE:
 Redstone components
 Power | Block of RedstoneButtonsWoodenStonePolished BlackstoneChiseled BookshelfDaylight DetectorDetector RailLecternLeverLightning RodObserverPressure PlatesWoodenStonePolished BlackstoneHeavy WeightedLight WeightedRedstone TorchSculk SensorCalibratedTargetTrapped ChestTripwire HookTripwire
@@ -15020,7 +13225,6 @@ Transmission | Redstone WireRedstone ComparatorRedstone Repeater
 Mechanisms | BellCopper BulbCrafterDropperDispenserDoorsCopperIronWoodenFence GatesHeadsHopperJukeboxNote BlockPistonHeadStickyMovingRailActivatorPoweredDetectorRedstone LampSculk CatalystSculk ShriekerTNTTrapdoorsCopperIronWoodenCommand BlockStructure Block
 Other | Block of AmethystHoney BlockMinecartwith Chestwith Command Blockwith Furnacewith Hopperwith Monster Spawnerwith TNTMovable and immovable blocksSlime BlockWhite WoolRedstone OreDeepslate
 Joke | Etho SlabFloataterPickaxe BlockPlace BlockPotato WoodButtonDoorFence GatePressure PlateTrapdoorPotato BatteryPotone Redstone OreUSB Charger Block
-
 
 - Block of Redstone
 - ButtonsWoodenStonePolished Blackstone
@@ -15159,7 +13363,6 @@ Joke | Etho SlabFloataterPickaxe BlockPlace BlockPotato WoodButtonDoorFence Gate
 - Pressure Plate
 - Trapdoor
 
-
 TABLE:
 vteGameplay
 Generalmechanics | Add-onsAttributeCommandsDistanceEffectPotencyExplosionGame rulesInteraction rangeInventoryCreative inventorySaved HotbarsGenerated lootHitboxMultiplayerServerServer listRealmsSplitscreenOxidationRarityLegacyRedstone circuitsConductivityRenewabilityRenewableNon-renewableRotationSnowloggingSouth-east ruleSpawn protectionTiersWaterlogging
@@ -15172,7 +13375,6 @@ User interface | Action barBossbarChatDeath messagesGame mode switcherHeads-up d
 Visuals | ColorBlock colorsItem colorsEffect colorsMiscellaneous colorsEmotesEnchantment glintErrorLightResource packScreen effectsSkinsCharacterSkin packThird-person viewVibrant Visuals
 Removed | Sword blockingMaterials
 Unintended | Update SuppressionDuplication
-
 
 - v
 - t
@@ -15380,13 +13582,9 @@ More
 
 - Pages with YouTube videos
 
-
 H2: Navigation menu
 
-
-
 H3: Personal tools
-
 
 - Not logged in
 - Talk
@@ -15394,16 +13592,12 @@ H3: Personal tools
 - Create account
 - Log in
 
-
 H3: Namespaces
-
 
 - Page
 - Talk
 
-
 H3: Views
-
 
 - Read
 - Edit
@@ -15412,9 +13606,7 @@ H3: Views
 
 - Refresh
 
-
 H3: Navigation
-
 
 - How to help
 - Recent changes
@@ -15428,9 +13620,7 @@ H3: Navigation
 - in Movie
 - Wiki Discord
 
-
 H3: Wiki community
-
 
 - Community portal
 - Wiki forum
@@ -15441,9 +13631,7 @@ H3: Wiki community
 - Sandbox
 - Admin noticeboard
 
-
 H3: Franchise
-
 
 - Minecraft
 - Minecraft Dungeons
@@ -15452,9 +13640,7 @@ H3: Franchise
 - Minecraft: Story Mode
 - A Minecraft Movie
 
-
 H3: Recent versions
-
 
 - Java Edition
 - Latest: 1.21.8
@@ -15466,9 +13652,7 @@ H3: Recent versions
 - Upcoming: 1.21.100
 - Upcoming: 1.21.110
 
-
 H3: Useful pages
-
 
 - Trading
 - Brewing
@@ -15482,9 +13666,7 @@ H3: Useful pages
 - Resource packs
 - Redstone circuits
 
-
 H3: Useful pages
-
 
 - Weapons
 - Enchanting
@@ -15492,9 +13674,7 @@ H3: Useful pages
 - Artifacts
 - Missions
 
-
 H3: Useful pages
-
 
 - Friendly units
 - Piglins
@@ -15503,9 +13683,7 @@ H3: Useful pages
 - Structures
 - Lost Legends
 
-
 H3: Tools
-
 
 - What links here
 - Related changes
@@ -15515,9 +13693,7 @@ H3: Tools
 - Page information
 - Browse properties
 
-
 H3: In other languages
-
 
 - Deutsch
 - Español
