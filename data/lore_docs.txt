@@ -97,7 +97,7 @@ Expert | 8 | 50% | 100% | 19–33 ×Emerald | Enchanted Diamond Leggings[t 1] | 
 Master | 9 | 50% | 100% | 13–27 ×Emerald | Enchanted Diamond Helmet[t 1] | 3 | High | 30
 50% | 100% | 21–35 ×Emerald | Enchanted Diamond Chestplate[t 1] | 3 | High | 30
 
-- ↑abcdWhen creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
+- ↑When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
 
 H3: Butcher
 
@@ -146,7 +146,7 @@ Master | 9 | 100% | 100% | 8 ×Emerald | Globe Banner Pattern | 12 | Low | 30
 10 | 100% | 100% | 14 ×Emerald+Compass | Woodland Explorer Map | 12 | High | 30
 
 - ↑The structure that the map leads to depends on the biome the villager is from. Seethe table abovefor more details. Each of the three possible maps are counted as independent trades, so a villager trading multiple maps is possible.
-- ↑abinJava Edition, all copies of the map traded by a particular villager lead to the same structure. In worlds that do not have the structure, this trade is not offered.
+- ↑Java Edition, all copies of the map traded by a particular villager lead to the same structure. In worlds that do not have the structure, this trade is not offered.
 inBedrock Edition, Cartographers adopting the profession in the Nether or the End do not offer explorer maps.
 - ↑The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
 
@@ -250,7 +250,7 @@ Master | 9 | 100% | 67% | 8 ×Tripwire Hook | Emerald | 12 | Low | 30
 10 | 50% | 67% | 8–22 ×Emerald | Enchanted Crossbow[t 1] | 3 | Low | 15
 50% | 67% | 2 ×Emerald+ 5 ×Arrow | 5 ×Tipped Arrow[t 2] | 12 | Low | 30
 
-- ↑abWhen creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
+- ↑When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
 - ↑InJava Edition, the type of arrow is chosen randomly from all possible brewable potions with effects, including extended and strengthened versions.InBedrock Edition, the type of arrow is randomly chosen from 15 options:Night Vision,Invisibility,Leaping,Fire Resistance,Swiftness,Slowness,Water Breathing,Healing,Harming,Poison,Regeneration,Strength,Weakness,Turtle Master, orDecay(Level 2).
 
 H3: Leatherworker
@@ -274,7 +274,7 @@ Expert | 7 | 100% | 100% | 4 ×Turtle Scute | Emerald | 12 | Low | 30
 Master | 9 | 50% | 100% | 5 ×Emerald | Leather Cap[t 1] | 12 | High | 30
 50% | 100% | 6 ×Emerald | Saddle | 12 | High | 30
 
-- ↑abcdefgThe leather armor has a random color created by two dyes (possibly the same dye twice.)
+- ↑The leather armor has a random color created by two dyes (possibly the same dye twice.)
 
 H3: Librarian
 
@@ -299,7 +299,7 @@ Expert | 7 | 100% | 50% | Book and Quill+Book and Quill[t 2] | Emerald | 12 | Lo
 33% | 50% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | High | 15
 Master | 9 | 100% | 100% | 20 ×Emerald | Name Tag | 12 | Low | 30
 
-- ↑abcdThe enchantment is chosen randomly with equal chance of anyenchantmenttype occurring (except forSoul Speed,Swift Sneak, andWind Burst) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once.
+- ↑The enchantment is chosen randomly with equal chance of anyenchantmenttype occurring (except forSoul Speed,Swift Sneak, andWind Burst) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once.
 The price in emeralds depends on the enchantment level and "treasure" status. The minimum price of a book is given by 2 + 3 * (enchantment level), while the maximum price is 6 + 13 * (enchantment level). The possible values are 5–19 emeralds for Lvl I, 8–32 for Lvl II, 11–45 for Lvl III, 14–58 for Lvl IV, and 17–71 for Lvl V. Fortreasure enchantmentsthe price is doubled. The cost is capped at 64 emeralds. All values below this cap are equally probable.
 - ↑InJava Editiononly one is requested per trade because ofMC-248042— Librarian's book and quill trade is always discounted to 1 since books are unstackable. InBedrock Edition, the second book is placed in another slot instead.
 
@@ -342,7 +342,7 @@ Expert | 7 | 100% | 6% | 12 ×Nether Quartz | Emerald | 12 | Low | 30
 Master | 9 | 50% | 100% | Emerald | Quartz Pillar | 12 | Low | 30
 50% | 100% | Emerald | Block of Quartz | 12 | Low | 30
 
-- ↑abThe list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
+- ↑The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
 
 H3: Shepherd
 
@@ -379,7 +379,7 @@ Expert | 7 | 17% | 9% | 12 ×Brown Dye | Emerald | 16 | Low | 30
 8 | 100% | 94% | 3 ×Emerald | Any color Banner[t 1] | 12 | Low | 15
 Master | 9 | 100% | 100% | 2 ×Emerald | 3 ×Painting | 12 | Low | 30
 
-- ↑abcdThe list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
+- ↑The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
 
 H3: Toolsmith
 
@@ -406,7 +406,7 @@ Expert | 7 | 100% | 67% | Diamond | Emerald | 12 | Low | 30
 50% | 67% | 10–24 ×Emerald | Enchanted Diamond Shovel[t 1] | 3 | High | 15
 Master | 9 | 100% | 100% | 18–32 ×Emerald | Enchanted Diamond Pickaxe[t 1] | 3 | High | 30
 
-- ↑abcdefWhen creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
+- ↑When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
 
 H3: Weaponsmith
 
@@ -426,7 +426,7 @@ Expert | 7 | 100% | 100% | Diamond | Emerald | 12 | Low | 30
 8 | 100% | 100% | 17–31 ×Emerald | Enchanted Diamond Axe[t 1] | 3 | High | 15
 Master | 9 | 100% | 100% | 13–27 ×Emerald | Enchanted Diamond Sword[t 1] | 3 | High | 30
 
-- ↑abcWhen creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
+- ↑When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are nevertreasure enchantments.
 
 H2: Wandering trader offers
 
@@ -688,7 +688,7 @@ H3: Development images
 
 H2: References
 
-- ↑https://web.archive.org/web/20150316193400/http://www.minecraftforum.net/forums/archive/future-updates/384441-1-5-new-blocks-items#c11
+- ↑://web.archive.org/web/20150316193400/http://www.minecraftforum.net/forums/archive/future-updates/384441-1-5-new-blocks-items#c11
 - ↑MC-181190— The discount for curing a villager is multiplied if the villager is reinfected and cured again — resolved as "Fixed".
 
 H2: Navigation
@@ -1961,7 +1961,7 @@ Brush
 Compass | Curse of Vanishing
 Recovery Compass‌[BEonly]
 
-- ↑abOnly golden weapons can receive Sharpness V directly through the enchanting table. For all other weapon tiers (wooden, stone, iron, diamond, and netherite), ananvilis required to apply Sharpness V to them, thoughironanddiamond swordscan generate with Sharpness V inend cityandbastion remnantchests andiron axeswith Sharpness V can be found intrial chambersbarrels.
+- ↑Only golden weapons can receive Sharpness V directly through the enchanting table. For all other weapon tiers (wooden, stone, iron, diamond, and netherite), ananvilis required to apply Sharpness V to them, thoughironanddiamond swordscan generate with Sharpness V inend cityandbastion remnantchests andiron axeswith Sharpness V can be found intrial chambersbarrels.
 - ↑Tools of any material except stone and diamond can receive up to Efficiency V through the enchanting table.Stonetools can receive up to level IV through the enchanting table, but can be given Efficiency V by combining 2 items with Efficiency IV in ananvil. Diamond tools with efficiency V can also be found inend cityandbastion remnantchests.
 - ↑Channeling and Loyalty can be used together but neither can be used with Riptide.
 
@@ -2118,7 +2118,7 @@ Sounds
 Sound | Subtitles | Source | Description | Resource location | Translation key | Volume | Pitch | Attenuationdistance
 ​Enchanting Table used | Blocks | When an item is enchanted | block.enchantment_table.use​[sound 1]​ | subtitles.block.enchantment_table.use​​[sound 1]​ | 1.0 | 0.9-1.0 | 16
 
-- ↑abMC-218109
+- ↑MC-218109
 
 Bedrock Edition:
 
@@ -2736,7 +2736,7 @@ H4: Educationmobs
 
 These passive mobs are designed primarily for coding, education, or interactive learning rather than regular gameplay.
 
-- ↑abUnused inBedrock Edition
+- ↑Unused inBedrock Edition
 
 H3: Neutral mobs
 
@@ -2758,8 +2758,8 @@ H3: Unused mobs
 
 These mobs can not spawn without the use of/summonorspawn eggs. Old villagers and old zombie villagers cannot be spawned at all.
 
-- ↑abc‌[Bedrock EditionandMinecraft Educationonly]
-- ↑ab‌[Java Editiononly]
+- ↑‌[Bedrock EditionandMinecraft Educationonly]
+- ↑‌[Java Editiononly]
 
 H3: Similar entities
 
@@ -2781,16 +2781,16 @@ H3: Unimplemented mobs
 
 Mobs that were announced by Mojang as potential additions to the game, but either got scrapped or shelved indefinitely.
 
-- ↑abStatus uncertain, whether it has been scrapped or simply shelved is unknown.
-- ↑abcdefghijklShelved indefinitely, may or may not come in a future update.
+- ↑Status uncertain, whether it has been scrapped or simply shelved is unknown.
+- ↑Shelved indefinitely, may or may not come in a future update.
 - ↑Added as a particle effect emitted fromfirefly bushes, no plans to add it as a mob in any future update.
-- ↑abcdPlanned to be introduced in a currently unknown future update.
+- ↑Planned to be introduced in a currently unknown future update.
 
 H3: Mentioned mobs
 
 Mobs that were briefly mentioned byMojang Studioson social media and other platforms.
 
-- ↑always mentioned as"removed Herobrine"in the changelogs of the updates.
+- ↑ mentioned as"removed Herobrine"in the changelogs of the updates.
 
 H2: Classification
 
@@ -3455,8 +3455,8 @@ H2: References
 - ↑MC-249642— Wardens can't pass over rails — resolved as "Fixed".
 - ↑"A new friend with a familiar patina"by Cristina Anderca  –Minecraft.net, July 1, 2025.
 - ↑"NEW MOB AND GEAR IN THE NEXT GAME DROP!"– Minecraft on YouTube, July 1, 2025
-- ↑abchttps://bsky.app/profile/jebox.bsky.social/post/3lklivpvwus2j
-- ↑abchttps://bsky.app/profile/jebox.bsky.social/post/3lklkycfmx22b
+- ↑://bsky.app/profile/jebox.bsky.social/post/3lklivpvwus2j
+- ↑://bsky.app/profile/jebox.bsky.social/post/3lklkycfmx22b
 - ↑MC-128249 - comment from cojomax99
 
 H2: External links
@@ -6097,7 +6097,7 @@ H2: References
 - ↑"[MC-123350] Rails and redstone components don't break / create particles when support block is broken - Jira"–Mojira, December 17, 2017.
 - ↑"[MC-136693] Decaying leaves do not produce block breaking particles/sounds - Jira"–Mojira, September 3, 2018.
 - ↑"This snapshot may be very crashy because @_grum redefined the concept of "air". We're keeping an eye on the crash list though!"–@Dinnerbone(Nathan Adams) on X (formerly Twitter), September 20, 2013
-- ↑https://x.com/Brikk_Animation/status/1687479159151362051
+- ↑://x.com/Brikk_Animation/status/1687479159151362051
 
 H2: Navigation
 
@@ -11060,7 +11060,7 @@ Scaffolding | 2.550 ticks | 0.25 | 16 | None used | 2.5 | 256
 - ↑Calculated as the burning time in seconds divided by the number of logs used to make one fuel when all wood ingredients are made from logs. Items in red are not made entirely of wood.
 - ↑Calculated as the burning time in seconds divided by the amount of bamboo used to make one fuel when all wood ingredient are made from bamboo. Items in red are not made entirely of bamboo.
 - ↑80 seconds of fuel per log, but 10 seconds are needed to smelt the charcoal, so the net time is 70 seconds.
-- ↑abcdefWooden slabs have the same burn time as planks due to a bug; seeMCPE-94368.
+- ↑Wooden slabs have the same burn time as planks due to a bug; seeMCPE-94368.
 
 H2: Hopper automation
 

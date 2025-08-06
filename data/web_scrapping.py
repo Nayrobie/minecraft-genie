@@ -100,13 +100,15 @@ def _scrape_page(url: str) -> str:
 
 def _clean_scraped_text(text: str) -> str:
     """
-    Clean up scraped text by removing contents sections and extra line breaks.
-    Removes everything between "H2: Contents" and the next "H2:" header,
-    and cleans up excessive whitespace.
+    Clean up scraped text by performing multiple cleaning operations:
+    - Removes everything between "H2: Contents" and the next "H2:" header
+    - Removes footnote reference letters after up arrow (↑abcd → ↑)
+    - Cleans up excessive whitespace and line breaks
+    
     Args:
         text (str): The scraped text content.
     Returns:
-        str: Cleaned text with contents sections and extra line breaks removed.
+        str: Cleaned text with unwanted sections and formatting removed.
     """
     import re
     
@@ -115,6 +117,11 @@ def _clean_scraped_text(text: str) -> str:
     
     # Remove the contents sections (case insensitive)
     cleaned_text = re.sub(pattern, '', text, flags=re.DOTALL | re.IGNORECASE)
+    
+    # Remove footnote reference letters after up arrow (↑abcd)
+    # Pattern: ↑ followed by lowercase letters until we hit an uppercase letter or non-letter
+    footnote_pattern = r'↑[a-z]+(?=[A-Z]|\s|[^a-zA-Z])'
+    cleaned_text = re.sub(footnote_pattern, '↑', cleaned_text)
     
     # Clean up any multiple newlines left behind
     cleaned_text = re.sub(r'\n\s*\n\s*\n', '\n\n', cleaned_text)
