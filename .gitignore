@@ -13,3 +13,14 @@ __pycache__/
 
 # Ruff cache
 .ruff_cache/
+
+# Chroma DB and vector storage
+db/minecraft_lore/
+*.bin
+*.sqlite3
+
+# VSCode settings
+.vscode/
+
+# OS metadata
+.DS_Store
