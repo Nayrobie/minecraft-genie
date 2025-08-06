@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+import json
 
 """
 Scrapes specific pages and extracts clean text content.
@@ -158,25 +159,24 @@ def _scrape_multiple_pages(pages: dict) -> dict:
     print("✅ Scraping completed.")
     return all_content
 
-def _save_to_file(content_dict: dict, path: str) -> None:
+# TODO: also save to txt file for human readability
+def _save_to_json(content_dict: dict, path: str) -> None:
     """
-    Saves a dictionary of text content to a file, with each section labeled by its key.
-
-    Args:
-        content_dict (dict): Dictionary with page names as keys and their text content as values.
-        path (str): Path to the output file.
+    Save scraped wiki content as a structured JSON list.
     """
+    data = []
+    for page_name, content in content_dict.items():
+        data.append({
+            "title": page_name.capitalize(),
+            "url": WIKI_PAGES[page_name],
+            "content": content
+        })
     with open(path, "w", encoding="utf-8") as f:
-        for page_name, content in content_dict.items():
-            f.write(f"### {page_name.upper()} \n\n")
-            f.write(content)
-            f.write(f"\n\n")
-    print(f"✅ Saved {len(content_dict)} sections to {path}.")
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    print(f"✅ Saved {len(data)} entries to {path}.")
 
 if __name__ == "__main__":
     results = _scrape_multiple_pages(WIKI_PAGES)
-    output_path = "data/lore_docs.txt"
-    output_dir = os.path.dirname(output_path)
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    _save_to_file(results, output_path)
+    output_path = "data/lore.json"
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    _save_to_json(results, output_path)
