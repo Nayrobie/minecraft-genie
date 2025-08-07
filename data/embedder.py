@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 """
-Transforms the website content from lore_docs.txt into chunked embeddings and stores them in Chroma.
+Transforms the website content from lore.json into chunked embeddings and stores them in Chroma.
 
 What it does:
 - Loads JSON with 'title', 'url', 'content' fields
