@@ -956,37 +956,197 @@ H2: List of mobs
 Mobs are listed and classified by their nature from the player's perspective. For more details on a particular mob, click on them to view their individual page.
 H3: Passive mobs
 Passive mobs are harmless mobs (except forpufferfish) that do not attempt to attack the player, even when provoked or attacked, though some of them may attack other mobs. Most of them can bebredortamed.
+IMAGE_LABEL: Allay
+IMAGE_LABEL: Armadillo
+IMAGE_LABEL: Axolotl
+IMAGE_LABEL: Bat
+IMAGE_LABEL: Camel
+IMAGE_LABEL: Cat
+IMAGE_LABEL: Chicken
+IMAGE_LABEL: Cod
+IMAGE_LABEL: Cow
+IMAGE_LABEL: Donkey
+IMAGE_LABEL: Frog
+IMAGE_LABEL: Glow Squid
+IMAGE_LABEL: Happy Ghast
+IMAGE_LABEL: Horse
+IMAGE_LABEL: Mooshroom
+IMAGE_LABEL: Mule
+IMAGE_LABEL: Ocelot
+IMAGE_LABEL: Parrot
+IMAGE_LABEL: Pig
+IMAGE_LABEL: Pufferfish(defensive)
+IMAGE_LABEL: Rabbit
+IMAGE_LABEL: Salmon
+IMAGE_LABEL: Sheep
+IMAGE_LABEL: Skeleton Horse
+IMAGE_LABEL: Sniffer
+IMAGE_LABEL: Snow Golem
+IMAGE_LABEL: Squid
+IMAGE_LABEL: Strider
+IMAGE_LABEL: Tadpole
+IMAGE_LABEL: Tropical Fish
+IMAGE_LABEL: Turtle
+IMAGE_LABEL: Villager
+IMAGE_LABEL: Wandering Trader
 H4: Educationmobs
 These passive mobs are designed primarily for coding, education, or interactive learning rather than regular gameplay.
+IMAGE_LABEL: Agent[e 1]
+IMAGE_LABEL: NPC[e 1]
 - ↑Unused inBedrock Edition
 H3: Neutral mobs
 Neutral mobs are sometimes passive and sometimes hostile toward the player. These mobs usually require provocation from the player in one way or another to attack or become hostile, while some can be naturally-hostile and have a way to be pacified.
+IMAGE_LABEL: Bee
+IMAGE_LABEL: Cave Spider
+IMAGE_LABEL: Dolphin
+IMAGE_LABEL: Drowned
+IMAGE_LABEL: Enderman
+IMAGE_LABEL: Fox
+IMAGE_LABEL: Goat
+IMAGE_LABEL: Iron Golem
+IMAGE_LABEL: Llama
+IMAGE_LABEL: Panda
+IMAGE_LABEL: Piglin
+IMAGE_LABEL: Polar Bear
+IMAGE_LABEL: Spider
+IMAGE_LABEL: Trader Llama
+IMAGE_LABEL: Wolf
+IMAGE_LABEL: Zombified Piglin
 H3: Hostile mobs
 Hostile mobs are dangerous, aggressive mobs that always attack the player within their respective detection ranges. Certain non-hostile mobs such aschickens,skeleton horsesandspiderscan be mounted by hostile mobs onrare occasions, and become hostile.
+IMAGE_LABEL: Blaze
+IMAGE_LABEL: Bogged
+IMAGE_LABEL: Breeze
+IMAGE_LABEL: Creaking
+IMAGE_LABEL: Creeper
+IMAGE_LABEL: Elder Guardian
+IMAGE_LABEL: Endermite
+IMAGE_LABEL: Evoker
+IMAGE_LABEL: Ghast
+IMAGE_LABEL: Guardian
+IMAGE_LABEL: Hoglin
+IMAGE_LABEL: Husk
+IMAGE_LABEL: Magma Cube
+IMAGE_LABEL: Phantom
+IMAGE_LABEL: Piglin Brute
+IMAGE_LABEL: Pillager
+IMAGE_LABEL: Ravager
+IMAGE_LABEL: Shulker
+IMAGE_LABEL: Silverfish
+IMAGE_LABEL: Skeleton
+IMAGE_LABEL: Slime
+IMAGE_LABEL: Stray
+IMAGE_LABEL: Vex
+IMAGE_LABEL: Vindicator
+IMAGE_LABEL: Warden
+IMAGE_LABEL: Witch
+IMAGE_LABEL: Wither Skeleton
+IMAGE_LABEL: Zoglin
+IMAGE_LABEL: Zombie
+IMAGE_LABEL: Zombie Villager
 H4: Boss mobs
 Boss mobs are special hostile mobs that are tougher and more dangerous than other mobs. They do not spawn randomly and are confronted intentionally. All boss mobs have abossbarfeaturing their name and health. Boss mobs provide unique challenges and equivalent rewards, such as XP or useful items.
+IMAGE_LABEL: Ender Dragon
+IMAGE_LABEL: Wither
 H3: Upcoming mobs
 These mobs are planned to be added in the upcomingFall Drop 2025.
+IMAGE_LABEL: Copper Golem[3][4]
 H3: Unused mobs
 These mobs can not spawn without the use of/summonorspawn eggs. Old villagers and old zombie villagers cannot be spawned at all.
+IMAGE_LABEL: Elder Guardian Ghost[u 1]
+IMAGE_LABEL: Giant[u 2]
+IMAGE_LABEL: Illusioner[u 2]
+IMAGE_LABEL: Old Villager[u 1]
+IMAGE_LABEL: Old Zombie Villager[u 1]
+IMAGE_LABEL: Zombie Horse
 - ↑‌[Bedrock EditionandMinecraft Educationonly]
 - ↑‌[Java Editiononly]
 H3: Similar entities
 These entities are grouped within the “living entities” category in the game code. InBedrock Edition, they are all under the mob class.
+IMAGE_LABEL: Armor Stand
+IMAGE_LABEL: Camera[s 1]
+IMAGE_LABEL: Player
 - ↑Unused inBedrock Edition
 H3: Removed mobs
 Removed mobs are mobs that no longer exist in current versions of the game.
+IMAGE_LABEL: Builder
+IMAGE_LABEL: MD3 Test Mob
+IMAGE_LABEL: Mob[r 1]
+IMAGE_LABEL: Monster
 - ↑Removed in Java Edition, but existing with human model inMinecraft Classic (JavaScript remake)
 H3: Joke mobs
 Mobs that were added asApril Fools' Day jokesinJava Edition, and cannot be found in the normal version.
+IMAGE_LABEL: Angry Ghast
+IMAGE_LABEL: Batato
+IMAGE_LABEL: Diamond Chicken
+IMAGE_LABEL: Love Golem
+IMAGE_LABEL: Mega Spud
+IMAGE_LABEL: Moon Cow
+IMAGE_LABEL: Nerd Creeper
+IMAGE_LABEL: Pink Wither
+IMAGE_LABEL: Pet Armadillo
+IMAGE_LABEL: Pet Axolotl
+IMAGE_LABEL: Pet Bee
+IMAGE_LABEL: Pet Cat
+IMAGE_LABEL: Pet Chicken
+IMAGE_LABEL: Pet Cow
+IMAGE_LABEL: Pet Creeper
+IMAGE_LABEL: Pet Fox
+IMAGE_LABEL: Pet Frog
+IMAGE_LABEL: Pet Mooshroom
+IMAGE_LABEL: Pet Polar Bear
+IMAGE_LABEL: Pet Slime
+IMAGE_LABEL: Pet Turtle
+IMAGE_LABEL: Pet Wolf
+IMAGE_LABEL: PlaguewhaleSlab
+IMAGE_LABEL: Poisonous Potato Zombie
+IMAGE_LABEL: Ray Tracing
+IMAGE_LABEL: Redstone Bug
+IMAGE_LABEL: Spectator Villager
+IMAGE_LABEL: Spectator Witch
+IMAGE_LABEL: Smiling Creeper
+IMAGE_LABEL: Toxifin Slab
+IMAGE_LABEL: Warden (boss)
 H3: Unimplemented mobs
 Mobs that were announced by Mojang as potential additions to the game, but either got scrapped or shelved indefinitely.
+IMAGE_LABEL: Alpaca[n 1]
+IMAGE_LABEL: Barnacle[n 2][5][6]
+IMAGE_LABEL: Crab[n 2]
+IMAGE_LABEL: Firefly[n 3]
+IMAGE_LABEL: Glare[n 2]
+IMAGE_LABEL: Shade[n 2]
+IMAGE_LABEL: Iceologer[n 2]
+IMAGE_LABEL: Meerkat[n 4]
+IMAGE_LABEL: Moobloom[n 2]
+IMAGE_LABEL: Ostrich[n 4]
+IMAGE_LABEL: Penguin[n 2]
+IMAGE_LABEL: Pigman Bodyguard[n 2]
+IMAGE_LABEL: Rascal[n 2]
+IMAGE_LABEL: Red Dragon[n 1]
+IMAGE_LABEL: Termite[n 4]
+IMAGE_LABEL: The Great Hunger[n 2][5][6]
+IMAGE_LABEL: Tuff Golem[n 2]
+IMAGE_LABEL: Vulture[n 4]
+IMAGE_LABEL: Wildfire[n 2][5][6]
 - ↑Status uncertain, whether it has been scrapped or simply shelved is unknown.
 - ↑Shelved indefinitely, may or may not come in a future update.
 - ↑Added as a particle effect emitted fromfirefly bushes, no plans to add it as a mob in any future update.
 - ↑Planned to be introduced in a currently unknown future update.
 H3: Mentioned mobs
 Mobs that were briefly mentioned byMojang Studioson social media and other platforms.
+IMAGE_LABEL: Beaver
+IMAGE_LABEL: Burning Spider
+IMAGE_LABEL: Cobble Creeper
+IMAGE_LABEL: Giant Spider
+IMAGE_LABEL: Glow Worm
+IMAGE_LABEL: Goblin
+IMAGE_LABEL: Herobrine[n 1]
+IMAGE_LABEL: Lava Zombie
+IMAGE_LABEL: Musician
+IMAGE_LABEL: Reindeer
+IMAGE_LABEL: Soul Fire Blaze
+IMAGE_LABEL: Snail
+IMAGE_LABEL: Troll
 - ↑ mentioned as"removed Herobrine"in the changelogs of the updates.
 H2: Classification
 Most of the mobs are classified into categories, such as theanimalsor themonsters. Some creatures are then further classified into more specific groups, based on detailed characteristics and properties they share with other members of that group. There are a total of four mob classifications that display unique characteristics from other mobs.
@@ -3571,7 +3731,7 @@ InJava Edition, the categories are as follows:
 - The first tab contains every unlocked recipe.
 - The second tab contains utility items,tools,weapons, andarmor.
 - The third tab contains building materials.
-- The fourth tab containsfoodand miscellaneous items.
+- The fourth tab containsfood, ingredients, and miscellaneous items.
 - The fifth tab containsredstonematerials.
 H3: Recipe system
 Recipes, including crafting recipes, can be configured bydata packsinJava Editionoradd-onsinBedrock Edition.

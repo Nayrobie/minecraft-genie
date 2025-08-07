@@ -54,11 +54,44 @@ def _scrape_page(url: str) -> str:
         print(soup.prettify()[:2000])  # Print first 2000 characters
 
     content_parts = []
-    
+
     # Find all relevant elements in order (paragraphs, tables, headers, etc.)
-    elements = soup.find_all(["p", "table", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li"])
-    
+    elements = soup.find_all(["p", "table", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "div"])
+
+    icon_classes = ["icon", "mob-icon"]
+
     for element in elements:
+        # Extracts image/icon labels inline if this is an icon container
+        if element.name == "div" and any(cls in element.get("class", []) for cls in icon_classes):
+            name_div = element.find_next_sibling("div", class_="name") or element.find_next_sibling("div", class_="mob-name")
+            if name_div:
+                img_name = name_div.get_text(strip=True)
+                if img_name:
+                    content_parts.append(f"IMAGE_LABEL: {img_name}")
+                continue
+
+            name_child = element.find("div", class_="name") or element.find("div", class_="mob-name")
+            if name_child:
+                img_name = name_child.get_text(strip=True)
+                if img_name:
+                    content_parts.append(f"IMAGE_LABEL: {img_name}")
+                continue
+
+            img_tag = element.find("img")
+            if img_tag:
+                alt_text = img_tag.get("alt")
+                title_text = img_tag.get("title")
+                label = alt_text or title_text
+                if label:
+                    content_parts.append(f"IMAGE_LABEL: {label}")
+                    continue
+
+            possible_name = element.get_text(strip=True)
+            if possible_name:
+                content_parts.append(f"IMAGE_LABEL: {possible_name}")
+            continue
+
+        # Process table, headers, lists, and paragraphs
         if element.name == "table":
             # Process table
             table_content = []
@@ -69,7 +102,7 @@ def _scrape_page(url: str) -> str:
                     row_text = " | ".join(cell.get_text(strip=True) for cell in cells if cell.get_text(strip=True))
                     if row_text:
                         table_content.append(row_text)
-            
+
             if table_content:
                 content_parts.append("\nTABLE:\n" + "\n".join(table_content)+ "\n")
 
@@ -78,7 +111,7 @@ def _scrape_page(url: str) -> str:
             header_text = element.get_text(strip=True)
             if header_text:
                 content_parts.append(f"{element.name.upper()}: {header_text}")
-        
+
         elif element.name in ["ul", "ol"]:
             # Process lists
             list_items = element.find_all("li")
@@ -90,7 +123,7 @@ def _scrape_page(url: str) -> str:
                         list_content.append(f"- {li_text}")
                 if list_content:
                     content_parts.append("\n".join(list_content))
-        
+
         elif element.name == "p":
             # Process paragraphs
             text = element.get_text(strip=True)
@@ -182,11 +215,9 @@ def _save_to_json(content_dict: dict, path: str) -> None:
 if __name__ == "__main__":
     results = _scrape_multiple_pages(WIKI_PAGES)
     
-    # Save to JSON format
     json_output_path = "data/lore.json"
     os.makedirs(os.path.dirname(json_output_path), exist_ok=True)
     _save_to_json(results, json_output_path)
     
-    # Save to TXT format for human readability
     txt_output_path = "data/lore.txt"
     _save_to_txt(results, txt_output_path)
