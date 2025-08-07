@@ -63,7 +63,7 @@ def split_and_prepare_documents(lore_data: List[dict]) -> List[Document]:
     return docs
 
 
-def build_vector_index(documents: List[Document]) -> None:
+def build_vector_index(documents: List[Document]) -> VectorStoreIndex:
     """Build and persist Chroma vector index."""
     # Create the database directory if it doesn't exist
     Path(DB_DIR).mkdir(parents=True, exist_ok=True)
