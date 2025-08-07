@@ -71,13 +71,13 @@ def _scrape_page(url: str) -> str:
                         table_content.append(row_text)
             
             if table_content:
-                content_parts.append("\nTABLE:\n" + "\n".join(table_content) + "\n")
-        
+                content_parts.append("\nTABLE:\n" + "\n".join(table_content)+ "\n")
+
         elif element.name in ["h1", "h2", "h3", "h4", "h5", "h6"]:
             # Process headers
             header_text = element.get_text(strip=True)
             if header_text:
-                content_parts.append(f"\n{element.name.upper()}: {header_text}\n")
+                content_parts.append(f"{element.name.upper()}: {header_text}")
         
         elif element.name in ["ul", "ol"]:
             # Process lists
@@ -97,7 +97,7 @@ def _scrape_page(url: str) -> str:
             if text:
                 content_parts.append(text)
     
-    return "\n\n".join(content_parts)
+    return "\n".join(content_parts)
 
 def _clean_scraped_text(text: str) -> str:
     """
@@ -114,27 +114,18 @@ def _clean_scraped_text(text: str) -> str:
     """
     import re
     
-    # Pattern to match "H2: Contents" followed by everything until the next "H2:"
+    # Clean unwanted section
     contents_pattern = r'H2: Contents.*?(?=H2: |\Z)'
-    
-    # Remove the contents sections (case insensitive)
     cleaned_text = re.sub(contents_pattern, '', text, flags=re.DOTALL | re.IGNORECASE)
-    
-    # Remove unwanted H2 sections and everything that follows until the next H2 or end
     unwanted_sections = ['Video', 'History', 'Trivia', 'Gallery', 'Screenshots', 'References', 'Navigation', 'Issues']
     
     for section in unwanted_sections:
-        # Pattern to match "H2: SectionName" followed by everything until the next "H2:" or end
         section_pattern = rf'H2: {section}.*?(?=H2: |\Z)'
         cleaned_text = re.sub(section_pattern, '', cleaned_text, flags=re.DOTALL | re.IGNORECASE)
     
     # Remove footnote reference letters after up arrow (↑abcd)
-    # Pattern: ↑ followed by lowercase letters until we hit an uppercase letter or non-letter
     footnote_pattern = r'↑[a-z]+(?=[A-Z]|\s|[^a-zA-Z])'
     cleaned_text = re.sub(footnote_pattern, '↑', cleaned_text)
-    
-    # Clean up any multiple newlines left behind
-    cleaned_text = re.sub(r'\n\s*\n\s*\n', '\n\n', cleaned_text)
     
     return cleaned_text.strip()
 
