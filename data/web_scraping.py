@@ -3,6 +3,12 @@ from bs4 import BeautifulSoup
 import os
 import json
 
+# TODO: finish gold examples
+# create an eval.py script to test the examples
+# test with current version
+# stash pop with table embedding code enhancement
+# run the eval again to compare
+
 """
 Scrape specific pages and extract clean text content.
 What it does:
@@ -150,6 +156,7 @@ def _clean_scraped_text(text: str) -> str:
     # Clean unwanted section
     contents_pattern = r'H2: Contents.*?(?=H2: |\Z)'
     cleaned_text = re.sub(contents_pattern, '', text, flags=re.DOTALL | re.IGNORECASE)
+    # TODO: Check all webpages for additional unwanted sections (like platform availability in mobs)
     unwanted_sections = ['Video', 'History', 'Trivia', 'Gallery', 'Screenshots', 'References', 'Navigation', 'Issues']
     
     for section in unwanted_sections:

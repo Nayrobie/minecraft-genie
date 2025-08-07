@@ -1,0 +1,140 @@
+[
+    {
+        "question": "Give me the trading web link",
+        "expected_answer_contains": [
+            "https://minecraft.wiki/w/Trading"
+        ],
+        "source_type": "link",
+        "source_link": "https://minecraft.wiki/w/Trading",
+        "comment": "Should return a wiki URL about trading"
+    },
+    {
+        "question": "Whats the xp level a villager need to become a Master?",
+        "expected_answer_contains": [
+            "250",
+            "Master"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Trading",
+        "comment": "Total villager experience required is 250"
+    },
+    {
+        "question": "How many raw chicken are needed to get one emerauld for a novice butcher?",
+        "expected_answer_contains": [
+            "14",
+            "raw",
+            "chicken"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Trading",
+        "comment": "Answer should include '14 raw chickens'"
+    },
+    {
+        "question": "Whats the probability of having the dried kelp block trade with expert butcher?",
+        "expected_answer_contains": [
+            "100%",
+            "dried",
+            "kelp"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Trading",
+        "comment": "Answer should mention 100% chance"
+    },
+    {
+        "question": "For the fisherman villager, what does the type of boat traded depends on?",
+        "expected_answer_contains": [
+            "biome%",
+            "outfit"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Trading",
+        "comment": "The type of boat trade depends on the biome outfit of the villager. Plains villagers buy oak boats, taiga and snowy villagers buy spruce boats, desert and jungle villagers buy jungle boats, savanna villagers buy acacia boats, and swamp villagers buy dark oak boats."
+    },
+    {
+        "question": "What's the list of the brewing equipment?",
+        "expected_answer_contains": [
+            "brewing stand",
+            "water",
+            "blaze powder",
+            "water bottle"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Brewing",
+        "comment": "The brewing equipment includes a brewing stand, water, blaze powder, and water bottles."
+    },
+    {
+        "question": "What is the effect of adding gunpowder in a potion?",
+        "expected_answer_contains": [
+            "splash",
+            "potion"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Brewing",
+        "comment": "Adding gunpowder to a potion turns it into a splash potion, allowing it to be thrown."
+    },
+    {
+        "question": "What are the potions that cannot be corrupted?",
+        "expected_answer_contains": [
+            "leaping",
+            "swiftness",
+            "corrupted"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Brewing",
+        "comment": "Enhanced potions of Leaping or Swiftness cannot be corrupted."
+    },
+    {
+        "question": "What's the list of the brewing equipment?",
+        "expected_answer_contains": [
+            "brewing stand",
+            "water",
+            "blaze powder",
+            "water bottle"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Brewing",
+        "comment": "The brewing equipment includes a brewing stand, water, blaze powder, and water bottles."
+    },
+    {
+        "question": "Is the curse of vanishing tradable?",
+        "expected_answer_contains": [
+            "yes"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Enchanting",
+        "comment": "Answer should confirm it is tradable"
+    },
+    {
+        "question": "What's the Impaling enchantment max level?",
+        "expected_answer_contains": [
+            "5",
+            "V",
+            "impaling"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Enchanting",
+        "comment": "Answer should say 5 or V"
+    },
+    {
+        "question": "What's the pickaxe combination list of enchantments?",
+        "expected_answer_contains": [
+            "mending",
+            "unbreaking",
+            "efficiency",
+            "curse of vanishing"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Enchanting",
+        "comment": "Should list all valid pickaxe enchantments"
+    },
+    {
+        "question": "What are the enchantments that cannot be applied at the same time on a Bow?",
+        "expected_answer_contains": [
+            "infinity",
+            "mending"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Enchanting",
+        "comment": "Should mention the incompatibility of Mending and Infinity on bows"
+    }
+]
