@@ -12,7 +12,7 @@ What it does:
 - Saves the results to a text file: lore_docs.txt
 
 How to run:
-    poetry run python data/web_scrapping.py
+    poetry run python data/web_scraping.py
 """
 
 WIKI_PAGES = {
@@ -159,7 +159,20 @@ def _scrape_multiple_pages(pages: dict) -> dict:
     print("✅ Scraping completed.")
     return all_content
 
-# TODO: also save to txt file for human readability
+def _save_to_txt(content_dict: dict, path: str) -> None:
+    """
+    Save scraped wiki content as a human-readable text file.
+    """
+    with open(path, "w", encoding="utf-8") as f:
+        for page_name, content in content_dict.items():
+            f.write(f"###\n")
+            f.write(f"PAGE NAME: {page_name.upper()}\n")
+            f.write(f"URL: {WIKI_PAGES[page_name]}\n")
+            f.write(f"###\n\n")
+            f.write(content)
+            f.write(f"\n\n")
+    print(f"✅ Saved {len(content_dict)} entries to {path}.")
+
 def _save_to_json(content_dict: dict, path: str) -> None:
     """
     Save scraped wiki content as a structured JSON list.
@@ -177,6 +190,12 @@ def _save_to_json(content_dict: dict, path: str) -> None:
 
 if __name__ == "__main__":
     results = _scrape_multiple_pages(WIKI_PAGES)
-    output_path = "data/lore.json"
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    _save_to_json(results, output_path)
+    
+    # Save to JSON format
+    json_output_path = "data/lore.json"
+    os.makedirs(os.path.dirname(json_output_path), exist_ok=True)
+    _save_to_json(results, json_output_path)
+    
+    # Save to TXT format for human readability
+    txt_output_path = "data/lore.txt"
+    _save_to_txt(results, txt_output_path)

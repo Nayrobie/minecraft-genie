@@ -1,4 +1,7 @@
-### TRADING 
+###
+PAGE NAME: TRADING
+URL: https://minecraft.wiki/w/Trading
+###
 
 H1: Trading
 
@@ -135,7 +138,7 @@ Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades insto
 Slot | Probability | Probability
 Novice | 1 | 100% | 100% | 24 ×Paper | Emerald | 12 | Low | 2
 2 | 100% | 100% | 7 ×Emerald | Empty Map | 12 | Low | 1
-Apprentice | 3 | 100% | 50% | 11 ×Glass Pane | Emerald | 16 | Low | 10
+Apprentice | 3 | 100% | 50% | 11 ×Glass Pane | Emerald | 12 | Low | 10
 4 | 100% | 100% | 8 ×Emerald+Compass | Explorer Map[t 1] | 12 | High | 5
 Journeyman | 5 | 50% | 67% | Compass | Emerald | 12 | Low | 10
 50% | 67% | 13 ×Emerald+Compass | Ocean Explorer Map[t 2] | 12 | High | 10
@@ -524,7 +527,10 @@ Star Trader | Trade with a Villager at thebuild height limit | Stand on any bloc
 Suit Up | Protect yourself with a piece of iron armor | Have any type of ironarmorin the inventory.
 What a Deal! | Successfully trade with a Villager | Take an item from avillagerorwandering trader'stradingoutput slot.
 
-### BREWING 
+###
+PAGE NAME: BREWING
+URL: https://minecraft.wiki/w/Brewing
+###
 
 H1: Brewing
 
@@ -713,7 +719,10 @@ H2: External links
 - Minecraft Potions - A Visual Guide
 - Minecraft Commands - A Searchable Minecraft Database
 
-### ENCHANTING 
+###
+PAGE NAME: ENCHANTING
+URL: https://minecraft.wiki/w/Enchanting
+###
 
 H1: Enchanting
 
@@ -1084,7 +1093,10 @@ H2: External links
 - Getting Started with Enchantments in Minecraft–Minecraft Help Center
 - All Enchantments in Minecraft–Minecraft Help Center
 
-### MOBS 
+###
+PAGE NAME: MOBS
+URL: https://minecraft.wiki/w/Mob
+###
 
 H1: Mob
 
@@ -1613,7 +1625,10 @@ H2: External links
 
 - Everything you need to know about Minecraft mobs– Minecraft.net on September 22, 2023
 
-### BLOCKS 
+###
+PAGE NAME: BLOCKS
+URL: https://minecraft.wiki/w/Block
+###
 
 H1: Block
 
@@ -3034,7 +3049,10 @@ H2: See also
 - Air
 - List of blocks by version
 
-### ITEMS 
+###
+PAGE NAME: ITEMS
+URL: https://minecraft.wiki/w/Item
+###
 
 H1: Item
 
@@ -3843,7 +3861,10 @@ H2: Notes
 
 - ↑Only exists as a seperate item inBedrock Edition. InJava Edition, lodestone compasses are only regular compasses with stored data.
 
-### CRAFTING 
+###
+PAGE NAME: CRAFTING
+URL: https://minecraft.wiki/w/Crafting
+###
 
 H1: Crafting
 
@@ -4496,7 +4517,10 @@ H2: See also
 - Smelting
 - Item durability
 
-### SMELTING 
+###
+PAGE NAME: SMELTING
+URL: https://minecraft.wiki/w/Smelting
+###
 
 H1: Smelting
 
@@ -4752,7 +4776,10 @@ H2: See also
 - Enchanting
 - Furnace
 
-### TUTORIALS 
+###
+PAGE NAME: TUTORIALS
+URL: https://minecraft.wiki/w/Tutorials
+###
 
 H1: Tutorials
 
@@ -5316,7 +5343,10 @@ The following tutorials are obsolete and intended for older versions ofMinecraft
 - Custom world generation
 - Obtaining discontinued features— Information on how to obtain features that could only be collected in older versions but can be updated into future versions.
 
-### REDSTONE 
+###
+PAGE NAME: REDSTONE
+URL: https://minecraft.wiki/w/Redstone_circuits
+###
 
 H1: Redstone circuits
 
