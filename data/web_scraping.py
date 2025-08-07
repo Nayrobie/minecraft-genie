@@ -4,7 +4,7 @@ import os
 import json
 
 """
-Scrapes specific pages and extracts clean text content.
+Scrape specific pages and extract clean text content.
 What it does:
 - Downloads HTML using requests
 - Parses the HTML using BeautifulSoup to extract paragraph text
