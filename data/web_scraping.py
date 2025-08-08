@@ -30,7 +30,7 @@ WIKI_PAGES = {
     "items": "https://minecraft.wiki/w/Item",
     "crafting": "https://minecraft.wiki/w/Crafting",
     "smelting": "https://minecraft.wiki/w/Smelting",
-    "tutorials": "https://minecraft.wiki/w/Tutorials",
+    "tutorials": "https://minecraft.wiki/w/Tutorials", #TODO: tutorials are only links, make sure the tool can provide the links
     "redstone": "https://minecraft.wiki/w/Redstone_circuits",
 }
 
@@ -60,6 +60,8 @@ def _scrape_page(url: str) -> str:
         print(soup.prettify()[:2000])  # Print first 2000 characters
 
     content_parts = []
+    # Determine if this is the tutorials page
+    is_tutorials_page = url == WIKI_PAGES["tutorials"]
 
     # Find all relevant elements in order (paragraphs, tables, headers, etc.)
     elements = soup.find_all(["p", "table", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "div"])
@@ -124,9 +126,24 @@ def _scrape_page(url: str) -> str:
             if list_items:
                 list_content = []
                 for li in list_items:
-                    li_text = li.get_text(strip=True)
-                    if li_text:
-                        list_content.append(f"- {li_text}")
+                    # Only extract links for tutorials page
+                    if is_tutorials_page:
+                        a_tag = li.find("a")
+                        if a_tag and a_tag.get("href"):
+                            link_text = a_tag.get_text(strip=True)
+                            href = a_tag.get("href")
+                            if href.startswith("/"):
+                                href = f"https://minecraft.wiki{href}"
+                            list_content.append(f"- [{link_text}]({href})")
+                        else:
+                            li_text = li.get_text(strip=True)
+                            if li_text:
+                                list_content.append(f"- {li_text}")
+                    else:
+                        # For other pages, just output text
+                        li_text = li.get_text(strip=True)
+                        if li_text:
+                            list_content.append(f"- {li_text}")
                 if list_content:
                     content_parts.append("\n".join(list_content))
 
@@ -156,13 +173,25 @@ def _clean_scraped_text(text: str) -> str:
     # Clean unwanted section
     contents_pattern = r'H2: Contents.*?(?=H2: |\Z)'
     cleaned_text = re.sub(contents_pattern, '', text, flags=re.DOTALL | re.IGNORECASE)
-    # TODO: Check all webpages for additional unwanted sections (like platform availability in mobs)
-    unwanted_sections = ['Video', 'History', 'Trivia', 'Gallery', 'Screenshots', 'References', 'Navigation', 'Issues']
-    
-    for section in unwanted_sections:
+    unwanted_h2_sections = ['Data values',
+                         'Sounds',
+                         'Video', 
+                         'History', 
+                         'Issues', 
+                        #  'Trivia', 
+                         'Gallery', 
+                         'See also', 
+                         'Screenshots', 
+                         'References', 
+                         'External links',
+                        #  'Notes',
+                         'Navigation']
+
+    for section in unwanted_h2_sections:
         section_pattern = rf'H2: {section}.*?(?=H2: |\Z)'
         cleaned_text = re.sub(section_pattern, '', cleaned_text, flags=re.DOTALL | re.IGNORECASE)
-    
+    # TODO: Also remove H3 sections : Unused mobs, Education mobs, Removed mobs, Joke mobs, Unimplemented mobs, Mentioned mobs, Education blocks, Removed blocks, Joke blocks
+
     # Remove footnote reference letters after up arrow (↑abcd)
     footnote_pattern = r'↑[a-z]+(?=[A-Z]|\s|[^a-zA-Z])'
     cleaned_text = re.sub(footnote_pattern, '↑', cleaned_text)
@@ -196,10 +225,10 @@ def _save_to_txt(content_dict: dict, path: str) -> None:
     """
     with open(path, "w", encoding="utf-8") as f:
         for page_name, content in content_dict.items():
-            f.write(f"###\n")
+            f.write(f"{'=' * 40}\n")
             f.write(f"PAGE NAME: {page_name.upper()}\n")
             f.write(f"URL: {WIKI_PAGES[page_name]}\n")
-            f.write(f"###\n\n")
+            f.write(f"{'=' * 40}\n")
             f.write(content)
             f.write(f"\n\n")
     print(f"✅ Saved {len(content_dict)} entries to {path}.")

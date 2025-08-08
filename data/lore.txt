@@ -1,8 +1,7 @@
-###
+========================================
 PAGE NAME: TRADING
 URL: https://minecraft.wiki/w/Trading
-###
-
+========================================
 H1: Trading
 Tradingis agameplaymechanic that allowsplayersto exchangeemeraldsforitems, and vice versa, withvillagersandwandering traders.
 H2: Mechanics
@@ -36,7 +35,7 @@ H2: Non-trading villagers
 If the player attempts to trade with a non-trading villager inJava Edition, they grunt and bob their head, but if the player tries to do the same thing inBedrock Edition, nothing happens.
 H3: Nitwit
 Nitwits are green-coated villagers. They cannot gain a profession.
-While they can be used for breeding, it is not possible to get a baby nitwit by feeding the adult nitwits, even if using two nitwits as adults.
+While they can be used for breeding, it is not possible to get a baby nitwit by breeding adult nitwits.
 H3: Unemployed villager
 Villagers without a job cannot trade. They only wear their biome outfits. An unemployed villager gains a profession by claiming an unclaimedjob site block. For example, an unclaimedcartography tableconverts an unemployed villager into a cartographer when the villager claims it, and both the villager and the table emit green particles. An inaccessible (or destroyed) job site block causes the connected villager to lose its profession, but that does not affect the player'spopularityin the village.
 H2: Trade offers
@@ -469,11 +468,13 @@ Star Trader | Trade with a Villager at thebuild height limit | Stand on any bloc
 Suit Up | Protect yourself with a piece of iron armor | Have any type of ironarmorin the inventory.
 What a Deal! | Successfully trade with a Villager | Take an item from avillagerorwandering trader'stradingoutput slot.
 
-###
+H2: Trivia
+- While diamonds are not renewable (except via vault, which is impractical in normal gameplay), many of their products (armor, tools, and weapons) are renewable via trading.
+
+========================================
 PAGE NAME: BREWING
 URL: https://minecraft.wiki/w/Brewing
-###
-
+========================================
 H1: Brewing
 Brewingis the process of creatingpotions,splash potions,lingering potions, andmedicine‌[Minecraft Educationonly]by adding various ingredients towater bottlesin abrewing stand.
 H2: Brewing equipment
@@ -611,21 +612,14 @@ Tonic | CuresNausea
 
 H3: Unbrewable potions
 The potion ofLuck‌[JEonly]and the potion ofDecay‌[BEonly]cannot be brewed, and can be obtained only through commands or theCreative inventory.
-H2: See also
-- Crafting
-- Enchanting
-- Medicine‌[Minecraft Educationonly]
-- Smelting
-H2: External links
-- Minecraft Forum: All About Potions And Brewing - 1.9 Reference Guide
-- Minecraft Potions - A Visual Guide
-- Minecraft Commands - A Searchable Minecraft Database
+H2: Trivia
+- AlthoughJebsaid that inJava Edition Beta 1.9 Prerelease 3there would be 161 possible different potion combinations with 2,653 in the future, in the actual third pre-release only 22 different potions could be made without the use of external programs. Of those, 19 potions had one of 8 different effects.
+- By modifying theitemNBT using an editor orcommands, it is possible to get a potion that cannot be upgraded into a splash potion.
 
-###
+========================================
 PAGE NAME: ENCHANTING
 URL: https://minecraft.wiki/w/Enchanting
-###
-
+========================================
 H1: Enchanting
 Enchantingis the process of augmentingarmor,tools, andweapons. Aglintanimation appears on items to show that they are enchanted.
 H2: Enchanting equipment
@@ -885,58 +879,13 @@ Unbreaking | First | 1 | 255 | Items have a 1 inlevel + 1chance to take damage. 
 Wind Burst | Adds | 1 | 255 | Adds1.15 + 0.35 * levelby launching
 
 Mending
-H2: Data values
-H3: Item data
-Java Edition:
-- [NBT Compound / JSON Object]components: the item'scomponentstag.
-- [NBT Compound / JSON Object]minecraft:enchantments: Contains key-value pairs of levels ofenchantmentson this item that affect the way the item works.[Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [NBT Compound / JSON Object]minecraft:enchantments: Contains key-value pairs of levels ofenchantmentson this item that affect the way the item works.[Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [NBT Compound / JSON Object]minecraft:enchantments: Contains key-value pairs of levels ofenchantmentson this item that affect the way the item works.[Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [NBT Compound / JSON Object]minecraft:stored_enchantments: Contains key-value pairs of levels ofenchantmentsstored on thisenchanted book.[Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [NBT Compound / JSON Object]minecraft:stored_enchantments: Contains key-value pairs of levels ofenchantmentsstored on thisenchanted book.[Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [NBT Compound / JSON Object]minecraft:stored_enchantments: Contains key-value pairs of levels ofenchantmentsstored on thisenchanted book.[Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [Int]<enchantment ID>: A single key-value pair, where the key is theresource locationof an enchantment, and the value is the level.
-- [Int]minecraft:repair_cost: The number of experience levels to add to the base level cost when repairing, combining, or renaming this item with ananvil. Must be a non-negative integer, defaults to 0.
-- [Int]minecraft:repair_cost: The number of experience levels to add to the base level cost when repairing, combining, or renaming this item with ananvil. Must be a non-negative integer, defaults to 0.
-- [Int]minecraft:repair_cost: The number of experience levels to add to the base level cost when repairing, combining, or renaming this item with ananvil. Must be a non-negative integer, defaults to 0.
-Bedrock Edition:
-H2: Sounds
-Java Edition
+H2: Trivia
+- Enchantments on items are always listed in the same order on their tooltips, that being: Curse of Binding, Curse of Vanishing, Riptide, Channeling, Wind Burst, Frost Walker, Sharpness, Smite, Bane of Arthropods, Impaling, Power, Density, Breach, Piercing, Sweeping Edge, Multishot, Fire Aspect, Flame, Knockback, Punch, Protection, Blast Protection, Fire Protection, Projectile Protection, Feather Falling, Fortune, Looting, Silk Touch, Luck of the Sea, Efficiency, Quick Charge, Lure, Respiration, Aqua Affinity, Soul Speed, Swift Sneak, Depth Strider, Thorns, Loyalty, Unbreaking, Infinity, and Mending.
 
-TABLE:
-Sounds
-Sound | Subtitles | Source | Description | Resource location | Translation key | Volume | Pitch | Attenuationdistance
-​Enchanting Table used | Blocks | When an item is enchanted | block.enchantment_table.use​[sound 1]​ | subtitles.block.enchantment_table.use​​[sound 1]​ | 1.0 | 0.9-1.0 | 16
-
-- ↑MC-218109
-Bedrock Edition:
-
-TABLE:
-Sounds
-Sound | Source | Description | Resource location | Volume | Pitch
-Blocks | When an item is enchanted | block.enchanting_table.use | 1.0 | 1.0
-
-H2: See also
-- Enchanting/Levels
-- Tutorial:Best enchantments guide
-- Brewing
-- Crafting
-- Smelting
-- Enchanting mechanics
-H2: External links
-- Getting Started with Enchantments in Minecraft–Minecraft Help Center
-- All Enchantments in Minecraft–Minecraft Help Center
-
-###
+========================================
 PAGE NAME: MOBS
 URL: https://minecraft.wiki/w/Mob
-###
-
+========================================
 H1: Mob
 Amob(short formobile,mobile entity, ormobile object)[1]is an AI-driven gameentity. All mobs can be attacked or hurt (fromfalling, attacked by aplayeror another mob, falling into thevoid, hit by anarrow, etc, with the exception of protectedcreakings), and have some form of voluntary movement. Different types of mobs often have unique AI andloot.
 H2: Spawning
@@ -1545,15 +1494,19 @@ The source of the effects is irrelevant for the purposes of this advancement. Ot
 - Strider
 - Turtle
 - Wolf
+H2: Trivia
+- InJava Edition, the rarest mob is a zombie villagerchicken jockeywearing full enchanted diamond armor and holding an enchantediron swordin its left hand.
+- There are manyblocksin the game that do not take up a full block, such as trapdoors, and mobs actually see many of these as full blocks.Mobs mistake some blocks forair, such ascarpets,snow, andstring.
+- Mobs mistake some blocks forair, such ascarpets,snow, andstring.
+- Despite the term mob being derived from mobile entity, supplementary material consistently uses it within theMinecraftuniverse. Characters fromMinecraft Story Modebegin calling monsters mobs starting inOrder Up, whereasFarnumrefers to himself as a “mobologist.”
+- InBedrock Edition, due to the lack of a "living entity" class of entities,armor stands,cameras, and evenplayersare internally represented as "mobs". This has no direct effect on how these entities behave. However, inJava Edition, theadvancementsandstatisticsclassify them as mobs.
+- Mobs mistake some blocks forair, such ascarpets,snow, andstring.
 H2: Notes
-H2: External links
-- Everything you need to know about Minecraft mobs– Minecraft.net on September 22, 2023
 
-###
+========================================
 PAGE NAME: BLOCKS
 URL: https://minecraft.wiki/w/Block
-###
-
+========================================
 H1: Block
 Blocksare the basic units of structure inMinecraftthat make up the game's world. Many blocks can be collected and placed anywhere, as well as be used as helpful resources.
 H2: Behavior
@@ -2921,22 +2874,13 @@ These blocks only exist inApril Fools' Day joke versionsof the game.
 - USB Charger Block
 - Vicious Potato
 - Weak Roots
-H2: See also
-- Entity
-- Data values
-- Opacity
-- Light
-- Item
-- Ore
-- Generated structures
-- Air
-- List of blocks by version
+H2: Trivia
+- Certain blocks may interpret positions they cannot be placed in by normal means as a valid position. For example, asignplaced in midair via/setblockremains in midair even when updated, until either it is broken, or a block is placed below it and broken.
 
-###
+========================================
 PAGE NAME: ITEMS
 URL: https://minecraft.wiki/w/Item
-###
-
+========================================
 H1: Item
 Anitemis an object that can exist withininventoriesofplayers,mobs, orarmor stands; in various storage blocks (likechestsordroppers), as well as initem framesandglow item frames.
 H2: Behavior
@@ -3695,18 +3639,13 @@ Zombified Piglin | thirdperson_lefthand | thirdperson_righthand | head
 Other entities
 Armor Stand | thirdperson_lefthand[verify] | ​[more information needed] | head
 
-H2: See also
-- Item repair
-- Item durability
-- Item (entity)
 H2: Notes
 - ↑Only exists as a seperate item inBedrock Edition. InJava Edition, lodestone compasses are only regular compasses with stored data.
 
-###
+========================================
 PAGE NAME: CRAFTING
 URL: https://minecraft.wiki/w/Crafting
-###
-
+========================================
 H1: Crafting
 Craftingis the process of constructingtools,items, andblocksinMinecraftthat can be performed via theinventory, acrafting table, or automatically using acrafter.
 H2: Crafting system
@@ -4334,17 +4273,10 @@ Time to Farm! | Make a Hoe. | Pick up any type ofhoefrom acrafting tableoutput. 
 Time to Mine! | Use planks and sticks to make apickaxe. | Pick up a woodenpickaxefrom acrafting tableoutput. | 10 | Bronze
 Time to Strike! | Use planks and sticks to make a sword. | Pick up any type ofswordfrom acrafting tableoutput. | 10 | Bronze
 
-H2: See also
-- Brewing
-- Enchanting
-- Smelting
-- Item durability
-
-###
+========================================
 PAGE NAME: SMELTING
 URL: https://minecraft.wiki/w/Smelting
-###
-
+========================================
 H1: Smelting
 Smeltingis the process of obtaining refined goods from raw materials by heating them in afurnaceorblast furnace. When items are smelted in either type of furnace,experienceis dropped. Likecrafting, smelting uses recipes to determine what item is produced. Smelting is one of the two functions of afurnace(the second beingcooking food) and the sole function of ablast furnace.
 H2: Methods
@@ -4557,497 +4489,491 @@ TABLE:
 Icon | Advancement | In-game description | Actual requirements (if different)
 Acquire Hardware | Smelt an Iron Ingot | Have aniron ingotin the inventory.
 
-H2: See also
-- Smelting on Wikipedia
-- Brewing
-- Cooked food
-- Crafting
-- Enchanting
-- Furnace
+H2: Trivia
+- A wooden tool burns the same regardless of its remaining durability. A used-up tool is just as effective as fuel as a new tool.
+- "Smelting" is a broad term in the context of Minecraft while in the real world, smelting has a more precise definition.[8]
 
-###
+========================================
 PAGE NAME: TUTORIALS
 URL: https://minecraft.wiki/w/Tutorials
-###
-
+========================================
 H1: Tutorials
 The list below containstutorialsdescribing various factors and mechanics ofMinecraft.
 H2: Introductory
 These tutorials are designed to help newcomers toMinecraftget a basic understanding of the game.
-- Menu screenJava EditionBedrock Edition
-- Java Edition
-- Bedrock Edition
-- Game terms
-- Playing with a controller
-- Java Edition
-- Bedrock Edition
+- [Menu screen](https://minecraft.wiki/w/Menu_screen)
+- [Java Edition](https://minecraft.wiki/w/Tutorial:Menu_screen/Java_Edition)
+- [Bedrock Edition](https://minecraft.wiki/w/Tutorial:Menu_screen/Bedrock_Edition)
+- [Game terms](https://minecraft.wiki/w/Tutorial:Game_terms)
+- [Playing with a controller](https://minecraft.wiki/w/Tutorial:Playing_with_a_controller)
+- [Java Edition](https://minecraft.wiki/w/Tutorial:Menu_screen/Java_Edition)
+- [Bedrock Edition](https://minecraft.wiki/w/Tutorial:Menu_screen/Bedrock_Edition)
 H3: Newcomer survival
-- Beginner's guideYour first 10 minutesThe second dayThe third day
-- Your first 10 minutes
-- The second day
-- The third day
-- Best biomes to use
-- Hunger management
-- Things to do
-- Things not to do
-- Simple tips and tricks
-- Survival mode progression
-- Your first 10 minutes
-- The second day
-- The third day
+- [Beginner's guide](https://minecraft.wiki/w/Tutorial:Beginner%27s_guide)
+- [Your first 10 minutes](https://minecraft.wiki/w/Tutorial:Your_first_10_minutes)
+- [The second day](https://minecraft.wiki/w/Tutorial:The_second_day)
+- [The third day](https://minecraft.wiki/w/Tutorial:The_third_day)
+- [Best biomes to use](https://minecraft.wiki/w/Tutorial:Best_biomes_to_play)
+- [Hunger management](https://minecraft.wiki/w/Tutorial:Hunger_management)
+- [Things to do](https://minecraft.wiki/w/Tutorial:Things_to_do)
+- [Things not to do](https://minecraft.wiki/w/Tutorial:Things_not_to_do)
+- [Simple tips and tricks](https://minecraft.wiki/w/Tutorial:Tips_and_tricks)
+- [Survival mode progression](https://minecraft.wiki/w/Tutorial:Game_progression_in_survival_mode)
+- [Your first 10 minutes](https://minecraft.wiki/w/Tutorial:Your_first_10_minutes)
+- [The second day](https://minecraft.wiki/w/Tutorial:The_second_day)
+- [The third day](https://minecraft.wiki/w/Tutorial:The_third_day)
 H3: Shelters
-- Best biomes for homes
-- Best building materials
-- Building and construction
-- Navigation
-- SheltersTypes
-- Types
-- Types
+- [Best biomes for homes](https://minecraft.wiki/w/Tutorial:Best_biomes_for_homes)
+- [Best building materials](https://minecraft.wiki/w/Tutorial:Best_building_materials)
+- [Building and construction](https://minecraft.wiki/w/Tutorial:Construction)
+- [Navigation](https://minecraft.wiki/w/Tutorial:Navigation)
+- [Shelters](https://minecraft.wiki/w/Tutorial:Shelters)
+- [Types](https://minecraft.wiki/w/Tutorial:Shelter_types)
+- [Types](https://minecraft.wiki/w/Tutorial:Shelter_types)
 H2: General
 Getting to know the game better. These are for when the player is comfortably established.
-- Achievement guide
-- Advancement guideMinecraft tabNether tabThe End tabAdventure tabHusbandry tab
-- Minecraft tab
-- Nether tab
-- The End tab
-- Adventure tab
-- Husbandry tab
-- Adventuring
-- Best enchantments guide
-- Breaking a fall
-- Chunk loader
-- Combat
-- Complete main adventure
-- Creating a village
-- Dual wielding
-- Exploring caves
-- Getting food quickly
-- Getting max gear
-- Hitboxes
-- Horses
-- Mapping
-- Measuring distance
-- Minecraftin education
-- MiningAncient DebrisDiamondsFossils
-- Ancient Debris
-- Diamonds
-- Fossils
-- Nether hub
-- Nether portals
-- Organization
-- Pillar jumping
-- Phantom-proofing
-- Spawn-proofing
-- Things to do when bored
-- Time-saving tips
-- Transportation methods
-- Units of measure
-- Village mechanicsTrading
-- Trading
-- Zombie siege defense
-- Minecraft tab
-- Nether tab
-- The End tab
-- Adventure tab
-- Husbandry tab
-- Ancient Debris
-- Diamonds
-- Fossils
-- Trading
+- [Achievement guide](https://minecraft.wiki/w/Tutorial:Achievement_guide)
+- [Advancement guide](https://minecraft.wiki/w/Tutorial:Advancement_guide)
+- [Minecraft tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Minecraft_tab)
+- [Nether tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Nether_tab)
+- [The End tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/The_End_tab)
+- [Adventure tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Adventure_tab)
+- [Husbandry tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Husbandry_tab)
+- [Adventuring](https://minecraft.wiki/w/Tutorial:Adventuring)
+- [Best enchantments guide](https://minecraft.wiki/w/Tutorial:Best_enchantments_guide)
+- [Breaking a fall](https://minecraft.wiki/w/Tutorial:Breaking_a_fall)
+- [Chunk loader](https://minecraft.wiki/w/Tutorial:Chunk_loader)
+- [Combat](https://minecraft.wiki/w/Tutorial:Combat)
+- [Complete main adventure](https://minecraft.wiki/w/Tutorial:Complete_main_adventure)
+- [Creating a village](https://minecraft.wiki/w/Tutorial:Creating_a_village)
+- [Dual wielding](https://minecraft.wiki/w/Tutorial:Dual_wielding)
+- [Exploring caves](https://minecraft.wiki/w/Tutorial:Exploring_caves)
+- [Getting food quickly](https://minecraft.wiki/w/Tutorial:Quick_ways_to_get_food)
+- [Getting max gear](https://minecraft.wiki/w/Tutorial:Getting_max_gear)
+- [Hitboxes](https://minecraft.wiki/w/Tutorial:Hitboxes)
+- [Horses](https://minecraft.wiki/w/Tutorial:Horses)
+- [Mapping](https://minecraft.wiki/w/Tutorial:Mapping)
+- [Measuring distance](https://minecraft.wiki/w/Tutorial:Measuring_distance)
+- [Minecraftin education](https://minecraft.wiki/w/Tutorial:Minecraft_in_education)
+- [Mining](https://minecraft.wiki/w/Tutorial:Mining)
+- [Ancient Debris](https://minecraft.wiki/w/Tutorial:Ancient_Debris)
+- [Diamonds](https://minecraft.wiki/w/Tutorial:Diamonds)
+- [Fossils](https://minecraft.wiki/w/Tutorial:Mining/Fossils)
+- [Nether hub](https://minecraft.wiki/w/Tutorial:Nether_hub)
+- [Nether portals](https://minecraft.wiki/w/Tutorial:Nether_portals)
+- [Organization](https://minecraft.wiki/w/Tutorial:Organization)
+- [Pillar jumping](https://minecraft.wiki/w/Tutorial:Pillar_jumping)
+- [Phantom-proofing](https://minecraft.wiki/w/Tutorial:Phantom-proofing)
+- [Spawn-proofing](https://minecraft.wiki/w/Tutorial:Spawn-proofing)
+- [Things to do when bored](https://minecraft.wiki/w/Tutorial:Things_to_do_when_bored)
+- [Time-saving tips](https://minecraft.wiki/w/Tutorial:Time-saving_tips)
+- [Transportation methods](https://minecraft.wiki/w/Tutorial:Transportation_methods)
+- [Units of measure](https://minecraft.wiki/w/Tutorial:Units_of_measure)
+- [Village mechanics](https://minecraft.wiki/w/Village_mechanics)
+- [Trading](https://minecraft.wiki/w/Tutorial:Trading)
+- [Zombie siege defense](https://minecraft.wiki/w/Tutorial:Zombie_siege_defense)
+- [Minecraft tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Minecraft_tab)
+- [Nether tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Nether_tab)
+- [The End tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/The_End_tab)
+- [Adventure tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Adventure_tab)
+- [Husbandry tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Husbandry_tab)
+- [Ancient Debris](https://minecraft.wiki/w/Tutorial:Ancient_Debris)
+- [Diamonds](https://minecraft.wiki/w/Tutorial:Diamonds)
+- [Fossils](https://minecraft.wiki/w/Tutorial:Mining/Fossils)
+- [Trading](https://minecraft.wiki/w/Tutorial:Trading)
 H3: Enchanting and smelting
 These tutorials provide information on how the furnaces and the enchantment system work.
-- Enchanting mechanics
-- Anvil mechanics
-- Automatic smelting
-- Manual smelting
+- [Enchanting mechanics](https://minecraft.wiki/w/Enchanting_mechanics)
+- [Anvil mechanics](https://minecraft.wiki/w/Anvil_mechanics)
+- [Automatic smelting](https://minecraft.wiki/w/Tutorial:Automatic_smelting)
+- [Manual smelting](https://minecraft.wiki/w/Tutorial:Smelting)
 H3: Non-standard survival
 Tutorials that involve a non-standard environment.
-- Desert survival
-- End survival
-- Gathering resources on peaceful difficulty
-- Managing slimes in superflat mode
-- Nether survival
-- The Void
-- Thunderstorm survival
+- [Desert survival](https://minecraft.wiki/w/Tutorial:Desert_survival)
+- [End survival](https://minecraft.wiki/w/Tutorial:End_survival)
+- [Gathering resources on peaceful difficulty](https://minecraft.wiki/w/Tutorial:Gathering_resources_on_Peaceful_difficulty)
+- [Managing slimes in superflat mode](https://minecraft.wiki/w/Tutorial:Managing_slimes_in_superflat_mode)
+- [Nether survival](https://minecraft.wiki/w/Tutorial:Nether_survival)
+- [The Void](https://minecraft.wiki/w/Tutorial:The_Void)
+- [Thunderstorm survival](https://minecraft.wiki/w/Tutorial:Thunderstorm_survival)
 H3: Advanced
 Tutorials that require using exploits or commands.
-- Breaking bedrock
-- Headless pistons
-- Indestructible end crystals
-- Summoning jockeys
-- X-ray glitches
+- [Breaking bedrock](https://minecraft.wiki/w/Tutorial:Breaking_bedrock)
+- [Headless pistons](https://minecraft.wiki/w/Tutorial:Headless_pistons)
+- [Indestructible end crystals](https://minecraft.wiki/w/Tutorial:Indestructible_end_crystals)
+- [Summoning jockeys](https://minecraft.wiki/w/Tutorial:Summoning_jockeys)
+- [X-ray glitches](https://minecraft.wiki/w/Tutorial:X-ray_glitches)
 H2: Challenges
-- Acquiring a conduit
-- Archaeology
-- Curing a zombie villager
-- Conquering a mountain
-- Defeating a bastion remnant
-- Defeating an End city
-- Defeating a monster room
-- Defeating an ocean monument
-- Defeating a Nether fortress
-- Defeating a pillager outpost
-- Defeating a stronghold
-- Defeating temples
-- Defeating trial chambers
-- Defeating a woodland mansion
-- Defeating a village raid
-- Defeating the ender dragon
-- Defeating the witherIf it escapes
-- If it escapes
-- Exploring an ancient city
-- Locating a stronghold
-- Obtaining every music disc
-- Obtaining every block
-- If it escapes
+- [Acquiring a conduit](https://minecraft.wiki/w/Tutorial:Acquiring_a_conduit)
+- [Archaeology](https://minecraft.wiki/w/Tutorial:Archaeology)
+- [Curing a zombie villager](https://minecraft.wiki/w/Tutorial:Curing_a_zombie_villager)
+- [Conquering a mountain](https://minecraft.wiki/w/Tutorial:Conquering_a_mountain)
+- [Defeating a bastion remnant](https://minecraft.wiki/w/Tutorial:Defeating_a_bastion_remnant)
+- [Defeating an End city](https://minecraft.wiki/w/Tutorial:Defeating_an_End_city)
+- [Defeating a monster room](https://minecraft.wiki/w/Tutorial:Defeating_a_monster_room)
+- [Defeating an ocean monument](https://minecraft.wiki/w/Tutorial:Defeating_an_ocean_monument)
+- [Defeating a Nether fortress](https://minecraft.wiki/w/Tutorial:Defeating_a_Nether_fortress)
+- [Defeating a pillager outpost](https://minecraft.wiki/w/Tutorial:Defeating_a_pillager_outpost)
+- [Defeating a stronghold](https://minecraft.wiki/w/Tutorial:Defeating_a_stronghold)
+- [Defeating temples](https://minecraft.wiki/w/Tutorial:Defeating_temples)
+- [Defeating trial chambers](https://minecraft.wiki/w/Tutorial:Defeating_trial_chambers)
+- [Defeating a woodland mansion](https://minecraft.wiki/w/Tutorial:Defeating_a_woodland_mansion)
+- [Defeating a village raid](https://minecraft.wiki/w/Tutorial:Defeating_a_village_raid)
+- [Defeating the ender dragon](https://minecraft.wiki/w/Tutorial:Defeating_the_ender_dragon)
+- [Defeating the wither](https://minecraft.wiki/w/Tutorial:Defeating_the_wither)
+- [If it escapes](https://minecraft.wiki/w/Tutorial:How_to_get_rid_of_a_rogue_wither)
+- [Exploring an ancient city](https://minecraft.wiki/w/Tutorial:Exploring_an_ancient_city)
+- [Locating a stronghold](https://minecraft.wiki/w/Tutorial:Locating_a_stronghold)
+- [Obtaining every music disc](https://minecraft.wiki/w/Tutorial:Obtaining_every_music_disc)
+- [Obtaining every block](https://minecraft.wiki/w/Tutorial:Obtaining_every_block)
+- [If it escapes](https://minecraft.wiki/w/Tutorial:How_to_get_rid_of_a_rogue_wither)
 H3: Non-standard survival
-- Adventure survival
-- Custom maps
-- Half hearted hardcore
-- Hardcore mode
-- Surviving in a single area indefinitely
-- Infinite desert survival
-- Island survival
-- Manhunt
-- Mob switch
-- Nomadic experience
-- Trapping every mob
-- Skyblock survival
-- Skywars survival
-- Speedrunning
-- Starting in the Nether
-- Starting in the End
-- Superflat survival(Java Edition)Bedrock Edition
-- Bedrock Edition
-- ‍Ultra hardcore survival
-- The World Starts With One
-- Getting to the world border
-- Village only survival
-- Bedrock Edition
+- [Adventure survival](https://minecraft.wiki/w/Tutorial:Adventure_survival)
+- [Custom maps](https://minecraft.wiki/w/Tutorial:Custom_maps)
+- [](https://minecraft.wiki/w/Tutorial:Half_hearted_hardcore)
+- [Hardcore mode](https://minecraft.wiki/w/Tutorial:Hardcore_mode)
+- [Surviving in a single area indefinitely](https://minecraft.wiki/w/Tutorial:Surviving_in_a_single_area_indefinitely)
+- [Infinite desert survival](https://minecraft.wiki/w/Tutorial:Survival_in_an_infinite_desert)
+- [Island survival](https://minecraft.wiki/w/Tutorial:Island_survival)
+- [Manhunt](https://minecraft.wiki/w/Tutorial:Manhunt)
+- [Mob switch](https://minecraft.wiki/w/Tutorial:Mob_switch)
+- [Nomadic experience](https://minecraft.wiki/w/Tutorial:Nomadic_experience)
+- [Trapping every mob](https://minecraft.wiki/w/Tutorial:Trapping_every_mob)
+- [Skyblock survival](https://minecraft.wiki/w/Tutorial:Skyblock)
+- [Skywars survival](https://minecraft.wiki/w/Tutorial:SkyWars)
+- [Speedrunning](https://minecraft.wiki/w/Tutorial:Speedrun)
+- [Starting in the Nether](https://minecraft.wiki/w/Tutorial:Starting_in_the_Nether)
+- [Starting in the End](https://minecraft.wiki/w/Tutorial:Starting_in_the_End)
+- [Superflat survival](https://minecraft.wiki/w/Tutorial:Superflat_survival)
+- [Bedrock Edition](https://minecraft.wiki/w/Tutorial:Flat_survival)
+- [Ultra hardcore survival](https://minecraft.wiki/w/Tutorial:Ultra_hardcore_survival)
+- [The World Starts With One](https://minecraft.wiki/w/Tutorial:The_World_Starts_With_One)
+- [Getting to the world border](https://minecraft.wiki/w/Tutorial:Getting_to_the_world_border)
+- [Village only survival](https://minecraft.wiki/w/Tutorial:Village_survival)
+- [Bedrock Edition](https://minecraft.wiki/w/Tutorial:Flat_survival)
 H3: Challenge maps
-- Beating a challenge map
-- Creating a challenge map
+- [Beating a challenge map](https://minecraft.wiki/w/Tutorial:Beating_a_challenge_map)
+- [Creating a challenge map](https://minecraft.wiki/w/Tutorial:Creating_a_challenge_map)
 H2: Construction
-- Adding beauty to constructions
-- Airlock
-- Architectural terms
-- Building a cruise ship
-- Building a metropolis
-- Building a rollercoaster
-- Building micro shelters
-- Building safe homes
-- Building water features
-- Chunk ban
-- Color palette
-- Creating shapes
-- Defense
-- Elevators
-- Endless circling pool
-- Furniture
-- Glazed terracotta patterns
-- Hiking trail
-- Lag machine
-- Making nice floors
-- Pixel art
-- Ranches
-- Roof typesCurved roofsRoof construction guidelinesRoof decorations
-- Curved roofs
-- Roof construction guidelines
-- Roof decorations
-- Secret door
-- Settlement guide
-- Underwater home
-- Walls and buttresses
-- Water gate
-- Water-powered boat transportation
-- Curved roofs
-- Roof construction guidelines
-- Roof decorations
+- [Adding beauty to constructions](https://minecraft.wiki/w/Tutorial:Adding_beauty_to_constructions)
+- [Airlock](https://minecraft.wiki/w/Tutorial:Airlock)
+- [Architectural terms](https://minecraft.wiki/w/Tutorial:Architectural_terms)
+- [Building a cruise ship](https://minecraft.wiki/w/Tutorial:Building_a_cruise_ship)
+- [Building a metropolis](https://minecraft.wiki/w/Tutorial:Building_a_metropolis)
+- [Building a rollercoaster](https://minecraft.wiki/w/Tutorial:Building_a_rollercoaster)
+- [Building micro shelters](https://minecraft.wiki/w/Tutorial:Building_micro_shelters)
+- [Building safe homes](https://minecraft.wiki/w/Tutorial:Safe_home)
+- [Building water features](https://minecraft.wiki/w/Tutorial:Building_water_features)
+- [Chunk ban](https://minecraft.wiki/w/Tutorial:Chunk_ban)
+- [Color palette](https://minecraft.wiki/w/Tutorial:Color_palette)
+- [Creating shapes](https://minecraft.wiki/w/Tutorial:Creating_shapes)
+- [Defense](https://minecraft.wiki/w/Tutorial:Defense)
+- [Elevators](https://minecraft.wiki/w/Tutorial:Elevators)
+- [Endless circling pool](https://minecraft.wiki/w/Tutorial:Endless_circling_pool)
+- [Furniture](https://minecraft.wiki/w/Tutorial:Furniture)
+- [Glazed terracotta patterns](https://minecraft.wiki/w/Tutorial:Glazed_terracotta_patterns)
+- [Hiking trail](https://minecraft.wiki/w/Tutorial:Hiking_trail)
+- [Lag machine](https://minecraft.wiki/w/Tutorial:Lag_machine)
+- [Making nice floors](https://minecraft.wiki/w/Tutorial:Making_nice_floors)
+- [Pixel art](https://minecraft.wiki/w/Tutorial:Pixel_art)
+- [Ranches](https://minecraft.wiki/w/Tutorial:Ranching)
+- [Roof types](https://minecraft.wiki/w/Tutorial:Roof_types)
+- [Curved roofs](https://minecraft.wiki/w/Tutorial:Curved_roofs)
+- [Roof construction guidelines](https://minecraft.wiki/w/Tutorial:Roof_construction_guidelines)
+- [Roof decorations](https://minecraft.wiki/w/Tutorial:Roof_decorations)
+- [Secret door](https://minecraft.wiki/w/Tutorial:Secret_door)
+- [Settlement guide](https://minecraft.wiki/w/Tutorial:Settlement_guide)
+- [Underwater home](https://minecraft.wiki/w/Tutorial:Underwater_home)
+- [Walls and buttresses](https://minecraft.wiki/w/Tutorial:Walls_and_buttresses)
+- [Water gate](https://minecraft.wiki/w/Tutorial:Water_gate)
+- [Water-powered boat transportation](https://minecraft.wiki/w/Tutorial:Water-powered_boat_transportation)
+- [Curved roofs](https://minecraft.wiki/w/Tutorial:Curved_roofs)
+- [Roof construction guidelines](https://minecraft.wiki/w/Tutorial:Roof_construction_guidelines)
+- [Roof decorations](https://minecraft.wiki/w/Tutorial:Roof_decorations)
 H3: Block breaking
 These tutorials provide information on how to break blocks automatically, usually by an explosion.
-- Blast chamber
-- Igniting TNT underwater
-- Wither cage
+- [Blast chamber](https://minecraft.wiki/w/Tutorial:Blast_chamber)
+- [Igniting TNT underwater](https://minecraft.wiki/w/Tutorial:Igniting_TNT_underwater)
+- [Wither cage](https://minecraft.wiki/w/Tutorial:Wither_cage)
 H2: Farming
 These tutorials provide information on crop and mob farming. In most cases, the player has a choice among a variety of farming methods and designs. While a huge automatic farm may be useful where large supplies of something are needed, it's important to remember that a small, simple farm can easily provide enough resources for an early-game player, or casual use in general.
 H3: Items
-- Amethyst
-- Armor
-- Azalea
-- Bamboo
-- Basalt
-- Bedrock
-- Beetroot
-- Blaze Rod
-- Bone Meal
-- Cactus
-- Carrot
-- Cat gift
-- Chorus Fruit
-- Clay
-- Cobblestone
-- Cocoa Beans
-- Copper
-- Dirt
-- Dragon's breath
-- Dripstone
-- Egg
-- Enchanted Golden Apple
-- Experience
-- Fern
-- Fish
-- Flower
-- Froglight
-- Ghast Tear
-- Glow Berries
-- Glow Ink Sac
-- Glow Lichen
-- Goat Horn
-- Gold
-- Hanging Roots
-- Honey
-- Ice
-- Iron
-- Kelp
-- Lava
-- Meat
-- Moss
-- Mud
-- Mushroom
-- Music Disc
-- Nautilus Shell
-- Nether growth
-- Nether vine
-- Nether Wart
-- Obsidian
-- Ominous Bottle
-- Potato
-- Powder Snow
-- Pumpkin, Melon
-- Rooted Dirt
-- Sculk
-- Turtle Scute
-- Seagrass
-- Sea Pickle
-- Snow
-- Soul Soil
-- Sugar Cane
-- Sweet Berries
-- Tree
-- Trident
-- Vine
-- Villager trading hall
-- Wheat
-- Wither Rose
-- Wool
-- Duplication
+- [](https://minecraft.wiki/w/Tutorial:Amethyst_farming)
+- [](https://minecraft.wiki/w/Tutorial:Armor_farming)
+- [](https://minecraft.wiki/w/Tutorial:Azalea_tree_farming)
+- [](https://minecraft.wiki/w/Tutorial:Bamboo_farming)
+- [](https://minecraft.wiki/w/Tutorial:Basalt_farming)
+- [](https://minecraft.wiki/w/Tutorial:Bedrock_farming)
+- [](https://minecraft.wiki/w/Tutorial:Crop_farming)
+- [](https://minecraft.wiki/w/Tutorial:Blaze_farming)
+- [](https://minecraft.wiki/w/Tutorial:Bone_Meal_farming)
+- [](https://minecraft.wiki/w/Tutorial:Cactus_farming)
+- [](https://minecraft.wiki/w/Tutorial:Crop_farming)
+- [](https://minecraft.wiki/w/Tutorial:Cat_gift_farming)
+- [](https://minecraft.wiki/w/Tutorial:Chorus_Fruit_farming)
+- [](https://minecraft.wiki/w/Tutorial:Clay_and_Mud_farming)
+- [](https://minecraft.wiki/w/Tutorial:Cobblestone_farming)
+- [](https://minecraft.wiki/w/Tutorial:Cocoa_Bean_farming)
+- [](https://minecraft.wiki/w/Tutorial:Drowned_farming)
+- [](https://minecraft.wiki/w/Tutorial:Dirt_farming)
+- [](https://minecraft.wiki/w/Tutorial:Dragon%27s_Breath_farming)
+- [](https://minecraft.wiki/w/Tutorial:Dripstone_farming)
+- [](https://minecraft.wiki/w/Tutorial:Egg_farming)
+- [](https://minecraft.wiki/w/Tutorial:Enchanted_Golden_Apple_farming)
+- [](https://minecraft.wiki/w/Tutorial:Experience_farming)
+- [](https://minecraft.wiki/w/Tutorial:Fern_farming)
+- [](https://minecraft.wiki/w/Tutorial:Fish_farming)
+- [](https://minecraft.wiki/w/Tutorial:Flower_farming)
+- [](https://minecraft.wiki/w/Tutorial:Froglight_farming)
+- [](https://minecraft.wiki/w/Tutorial:Ghast_farming)
+- [](https://minecraft.wiki/w/Tutorial:Glow_Berry_farming)
+- [](https://minecraft.wiki/w/Tutorial:Axolotl_farming)
+- [](https://minecraft.wiki/w/Tutorial:Glow_Lichen_farming)
+- [](https://minecraft.wiki/w/Tutorial:Goat_farming#Goat_horn_farming)
+- [](https://minecraft.wiki/w/Tutorial:Zombified_Piglin_farming)
+- [](https://minecraft.wiki/w/Tutorial:Root_farming)
+- [](https://minecraft.wiki/w/Tutorial:Honey_farming)
+- [](https://minecraft.wiki/w/Tutorial:Ice_farming)
+- [](https://minecraft.wiki/w/Tutorial:Iron_Golem_farming)
+- [](https://minecraft.wiki/w/Tutorial:Kelp_farming)
+- [](https://minecraft.wiki/w/Tutorial:Lava_farming)
+- [](https://minecraft.wiki/w/Tutorial:Animal_farming)
+- [](https://minecraft.wiki/w/Tutorial:Moss_farming)
+- [](https://minecraft.wiki/w/Tutorial:Clay_and_Mud_farming)
+- [](https://minecraft.wiki/w/Tutorial:Mushroom_farming)
+- [](https://minecraft.wiki/w/Tutorial:Music_disc_farming)
+- [](https://minecraft.wiki/w/Tutorial:Drowned_farming)
+- [](https://minecraft.wiki/w/Tutorial:Nether_growth_farming)
+- [](https://minecraft.wiki/w/Tutorial:Weeping_and_Twisting_Vine_farming)
+- [](https://minecraft.wiki/w/Tutorial:Nether_Wart_farming)
+- [](https://minecraft.wiki/w/Tutorial:Obsidian_farming)
+- [](https://minecraft.wiki/w/Tutorial:Ominous_bottle_farming)
+- [](https://minecraft.wiki/w/Tutorial:Crop_farming)
+- [](https://minecraft.wiki/w/Tutorial:Powder_Snow_farming)
+- [](https://minecraft.wiki/w/Tutorial:Pumpkin_and_Melon_farming)
+- [](https://minecraft.wiki/w/Tutorial:Root_farming)
+- [](https://minecraft.wiki/w/Tutorial:Sculk_farming)
+- [](https://minecraft.wiki/w/Tutorial:Turtle_farming)
+- [](https://minecraft.wiki/w/Tutorial:Seagrass_farming)
+- [](https://minecraft.wiki/w/Tutorial:Sea_Pickle_farming)
+- [](https://minecraft.wiki/w/Tutorial:Snow_farming)
+- [](https://minecraft.wiki/w/Tutorial:Soul_Soil_farming)
+- [](https://minecraft.wiki/w/Tutorial:Sugar_Cane_farming)
+- [](https://minecraft.wiki/w/Tutorial:Sweet_Berry_farming)
+- [](https://minecraft.wiki/w/Tutorial:Tree_farming)
+- [](https://minecraft.wiki/w/Tutorial:Drowned_farming)
+- [](https://minecraft.wiki/w/Tutorial:Vine_farming)
+- [](https://minecraft.wiki/w/Tutorial:Villager_trading_hall)
+- [](https://minecraft.wiki/w/Tutorial:Crop_farming)
+- [](https://minecraft.wiki/w/Tutorial:Wither_Rose_farming)
+- [](https://minecraft.wiki/w/Tutorial:Wool_farming)
+- [](https://minecraft.wiki/w/Tutorial:Block_and_item_duplication)
 H3: Mobs
-- Mob farming
-- Mob grinding
-- Monster spawner traps
-- Allay
-- Animals
-- Axolotl
-- Bee
-- Blaze
-- Breeze
-- Cat
-- Cave spider
-- Chicken
-- Creeper
-- Drowned
-- Ender dragon
-- Enderman
-- Frog
-- Ghast
-- Glow squid
-- Goat
-- Guardian
-- Hoglin
-- Iron golem
-- Magma cube
-- Phantom
-- Piglin bartering
-- Pillager
-- Raid
-- Shulker
-- Slime
-- Squid
-- Turtle
-- Villager
-- Wandering trader
-- Warden
-- Witch
-- Wither
-- Wither skeleton
-- Zombie/Drowned
-- Zombie villager
-- Zombified piglin
+- [Mob farming](https://minecraft.wiki/w/Tutorial:Mob_farm)
+- [Mob grinding](https://minecraft.wiki/w/Tutorial:Mob_grinder)
+- [Monster spawner traps](https://minecraft.wiki/w/Tutorial:Monster_spawner_traps)
+- [Allay](https://minecraft.wiki/w/Tutorial:Allay_farming)
+- [Animals](https://minecraft.wiki/w/Tutorial:Animal_farming)
+- [Axolotl](https://minecraft.wiki/w/Tutorial:Axolotl_farming)
+- [Bee](https://minecraft.wiki/w/Tutorial:Bee_farming)
+- [Blaze](https://minecraft.wiki/w/Tutorial:Blaze_farming)
+- [Breeze](https://minecraft.wiki/w/Tutorial:Breeze_farming)
+- [Cat](https://minecraft.wiki/w/Tutorial:Cat_farming)
+- [Cave spider](https://minecraft.wiki/w/Tutorial:Cave_Spider_farming)
+- [Chicken](https://minecraft.wiki/w/Tutorial:Chicken_farming)
+- [Creeper](https://minecraft.wiki/w/Tutorial:Creeper_farming)
+- [Drowned](https://minecraft.wiki/w/Tutorial:Drowned_farming)
+- [Ender dragon](https://minecraft.wiki/w/Tutorial:Ender_Dragon_farming)
+- [Enderman](https://minecraft.wiki/w/Tutorial:Enderman_farming)
+- [](https://minecraft.wiki/w/Tutorial:Frog_farming)
+- [Ghast](https://minecraft.wiki/w/Tutorial:Ghast_farming)
+- [Glow squid](https://minecraft.wiki/w/Tutorial:Glow_Squid_farming)
+- [Goat](https://minecraft.wiki/w/Tutorial:Goat_farming)
+- [Guardian](https://minecraft.wiki/w/Tutorial:Guardian_farming)
+- [Hoglin](https://minecraft.wiki/w/Tutorial:Hoglin_farming)
+- [Iron golem](https://minecraft.wiki/w/Tutorial:Iron_Golem_farming)
+- [Magma cube](https://minecraft.wiki/w/Tutorial:Magma_Cube_farming)
+- [Phantom](https://minecraft.wiki/w/Tutorial:Phantom_farming)
+- [Piglin bartering](https://minecraft.wiki/w/Tutorial:Bartering_farm)
+- [Pillager](https://minecraft.wiki/w/Tutorial:Pillager_farming)
+- [Raid](https://minecraft.wiki/w/Tutorial:Raid_farming)
+- [Shulker](https://minecraft.wiki/w/Tutorial:Shulker_farming)
+- [Slime](https://minecraft.wiki/w/Tutorial:Slime_farming)
+- [Squid](https://minecraft.wiki/w/Tutorial:Squid_farming)
+- [Turtle](https://minecraft.wiki/w/Tutorial:Turtle_farming)
+- [Villager](https://minecraft.wiki/w/Tutorial:Villager_farming)
+- [Wandering trader](https://minecraft.wiki/w/Tutorial:Wandering_Trader_farming)
+- [Warden](https://minecraft.wiki/w/Tutorial:Warden_farming)
+- [Witch](https://minecraft.wiki/w/Tutorial:Witch_farming)
+- [Wither](https://minecraft.wiki/w/Tutorial:Wither_choker)
+- [Wither skeleton](https://minecraft.wiki/w/Tutorial:Wither_Skeleton_farming)
+- [Zombie/Drowned](https://minecraft.wiki/w/Tutorial:Drowned_farming)
+- [Zombie villager](https://minecraft.wiki/w/Tutorial:Zombie_villager_farming)
+- [Zombified piglin](https://minecraft.wiki/w/Tutorial:Zombified_Piglin_farming)
 H2: Mechanisms
 These tutorials provide information on redstone mechanisms.
 H3: Basic redstone
-- Redstone tutorials: Roundup of all redstone-related tutorials (some are also linked below)
-- Redstone dust: The core material that enables most redstone devices, being crafted into many of them and also placed to carry signals.
-- Redstone mechanics: The basic game mechanics for redstone power and signals.
-- Redstone components: The blocks that are used in and with redstone contraptions.
-- Redstone circuits: Lists various types of reusable circuits that can be used to manipulate signals, with sub-pages giving examples of the various types.
-- Redstone tips: Hints and advice for building your redstone devices.
+- [Redstone tutorials](https://minecraft.wiki/w/Tutorial:Redstone)
+- [Redstone dust](https://minecraft.wiki/w/Redstone_dust)
+- [Redstone mechanics](https://minecraft.wiki/w/Redstone_mechanics)
+- [Redstone components](https://minecraft.wiki/w/Redstone_components)
+- [Redstone circuits](https://minecraft.wiki/w/Redstone_circuits)
+- [Redstone tips](https://minecraft.wiki/w/Tutorial:Redstone_tips)
 H3: Various devices
-- Automatic respawn anchor recharger: Recharges respawn anchors so they can be used again.
-- Combination locks: Locks that only open with the right combination entered.
-- Command blocks and functions: Making many contraptions using command blocks.
-- Crafter: Automated crafting systems.
-- Flying machines: Slime block contraptions that can fly.
-- Hopper: Hoppers are key for item handling and sorting.
-- Item sorting: Sorts items.
-- Item transportation: Moves items.
-- Mechanisms: Lists an assortment of complete devices using redstone.
-- Observer stabilizer: Keeps observer-based contraptions from continuously firing.
-- Randomizers: Generates random outputs.
-- Redstone music: Creating music withnote blocksand redstone circuits.
-- Rube Goldberg machine: Complexity and spectacle!
-- Shulker box storage: A storage system that relies on shulker boxes.
+- [Automatic respawn anchor recharger](https://minecraft.wiki/w/Tutorial:Automatic_respawn_anchor_recharger)
+- [Combination locks](https://minecraft.wiki/w/Tutorial:Combination_locks)
+- [Command blocks and functions](https://minecraft.wiki/w/Tutorial:Command_blocks_and_functions)
+- [Crafter](https://minecraft.wiki/w/Tutorial:Crafter)
+- [Flying machines](https://minecraft.wiki/w/Tutorial:Flying_machines)
+- [Hopper](https://minecraft.wiki/w/Tutorial:Hopper)
+- [Item sorting](https://minecraft.wiki/w/Tutorial:Item_sorting)
+- [Item transportation](https://minecraft.wiki/w/Tutorial:Item_transportation)
+- [Mechanisms](https://minecraft.wiki/w/Tutorial:Mechanisms)
+- [Observer stabilizer](https://minecraft.wiki/w/Tutorial:Observer_stabilizer)
+- [Randomizers](https://minecraft.wiki/w/Tutorial:Randomizers)
+- [Redstone music](https://minecraft.wiki/w/Tutorial:Redstone_music)
+- [Rube Goldberg machine](https://minecraft.wiki/w/Tutorial:Rube_Goldberg_machine)
+- [Shulker box storage](https://minecraft.wiki/w/Tutorial:Shulker_box_storage)
 H3: Detectors
-- Block update detector: Sends a signal if a block state changes.
-- Comparator update detector: Sends a signal if a comparator detects a change in a block.
-- Daylight detector: Sends a signal if the light changes.
+- [Block update detector](https://minecraft.wiki/w/Tutorial:Block_update_detector)
+- [Comparator update detector](https://minecraft.wiki/w/Tutorial:Comparator_update_detector)
+- [Daylight detector](https://minecraft.wiki/w/Tutorial:Daylight_detector)
 H3: Minecarts
-- Minecarts: Large railway systems can benefit from redstone at the terminals.
-- Storage minecarts: Loading and unloading chests and hopper minecarts.Digital: Digital method of loading and unloading chests and hopper minecarts.
-- Digital: Digital method of loading and unloading chests and hopper minecarts.
-- Digital: Digital method of loading and unloading chests and hopper minecarts.
+- [Minecarts](https://minecraft.wiki/w/Tutorial:Minecarts)
+- [Storage minecarts](https://minecraft.wiki/w/Tutorial:Storage_minecarts)
+- [Digital](https://minecraft.wiki/w/Tutorial:Digital_minecart_storage_system)
+- [Digital](https://minecraft.wiki/w/Tutorial:Digital_minecart_storage_system)
 H3: Traps
-- Snow golems
-- TNT cannons
-- Trapdoor uses
-- TrapsandTrap design
+- [Snow golems](https://minecraft.wiki/w/Tutorial:Snow_golems)
+- [TNT cannons](https://minecraft.wiki/w/Tutorial:TNT_cannons)
+- [Trapdoor uses](https://minecraft.wiki/w/Tutorial:Trapdoor_uses)
+- [Traps](https://minecraft.wiki/w/Tutorial:Traps)
 H3: Pistons
-- Piston uses
-- Piston circuits
-- Quasi-connectivity
-- Zero-ticking
-- Instant repeaters
+- [Piston uses](https://minecraft.wiki/w/Tutorial:Piston_uses)
+- [Piston circuits](https://minecraft.wiki/w/Redstone_circuits/Piston)
+- [Quasi-connectivity](https://minecraft.wiki/w/Tutorial:Quasi-connectivity)
+- [Zero-ticking](https://minecraft.wiki/w/Tutorial:Zero-ticking)
+- [Instant repeaters](https://minecraft.wiki/w/Tutorial:Instant_repeaters)
 H3: Tripwire
-- Tripwire techniques
+- [Tripwire techniques](https://minecraft.wiki/w/Tutorial:Tripwire_techniques)
 H3: Advanced redstone
-- Advanced redstone circuits
-- Arithmetic logic
-- Calculator
-- Command stats
-- Hourly clock
-- Morse code
-- Printing
-- Redstone computers
-- Redstone telegraph
+- [Advanced redstone circuits](https://minecraft.wiki/w/Tutorial:Advanced_redstone_circuits)
+- [Arithmetic logic](https://minecraft.wiki/w/Tutorial:Arithmetic_logic)
+- [Calculator](https://minecraft.wiki/w/Tutorial:Calculator)
+- [Command stats](https://minecraft.wiki/w/Tutorial:Command_stats)
+- [Hourly clock](https://minecraft.wiki/w/Tutorial:Hourly_clock)
+- [Morse code](https://minecraft.wiki/w/Tutorial:Morse_code)
+- [Printing](https://minecraft.wiki/w/Tutorial:Printing)
+- [Redstone computers](https://minecraft.wiki/w/Tutorial:Redstone_computers)
+- [Redstone telegraph](https://minecraft.wiki/w/Tutorial:Telegraph)
 H2: Multiplayer
 These tutorials provide technical information on servers and tips for multiplayer.
-- Playing on servers
-- Multiplayer survival
-- Spawn jails for multiplayer
-- Griefing prevention
-- Hiding chests
-- Player versus Player (PvP)PvP BedrockPvP bases
-- PvP Bedrock
-- PvP bases
-- Joining a LAN world with alternate accounts
-- PvP Bedrock
-- PvP bases
+- [Playing on servers](https://minecraft.wiki/w/Tutorial:Playing_on_servers)
+- [Multiplayer survival](https://minecraft.wiki/w/Tutorial:Multiplayer_survival)
+- [Spawn jails for multiplayer](https://minecraft.wiki/w/Tutorial:Spawn_jail)
+- [Griefing prevention](https://minecraft.wiki/w/Tutorial:Griefing_prevention)
+- [Hiding chests](https://minecraft.wiki/w/Tutorial:Hiding_chests)
+- [Player versus Player (PvP)](https://minecraft.wiki/w/Tutorial:Player_versus_Player)
+- [PvP Bedrock](https://minecraft.wiki/w/Tutorial:PvP_(Bedrock_Edition))
+- [PvP bases](https://minecraft.wiki/w/Tutorial:Multiplayer_PvP_bases)
+- [Joining a LAN world with alternate accounts](https://minecraft.wiki/w/Tutorial:Offline_alternate_accounts)
+- [PvP Bedrock](https://minecraft.wiki/w/Tutorial:PvP_(Bedrock_Edition))
+- [PvP bases](https://minecraft.wiki/w/Tutorial:Multiplayer_PvP_bases)
 H3: Server setup
-- Setting up aJava EditionserverSetting up a Minecraft Forge serverSetting up a Spigot server
-- Setting up a Minecraft Forge server
-- Setting up a Spigot server
-- Setting up aBedrock Editionserver
-- Server maintenance
-- Setting up a LAN world
-- Server startup scriptFreeBSD startup scriptOpenBSD startup scriptUbuntu startup script
-- FreeBSD startup script
-- OpenBSD startup script
-- Ubuntu startup script
-- Hamachi connection LAN
-- Ramdisk enabled server
-- Setting up a Minecraft Forge server
-- Setting up a Spigot server
-- FreeBSD startup script
-- OpenBSD startup script
-- Ubuntu startup script
+- [Setting up aJava Editionserver](https://minecraft.wiki/w/Tutorial:Setting_up_a_Java_Edition_server)
+- [Setting up a Minecraft Forge server](https://minecraft.wiki/w/Tutorial:Setting_up_a_Minecraft_Forge_server)
+- [Setting up a Spigot server](https://minecraft.wiki/w/Tutorial:Setting_up_a_Spigot_server)
+- [Setting up aBedrock Editionserver](https://minecraft.wiki/w/Tutorial:Setting_up_a_Bedrock_Edition_server)
+- [Server maintenance](https://minecraft.wiki/w/Tutorial:Server_maintenance)
+- [Setting up a LAN world](https://minecraft.wiki/w/Tutorial:Setting_up_a_LAN_world)
+- [Server startup script](https://minecraft.wiki/w/Tutorial:Server_startup_script)
+- [FreeBSD startup script](https://minecraft.wiki/w/Tutorial:FreeBSD_startup_script)
+- [OpenBSD startup script](https://minecraft.wiki/w/Tutorial:OpenBSD_startup_script)
+- [Ubuntu startup script](https://minecraft.wiki/w/Tutorial:Ubuntu_startup_script)
+- [Hamachi connection LAN](https://minecraft.wiki/w/Tutorial:Hamachi_connection_LAN)
+- [Ramdisk enabled server](https://minecraft.wiki/w/Tutorial:Ramdisk_enabled_server)
+- [Setting up a Minecraft Forge server](https://minecraft.wiki/w/Tutorial:Setting_up_a_Minecraft_Forge_server)
+- [Setting up a Spigot server](https://minecraft.wiki/w/Tutorial:Setting_up_a_Spigot_server)
+- [FreeBSD startup script](https://minecraft.wiki/w/Tutorial:FreeBSD_startup_script)
+- [OpenBSD startup script](https://minecraft.wiki/w/Tutorial:OpenBSD_startup_script)
+- [Ubuntu startup script](https://minecraft.wiki/w/Tutorial:Ubuntu_startup_script)
 H2: Technical
 These tutorials provide information on technical matters, such as mods and snapshots.
-- Moving structures using structure blocks from world to world
-- Improving frame rate
-- Minecrafthelp FAQ
-- Note Block Studio
-- Programs and editors
-- Running the data generator
-- Update Java to latest version
-- SeeMinecraft's code
-- Downgrading
-- Creating Forge mods
+- [Moving structures using structure blocks from world to world](https://minecraft.wiki/w/Tutorial:Moving_structures_using_structure_blocks_from_world_to_world)
+- [Improving frame rate](https://minecraft.wiki/w/Tutorial:Improving_frame_rate)
+- [Minecrafthelp FAQ](https://minecraft.wiki/w/Tutorial:Minecraft_help_FAQ)
+- [Note Block Studio](https://minecraft.wiki/w/Tutorial:Programs_and_editors/Minecraft_Note_Block_Studio)
+- [Programs and editors](https://minecraft.wiki/w/Tutorial:Programs_and_editors)
+- [Running the data generator](https://minecraft.wiki/w/Tutorial:Running_the_data_generator)
+- [Update Java to latest version](https://minecraft.wiki/w/Tutorial:Update_Java)
+- [SeeMinecraft's code](https://minecraft.wiki/w/Tutorial:See_Minecraft%27s_code)
+- [Downgrading](https://minecraft.wiki/w/Tutorial:Downgrading)
+- [Creating Forge mods](https://minecraft.wiki/w/Tutorial:Creating_Forge_mods)
 H3: Maps
-- Custom maps
-- Map downloads
-- Command NBT tags
-- Falling blocks
-- Updating old terrain
+- [Custom maps](https://minecraft.wiki/w/Tutorial:Custom_maps)
+- [Map downloads](https://minecraft.wiki/w/Tutorial:Map_downloads)
+- [Command NBT tags](https://minecraft.wiki/w/Tutorial:Command_NBT_tags)
+- [Falling blocks](https://minecraft.wiki/w/Tutorial:Falling_blocks)
+- [Updating old terrain](https://minecraft.wiki/w/Tutorial:Updating_old_terrain)
 H3: Resource packs
-- Creating a resource pack
-- Loading a resource pack
-- Models
-- Sound directory
+- [Creating a resource pack](https://minecraft.wiki/w/Tutorial:Creating_a_resource_pack)
+- [Loading a resource pack](https://minecraft.wiki/w/Tutorial:Loading_a_resource_pack)
+- [Models](https://minecraft.wiki/w/Tutorial:Models)
+- [Sound directory](https://minecraft.wiki/w/Tutorial:Sound_directory)
 H3: Data packs
-- Creating a data pack
-- Installing a data pack
-- Adding a new dimension
-- Custom structures
-- Adding custom trims
-- Adding custom paintings
-- Adding custom enchantments
-- Repairing a world corrupted by a data pack
+- [Creating a data pack](https://minecraft.wiki/w/Tutorial:Creating_a_data_pack)
+- [Installing a data pack](https://minecraft.wiki/w/Tutorial:Installing_a_data_pack)
+- [Adding a new dimension](https://minecraft.wiki/w/Tutorial:Adding_a_new_dimension)
+- [Custom structures](https://minecraft.wiki/w/Tutorial:Custom_structures)
+- [Adding custom trims](https://minecraft.wiki/w/Tutorial:Adding_custom_trims)
+- [Adding custom paintings](https://minecraft.wiki/w/Tutorial:Adding_custom_paintings)
+- [Adding custom enchantments](https://minecraft.wiki/w/Tutorial:Adding_custom_enchantments)
+- [Repairing a world corrupted by a data pack](https://minecraft.wiki/w/Tutorial:Repairing_a_world_corrupted_by_a_data_pack)
 H3: CreatingMinecraftmedia
-- Videos
-- Livestreaming
-- Hide Server IP
+- [Videos](https://minecraft.wiki/w/Tutorial:Videos)
+- [Livestreaming](https://minecraft.wiki/w/Tutorial:Livestreaming)
+- [Hide Server IP](https://minecraft.wiki/w/Tutorial:Hide_Multiplayer_Server_IP)
 H3: Game installation
-- Installing a snapshot
-- InstallingMinecraft Previewand beta versions
-- Obtaining a crash report
-- Installing Forge mods
-- CustomMinecraftdirectory
-- Playing and savingMinecrafton a thumb drive
-- Playing and savingMinecrafton a thumb drive with the old launcher
-- Recover corrupted saved world data
-- RunMinecraftthrough Google Drive
-- Save game data to Dropbox (world data only)
-- Saving data Dropbox guide
-- Create a Mac OS X startup daemon
-- Java Editionon Chrome OS
+- [Installing a snapshot](https://minecraft.wiki/w/Tutorial:Installing_a_snapshot)
+- [InstallingMinecraft Previewand beta versions](https://minecraft.wiki/w/Tutorial:Bedrock_Edition_development_versions)
+- [Obtaining a crash report](https://minecraft.wiki/w/Tutorial:Obtaining_a_crash_report)
+- [Installing Forge mods](https://minecraft.wiki/w/Mods/Installing_Forge_mods)
+- [CustomMinecraftdirectory](https://minecraft.wiki/w/Tutorial:Custom_Minecraft_directory)
+- [Playing and savingMinecrafton a thumb drive](https://minecraft.wiki/w/Tutorial:Playing_and_saving_Minecraft_on_a_thumb_drive)
+- [Playing and savingMinecrafton a thumb drive with the old launcher](https://minecraft.wiki/w/Tutorial:Playing_and_saving_Minecraft_on_a_thumb_drive_with_the_old_launcher)
+- [Recover corrupted saved world data](https://minecraft.wiki/w/Tutorial:Recover_corrupted_saved_world_data)
+- [RunMinecraftthrough Google Drive](https://minecraft.wiki/w/Tutorial:Run_Minecraft_through_Google_Drive)
+- [Save game data to Dropbox (world data only)](https://minecraft.wiki/w/Tutorial:Migrating_saved_game_data_to_the_cloud)
+- [Saving data Dropbox guide](https://minecraft.wiki/w/Tutorial:Saved_data_Dropbox_guide)
+- [Create a Mac OS X startup daemon](https://minecraft.wiki/w/Tutorial:Create_a_Mac_OS_X_startup_daemon)
+- [Java Editionon Chrome OS](https://minecraft.wiki/w/Tutorial:Java_Edition_on_ChromeOS)
 H2: Legacy tutorials
 The following tutorials are obsolete and intended for older versions ofMinecraft. They are kept here for historical purposes.
-- Custom texture packs—texture packsare no longer used,resource packsuse new file structure
-- How to get a crash report (Outdated)— No longer works with the current launcher
-- Water tram- Boat mechanics have been overhauled
-- Repeater reboot system— A glitch that existed in Beta only
-- Update LWJGL (Legacy)— Current launcher automatically updates libraries
-- Custom lake— These methods are no longer needed since water is more obliging
-- Water ladder— No longer works as given, water behavior has changed a lot since Beta
-- Installing mods - Modloader— ModLoader is no longer supported by its creator
-- Far Lands— Only existed before Beta 1.8
-- Instant wire— A glitch that existed in Beta
-- UpdateMinecraft— Updating and downgradingMinecraftis automatic in the new launcher
-- Minecart booster— Minecart boosters were fixed shortly after the introduction of powered rails.
-- Survival with no enabled data packs— Blocks no longer drop items when data packs are disabled with theVillage & Pillageupdate. Furthermore, as of 1.16, this is no longer possible as data packs are now validated before the world is created, and some tags are necessary for the data packs to be valid.
-- Door-based iron golem farming— Villages are no longer based around doors with theVillage & Pillageupdate.
-- Legacy village mechanics— Villages are no longer based around doors with theVillage & Pillageupdate.
-- Village chaining— Villages are no longer based around doors with theVillage & Pillageupdate.
-- Potion farming— This method of potion farming was patched in version 1.17.30 as a result of being too overpowered. Witch farms can still give potions, however.
-- End of light mob farms— Patched in22w12a
-- Custom world generation
-- Obtaining discontinued features— Information on how to obtain features that could only be collected in older versions but can be updated into future versions.
+- [Custom texture packs](https://minecraft.wiki/w/Tutorial:Custom_texture_packs)
+- [How to get a crash report (Outdated)](https://minecraft.wiki/w/Tutorial:How_to_get_a_crash_report_(Outdated))
+- [Water tram](https://minecraft.wiki/w/Tutorial:Water_tram)
+- [Repeater reboot system](https://minecraft.wiki/w/Tutorial:Repeater_reboot_system)
+- [Update LWJGL (Legacy)](https://minecraft.wiki/w/Tutorial:Update_LWJGL_(Legacy))
+- [Custom lake](https://minecraft.wiki/w/Tutorial:Man-made_lake)
+- [Water ladder](https://minecraft.wiki/w/Tutorial:Water_ladder)
+- [Installing mods - Modloader](https://minecraft.wiki/w/Mods/Installing_mods)
+- [Far Lands](https://minecraft.wiki/w/Tutorial:Far_Lands)
+- [Instant wire](https://minecraft.wiki/w/Tutorial:Instant_wire)
+- [UpdateMinecraft](https://minecraft.wiki/w/Tutorial:Update_Minecraft)
+- [Minecart booster](https://minecraft.wiki/w/Tutorial:Minecart_booster)
+- [Survival with no enabled data packs](https://minecraft.wiki/w/Tutorial:Survival_with_no_enabled_data_packs)
+- [Door-based iron golem farming](https://minecraft.wiki/w/Tutorial:Door-based_iron_golem_farming)
+- [Legacy village mechanics](https://minecraft.wiki/w/Tutorial:Legacy_village_mechanics)
+- [Village chaining](https://minecraft.wiki/w/Tutorial:Village_chaining)
+- [Potion farming](https://minecraft.wiki/w/Tutorial:Potion_farming)
+- [End of light mob farms](https://minecraft.wiki/w/Tutorial:End_of_light_mob_farms)
+- [Custom world generation](https://minecraft.wiki/w/Tutorial:Custom_world_generation)
+- [Obtaining discontinued features](https://mcdf.wiki.gg/wiki/Minecraft_Discontinued_Features_Wiki)
 
-###
+========================================
 PAGE NAME: REDSTONE
 URL: https://minecraft.wiki/w/Redstone_circuits
-###
-
+========================================
 H1: Redstone circuits
 Aredstone circuitis a build that is primarily focused on dealing with logic and redstone signals. Circuits can be used to transmit redstone signals, perform operations withlogic gates, store data, shorten or lengthen redstone signals, make clocks, and more.
 A useful distinction can be made between acircuitperforming operations on signals (generating, modifying, combining, etc.), and amechanismusing the environment (moving blocks, opening doors, changing the light level, producing sound, etc). Making this distinction allows us to talk about the various circuits separately, and let all players choose whichever circuits are useful for their purposes. The machines controlled by redstone circuits can range from simple devices such as automatic doors and light switches to complex devices such as elevators, automatic farms, or even in-game computers. However,thisarticle provides only an overview of redstonecircuitsas above. These can be used to control simple mechanisms, or combined as parts of a larger build. Each circuit type on this page has links to its own page, which provides greater detail about them and give schematics for multiple variations of each.
