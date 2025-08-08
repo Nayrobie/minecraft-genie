@@ -1,5 +1,4 @@
 import json
-import os
 from pathlib import Path
 from typing import List
 from llama_index.core import VectorStoreIndex, Document
@@ -44,7 +43,7 @@ def filter_redundant_text(text: str) -> bool:
 
 def split_and_prepare_documents(lore_data: List[dict]) -> List[Document]:
     """Split content into semantic chunks, associate metadata.
-    
+
     Optionally, table rows (like bullet points or lists) can be treated as separate chunks
     for improved search granularity.
     """
@@ -56,10 +55,11 @@ def split_and_prepare_documents(lore_data: List[dict]) -> List[Document]:
         filtered_chunks = filter(filter_redundant_text, chunks)
 
         for chunk in filtered_chunks:
-            docs.append(Document(
-                text=chunk,
-                metadata={"source": entry["title"], "url": entry["url"]}
-            ))
+            docs.append(
+                Document(
+                    text=chunk, metadata={"source": entry["title"], "url": entry["url"]}
+                )
+            )
     return docs
 
 
@@ -67,20 +67,18 @@ def build_vector_index(documents: List[Document]) -> VectorStoreIndex:
     """Build and persist Chroma vector index."""
     # Create the database directory if it doesn't exist
     Path(DB_DIR).mkdir(parents=True, exist_ok=True)
-    
+
     client = chromadb.PersistentClient(path=DB_DIR)
-    
+
     # Get or create collection
     collection = client.get_or_create_collection("minecraft_lore")
-    
+
     # Create vector store with explicit collection
     vector_store = ChromaVectorStore(chroma_collection=collection)
     storage_context = StorageContext.from_defaults(vector_store=vector_store)
 
     index = VectorStoreIndex.from_documents(
-        documents, 
-        embed_model=OpenAIEmbedding(), 
-        storage_context=storage_context
+        documents, embed_model=OpenAIEmbedding(), storage_context=storage_context
     )
     index.storage_context.persist()
     print(f"✅ {len(documents)} chunks embedded and saved to Chroma at {DB_DIR}")

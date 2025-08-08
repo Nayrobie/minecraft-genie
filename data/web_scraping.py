@@ -30,11 +30,12 @@ WIKI_PAGES = {
     "items": "https://minecraft.wiki/w/Item",
     "crafting": "https://minecraft.wiki/w/Crafting",
     "smelting": "https://minecraft.wiki/w/Smelting",
-    "tutorials": "https://minecraft.wiki/w/Tutorials", #TODO: tutorials are only links, make sure the tool can provide the links
+    "tutorials": "https://minecraft.wiki/w/Tutorials",  # TODO: tutorials are only links, make sure the tool can provide the links
     "redstone": "https://minecraft.wiki/w/Redstone_circuits",
 }
 
 DEBUG = True
+
 
 def _scrape_page(url: str) -> str:
     """
@@ -47,14 +48,16 @@ def _scrape_page(url: str) -> str:
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
-    
+
     # Remove edit links from HTML before processing
-    for edit_link in soup.find_all(['span', 'a'], class_=['mw-editsection', 'mw-editsection-bracket']):
+    for edit_link in soup.find_all(
+        ["span", "a"], class_=["mw-editsection", "mw-editsection-bracket"]
+    ):
         edit_link.decompose()
-    
-    for unwanted in soup.find_all(['span'], class_=['mw-headline']):
-        if unwanted.find('span', class_='mw-editsection'):
-            unwanted.find('span', class_='mw-editsection').decompose()
+
+    for unwanted in soup.find_all(["span"], class_=["mw-headline"]):
+        if unwanted.find("span", class_="mw-editsection"):
+            unwanted.find("span", class_="mw-editsection").decompose()
 
     if DEBUG:
         print(soup.prettify()[:2000])  # Print first 2000 characters
@@ -64,21 +67,29 @@ def _scrape_page(url: str) -> str:
     is_tutorials_page = url == WIKI_PAGES["tutorials"]
 
     # Find all relevant elements in order (paragraphs, tables, headers, etc.)
-    elements = soup.find_all(["p", "table", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "div"])
+    elements = soup.find_all(
+        ["p", "table", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "div"]
+    )
 
     icon_classes = ["icon", "mob-icon"]
 
     for element in elements:
         # Extracts image/icon labels inline if this is an icon container
-        if element.name == "div" and any(cls in element.get("class", []) for cls in icon_classes):
-            name_div = element.find_next_sibling("div", class_="name") or element.find_next_sibling("div", class_="mob-name")
+        if element.name == "div" and any(
+            cls in element.get("class", []) for cls in icon_classes
+        ):
+            name_div = element.find_next_sibling(
+                "div", class_="name"
+            ) or element.find_next_sibling("div", class_="mob-name")
             if name_div:
                 img_name = name_div.get_text(strip=True)
                 if img_name:
                     content_parts.append(f"IMAGE_LABEL: {img_name}")
                 continue
 
-            name_child = element.find("div", class_="name") or element.find("div", class_="mob-name")
+            name_child = element.find("div", class_="name") or element.find(
+                "div", class_="mob-name"
+            )
             if name_child:
                 img_name = name_child.get_text(strip=True)
                 if img_name:
@@ -107,12 +118,16 @@ def _scrape_page(url: str) -> str:
             for row in rows:
                 cells = row.find_all(["th", "td"])
                 if cells:
-                    row_text = " | ".join(cell.get_text(strip=True) for cell in cells if cell.get_text(strip=True))
+                    row_text = " | ".join(
+                        cell.get_text(strip=True)
+                        for cell in cells
+                        if cell.get_text(strip=True)
+                    )
                     if row_text:
                         table_content.append(row_text)
 
             if table_content:
-                content_parts.append("\nTABLE:\n" + "\n".join(table_content)+ "\n")
+                content_parts.append("\nTABLE:\n" + "\n".join(table_content) + "\n")
 
         elif element.name in ["h1", "h2", "h3", "h4", "h5", "h6"]:
             # Process headers
@@ -152,8 +167,9 @@ def _scrape_page(url: str) -> str:
             text = element.get_text(strip=True)
             if text:
                 content_parts.append(text)
-    
+
     return "\n".join(content_parts)
+
 
 def _clean_scraped_text(text: str) -> str:
     """
@@ -162,41 +178,60 @@ def _clean_scraped_text(text: str) -> str:
     - Removes unwanted H2 sections (Video, History, Trivia, Gallery, Screenshots, References, Navigation)
     - Removes footnote reference letters after up arrow (↑abcd → ↑)
     - Cleans up excessive whitespace and line breaks
-    
+
     Args:
         text (str): The scraped text content.
     Returns:
         str: Cleaned text with unwanted sections and formatting removed.
     """
     import re
-    
+
     # Clean unwanted section
-    contents_pattern = r'H2: Contents.*?(?=H2: |\Z)'
-    cleaned_text = re.sub(contents_pattern, '', text, flags=re.DOTALL | re.IGNORECASE)
-    unwanted_h2_sections = ['Data values',
-                         'Sounds',
-                         'Video', 
-                         'History', 
-                         'Issues', 
-                        #  'Trivia', 
-                         'Gallery', 
-                         'See also', 
-                         'Screenshots', 
-                         'References', 
-                         'External links',
-                        #  'Notes',
-                         'Navigation']
+    contents_pattern = r"H2: Contents.*?(?=H2: |\Z)"
+    cleaned_text = re.sub(contents_pattern, "", text, flags=re.DOTALL | re.IGNORECASE)
+    unwanted_h2_sections = [
+        "Data values",
+        "Sounds",
+        "Video",
+        "History",
+        "Issues",
+        "Gallery",
+        "See also",
+        "Screenshots",
+        "References",
+        "External links",
+        "Navigation",
+    ]
 
     for section in unwanted_h2_sections:
-        section_pattern = rf'H2: {section}.*?(?=H2: |\Z)'
-        cleaned_text = re.sub(section_pattern, '', cleaned_text, flags=re.DOTALL | re.IGNORECASE)
-    # TODO: Also remove H3 sections : Unused mobs, Education mobs, Removed mobs, Joke mobs, Unimplemented mobs, Mentioned mobs, Education blocks, Removed blocks, Joke blocks
+        section_pattern = rf"H2: {section}.*?(?=H2: |\Z)"
+        cleaned_text = re.sub(
+            section_pattern, "", cleaned_text, flags=re.DOTALL | re.IGNORECASE
+        )
+    # Remove unwanted H3 sections
+    unwanted_h3_sections = [
+        "Unused mobs",
+        "Education mobs",
+        "Removed mobs",
+        "Joke mobs",
+        "Unimplemented mobs",
+        "Mentioned mobs",
+        "Education blocks",
+        "Removed blocks",
+        "Joke blocks",
+    ]
+    for section in unwanted_h3_sections:
+        section_pattern = rf"H3: {section}.*?(?=H3: |H2: |\Z)"
+        cleaned_text = re.sub(
+            section_pattern, "", cleaned_text, flags=re.DOTALL | re.IGNORECASE
+        )
 
     # Remove footnote reference letters after up arrow (↑abcd)
-    footnote_pattern = r'↑[a-z]+(?=[A-Z]|\s|[^a-zA-Z])'
-    cleaned_text = re.sub(footnote_pattern, '↑', cleaned_text)
-    
+    footnote_pattern = r"↑[a-z]+(?=[A-Z]|\s|[^a-zA-Z])"
+    cleaned_text = re.sub(footnote_pattern, "↑", cleaned_text)
+
     return cleaned_text.strip()
+
 
 def _scrape_multiple_pages(pages: dict) -> dict:
     """
@@ -219,6 +254,7 @@ def _scrape_multiple_pages(pages: dict) -> dict:
     print("✅ Scraping completed.")
     return all_content
 
+
 def _save_to_txt(content_dict: dict, path: str) -> None:
     """
     Save scraped wiki content as a human-readable text file.
@@ -230,8 +266,9 @@ def _save_to_txt(content_dict: dict, path: str) -> None:
             f.write(f"URL: {WIKI_PAGES[page_name]}\n")
             f.write(f"{'=' * 40}\n")
             f.write(content)
-            f.write(f"\n\n")
+            f.write("\n\n")
     print(f"✅ Saved {len(content_dict)} entries to {path}.")
+
 
 def _save_to_json(content_dict: dict, path: str) -> None:
     """
@@ -239,21 +276,24 @@ def _save_to_json(content_dict: dict, path: str) -> None:
     """
     data = []
     for page_name, content in content_dict.items():
-        data.append({
-            "title": page_name.capitalize(),
-            "url": WIKI_PAGES[page_name],
-            "content": content
-        })
+        data.append(
+            {
+                "title": page_name.capitalize(),
+                "url": WIKI_PAGES[page_name],
+                "content": content,
+            }
+        )
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"✅ Saved {len(data)} entries to {path}.")
 
+
 if __name__ == "__main__":
     results = _scrape_multiple_pages(WIKI_PAGES)
-    
+
     json_output_path = "data/lore.json"
     os.makedirs(os.path.dirname(json_output_path), exist_ok=True)
     _save_to_json(results, json_output_path)
-    
+
     txt_output_path = "data/lore.txt"
     _save_to_txt(results, txt_output_path)
