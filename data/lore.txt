@@ -3444,7 +3444,7 @@ H2: Notes
 - ↑Only exists as a seperate item inBedrock Edition. InJava Edition, lodestone compasses are only regular compasses with stored data.
 
 ========================================
-PAGE NAME: CRAFTING
+PAGE NAME: CRAFTING INFORMATION
 URL: https://minecraft.wiki/w/Crafting
 ========================================
 H1: Crafting
@@ -3475,595 +3475,6 @@ InJava Edition, the categories are as follows:
 - The fifth tab containsredstonematerials.
 H3: Recipe system
 Recipes, including crafting recipes, can be configured bydata packsinJava Editionoradd-onsinBedrock Edition.
-H2: Complete recipe list
-To save space, some recipes are animated (requiresJavaScript). On this wiki, shapeless recipes are marked with a pair of intertwined arrows on the crafting table graphic, while fixed crafting recipes are marked by an exclamation point. These symbols do not appear in the game.
-
-TABLE:
-Shaped recipes | Shapeless recipes | Fixed recipes
-
-H3: Building blocks
-H3: Decoration blocks
-H3: Redstone
-H3: Transportation
-H3: Foodstuffs
-H3: Tools
-H3: Utilities
-H3: Combat
-H3: Brewing
-H3: Materials
-H3: Miscellaneous
-H3: Changed recipes
-Someitemshad different crafting recipes and have since been updated in later versions ofMinecraft.
-H4: Java Edition
-
-TABLE:
-Original | Changed | Description | Version changed
-IngredientsCraftingrecipeIron IngotorGold IngotorDiamond | Ingredients | Craftingrecipe | Iron IngotorGold IngotorDiamond | IngredientsCraftingrecipeIron IngotorGold IngotorDiamond | Ingredients | Craftingrecipe | Iron IngotorGold IngotorDiamond | Indev 0.31 20100130
-Ingredients | Craftingrecipe
-Iron IngotorGold IngotorDiamond
-Ingredients | Craftingrecipe
-Iron IngotorGold IngotorDiamond
-IngredientsCraftingrecipeOak Planks+Light Gray Wool | Ingredients | Craftingrecipe | Oak Planks+Light Gray Wool | IngredientsCraftingrecipeStick+Light Gray Wool | Ingredients | Craftingrecipe | Stick+Light Gray Wool | Infdev 20100227-1414
-Ingredients | Craftingrecipe
-Oak Planks+Light Gray Wool
-Ingredients | Craftingrecipe
-Stick+Light Gray Wool
-IngredientsCraftingrecipeIron Ingot+Stick+Feather4 | Ingredients | Craftingrecipe | Iron Ingot+Stick+Feather | 4 | IngredientsCraftingrecipeFlint+Stick+Feather4 | Ingredients | Craftingrecipe | Flint+Stick+Feather | 4 | Alpha v1.0.14
-Ingredients | Craftingrecipe
-Iron Ingot+Stick+Feather | 4
-Ingredients | Craftingrecipe
-Flint+Stick+Feather | 4
-IngredientsCraftingrecipeIron Ingot+Flint | Ingredients | Craftingrecipe | Iron Ingot+Flint | IngredientsCraftingrecipeIron Ingot+Flint | Ingredients | Craftingrecipe | Iron Ingot+Flint | Recipe becameshapeless. | 13w36a
-Ingredients | Craftingrecipe
-Iron Ingot+Flint
-Ingredients | Craftingrecipe
-Iron Ingot+Flint
-IngredientsCraftingrecipeWheat | Ingredients | Craftingrecipe | Wheat | IngredientsCraftingrecipeWheat | Ingredients | Craftingrecipe | Wheat | Changed to 3wheatinstead of 6. | Indev 20100223
-Ingredients | Craftingrecipe
-Wheat
-Ingredients | Craftingrecipe
-Wheat
-IngredientsCraftingrecipeLight Gray Wool | Ingredients | Craftingrecipe | Light Gray Wool | IngredientsCraftingrecipeLeather | Ingredients | Craftingrecipe | Leather | Note: Wool was called Cloth, and Leather Armor was called Cloth Armor at that time. | Alpha v1.0.8
-Ingredients | Craftingrecipe
-Light Gray Wool
-Ingredients | Craftingrecipe
-Leather
-IngredientsCraftingrecipeCobblestone3 | Ingredients | Craftingrecipe | Cobblestone | 3 | IngredientsCraftingrecipeCobblestone6 | Ingredients | Craftingrecipe | Cobblestone | 6 | Beta 1.3
-Ingredients | Craftingrecipe
-Cobblestone | 3
-Ingredients | Craftingrecipe
-Cobblestone | 6
-IngredientsCraftingrecipeOak PlanksorStone | Ingredients | Craftingrecipe | Oak PlanksorStone | IngredientsCraftingrecipeOak PlanksorStone | Ingredients | Craftingrecipe | Oak PlanksorStone | Beta 1.3
-Ingredients | Craftingrecipe
-Oak PlanksorStone
-Ingredients | Craftingrecipe
-Oak PlanksorStone
-IngredientsCraftingrecipeString | Ingredients | Craftingrecipe | String | IngredientsCraftingrecipeString | Ingredients | Craftingrecipe | String | Changed to 4stringinstead of 9. | Beta 1.6.6
-Ingredients | Craftingrecipe
-String
-Ingredients | Craftingrecipe
-String
-IngredientsCraftingrecipeGlowstone Dust | Ingredients | Craftingrecipe | Glowstone Dust | IngredientsCraftingrecipeGlowstone Dust | Ingredients | Craftingrecipe | Glowstone Dust | Beta 1.6.6
-Ingredients | Craftingrecipe
-Glowstone Dust
-Ingredients | Craftingrecipe
-Glowstone Dust
-IngredientsCraftingrecipeBrown MushroomorRed Mushroom+Bowl | Ingredients | Craftingrecipe | Brown MushroomorRed Mushroom+Bowl | IngredientsCraftingrecipeBrown Mushroom+Red Mushroom+Bowl | Ingredients | Craftingrecipe | Brown Mushroom+Red Mushroom+Bowl | Recipe becameshapeless. | Beta 1.9 Prerelease 3
-Ingredients | Craftingrecipe
-Brown MushroomorRed Mushroom+Bowl
-Ingredients | Craftingrecipe
-Brown Mushroom+Red Mushroom+Bowl
-IngredientsCraftingrecipeBlock of Gold+Apple | Ingredients | Craftingrecipe | Block of Gold+Apple | IngredientsCraftingrecipeGold Nugget+Apple | Ingredients | Craftingrecipe | Gold Nugget+Apple | 1.1
-Ingredients | Craftingrecipe
-Block of Gold+Apple
-Ingredients | Craftingrecipe
-Gold Nugget+Apple
-IngredientsCraftingrecipeGold Nugget+Apple | Ingredients | Craftingrecipe | Gold Nugget+Apple | IngredientsCraftingrecipeGold Ingot+Apple | Ingredients | Craftingrecipe | Gold Ingot+Apple | 13w23a
-Ingredients | Craftingrecipe
-Gold Nugget+Apple
-Ingredients | Craftingrecipe
-Gold Ingot+Apple
-IngredientsCraftingrecipeSnowball | Ingredients | Craftingrecipe | Snowball | IngredientsCraftingrecipeSnowball | Ingredients | Craftingrecipe | Snowball | Alpha v1.0.6
-Ingredients | Craftingrecipe
-Snowball
-Ingredients | Craftingrecipe
-Snowball
-IngredientsCraftingrecipePaper | Ingredients | Craftingrecipe | Paper | IngredientsCraftingrecipePaper+Leather | Ingredients | Craftingrecipe | Paper+Leather | Recipe becameshapeless. | 12w17a
-Ingredients | Craftingrecipe
-Paper
-Ingredients | Craftingrecipe
-Paper+Leather
-IngredientsCraftingrecipeStick2 | Ingredients | Craftingrecipe | Stick | 2 | IngredientsCraftingrecipeOak Planks+Stick3 | Ingredients | Craftingrecipe | Oak Planks+Stick | 3 | 14w32b
-Ingredients | Craftingrecipe
-Stick | 2
-Ingredients | Craftingrecipe
-Oak Planks+Stick | 3
-IngredientsCraftingrecipeStone | Ingredients | Craftingrecipe | Stone | IngredientsCraftingrecipeStone | Ingredients | Craftingrecipe | Stone | 12w34b
-Ingredients | Craftingrecipe
-Stone
-Ingredients | Craftingrecipe
-Stone
-IngredientsCraftingrecipeOak FenceorSpruce FenceorAcacia FenceorDark Oak FenceorBirch FenceorJungle Fence+Birch PlanksorJungle PlanksorOak PlanksorSpruce PlanksorAcacia Planks+Dark Oak Planks | Ingredients | Craftingrecipe | Oak FenceorSpruce FenceorAcacia FenceorDark Oak FenceorBirch FenceorJungle Fence+Birch PlanksorJungle PlanksorOak PlanksorSpruce PlanksorAcacia Planks+Dark Oak Planks | IngredientsCraftingrecipeOak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab | Ingredients | Craftingrecipe | Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab | 19w45a
-Ingredients | Craftingrecipe
-Oak FenceorSpruce FenceorAcacia FenceorDark Oak FenceorBirch FenceorJungle Fence+Birch PlanksorJungle PlanksorOak PlanksorSpruce PlanksorAcacia Planks+Dark Oak Planks
-Ingredients | Craftingrecipe
-Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
-IngredientsCraftingrecipeString+Stick | Ingredients | Craftingrecipe | String+Stick | IngredientsCraftingrecipeFeather+Copper Ingot+Stick | Ingredients | Craftingrecipe | Feather+Copper Ingot+Stick | 1.19.4-pre1
-Ingredients | Craftingrecipe
-String+Stick
-Ingredients | Craftingrecipe
-Feather+Copper Ingot+Stick
-IngredientsCraftingrecipeWhite Carpet+MatchingColored Dye888888888888888 | Ingredients | Craftingrecipe | White Carpet+MatchingColored Dye | 888888888888888 | IngredientsCraftingrecipeAnyCarpet+MatchingDye | Ingredients | Craftingrecipe | AnyCarpet+MatchingDye | 1.20-pre1
-Ingredients | Craftingrecipe
-White Carpet+MatchingColored Dye | 888888888888888
-Ingredients | Craftingrecipe
-AnyCarpet+MatchingDye
-IngredientsCraftingrecipeBamboo | Ingredients | Craftingrecipe | Bamboo | IngredientsCraftingrecipeBlock of BambooorBlock of Stripped Bamboo2 | Ingredients | Craftingrecipe | Block of BambooorBlock of Stripped Bamboo | 2 | 22w45a
-Ingredients | Craftingrecipe
-Bamboo
-Ingredients | Craftingrecipe
-Block of BambooorBlock of Stripped Bamboo | 2
-IngredientsCraftingrecipeChain+Bamboo Planks2 | Ingredients | Craftingrecipe | Chain+Bamboo Planks | 2 | IngredientsCraftingrecipeChain+Block of Stripped Bamboo6 | Ingredients | Craftingrecipe | Chain+Block of Stripped Bamboo | 6 | 22w45a
-Ingredients | Craftingrecipe
-Chain+Bamboo Planks | 2
-Ingredients | Craftingrecipe
-Chain+Block of Stripped Bamboo | 6
-IngredientsCraftingrecipeString+Rabbit Hide | Ingredients | Craftingrecipe | String+Rabbit Hide | IngredientsCraftingrecipeString+Leather | Ingredients | Craftingrecipe | String+Leather | 24w33a
-Ingredients | Craftingrecipe
-String+Rabbit Hide
-Ingredients | Craftingrecipe
-String+Leather
-IngredientsCraftingrecipeChiseled Stone Bricks+Netherite Ingot | Ingredients | Craftingrecipe | Chiseled Stone Bricks+Netherite Ingot | IngredientsCraftingrecipeChiseled Stone Bricks+Iron Ingot | Ingredients | Craftingrecipe | Chiseled Stone Bricks+Iron Ingot | 25w02a
-Ingredients | Craftingrecipe
-Chiseled Stone Bricks+Netherite Ingot
-Ingredients | Craftingrecipe
-Chiseled Stone Bricks+Iron Ingot
-IngredientsCraftingrecipeString+Slimeball | Ingredients | Craftingrecipe | String+Slimeball | IngredientsCraftingrecipeString | Ingredients | Craftingrecipe | String | 25w18a
-Ingredients | Craftingrecipe
-String+Slimeball
-Ingredients | Craftingrecipe
-String
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Iron IngotorGold IngotorDiamond
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Iron IngotorGold IngotorDiamond
-
-Indev 0.31 20100130
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak Planks+Light Gray Wool
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Stick+Light Gray Wool
-
-Infdev 20100227-1414
-
-TABLE:
-Ingredients | Craftingrecipe
-Iron Ingot+Stick+Feather | 4
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Flint+Stick+Feather | 4
-
-Alpha v1.0.14
-
-TABLE:
-Ingredients | Craftingrecipe
-Iron Ingot+Flint
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Iron Ingot+Flint
-
-Recipe becameshapeless.
-13w36a
-
-TABLE:
-Ingredients | Craftingrecipe
-Wheat
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Wheat
-
-Changed to 3wheatinstead of 6.
-Indev 20100223
-
-TABLE:
-Ingredients | Craftingrecipe
-Light Gray Wool
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Leather
-
-Note: Wool was called Cloth, and Leather Armor was called Cloth Armor at that time.
-Alpha v1.0.8
-
-TABLE:
-Ingredients | Craftingrecipe
-Cobblestone | 3
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Cobblestone | 6
-
-Beta 1.3
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak PlanksorStone
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak PlanksorStone
-
-Beta 1.3
-
-TABLE:
-Ingredients | Craftingrecipe
-String
-
-
-TABLE:
-Ingredients | Craftingrecipe
-String
-
-Changed to 4stringinstead of 9.
-Beta 1.6.6
-
-TABLE:
-Ingredients | Craftingrecipe
-Glowstone Dust
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Glowstone Dust
-
-Beta 1.6.6
-
-TABLE:
-Ingredients | Craftingrecipe
-Brown MushroomorRed Mushroom+Bowl
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Brown Mushroom+Red Mushroom+Bowl
-
-Recipe becameshapeless.
-Beta 1.9 Prerelease 3
-
-TABLE:
-Ingredients | Craftingrecipe
-Block of Gold+Apple
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Gold Nugget+Apple
-
-1.1
-
-TABLE:
-Ingredients | Craftingrecipe
-Gold Nugget+Apple
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Gold Ingot+Apple
-
-13w23a
-
-TABLE:
-Ingredients | Craftingrecipe
-Snowball
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Snowball
-
-Alpha v1.0.6
-
-TABLE:
-Ingredients | Craftingrecipe
-Paper
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Paper+Leather
-
-Recipe becameshapeless.
-12w17a
-
-TABLE:
-Ingredients | Craftingrecipe
-Stick | 2
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak Planks+Stick | 3
-
-14w32b
-
-TABLE:
-Ingredients | Craftingrecipe
-Stone
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Stone
-
-12w34b
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak FenceorSpruce FenceorAcacia FenceorDark Oak FenceorBirch FenceorJungle Fence+Birch PlanksorJungle PlanksorOak PlanksorSpruce PlanksorAcacia Planks+Dark Oak Planks
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
-
-19w45a
-
-TABLE:
-Ingredients | Craftingrecipe
-String+Stick
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Feather+Copper Ingot+Stick
-
-1.19.4-pre1
-
-TABLE:
-Ingredients | Craftingrecipe
-White Carpet+MatchingColored Dye | 888888888888888
-
-
-TABLE:
-Ingredients | Craftingrecipe
-AnyCarpet+MatchingDye
-
-1.20-pre1
-
-TABLE:
-Ingredients | Craftingrecipe
-Bamboo
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Block of BambooorBlock of Stripped Bamboo | 2
-
-22w45a
-
-TABLE:
-Ingredients | Craftingrecipe
-Chain+Bamboo Planks | 2
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Chain+Block of Stripped Bamboo | 6
-
-22w45a
-
-TABLE:
-Ingredients | Craftingrecipe
-String+Rabbit Hide
-
-
-TABLE:
-Ingredients | Craftingrecipe
-String+Leather
-
-24w33a
-
-TABLE:
-Ingredients | Craftingrecipe
-Chiseled Stone Bricks+Netherite Ingot
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Chiseled Stone Bricks+Iron Ingot
-
-25w02a
-
-TABLE:
-Ingredients | Craftingrecipe
-String+Slimeball
-
-
-TABLE:
-Ingredients | Craftingrecipe
-String
-
-25w18a
-H4: Bedrock Edition
-
-TABLE:
-Original | Changed | Description | Version changed
-IngredientsCraftingrecipeHoneycomb | Ingredients | Craftingrecipe | Honeycomb | IngredientsCraftingrecipeHoneycomb | Ingredients | Craftingrecipe | Honeycomb | Was changed to matchJava Edition. | Beta 1.14.0.2
-Ingredients | Craftingrecipe
-Honeycomb
-Ingredients | Craftingrecipe
-Honeycomb
-IngredientsCraftingrecipeBamboo | Ingredients | Craftingrecipe | Bamboo | IngredientsCraftingrecipeBlock of BambooorBlock of Stripped Bamboo2 | Ingredients | Craftingrecipe | Block of BambooorBlock of Stripped Bamboo | 2 | Beta/Preview 1.19.60.20
-Ingredients | Craftingrecipe
-Bamboo
-Ingredients | Craftingrecipe
-Block of BambooorBlock of Stripped Bamboo | 2
-IngredientsCraftingrecipeChain+Bamboo Planks2 | Ingredients | Craftingrecipe | Chain+Bamboo Planks | 2 | IngredientsCraftingrecipeChain+Block of Stripped Bamboo6 | Ingredients | Craftingrecipe | Chain+Block of Stripped Bamboo | 6 | Beta/Preview 1.19.60.20
-Ingredients | Craftingrecipe
-Chain+Bamboo Planks | 2
-Ingredients | Craftingrecipe
-Chain+Block of Stripped Bamboo | 6
-IngredientsCraftingrecipeOak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks+Wooden Shovel | Ingredients | Craftingrecipe | Oak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks+Wooden Shovel | IngredientsCraftingrecipeOak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks | Ingredients | Craftingrecipe | Oak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks | Was changed to matchJava Edition. | Beta/Preview 1.20.10.20
-Ingredients | Craftingrecipe
-Oak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks+Wooden Shovel
-Ingredients | Craftingrecipe
-Oak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks
-IngredientsCraftingrecipeStick+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab | Ingredients | Craftingrecipe | Stick+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab | IngredientsCraftingrecipeOak PlanksorSpruce PlanksorAcacia PlanksorDark Oak PlanksorBirch Planks+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab | Ingredients | Craftingrecipe | Oak PlanksorSpruce PlanksorAcacia PlanksorDark Oak PlanksorBirch Planks+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab | Was changed to matchJava Edition. | Beta/Preview 1.20.10.20
-Ingredients | Craftingrecipe
-Stick+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
-Ingredients | Craftingrecipe
-Oak PlanksorSpruce PlanksorAcacia PlanksorDark Oak PlanksorBirch Planks+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
-IngredientsCraftingrecipeBamboo Planks+Wooden Shovel | Ingredients | Craftingrecipe | Bamboo Planks+Wooden Shovel | IngredientsCraftingrecipeBamboo Planks | Ingredients | Craftingrecipe | Bamboo Planks | Was changed to matchJava Edition. | Beta/Preview 1.20.10.21
-Ingredients | Craftingrecipe
-Bamboo Planks+Wooden Shovel
-Ingredients | Craftingrecipe
-Bamboo Planks
-IngredientsCraftingrecipeChiseled Stone Bricks+Netherite Ingot | Ingredients | Craftingrecipe | Chiseled Stone Bricks+Netherite Ingot | IngredientsCraftingrecipeChiseled Stone Bricks+Iron Ingot | Ingredients | Craftingrecipe | Chiseled Stone Bricks+Iron Ingot | Beta/Preview 1.21.60.25
-Ingredients | Craftingrecipe
-Chiseled Stone Bricks+Netherite Ingot
-Ingredients | Craftingrecipe
-Chiseled Stone Bricks+Iron Ingot
-IngredientsCraftingrecipeString+Slimeball | Ingredients | Craftingrecipe | String+Slimeball | IngredientsCraftingrecipeString | Ingredients | Craftingrecipe | String | Beta/Preview 1.21.90.21
-Ingredients | Craftingrecipe
-String+Slimeball
-Ingredients | Craftingrecipe
-String
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Honeycomb
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Honeycomb
-
-Was changed to matchJava Edition.
-Beta 1.14.0.2
-
-TABLE:
-Ingredients | Craftingrecipe
-Bamboo
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Block of BambooorBlock of Stripped Bamboo | 2
-
-Beta/Preview 1.19.60.20
-
-TABLE:
-Ingredients | Craftingrecipe
-Chain+Bamboo Planks | 2
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Chain+Block of Stripped Bamboo | 6
-
-Beta/Preview 1.19.60.20
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks+Wooden Shovel
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak PlanksorSpruce PlanksorBirch PlanksorJungle PlanksorAcacia PlanksorDark Oak PlanksorMangrove PlanksorCherry Planks
-
-Was changed to matchJava Edition.
-Beta/Preview 1.20.10.20
-
-TABLE:
-Ingredients | Craftingrecipe
-Stick+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Oak PlanksorSpruce PlanksorAcacia PlanksorDark Oak PlanksorBirch Planks+Oak SlaborSpruce SlaborAcacia SlaborDark Oak SlaborBirch SlaborJungle Slab
-
-Was changed to matchJava Edition.
-Beta/Preview 1.20.10.20
-
-TABLE:
-Ingredients | Craftingrecipe
-Bamboo Planks+Wooden Shovel
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Bamboo Planks
-
-Was changed to matchJava Edition.
-Beta/Preview 1.20.10.21
-
-TABLE:
-Ingredients | Craftingrecipe
-Chiseled Stone Bricks+Netherite Ingot
-
-
-TABLE:
-Ingredients | Craftingrecipe
-Chiseled Stone Bricks+Iron Ingot
-
-Beta/Preview 1.21.60.25
-
-TABLE:
-Ingredients | Craftingrecipe
-String+Slimeball
-
-
-TABLE:
-Ingredients | Craftingrecipe
-String
-
-Beta/Preview 1.21.90.21
-H3: Removed recipes
-Someitemscould be crafted previously, but cannot be crafted in the current version ofMinecraft.
-
-TABLE:
-Name | Ingredients | Craftingrecipe | Description
-Chainmail HelmetorChainmail ChestplateorChainmail LeggingsorChainmail Boots | Fire | Version added:JE:Indev 20100212-1210Version removed:JE:14w25a
-Arrow | Apple | Version added:JE:20100128-2304Version removed:JE:20100129-1447
-Enchanted Golden Apple | Block of Gold+Apple | Version added:JE:12w21aBE:0.12.1 alpha build 4Version removed:JE:15w44aBE:1.2.13
-Iron Horse ArmororGolden Horse ArmororDiamond Horse Armor | Iron IngotorGold IngotorDiamond+AnyWool | Version added:JE:13w16aVersion removed:JE:13w18a
-Horse Saddle | Leather+Iron Ingot | Version added:JE:13w16aVersion removed:JE:13w18aDescription: The horse saddle itself is removed from game.
-Netherite AxeorNetherite HoeorNetherite PickaxeorNetherite ShovelorNetherite SwordorNetherite HelmetorNetherite ChestplateorNetherite LeggingsorNetherite Boots | Diamond AxeorDiamond HoeorDiamond PickaxeorDiamond ShovelorDiamond SwordorDiamond HelmetorDiamond ChestplateorDiamond LeggingsorDiamond Boots+Netherite Ingot | Version added:JE:20w06aBE:beta 1.16.0.51Version removed:JE:20w10aBE:beta 1.16.0.57
-Nether Reactor Core | Iron Ingot+Diamond | Version added:BE:0.5.0 alphaVersion removed:BE:0.12.1 alpha build 1Description: The nether reactor is no longer craftable but can still exist in the latest version.
-Copper Horn | Copper Ingot+Goat Horn | Version added:BE:Bedrock Edition beta 1.18.30.26Version removed:BE:Bedrock Edition beta 1.19.0.24
-Cocoa Beans | Ink Sac+Rose RedorOrange Dye+Dandelion Yellow | Version added:BE:0.8.0 alpha build 2Version removed:BE:0.16.0 alpha build 1"Dandelion Yellow" and "Rose Red" are the former names for Yellow dye and Red dye, respectively.
-Stonecutter | Cobblestone | Version added:BE:0.6.0 alphaVersion removed:BE:0.13.0 alpha build 1
-Smooth Stone Slab | AnyStone | Version added:BE: ?Version removed:BE: ?
-Stone Bricks | AnyStone | Version added:BE: ?Version removed:BE:1.9Description: In older versions,stone brickscould be crafted usingcobblestone,andesite,granite,diorite, and their polished variants. However, in1.9, stone bricks were changed to be crafted with stone only.
-Redstone Repeater | Redstone Torch+Redstone Dust+AnyStone | Version added:BE: ?Version removed:BE: ?Description: In older versions,redstone repeaterscould be crafted usingcobblestone,andesite,granite,diorite, and their polished variants. However, the recipes then changed to use only stone.
-Redstone Comparator | Redstone Torch+Nether Quartz+AnyStone | Version added:BE: ?Version removed:BE: ?Description: In older versions,redstone comparatorscould be crafted usingstone,andesite,granite,diorite, and their polished variants. However, the recipes then changed to use only stone.
-String | Cobweb | 9 | Version added:BE:alpha 1.1.0.0Version Removed:BE:beta 1.20.10.20
-
-"Dandelion Yellow" and "Rose Red" are the former names for Yellow dye and Red dye, respectively.
 H2: Achievements
 
 TABLE:
@@ -4073,6 +3484,657 @@ Hot Topic | Construct a furnace out of eight cobblestone blocks. | Pick up afurn
 Time to Farm! | Make a Hoe. | Pick up any type ofhoefrom acrafting tableoutput. | 10 | Bronze
 Time to Mine! | Use planks and sticks to make apickaxe. | Pick up a woodenpickaxefrom acrafting tableoutput. | 10 | Bronze
 Time to Strike! | Use planks and sticks to make a sword. | Pick up any type ofswordfrom acrafting tableoutput. | 10 | Bronze
+
+========================================
+PAGE NAME: CRAFTING RECIPES
+URL: https://www.minecraftcrafting.info
+========================================
+TABLE:
+BasicBlocksToolsDefenceMechanismFoodOtherDyeWoolBrewing
+Minecraft Crafting GuideCrafting in Minecraft is the method by which the majority of items, blocks and tools are created. To craft an item move the ingredients from your inventory into the crafting grid and place them in the order representing the item you wish to craft. The 2x2 crafting grid is contained within the inventory screen and the 3x3 grid can be accessed from a crafting table. Select a category from the menu above or scroll down to view the recipes!This guide has been updated for the Minecraft 1.21 Tricky Trials update, released in June 2024.Basic RecipesNameIngredientsImageDescriptionWooden PlanksLogBasic building material.SticksWooden PlanksUsed in many other crafting recipies.TorchesCoal & StickTorches provide light and also melt ice and snow.Crafting TableWooden PlanksOpens a 3x3 crafting grid when right clicked.FurnaceCobblestone or BlackstoneAllows the player to smelt.ChestWooden PlanksUsed to store blocks and items.LaddersSticksAllows the player to climb vertically.FenceSticks & Wooden PlanksBarrier that cannot be jumped over.BoatWooden PlanksUsed to travel in water.Wooden SlabsWooden PlanksUsed to create gradual slopes.Stone SlabsStone or Brick or Stone Brick or Sandstone or Cobblestone or Nether Brick or Quartz or Red SandstoneUsed to create gradual slopes.SignWooden Planks & StickCan be used to display text.DoorsWooden Planks or Iron IngotsWooden doors can be opened by clicking or redstone power. Iron doors can only be opened by redstone power.WoodLogsBlock with log texture on all sides.[Back to top]Block RecipesNameIngredientsImageDescriptionGlowstoneGlowstone DustBright light source that can also be used underwater.Snow BlockSnowballsStore of snow and building material.TNTGunpowder & SandExplodes when lit with a Flint & Steel, or powered by a redstone current.Clay BlockClayStore of clay and building material.Brick BlockClay BricksStrong building material.BookshelfWooden Planks & BooksDecoration.Sandstone BlockSandBuilding material.Smooth SandstoneSandstone BlockBuilding material.Decorative SandstoneSandstone SlabsBuilding material.Note BlockWooden Planks & RedstonePlays a note when clicked or powered by redstone.Jack-O LanternPumpkin & TorchLight source.Lapis Lazuli BlockLapis Lazuli DyeStore of Lapis Lazuli Dye.Diamond BlockDiamondsStore of Diamonds.Gold BlockGold IngotsStore of Gold Ingots.Iron BlockIron IngotsStore of Iron Ingots.Emerald BlockEmeraldsStore of Emeralds.Coal BlockCoalStore of Coal.Stone BrickStoneBuilding material.Wooden StairsWooden PlanksUsed to build staircases.Stone StairsCobblestone or Sandstone or Brick or Stone Brick or Nether Brick or Quartz or Red SandstoneUsed to build staircases.Cobblestone WallCobblestone or Moss StoneDecorative block that similar to fences cannot be jumped over.Block of RedstoneRedstoneRedstone power source.Block of QuartzNether QuartzBuilding material.Chiseled Quartz BlockQuartz SlabsBuilding material.Pillar Quartz BlockBlocks of QuartzBuilding material.Quartz BricksBlocks of QuartzBuilding material.Stained ClayHardened Clay & DyeBuilding material.Hay BaleWheatDecorative block and food for horses.GraniteDiorite & Nether QuartzType of rock.AndesiteDiorite & CobblestoneType of rock.DioriteCobblestone & Nether QuartzType of rock.Polished GraniteGraniteBuilding material.Polished AndesiteAndesiteBuilding material.Polished DioriteDioriteBuilding material.PrismarinePrismarine ShardType of rock.Prismarine BricksPrismarine ShardBuilding material.Dark PrismarinePrismarine Shards & Black DyeBuilding material.Sea LanternPrismarine Crystals & Prismarine ShardLight source.Coarse DirtDirt & GravelSimilar to normal dirt however grass cannot spread to it.Slime BlockSlimeballCan be used to push other blocks using pistons.Moss StoneCobblestone & Vines or Moss BlockBuilding material.Mossy Stone BrickStone Brick & Vines or Moss BlockBuilding material.Chiseled Stone BrickStock Brick SlabBuilding material.Red SandstoneRed SandBuilding material.Smooth Red SandstoneRed SandstoneBuilding material.Chiseled Red SandstoneRed Sandstone SlabBuilding material.Purpur BlockPopped Chorus FruitBuilding material.Purpur PillarPurpur SlabBuilding material.Magma BlockMagma CreamCauses damage when stepped on.Nether Wart BlockNether WartDecoration.Nether BrickNether Brick (Item)Building material.Red Nether BrickNether Wart & Nether BrickBuilding material.Chiseled Nether BricksNether Brick SlabsBuilding material.Bone BlockBone MealDecoration and store of Bone Meal.Dried Kelp BlockDried KelpCan be used as fuel in furnaces.Packed IceIceIce building material.Blue IcePacked IceIce building material.Honey BlockHoney BottlesSticky block that slows down players and entities.Honeycomb BlockHoneycombDecoration.Stripped WoodStripped LogBuilding material.Polished BasaltBasaltBuilding material.Polished BlackstoneBlackstoneBuilding material.Chiseled Polished BlackstonePolished Blackstone SlabsBuilding material.Polished Blackstone BricksPolished BlackstoneBuilding material.Block of NetheriteNetherite IngotsStore of Netherite.Block of AmethystAmethyst ShardsStore of Amethyst.Block of CopperCopper IngotsStore of Copper.Cut CopperBlocks of CopperBuilding material.Waxed Block of CopperBlock of Copper & HoneycombBlock of Copper that will not oxidize and change color over time.Dripstone BlockPointed DripstoneWill cause Dripstone to grow below it when there is a water source above.Muddy Mangrove RootsMud & Mangrove RootsDecoration.Packed MudMud & WheatUsed to craft Mud Bricks.Mud BricksPacked MudDecoration.Block of BambooBambooLog-like block.Bamboo PlanksBlock of Bamboo or Block of Stripped BambooBuilding material.Bamboo MosaicBamboo SlabsDecoration.Chiseled BookshelfWooden Slabs & Wooden PlanksBlock that can hold up to 6 books.Copper GrateBlocks of CopperDecorative semi-transparent block.[Back to top]Tool RecipesNameIngredientsImageDescriptionPickaxesSticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or DiamondsUsed to mine stone blocks and ores.AxesSticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or DiamondsUsed to chop wood blocks faster than by hand.ShovelsSticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or DiamondsUsed to dig sand, gravel, dirt, grass and snow faster than by hand.HoesSticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or DiamondsUsed to till dirt blocks in preparation for growing crops.Fishing RodSticks & StringCan be cast into water to catch fish.Flint & SteelIron Ingot & FlintUsed to light fires, ignite TNT and open nether portals.CompassIron Ingots & RedstonePoints to the spawn point.ClockGold Ingots & RedstoneDisplay the in-game time.BucketIron IngotsUsed to transport water, lava and milk.ShearsIron IngotsUsed to collect wool from sheep and leaves from trees.Shulker BoxShulker Shell & ChestPortable chests.SpyglassAmethyst Shard & Copper IngotsGives a zoomed in view of distant objects when right clicked.Recovery CompassEcho Shards & CompassPoints to where the player last died.BrushFeather & Copper Ingot & StickCan be used on suspicious sand and suspicious gravel to excavate items.[Back to top]Defence RecipesNameIngredientsImageDescriptionHelmetsLeather or Iron Ingots or Gold Ingots or DiamondsHead armor.ChestplatesLeather or Iron Ingots or Gold Ingots or DiamondsChest armor.LeggingsLeather or Iron Ingots or Gold Ingots or DiamondsLeg armor.BootsLeather or Iron Ingots or Gold Ingots or DiamondsFoot armor.SwordsSticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or DiamondsDeal more damage to mobs and other players than by hand.BowString & SticksUsed to shoot arrows.ArrowFlint & Stick & FeatherAmmunition for bows.Horse ArmorLeatherSpecial type of armor worn by horses.ShieldPlanks & Iron IngotProtects player against attack.Spectral ArrowGlowstone Dust & ArrowGives player or mob glowing effect when hit.Tipped ArrowLingering potion & ArrowsInflict targets with status effects.ConduitNautilus Shell & Heart of the SeaProvides conduit power to nearby players underwater.Turtle ShellScuteHelmet that gives the player water breating effect.CrossbowSticks & Iron Ingot & String & Tripwire HookWeapon used to fire arrows further and more accurately than a bow.MaceHeavy Core & Breeze RodAttack weapon that negates fall damage if used by the player on an entity when falling.Wind ChargeBreeze RodWeapon that can knock entities back.[Back to top]Mechanism RecipesNameIngredientsImageDescriptionPressure PlatesWooden Planks or Stone or Polished BlackstoneSend a redstone signal when stepped on by a player or mob.Weighted Pressure PlatesIron Ingots or Gold IngotsSimilar to regular pressure plates, but the signal strength increases as more items are added.TrapdoorWooden PlanksHorizontal door activated by clicking or redstone.Fence GateWooden Planks & SticksGate that can be opened like a door.ButtonsWooden Planks or Stone or Polished BlackstoneSends a short redstone signal when pressed.LeverStick & CobblestoneSends a redstone signal that can be turned on and off.Redstone RepeaterStone & Redstone Torch & RedstoneUsed as a repeater, diode or delayer in redstone circuits.Redstone TorchStick & RedstoneConstantly sends a redstone signal.JukeboxWooden Planks & DiamondUsed to play music discs.DispenserCobblestone & Bow & RedstoneHolds and shoots out items when powered.PistonWooden Planks & Cobblestone & Iron Ingot & RedstonePushes other blocks when powered.Sticky PistonPiston & Slime BallPushes blocks and also pulls them back.MinecartIron IngotsUsed to travel along rail.Powered MinecartMinecart & FurnacePushes other minecarts along track using fuel.Storage MinecartMinecart & ChestUsed to transport blocks and items along track.RailIron Ingots & StickGuide for minecarts.Powered RailGold Ingots & Stick & RedstoneSpeeds up minecarts when powered.Detector RailIron Ingots & Stone Pressure Plate & RedstoneSends a redstone signal when crossed by a minecart.Redstone LampRedstone & Glowstone BlockLight source when powered by redstone.Tripwire HookIron Ingot & Stick & Wooden PlankUsed to create a tripwire that activates a redstone signal.Activator RailIron Ingots & Sticks & Redstone TorchUsed to activate TNT minecarts and minecarts with hoppers.Daylight SensorGlass & Nether Quartz & Wooden SlabsEmits a redstone signal during daylight.DropperCobblestone & RedstoneDrops items (similar to a dispenser) when powered.HopperIron Ingots & ChestMoves items into and out of chests, dispensers and other blocks that can hold items.Minecart with HopperHopper & MinecartMinecart that functions in the same way as a hopper.Minecart with TNTTNT & MinecartMinecart that explodes when triggered by activator rail.Redstone ComparatorRedstone Torches & Stone & Nether QuartzUsed in redstone circuitry.Trapped ChestChest & Tripwire HookChest that emits a redstone signal when opened.Iron TrapdoorIron IngotsTrapdoor activated by redstone.ObserverCobblestone & Redstone Dust & Nether QuartzEmits a redstone signal when the block it is facing is updated.TargetRedstone Dust & Hay BaleEmits a redstone signal when hit by projectiles, such as arrows, eggs or snowballs.Calibrated Sculk SensorAmethyst Shards & Sculk SensorCan be calibrated by varying the strength of a redstone input to detect all kinds of nearby activity.Copper BulbBlocks of Copper & Redstone Dust & Blaze RodLight source that toggles on or off when it receives a restone signal.Copper TrapdoorCopper IngotsHorizontal door activated by clicking or redstone.CrafterIron Ingots & Crafting Table & Redstone Dust & DropperSpecial block that can be configured to automatically craft other blocks.[Back to top]Food RecipesNameIngredientsImageDescriptionBowlWooden PlanksUsed to craft different types of stew.Mushroom StewBowl & Red Mushroom & Brown MushroomRestores 6 hunger points.BreadWheatRestores 5 hunger points.Golden AppleApple & Gold NuggetsRestores 4 hunger points.SugarSugar CaneUsed to create cake.CakeMilk Buckets & Sugar & Wheat & EggHeals 2 hunger points per use for a total of 7 uses.CookiesWheat & Cocoa BeansRestores 2 hunger points.Melon BlockMelon SliceUsed to store melon slices.Melon SeedsMelon SliceCan be planted on farmland.Pumpkin SeedsPumpkinCan be planted on farmland.Golden CarrotCarrot & Gold NuggetsUsed as a brewing ingredient and restores 6 hunger points.Pumpkin PiePumpkin & Egg & SugarRestores 8 hunger points.Rabbit StewMushroom & Bowl & Cooked Rabbit & Carrot & Baked PotatoRestores 10 hunger points.Suspicious StewRed Mushroom & Brown Mushroom & Bowl & Any FlowerRestores 6 hunger points.Honey BottleGlass Bottles & Honey BlockRestores 6 hunger points.[Back to top]Other RecipesNameIngredientsImageDescriptionBedWooden Planks & WoolUsed to forward time to day during nights.PaintingSticks & WoolDecoration.PaperSugar CaneUsed to create maps and books.BookPaper & LeatherUsed to create bookshelfs and book & quills.Book and QuillBook & Feather & Ink SacCan be written in and edited.MapPaper & CompassCreates an image of explored parts of the world.Glass PanesGlass Blocks or Stained Glass BlocksPanes of glass similar to fences.Iron BarsIron IngotsSimilar properties to fences however only 1 block high.Gold IngotGold NuggetUsed to craft a number of other items.Nether Brick FenceNether Brick (item) & Nether BricksSimilar to normal fences but made out of nether brick.Eye of EnderEnder Pearl & Blaze PowderCan be used to locate strongholds.Enchantment TableBook, Diamond & Obsidian.Used to enchant tools, weapons, armor and other items.Fire ChargeBlaze Powder & Coal & GunpowderCreates fire and can be shot out of dispensers.Ender ChestObsidian & Eye of EnderUsed for storage. All Ender Chests in a world access the same storage slots.BeaconGlass & Obsidian & Nether StarEmits light beam and provides temporary player buffs when placed on a pyramid made of emerald, diamond, netherite, gold or iron blocks.AnvilIron Block & Iron IngotUsed to repair items and combine enchantments.Flower PotBricksDecoration.Item FrameSticks & LeatherUsed to display items and blocks on walls.Carrot on a StickFishing Rod & CarrotCan be used to control saddled pigs.Warped Fungus on a StickFishing Rod & Warped FungusCan be used to control saddled striders.Firework RocketGunpowder & Paper & Firework StarItems that can be launched into the sky. The more gunpowder added the higher the rocket will fly.Firework StarGunpowder & Dye & an extra ingredient (optional)The dye determines the color of the firework and the extra ingredient determines the special effect.LeadString & SlimeballUsed to leash mobs.CarpetsWoolThin block that can be used as a decoration.Stained GlassGlass Blocks & DyeBuilding material and decoration.LeatherRabbit hideUsed as a crafting ingredient including for armor.BannerWool & StickDecoration.Armor StandStone Slab & StickUsed to display armor, mob heads & pumpkins.End RodBlaze Rod & Popped Chorus FruitDecorative light source.End CrystalGlass & Eye of Ender  & Ghast TearItem found in The End.Iron NuggetIron IngotSmall piece of iron.Concrete PowderDye & Sand & GravelTurns into concrete when in contact with water or lava.CampfireSticks & Logs & CoalLight source and used to cook food.Soul CampfireSticks & Logs & Soul Sand or Soul SoilLight source and used to cook food.ScaffoldingBamboo & StringUsed to help the player climb when building.BarrelWood Slabs & Wooden PlanksUsed to store items.Blast FurnaceIron Ingots & Furnace & Smooth StoneUsed to smelt items.SmokerLogs & FurnaceUsed to cook food items.Cartography TablePaper & Wooden PlanksUsed for cloning, zooming out and locking maps.ComposterWooden SlabsConverts crops and plants into bone meal.Fletching TableFlint & Wooden PlanksFletcher's job site block in villages.Smithing TableIron Ingots & Wooden PlanksToolsmith's job site block in villages.StonecutterIron Ingot & StoneUsed to craft stone-related blocks.GrindstoneSticks & Stone Slab & Wooden PlanksUsed to repair items and tools, and also remove enchantments.LanternsIron Nuggets & Torch or Soul TorchBlocks that emit light.LecternWood Slabs & BookshelfUsed to hold books.LoomString & Wooden PlanksUsed to apply patterns to banners.BeehiveWooden Planks & HoneycombCraftable version of a bees nest.Netherite IngotNetherite Scraps & Gold IngotsUsed as a smithing ingredient to make Netherite tools, weapons and armor.ChainIron Nuggets & Iron IngotDecoration that can also be used to suspend bells and lanterns.Respawn AnchorCrying Obsidian & GlowstoneAllows the player to set a respawn point in the Nether.LodestoneChiseled Stone Bricks & Netherite IngotUsing a compass on a Lodestone block will make the compass always point towards that specific block.Soul TorchCoal & Stick & Soul Sand or Soul SoilLight source.CandleString & HoneycombLight source.Dyed CandleCandle & Matching DyeLight source.Glow Item FrameItem Frame & Glow Ink SacIlluminates the item held within.Lightning RodCopper IngotsPrevents flammable structures from catching fire during thunderstorms by redirecting lightning strikes.Moss CarpetMoss BlocksDecoration.Tinted GlassAmethyst Shards & GlassTinted version of glass blocks.Music Disc 5Disc Fragment 5Can be played in jukeboxes.Boat with ChestChest & BoatRegular Minecraft boat that can also transport items.Decorated PotPottery Sherds or BricksDecoration.Hanging SignChains & Matching Stripped Logs or Blocks of Stripped BambooCan be used to display text.Bamboo RaftBamboo PlanksBamboo version of the regular boat.Raft with ChestChest & Bamboo RaftRegular raft that can also transport items.Copper DoorCopper IngotsDoor that can be opened and closed by clicking or by a redstone signal.[Back to top]Dye RecipesNameIngredientsImageDescriptionBone MealBoneCan be used to make crops, trees and tall grass grow instantly.Light Gray DyeAzure Bluet or Oxeye Daisy or White Tulip or Black Dye & White Dye or Gray Dye & White DyeUsed to dye various other items.Gray DyeBlack Dye & White DyeUsed to dye various other items.Rose RedRed Tulip or Rose BushUsed to dye various other items.Orange DyeOrange Tulip or Torchflower or Rose Red & Dandelion YellowUsed to dye various other items.Dandelion YellowDandelion or SunflowerUsed to dye various other items.Lime DyeGreen Dye & White DyeUsed to dye various other items.Light Blue DyeBlue Orchid or Blue Dye & White DyeUsed to dye various other items.Cyan DyeBlue Dye & Green Dye or Pitcher PlantUsed to dye various other items.Purple DyeBlue Dye & Red DyeUsed to dye various other items.Magenta DyePurple Dye & Pink Dye or Allium or LilacUsed to dye various other items.Pink DyePink Tulip or Peony or Pink Petals or Red Dye & White DyeUsed to dye various other items.White DyeBone Meal or Lily of the ValleyUsed to dye various other items.Blue DyeLapis Lazuli or CornflowerUsed to dye various other items.Brown DyeCocoa BeansUsed to dye various other items.Black DyeInk Sac or Wither RoseUsed to dye various other items.[Back to top]Wool RecipesNameIngredientsImageDescriptionWoolStringBuilding material that can also be colored with dyes.Light Gray WoolWool & Light Gray DyeBuilding material and decoration.Gray WoolWool & Gray DyeBuilding material and decoration.Black WoolWool & Black DyeBuilding material and decoration.Red WoolWool & Rose RedBuilding material and decoration.Orange WoolWool & Orange DyeBuilding material and decoration.Yellow WoolWool & Dandelion YellowBuilding material and decoration.Lime WoolWool & Lime DyeBuilding material and decoration.Green WoolWool & Cactus GreenBuilding material and decoration.Light Blue WoolWool & Light Blue DyeBuilding material and decoration.Cyan WoolWool & Cyan DyeBuilding material and decoration.Blue WoolWool & Blue DyeBuilding material and decoration.Purple WoolWool & Purple DyeBuilding material and decoration.Magenta WoolWool & Magenta DyeBuilding material and decoration.Pink WoolWool & Pink DyeBuilding material and decoration.Brown WoolWool & Brown DyeBuilding material and decoration.[Back to top]Brewing RecipesNameIngredientsImageDescriptionGlass BottleGlassUsed in brewing.CauldronIron IngotBlock that holds water.Brewing StandBlaze Rod & CobblestoneUsed in brewing.Blaze PowderBlaze RodUsed to craft an Eye of Ender and Magma Cream.Magma CreamSlimeball & Blaze PowderUsed in potions.Fermented Spider EyeSpider Eye, Brown Mushroom & SugarUsed in potions.Glistering MelonMelon Slice & Gold NuggetUsed in potions.[Back to top] | Name | Ingredients | Image | Description | Wooden Planks | Log | Basic building material. | Sticks | Wooden Planks | Used in many other crafting recipies. | Torches | Coal & Stick | Torches provide light and also melt ice and snow. | Crafting Table | Wooden Planks | Opens a 3x3 crafting grid when right clicked. | Furnace | Cobblestone or Blackstone | Allows the player to smelt. | Chest | Wooden Planks | Used to store blocks and items. | Ladders | Sticks | Allows the player to climb vertically. | Fence | Sticks & Wooden Planks | Barrier that cannot be jumped over. | Boat | Wooden Planks | Used to travel in water. | Wooden Slabs | Wooden Planks | Used to create gradual slopes. | Stone Slabs | Stone or Brick or Stone Brick or Sandstone or Cobblestone or Nether Brick or Quartz or Red Sandstone | Used to create gradual slopes. | Sign | Wooden Planks & Stick | Can be used to display text. | Doors | Wooden Planks or Iron Ingots | Wooden doors can be opened by clicking or redstone power. Iron doors can only be opened by redstone power. | Wood | Logs | Block with log texture on all sides. | Name | Ingredients | Image | Description | Glowstone | Glowstone Dust | Bright light source that can also be used underwater. | Snow Block | Snowballs | Store of snow and building material. | TNT | Gunpowder & Sand | Explodes when lit with a Flint & Steel, or powered by a redstone current. | Clay Block | Clay | Store of clay and building material. | Brick Block | Clay Bricks | Strong building material. | Bookshelf | Wooden Planks & Books | Decoration. | Sandstone Block | Sand | Building material. | Smooth Sandstone | Sandstone Block | Building material. | Decorative Sandstone | Sandstone Slabs | Building material. | Note Block | Wooden Planks & Redstone | Plays a note when clicked or powered by redstone. | Jack-O Lantern | Pumpkin & Torch | Light source. | Lapis Lazuli Block | Lapis Lazuli Dye | Store of Lapis Lazuli Dye. | Diamond Block | Diamonds | Store of Diamonds. | Gold Block | Gold Ingots | Store of Gold Ingots. | Iron Block | Iron Ingots | Store of Iron Ingots. | Emerald Block | Emeralds | Store of Emeralds. | Coal Block | Coal | Store of Coal. | Stone Brick | Stone | Building material. | Wooden Stairs | Wooden Planks | Used to build staircases. | Stone Stairs | Cobblestone or Sandstone or Brick or Stone Brick or Nether Brick or Quartz or Red Sandstone | Used to build staircases. | Cobblestone Wall | Cobblestone or Moss Stone | Decorative block that similar to fences cannot be jumped over. | Block of Redstone | Redstone | Redstone power source. | Block of Quartz | Nether Quartz | Building material. | Chiseled Quartz Block | Quartz Slabs | Building material. | Pillar Quartz Block | Blocks of Quartz | Building material. | Quartz Bricks | Blocks of Quartz | Building material. | Stained Clay | Hardened Clay & Dye | Building material. | Hay Bale | Wheat | Decorative block and food for horses. | Granite | Diorite & Nether Quartz | Type of rock. | Andesite | Diorite & Cobblestone | Type of rock. | Diorite | Cobblestone & Nether Quartz | Type of rock. | Polished Granite | Granite | Building material. | Polished Andesite | Andesite | Building material. | Polished Diorite | Diorite | Building material. | Prismarine | Prismarine Shard | Type of rock. | Prismarine Bricks | Prismarine Shard | Building material. | Dark Prismarine | Prismarine Shards & Black Dye | Building material. | Sea Lantern | Prismarine Crystals & Prismarine Shard | Light source. | Coarse Dirt | Dirt & Gravel | Similar to normal dirt however grass cannot spread to it. | Slime Block | Slimeball | Can be used to push other blocks using pistons. | Moss Stone | Cobblestone & Vines or Moss Block | Building material. | Mossy Stone Brick | Stone Brick & Vines or Moss Block | Building material. | Chiseled Stone Brick | Stock Brick Slab | Building material. | Red Sandstone | Red Sand | Building material. | Smooth Red Sandstone | Red Sandstone | Building material. | Chiseled Red Sandstone | Red Sandstone Slab | Building material. | Purpur Block | Popped Chorus Fruit | Building material. | Purpur Pillar | Purpur Slab | Building material. | Magma Block | Magma Cream | Causes damage when stepped on. | Nether Wart Block | Nether Wart | Decoration. | Nether Brick | Nether Brick (Item) | Building material. | Red Nether Brick | Nether Wart & Nether Brick | Building material. | Chiseled Nether Bricks | Nether Brick Slabs | Building material. | Bone Block | Bone Meal | Decoration and store of Bone Meal. | Dried Kelp Block | Dried Kelp | Can be used as fuel in furnaces. | Packed Ice | Ice | Ice building material. | Blue Ice | Packed Ice | Ice building material. | Honey Block | Honey Bottles | Sticky block that slows down players and entities. | Honeycomb Block | Honeycomb | Decoration. | Stripped Wood | Stripped Log | Building material. | Polished Basalt | Basalt | Building material. | Polished Blackstone | Blackstone | Building material. | Chiseled Polished Blackstone | Polished Blackstone Slabs | Building material. | Polished Blackstone Bricks | Polished Blackstone | Building material. | Block of Netherite | Netherite Ingots | Store of Netherite. | Block of Amethyst | Amethyst Shards | Store of Amethyst. | Block of Copper | Copper Ingots | Store of Copper. | Cut Copper | Blocks of Copper | Building material. | Waxed Block of Copper | Block of Copper & Honeycomb | Block of Copper that will not oxidize and change color over time. | Dripstone Block | Pointed Dripstone | Will cause Dripstone to grow below it when there is a water source above. | Muddy Mangrove Roots | Mud & Mangrove Roots | Decoration. | Packed Mud | Mud & Wheat | Used to craft Mud Bricks. | Mud Bricks | Packed Mud | Decoration. | Block of Bamboo | Bamboo | Log-like block. | Bamboo Planks | Block of Bamboo or Block of Stripped Bamboo | Building material. | Bamboo Mosaic | Bamboo Slabs | Decoration. | Chiseled Bookshelf | Wooden Slabs & Wooden Planks | Block that can hold up to 6 books. | Copper Grate | Blocks of Copper | Decorative semi-transparent block. | Name | Ingredients | Image | Description | Pickaxes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to mine stone blocks and ores. | Axes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to chop wood blocks faster than by hand. | Shovels | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to dig sand, gravel, dirt, grass and snow faster than by hand. | Hoes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to till dirt blocks in preparation for growing crops. | Fishing Rod | Sticks & String | Can be cast into water to catch fish. | Flint & Steel | Iron Ingot & Flint | Used to light fires, ignite TNT and open nether portals. | Compass | Iron Ingots & Redstone | Points to the spawn point. | Clock | Gold Ingots & Redstone | Display the in-game time. | Bucket | Iron Ingots | Used to transport water, lava and milk. | Shears | Iron Ingots | Used to collect wool from sheep and leaves from trees. | Shulker Box | Shulker Shell & Chest | Portable chests. | Spyglass | Amethyst Shard & Copper Ingots | Gives a zoomed in view of distant objects when right clicked. | Recovery Compass | Echo Shards & Compass | Points to where the player last died. | Brush | Feather & Copper Ingot & Stick | Can be used on suspicious sand and suspicious gravel to excavate items. | Name | Ingredients | Image | Description | Helmets | Leather or Iron Ingots or Gold Ingots or Diamonds | Head armor. | Chestplates | Leather or Iron Ingots or Gold Ingots or Diamonds | Chest armor. | Leggings | Leather or Iron Ingots or Gold Ingots or Diamonds | Leg armor. | Boots | Leather or Iron Ingots or Gold Ingots or Diamonds | Foot armor. | Swords | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Deal more damage to mobs and other players than by hand. | Bow | String & Sticks | Used to shoot arrows. | Arrow | Flint & Stick & Feather | Ammunition for bows. | Horse Armor | Leather | Special type of armor worn by horses. | Shield | Planks & Iron Ingot | Protects player against attack. | Spectral Arrow | Glowstone Dust & Arrow | Gives player or mob glowing effect when hit. | Tipped Arrow | Lingering potion & Arrows | Inflict targets with status effects. | Conduit | Nautilus Shell & Heart of the Sea | Provides conduit power to nearby players underwater. | Turtle Shell | Scute | Helmet that gives the player water breating effect. | Crossbow | Sticks & Iron Ingot & String & Tripwire Hook | Weapon used to fire arrows further and more accurately than a bow. | Mace | Heavy Core & Breeze Rod | Attack weapon that negates fall damage if used by the player on an entity when falling. | Wind Charge | Breeze Rod | Weapon that can knock entities back. | Name | Ingredients | Image | Description | Pressure Plates | Wooden Planks or Stone or Polished Blackstone | Send a redstone signal when stepped on by a player or mob. | Weighted Pressure Plates | Iron Ingots or Gold Ingots | Similar to regular pressure plates, but the signal strength increases as more items are added. | Trapdoor | Wooden Planks | Horizontal door activated by clicking or redstone. | Fence Gate | Wooden Planks & Sticks | Gate that can be opened like a door. | Buttons | Wooden Planks or Stone or Polished Blackstone | Sends a short redstone signal when pressed. | Lever | Stick & Cobblestone | Sends a redstone signal that can be turned on and off. | Redstone Repeater | Stone & Redstone Torch & Redstone | Used as a repeater, diode or delayer in redstone circuits. | Redstone Torch | Stick & Redstone | Constantly sends a redstone signal. | Jukebox | Wooden Planks & Diamond | Used to play music discs. | Dispenser | Cobblestone & Bow & Redstone | Holds and shoots out items when powered. | Piston | Wooden Planks & Cobblestone & Iron Ingot & Redstone | Pushes other blocks when powered. | Sticky Piston | Piston & Slime Ball | Pushes blocks and also pulls them back. | Minecart | Iron Ingots | Used to travel along rail. | Powered Minecart | Minecart & Furnace | Pushes other minecarts along track using fuel. | Storage Minecart | Minecart & Chest | Used to transport blocks and items along track. | Rail | Iron Ingots & Stick | Guide for minecarts. | Powered Rail | Gold Ingots & Stick & Redstone | Speeds up minecarts when powered. | Detector Rail | Iron Ingots & Stone Pressure Plate & Redstone | Sends a redstone signal when crossed by a minecart. | Redstone Lamp | Redstone & Glowstone Block | Light source when powered by redstone. | Tripwire Hook | Iron Ingot & Stick & Wooden Plank | Used to create a tripwire that activates a redstone signal. | Activator Rail | Iron Ingots & Sticks & Redstone Torch | Used to activate TNT minecarts and minecarts with hoppers. | Daylight Sensor | Glass & Nether Quartz & Wooden Slabs | Emits a redstone signal during daylight. | Dropper | Cobblestone & Redstone | Drops items (similar to a dispenser) when powered. | Hopper | Iron Ingots & Chest | Moves items into and out of chests, dispensers and other blocks that can hold items. | Minecart with Hopper | Hopper & Minecart | Minecart that functions in the same way as a hopper. | Minecart with TNT | TNT & Minecart | Minecart that explodes when triggered by activator rail. | Redstone Comparator | Redstone Torches & Stone & Nether Quartz | Used in redstone circuitry. | Trapped Chest | Chest & Tripwire Hook | Chest that emits a redstone signal when opened. | Iron Trapdoor | Iron Ingots | Trapdoor activated by redstone. | Observer | Cobblestone & Redstone Dust & Nether Quartz | Emits a redstone signal when the block it is facing is updated. | Target | Redstone Dust & Hay Bale | Emits a redstone signal when hit by projectiles, such as arrows, eggs or snowballs. | Calibrated Sculk Sensor | Amethyst Shards & Sculk Sensor | Can be calibrated by varying the strength of a redstone input to detect all kinds of nearby activity. | Copper Bulb | Blocks of Copper & Redstone Dust & Blaze Rod | Light source that toggles on or off when it receives a restone signal. | Copper Trapdoor | Copper Ingots | Horizontal door activated by clicking or redstone. | Crafter | Iron Ingots & Crafting Table & Redstone Dust & Dropper | Special block that can be configured to automatically craft other blocks. | Name | Ingredients | Image | Description | Bowl | Wooden Planks | Used to craft different types of stew. | Mushroom Stew | Bowl & Red Mushroom & Brown Mushroom | Restores 6 hunger points. | Bread | Wheat | Restores 5 hunger points. | Golden Apple | Apple & Gold Nuggets | Restores 4 hunger points. | Sugar | Sugar Cane | Used to create cake. | Cake | Milk Buckets & Sugar & Wheat & Egg | Heals 2 hunger points per use for a total of 7 uses. | Cookies | Wheat & Cocoa Beans | Restores 2 hunger points. | Melon Block | Melon Slice | Used to store melon slices. | Melon Seeds | Melon Slice | Can be planted on farmland. | Pumpkin Seeds | Pumpkin | Can be planted on farmland. | Golden Carrot | Carrot & Gold Nuggets | Used as a brewing ingredient and restores 6 hunger points. | Pumpkin Pie | Pumpkin & Egg & Sugar | Restores 8 hunger points. | Rabbit Stew | Mushroom & Bowl & Cooked Rabbit & Carrot & Baked Potato | Restores 10 hunger points. | Suspicious Stew | Red Mushroom & Brown Mushroom & Bowl & Any Flower | Restores 6 hunger points. | Honey Bottle | Glass Bottles & Honey Block | Restores 6 hunger points. | Name | Ingredients | Image | Description | Bed | Wooden Planks & Wool | Used to forward time to day during nights. | Painting | Sticks & Wool | Decoration. | Paper | Sugar Cane | Used to create maps and books. | Book | Paper & Leather | Used to create bookshelfs and book & quills. | Book and Quill | Book & Feather & Ink Sac | Can be written in and edited. | Map | Paper & Compass | Creates an image of explored parts of the world. | Glass Panes | Glass Blocks or Stained Glass Blocks | Panes of glass similar to fences. | Iron Bars | Iron Ingots | Similar properties to fences however only 1 block high. | Gold Ingot | Gold Nugget | Used to craft a number of other items. | Nether Brick Fence | Nether Brick (item) & Nether Bricks | Similar to normal fences but made out of nether brick. | Eye of Ender | Ender Pearl & Blaze Powder | Can be used to locate strongholds. | Enchantment Table | Book, Diamond & Obsidian. | Used to enchant tools, weapons, armor and other items. | Fire Charge | Blaze Powder & Coal & Gunpowder | Creates fire and can be shot out of dispensers. | Ender Chest | Obsidian & Eye of Ender | Used for storage. All Ender Chests in a world access the same storage slots. | Beacon | Glass & Obsidian & Nether Star | Emits light beam and provides temporary player buffs when placed on a pyramid made of emerald, diamond, netherite, gold or iron blocks. | Anvil | Iron Block & Iron Ingot | Used to repair items and combine enchantments. | Flower Pot | Bricks | Decoration. | Item Frame | Sticks & Leather | Used to display items and blocks on walls. | Carrot on a Stick | Fishing Rod & Carrot | Can be used to control saddled pigs. | Warped Fungus on a Stick | Fishing Rod & Warped Fungus | Can be used to control saddled striders. | Firework Rocket | Gunpowder & Paper & Firework Star | Items that can be launched into the sky. The more gunpowder added the higher the rocket will fly. | Firework Star | Gunpowder & Dye & an extra ingredient (optional) | The dye determines the color of the firework and the extra ingredient determines the special effect. | Lead | String & Slimeball | Used to leash mobs. | Carpets | Wool | Thin block that can be used as a decoration. | Stained Glass | Glass Blocks & Dye | Building material and decoration. | Leather | Rabbit hide | Used as a crafting ingredient including for armor. | Banner | Wool & Stick | Decoration. | Armor Stand | Stone Slab & Stick | Used to display armor, mob heads & pumpkins. | End Rod | Blaze Rod & Popped Chorus Fruit | Decorative light source. | End Crystal | Glass & Eye of Ender  & Ghast Tear | Item found in The End. | Iron Nugget | Iron Ingot | Small piece of iron. | Concrete Powder | Dye & Sand & Gravel | Turns into concrete when in contact with water or lava. | Campfire | Sticks & Logs & Coal | Light source and used to cook food. | Soul Campfire | Sticks & Logs & Soul Sand or Soul Soil | Light source and used to cook food. | Scaffolding | Bamboo & String | Used to help the player climb when building. | Barrel | Wood Slabs & Wooden Planks | Used to store items. | Blast Furnace | Iron Ingots & Furnace & Smooth Stone | Used to smelt items. | Smoker | Logs & Furnace | Used to cook food items. | Cartography Table | Paper & Wooden Planks | Used for cloning, zooming out and locking maps. | Composter | Wooden Slabs | Converts crops and plants into bone meal. | Fletching Table | Flint & Wooden Planks | Fletcher's job site block in villages. | Smithing Table | Iron Ingots & Wooden Planks | Toolsmith's job site block in villages. | Stonecutter | Iron Ingot & Stone | Used to craft stone-related blocks. | Grindstone | Sticks & Stone Slab & Wooden Planks | Used to repair items and tools, and also remove enchantments. | Lanterns | Iron Nuggets & Torch or Soul Torch | Blocks that emit light. | Lectern | Wood Slabs & Bookshelf | Used to hold books. | Loom | String & Wooden Planks | Used to apply patterns to banners. | Beehive | Wooden Planks & Honeycomb | Craftable version of a bees nest. | Netherite Ingot | Netherite Scraps & Gold Ingots | Used as a smithing ingredient to make Netherite tools, weapons and armor. | Chain | Iron Nuggets & Iron Ingot | Decoration that can also be used to suspend bells and lanterns. | Respawn Anchor | Crying Obsidian & Glowstone | Allows the player to set a respawn point in the Nether. | Lodestone | Chiseled Stone Bricks & Netherite Ingot | Using a compass on a Lodestone block will make the compass always point towards that specific block. | Soul Torch | Coal & Stick & Soul Sand or Soul Soil | Light source. | Candle | String & Honeycomb | Light source. | Dyed Candle | Candle & Matching Dye | Light source. | Glow Item Frame | Item Frame & Glow Ink Sac | Illuminates the item held within. | Lightning Rod | Copper Ingots | Prevents flammable structures from catching fire during thunderstorms by redirecting lightning strikes. | Moss Carpet | Moss Blocks | Decoration. | Tinted Glass | Amethyst Shards & Glass | Tinted version of glass blocks. | Music Disc 5 | Disc Fragment 5 | Can be played in jukeboxes. | Boat with Chest | Chest & Boat | Regular Minecraft boat that can also transport items. | Decorated Pot | Pottery Sherds or Bricks | Decoration. | Hanging Sign | Chains & Matching Stripped Logs or Blocks of Stripped Bamboo | Can be used to display text. | Bamboo Raft | Bamboo Planks | Bamboo version of the regular boat. | Raft with Chest | Chest & Bamboo Raft | Regular raft that can also transport items. | Copper Door | Copper Ingots | Door that can be opened and closed by clicking or by a redstone signal. | Name | Ingredients | Image | Description | Bone Meal | Bone | Can be used to make crops, trees and tall grass grow instantly. | Light Gray Dye | Azure Bluet or Oxeye Daisy or White Tulip or Black Dye & White Dye or Gray Dye & White Dye | Used to dye various other items. | Gray Dye | Black Dye & White Dye | Used to dye various other items. | Rose Red | Red Tulip or Rose Bush | Used to dye various other items. | Orange Dye | Orange Tulip or Torchflower or Rose Red & Dandelion Yellow | Used to dye various other items. | Dandelion Yellow | Dandelion or Sunflower | Used to dye various other items. | Lime Dye | Green Dye & White Dye | Used to dye various other items. | Light Blue Dye | Blue Orchid or Blue Dye & White Dye | Used to dye various other items. | Cyan Dye | Blue Dye & Green Dye or Pitcher Plant | Used to dye various other items. | Purple Dye | Blue Dye & Red Dye | Used to dye various other items. | Magenta Dye | Purple Dye & Pink Dye or Allium or Lilac | Used to dye various other items. | Pink Dye | Pink Tulip or Peony or Pink Petals or Red Dye & White Dye | Used to dye various other items. | White Dye | Bone Meal or Lily of the Valley | Used to dye various other items. | Blue Dye | Lapis Lazuli or Cornflower | Used to dye various other items. | Brown Dye | Cocoa Beans | Used to dye various other items. | Black Dye | Ink Sac or Wither Rose | Used to dye various other items. | Name | Ingredients | Image | Description | Wool | String | Building material that can also be colored with dyes. | Light Gray Wool | Wool & Light Gray Dye | Building material and decoration. | Gray Wool | Wool & Gray Dye | Building material and decoration. | Black Wool | Wool & Black Dye | Building material and decoration. | Red Wool | Wool & Rose Red | Building material and decoration. | Orange Wool | Wool & Orange Dye | Building material and decoration. | Yellow Wool | Wool & Dandelion Yellow | Building material and decoration. | Lime Wool | Wool & Lime Dye | Building material and decoration. | Green Wool | Wool & Cactus Green | Building material and decoration. | Light Blue Wool | Wool & Light Blue Dye | Building material and decoration. | Cyan Wool | Wool & Cyan Dye | Building material and decoration. | Blue Wool | Wool & Blue Dye | Building material and decoration. | Purple Wool | Wool & Purple Dye | Building material and decoration. | Magenta Wool | Wool & Magenta Dye | Building material and decoration. | Pink Wool | Wool & Pink Dye | Building material and decoration. | Brown Wool | Wool & Brown Dye | Building material and decoration. | Name | Ingredients | Image | Description | Glass Bottle | Glass | Used in brewing. | Cauldron | Iron Ingot | Block that holds water. | Brewing Stand | Blaze Rod & Cobblestone | Used in brewing. | Blaze Powder | Blaze Rod | Used to craft an Eye of Ender and Magma Cream. | Magma Cream | Slimeball & Blaze Powder | Used in potions. | Fermented Spider Eye | Spider Eye, Brown Mushroom & Sugar | Used in potions. | Glistering Melon | Melon Slice & Gold Nugget | Used in potions. | Minecraft SkinsMinecraft Servers
+Name | Ingredients | Image | Description
+Wooden Planks | Log | Basic building material.
+Sticks | Wooden Planks | Used in many other crafting recipies.
+Torches | Coal & Stick | Torches provide light and also melt ice and snow.
+Crafting Table | Wooden Planks | Opens a 3x3 crafting grid when right clicked.
+Furnace | Cobblestone or Blackstone | Allows the player to smelt.
+Chest | Wooden Planks | Used to store blocks and items.
+Ladders | Sticks | Allows the player to climb vertically.
+Fence | Sticks & Wooden Planks | Barrier that cannot be jumped over.
+Boat | Wooden Planks | Used to travel in water.
+Wooden Slabs | Wooden Planks | Used to create gradual slopes.
+Stone Slabs | Stone or Brick or Stone Brick or Sandstone or Cobblestone or Nether Brick or Quartz or Red Sandstone | Used to create gradual slopes.
+Sign | Wooden Planks & Stick | Can be used to display text.
+Doors | Wooden Planks or Iron Ingots | Wooden doors can be opened by clicking or redstone power. Iron doors can only be opened by redstone power.
+Wood | Logs | Block with log texture on all sides.
+Name | Ingredients | Image | Description
+Glowstone | Glowstone Dust | Bright light source that can also be used underwater.
+Snow Block | Snowballs | Store of snow and building material.
+TNT | Gunpowder & Sand | Explodes when lit with a Flint & Steel, or powered by a redstone current.
+Clay Block | Clay | Store of clay and building material.
+Brick Block | Clay Bricks | Strong building material.
+Bookshelf | Wooden Planks & Books | Decoration.
+Sandstone Block | Sand | Building material.
+Smooth Sandstone | Sandstone Block | Building material.
+Decorative Sandstone | Sandstone Slabs | Building material.
+Note Block | Wooden Planks & Redstone | Plays a note when clicked or powered by redstone.
+Jack-O Lantern | Pumpkin & Torch | Light source.
+Lapis Lazuli Block | Lapis Lazuli Dye | Store of Lapis Lazuli Dye.
+Diamond Block | Diamonds | Store of Diamonds.
+Gold Block | Gold Ingots | Store of Gold Ingots.
+Iron Block | Iron Ingots | Store of Iron Ingots.
+Emerald Block | Emeralds | Store of Emeralds.
+Coal Block | Coal | Store of Coal.
+Stone Brick | Stone | Building material.
+Wooden Stairs | Wooden Planks | Used to build staircases.
+Stone Stairs | Cobblestone or Sandstone or Brick or Stone Brick or Nether Brick or Quartz or Red Sandstone | Used to build staircases.
+Cobblestone Wall | Cobblestone or Moss Stone | Decorative block that similar to fences cannot be jumped over.
+Block of Redstone | Redstone | Redstone power source.
+Block of Quartz | Nether Quartz | Building material.
+Chiseled Quartz Block | Quartz Slabs | Building material.
+Pillar Quartz Block | Blocks of Quartz | Building material.
+Quartz Bricks | Blocks of Quartz | Building material.
+Stained Clay | Hardened Clay & Dye | Building material.
+Hay Bale | Wheat | Decorative block and food for horses.
+Granite | Diorite & Nether Quartz | Type of rock.
+Andesite | Diorite & Cobblestone | Type of rock.
+Diorite | Cobblestone & Nether Quartz | Type of rock.
+Polished Granite | Granite | Building material.
+Polished Andesite | Andesite | Building material.
+Polished Diorite | Diorite | Building material.
+Prismarine | Prismarine Shard | Type of rock.
+Prismarine Bricks | Prismarine Shard | Building material.
+Dark Prismarine | Prismarine Shards & Black Dye | Building material.
+Sea Lantern | Prismarine Crystals & Prismarine Shard | Light source.
+Coarse Dirt | Dirt & Gravel | Similar to normal dirt however grass cannot spread to it.
+Slime Block | Slimeball | Can be used to push other blocks using pistons.
+Moss Stone | Cobblestone & Vines or Moss Block | Building material.
+Mossy Stone Brick | Stone Brick & Vines or Moss Block | Building material.
+Chiseled Stone Brick | Stock Brick Slab | Building material.
+Red Sandstone | Red Sand | Building material.
+Smooth Red Sandstone | Red Sandstone | Building material.
+Chiseled Red Sandstone | Red Sandstone Slab | Building material.
+Purpur Block | Popped Chorus Fruit | Building material.
+Purpur Pillar | Purpur Slab | Building material.
+Magma Block | Magma Cream | Causes damage when stepped on.
+Nether Wart Block | Nether Wart | Decoration.
+Nether Brick | Nether Brick (Item) | Building material.
+Red Nether Brick | Nether Wart & Nether Brick | Building material.
+Chiseled Nether Bricks | Nether Brick Slabs | Building material.
+Bone Block | Bone Meal | Decoration and store of Bone Meal.
+Dried Kelp Block | Dried Kelp | Can be used as fuel in furnaces.
+Packed Ice | Ice | Ice building material.
+Blue Ice | Packed Ice | Ice building material.
+Honey Block | Honey Bottles | Sticky block that slows down players and entities.
+Honeycomb Block | Honeycomb | Decoration.
+Stripped Wood | Stripped Log | Building material.
+Polished Basalt | Basalt | Building material.
+Polished Blackstone | Blackstone | Building material.
+Chiseled Polished Blackstone | Polished Blackstone Slabs | Building material.
+Polished Blackstone Bricks | Polished Blackstone | Building material.
+Block of Netherite | Netherite Ingots | Store of Netherite.
+Block of Amethyst | Amethyst Shards | Store of Amethyst.
+Block of Copper | Copper Ingots | Store of Copper.
+Cut Copper | Blocks of Copper | Building material.
+Waxed Block of Copper | Block of Copper & Honeycomb | Block of Copper that will not oxidize and change color over time.
+Dripstone Block | Pointed Dripstone | Will cause Dripstone to grow below it when there is a water source above.
+Muddy Mangrove Roots | Mud & Mangrove Roots | Decoration.
+Packed Mud | Mud & Wheat | Used to craft Mud Bricks.
+Mud Bricks | Packed Mud | Decoration.
+Block of Bamboo | Bamboo | Log-like block.
+Bamboo Planks | Block of Bamboo or Block of Stripped Bamboo | Building material.
+Bamboo Mosaic | Bamboo Slabs | Decoration.
+Chiseled Bookshelf | Wooden Slabs & Wooden Planks | Block that can hold up to 6 books.
+Copper Grate | Blocks of Copper | Decorative semi-transparent block.
+Name | Ingredients | Image | Description
+Pickaxes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to mine stone blocks and ores.
+Axes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to chop wood blocks faster than by hand.
+Shovels | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to dig sand, gravel, dirt, grass and snow faster than by hand.
+Hoes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to till dirt blocks in preparation for growing crops.
+Fishing Rod | Sticks & String | Can be cast into water to catch fish.
+Flint & Steel | Iron Ingot & Flint | Used to light fires, ignite TNT and open nether portals.
+Compass | Iron Ingots & Redstone | Points to the spawn point.
+Clock | Gold Ingots & Redstone | Display the in-game time.
+Bucket | Iron Ingots | Used to transport water, lava and milk.
+Shears | Iron Ingots | Used to collect wool from sheep and leaves from trees.
+Shulker Box | Shulker Shell & Chest | Portable chests.
+Spyglass | Amethyst Shard & Copper Ingots | Gives a zoomed in view of distant objects when right clicked.
+Recovery Compass | Echo Shards & Compass | Points to where the player last died.
+Brush | Feather & Copper Ingot & Stick | Can be used on suspicious sand and suspicious gravel to excavate items.
+Name | Ingredients | Image | Description
+Helmets | Leather or Iron Ingots or Gold Ingots or Diamonds | Head armor.
+Chestplates | Leather or Iron Ingots or Gold Ingots or Diamonds | Chest armor.
+Leggings | Leather or Iron Ingots or Gold Ingots or Diamonds | Leg armor.
+Boots | Leather or Iron Ingots or Gold Ingots or Diamonds | Foot armor.
+Swords | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Deal more damage to mobs and other players than by hand.
+Bow | String & Sticks | Used to shoot arrows.
+Arrow | Flint & Stick & Feather | Ammunition for bows.
+Horse Armor | Leather | Special type of armor worn by horses.
+Shield | Planks & Iron Ingot | Protects player against attack.
+Spectral Arrow | Glowstone Dust & Arrow | Gives player or mob glowing effect when hit.
+Tipped Arrow | Lingering potion & Arrows | Inflict targets with status effects.
+Conduit | Nautilus Shell & Heart of the Sea | Provides conduit power to nearby players underwater.
+Turtle Shell | Scute | Helmet that gives the player water breating effect.
+Crossbow | Sticks & Iron Ingot & String & Tripwire Hook | Weapon used to fire arrows further and more accurately than a bow.
+Mace | Heavy Core & Breeze Rod | Attack weapon that negates fall damage if used by the player on an entity when falling.
+Wind Charge | Breeze Rod | Weapon that can knock entities back.
+Name | Ingredients | Image | Description
+Pressure Plates | Wooden Planks or Stone or Polished Blackstone | Send a redstone signal when stepped on by a player or mob.
+Weighted Pressure Plates | Iron Ingots or Gold Ingots | Similar to regular pressure plates, but the signal strength increases as more items are added.
+Trapdoor | Wooden Planks | Horizontal door activated by clicking or redstone.
+Fence Gate | Wooden Planks & Sticks | Gate that can be opened like a door.
+Buttons | Wooden Planks or Stone or Polished Blackstone | Sends a short redstone signal when pressed.
+Lever | Stick & Cobblestone | Sends a redstone signal that can be turned on and off.
+Redstone Repeater | Stone & Redstone Torch & Redstone | Used as a repeater, diode or delayer in redstone circuits.
+Redstone Torch | Stick & Redstone | Constantly sends a redstone signal.
+Jukebox | Wooden Planks & Diamond | Used to play music discs.
+Dispenser | Cobblestone & Bow & Redstone | Holds and shoots out items when powered.
+Piston | Wooden Planks & Cobblestone & Iron Ingot & Redstone | Pushes other blocks when powered.
+Sticky Piston | Piston & Slime Ball | Pushes blocks and also pulls them back.
+Minecart | Iron Ingots | Used to travel along rail.
+Powered Minecart | Minecart & Furnace | Pushes other minecarts along track using fuel.
+Storage Minecart | Minecart & Chest | Used to transport blocks and items along track.
+Rail | Iron Ingots & Stick | Guide for minecarts.
+Powered Rail | Gold Ingots & Stick & Redstone | Speeds up minecarts when powered.
+Detector Rail | Iron Ingots & Stone Pressure Plate & Redstone | Sends a redstone signal when crossed by a minecart.
+Redstone Lamp | Redstone & Glowstone Block | Light source when powered by redstone.
+Tripwire Hook | Iron Ingot & Stick & Wooden Plank | Used to create a tripwire that activates a redstone signal.
+Activator Rail | Iron Ingots & Sticks & Redstone Torch | Used to activate TNT minecarts and minecarts with hoppers.
+Daylight Sensor | Glass & Nether Quartz & Wooden Slabs | Emits a redstone signal during daylight.
+Dropper | Cobblestone & Redstone | Drops items (similar to a dispenser) when powered.
+Hopper | Iron Ingots & Chest | Moves items into and out of chests, dispensers and other blocks that can hold items.
+Minecart with Hopper | Hopper & Minecart | Minecart that functions in the same way as a hopper.
+Minecart with TNT | TNT & Minecart | Minecart that explodes when triggered by activator rail.
+Redstone Comparator | Redstone Torches & Stone & Nether Quartz | Used in redstone circuitry.
+Trapped Chest | Chest & Tripwire Hook | Chest that emits a redstone signal when opened.
+Iron Trapdoor | Iron Ingots | Trapdoor activated by redstone.
+Observer | Cobblestone & Redstone Dust & Nether Quartz | Emits a redstone signal when the block it is facing is updated.
+Target | Redstone Dust & Hay Bale | Emits a redstone signal when hit by projectiles, such as arrows, eggs or snowballs.
+Calibrated Sculk Sensor | Amethyst Shards & Sculk Sensor | Can be calibrated by varying the strength of a redstone input to detect all kinds of nearby activity.
+Copper Bulb | Blocks of Copper & Redstone Dust & Blaze Rod | Light source that toggles on or off when it receives a restone signal.
+Copper Trapdoor | Copper Ingots | Horizontal door activated by clicking or redstone.
+Crafter | Iron Ingots & Crafting Table & Redstone Dust & Dropper | Special block that can be configured to automatically craft other blocks.
+Name | Ingredients | Image | Description
+Bowl | Wooden Planks | Used to craft different types of stew.
+Mushroom Stew | Bowl & Red Mushroom & Brown Mushroom | Restores 6 hunger points.
+Bread | Wheat | Restores 5 hunger points.
+Golden Apple | Apple & Gold Nuggets | Restores 4 hunger points.
+Sugar | Sugar Cane | Used to create cake.
+Cake | Milk Buckets & Sugar & Wheat & Egg | Heals 2 hunger points per use for a total of 7 uses.
+Cookies | Wheat & Cocoa Beans | Restores 2 hunger points.
+Melon Block | Melon Slice | Used to store melon slices.
+Melon Seeds | Melon Slice | Can be planted on farmland.
+Pumpkin Seeds | Pumpkin | Can be planted on farmland.
+Golden Carrot | Carrot & Gold Nuggets | Used as a brewing ingredient and restores 6 hunger points.
+Pumpkin Pie | Pumpkin & Egg & Sugar | Restores 8 hunger points.
+Rabbit Stew | Mushroom & Bowl & Cooked Rabbit & Carrot & Baked Potato | Restores 10 hunger points.
+Suspicious Stew | Red Mushroom & Brown Mushroom & Bowl & Any Flower | Restores 6 hunger points.
+Honey Bottle | Glass Bottles & Honey Block | Restores 6 hunger points.
+Name | Ingredients | Image | Description
+Bed | Wooden Planks & Wool | Used to forward time to day during nights.
+Painting | Sticks & Wool | Decoration.
+Paper | Sugar Cane | Used to create maps and books.
+Book | Paper & Leather | Used to create bookshelfs and book & quills.
+Book and Quill | Book & Feather & Ink Sac | Can be written in and edited.
+Map | Paper & Compass | Creates an image of explored parts of the world.
+Glass Panes | Glass Blocks or Stained Glass Blocks | Panes of glass similar to fences.
+Iron Bars | Iron Ingots | Similar properties to fences however only 1 block high.
+Gold Ingot | Gold Nugget | Used to craft a number of other items.
+Nether Brick Fence | Nether Brick (item) & Nether Bricks | Similar to normal fences but made out of nether brick.
+Eye of Ender | Ender Pearl & Blaze Powder | Can be used to locate strongholds.
+Enchantment Table | Book, Diamond & Obsidian. | Used to enchant tools, weapons, armor and other items.
+Fire Charge | Blaze Powder & Coal & Gunpowder | Creates fire and can be shot out of dispensers.
+Ender Chest | Obsidian & Eye of Ender | Used for storage. All Ender Chests in a world access the same storage slots.
+Beacon | Glass & Obsidian & Nether Star | Emits light beam and provides temporary player buffs when placed on a pyramid made of emerald, diamond, netherite, gold or iron blocks.
+Anvil | Iron Block & Iron Ingot | Used to repair items and combine enchantments.
+Flower Pot | Bricks | Decoration.
+Item Frame | Sticks & Leather | Used to display items and blocks on walls.
+Carrot on a Stick | Fishing Rod & Carrot | Can be used to control saddled pigs.
+Warped Fungus on a Stick | Fishing Rod & Warped Fungus | Can be used to control saddled striders.
+Firework Rocket | Gunpowder & Paper & Firework Star | Items that can be launched into the sky. The more gunpowder added the higher the rocket will fly.
+Firework Star | Gunpowder & Dye & an extra ingredient (optional) | The dye determines the color of the firework and the extra ingredient determines the special effect.
+Lead | String & Slimeball | Used to leash mobs.
+Carpets | Wool | Thin block that can be used as a decoration.
+Stained Glass | Glass Blocks & Dye | Building material and decoration.
+Leather | Rabbit hide | Used as a crafting ingredient including for armor.
+Banner | Wool & Stick | Decoration.
+Armor Stand | Stone Slab & Stick | Used to display armor, mob heads & pumpkins.
+End Rod | Blaze Rod & Popped Chorus Fruit | Decorative light source.
+End Crystal | Glass & Eye of Ender  & Ghast Tear | Item found in The End.
+Iron Nugget | Iron Ingot | Small piece of iron.
+Concrete Powder | Dye & Sand & Gravel | Turns into concrete when in contact with water or lava.
+Campfire | Sticks & Logs & Coal | Light source and used to cook food.
+Soul Campfire | Sticks & Logs & Soul Sand or Soul Soil | Light source and used to cook food.
+Scaffolding | Bamboo & String | Used to help the player climb when building.
+Barrel | Wood Slabs & Wooden Planks | Used to store items.
+Blast Furnace | Iron Ingots & Furnace & Smooth Stone | Used to smelt items.
+Smoker | Logs & Furnace | Used to cook food items.
+Cartography Table | Paper & Wooden Planks | Used for cloning, zooming out and locking maps.
+Composter | Wooden Slabs | Converts crops and plants into bone meal.
+Fletching Table | Flint & Wooden Planks | Fletcher's job site block in villages.
+Smithing Table | Iron Ingots & Wooden Planks | Toolsmith's job site block in villages.
+Stonecutter | Iron Ingot & Stone | Used to craft stone-related blocks.
+Grindstone | Sticks & Stone Slab & Wooden Planks | Used to repair items and tools, and also remove enchantments.
+Lanterns | Iron Nuggets & Torch or Soul Torch | Blocks that emit light.
+Lectern | Wood Slabs & Bookshelf | Used to hold books.
+Loom | String & Wooden Planks | Used to apply patterns to banners.
+Beehive | Wooden Planks & Honeycomb | Craftable version of a bees nest.
+Netherite Ingot | Netherite Scraps & Gold Ingots | Used as a smithing ingredient to make Netherite tools, weapons and armor.
+Chain | Iron Nuggets & Iron Ingot | Decoration that can also be used to suspend bells and lanterns.
+Respawn Anchor | Crying Obsidian & Glowstone | Allows the player to set a respawn point in the Nether.
+Lodestone | Chiseled Stone Bricks & Netherite Ingot | Using a compass on a Lodestone block will make the compass always point towards that specific block.
+Soul Torch | Coal & Stick & Soul Sand or Soul Soil | Light source.
+Candle | String & Honeycomb | Light source.
+Dyed Candle | Candle & Matching Dye | Light source.
+Glow Item Frame | Item Frame & Glow Ink Sac | Illuminates the item held within.
+Lightning Rod | Copper Ingots | Prevents flammable structures from catching fire during thunderstorms by redirecting lightning strikes.
+Moss Carpet | Moss Blocks | Decoration.
+Tinted Glass | Amethyst Shards & Glass | Tinted version of glass blocks.
+Music Disc 5 | Disc Fragment 5 | Can be played in jukeboxes.
+Boat with Chest | Chest & Boat | Regular Minecraft boat that can also transport items.
+Decorated Pot | Pottery Sherds or Bricks | Decoration.
+Hanging Sign | Chains & Matching Stripped Logs or Blocks of Stripped Bamboo | Can be used to display text.
+Bamboo Raft | Bamboo Planks | Bamboo version of the regular boat.
+Raft with Chest | Chest & Bamboo Raft | Regular raft that can also transport items.
+Copper Door | Copper Ingots | Door that can be opened and closed by clicking or by a redstone signal.
+Name | Ingredients | Image | Description
+Bone Meal | Bone | Can be used to make crops, trees and tall grass grow instantly.
+Light Gray Dye | Azure Bluet or Oxeye Daisy or White Tulip or Black Dye & White Dye or Gray Dye & White Dye | Used to dye various other items.
+Gray Dye | Black Dye & White Dye | Used to dye various other items.
+Rose Red | Red Tulip or Rose Bush | Used to dye various other items.
+Orange Dye | Orange Tulip or Torchflower or Rose Red & Dandelion Yellow | Used to dye various other items.
+Dandelion Yellow | Dandelion or Sunflower | Used to dye various other items.
+Lime Dye | Green Dye & White Dye | Used to dye various other items.
+Light Blue Dye | Blue Orchid or Blue Dye & White Dye | Used to dye various other items.
+Cyan Dye | Blue Dye & Green Dye or Pitcher Plant | Used to dye various other items.
+Purple Dye | Blue Dye & Red Dye | Used to dye various other items.
+Magenta Dye | Purple Dye & Pink Dye or Allium or Lilac | Used to dye various other items.
+Pink Dye | Pink Tulip or Peony or Pink Petals or Red Dye & White Dye | Used to dye various other items.
+White Dye | Bone Meal or Lily of the Valley | Used to dye various other items.
+Blue Dye | Lapis Lazuli or Cornflower | Used to dye various other items.
+Brown Dye | Cocoa Beans | Used to dye various other items.
+Black Dye | Ink Sac or Wither Rose | Used to dye various other items.
+Name | Ingredients | Image | Description
+Wool | String | Building material that can also be colored with dyes.
+Light Gray Wool | Wool & Light Gray Dye | Building material and decoration.
+Gray Wool | Wool & Gray Dye | Building material and decoration.
+Black Wool | Wool & Black Dye | Building material and decoration.
+Red Wool | Wool & Rose Red | Building material and decoration.
+Orange Wool | Wool & Orange Dye | Building material and decoration.
+Yellow Wool | Wool & Dandelion Yellow | Building material and decoration.
+Lime Wool | Wool & Lime Dye | Building material and decoration.
+Green Wool | Wool & Cactus Green | Building material and decoration.
+Light Blue Wool | Wool & Light Blue Dye | Building material and decoration.
+Cyan Wool | Wool & Cyan Dye | Building material and decoration.
+Blue Wool | Wool & Blue Dye | Building material and decoration.
+Purple Wool | Wool & Purple Dye | Building material and decoration.
+Magenta Wool | Wool & Magenta Dye | Building material and decoration.
+Pink Wool | Wool & Pink Dye | Building material and decoration.
+Brown Wool | Wool & Brown Dye | Building material and decoration.
+Name | Ingredients | Image | Description
+Glass Bottle | Glass | Used in brewing.
+Cauldron | Iron Ingot | Block that holds water.
+Brewing Stand | Blaze Rod & Cobblestone | Used in brewing.
+Blaze Powder | Blaze Rod | Used to craft an Eye of Ender and Magma Cream.
+Magma Cream | Slimeball & Blaze Powder | Used in potions.
+Fermented Spider Eye | Spider Eye, Brown Mushroom & Sugar | Used in potions.
+Glistering Melon | Melon Slice & Gold Nugget | Used in potions.
+Â© ACTdesign | This site is not an official Minecraft service and is not approved by or associated with Mojang or Microsoft |Terms|Privacy
+
+- Basic
+- Blocks
+- Tools
+- Defence
+- Mechanism
+- Food
+- Other
+- Dye
+- Wool
+- Brewing
+H1: Minecraft Crafting Guide
+Crafting in Minecraft is the method by which the majority of items, blocks and tools are created. To craft an item move the ingredients from your inventory into the crafting grid and place them in the order representing the item you wish to craft. The 2x2 crafting grid is contained within the inventory screen and the 3x3 grid can be accessed from a crafting table. Select a category from the menu above or scroll down to view the recipes!
+This guide has been updated for the Minecraft 1.21 Tricky Trials update, released in June 2024.
+H2: Basic Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Wooden Planks | Log | Basic building material.
+Sticks | Wooden Planks | Used in many other crafting recipies.
+Torches | Coal & Stick | Torches provide light and also melt ice and snow.
+Crafting Table | Wooden Planks | Opens a 3x3 crafting grid when right clicked.
+Furnace | Cobblestone or Blackstone | Allows the player to smelt.
+Chest | Wooden Planks | Used to store blocks and items.
+Ladders | Sticks | Allows the player to climb vertically.
+Fence | Sticks & Wooden Planks | Barrier that cannot be jumped over.
+Boat | Wooden Planks | Used to travel in water.
+Wooden Slabs | Wooden Planks | Used to create gradual slopes.
+Stone Slabs | Stone or Brick or Stone Brick or Sandstone or Cobblestone or Nether Brick or Quartz or Red Sandstone | Used to create gradual slopes.
+Sign | Wooden Planks & Stick | Can be used to display text.
+Doors | Wooden Planks or Iron Ingots | Wooden doors can be opened by clicking or redstone power. Iron doors can only be opened by redstone power.
+Wood | Logs | Block with log texture on all sides.
+
+Stone or Brick or Stone Brick or Sandstone or Cobblestone or Nether Brick or Quartz or Red Sandstone
+[Back to top]
+H2: Block Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Glowstone | Glowstone Dust | Bright light source that can also be used underwater.
+Snow Block | Snowballs | Store of snow and building material.
+TNT | Gunpowder & Sand | Explodes when lit with a Flint & Steel, or powered by a redstone current.
+Clay Block | Clay | Store of clay and building material.
+Brick Block | Clay Bricks | Strong building material.
+Bookshelf | Wooden Planks & Books | Decoration.
+Sandstone Block | Sand | Building material.
+Smooth Sandstone | Sandstone Block | Building material.
+Decorative Sandstone | Sandstone Slabs | Building material.
+Note Block | Wooden Planks & Redstone | Plays a note when clicked or powered by redstone.
+Jack-O Lantern | Pumpkin & Torch | Light source.
+Lapis Lazuli Block | Lapis Lazuli Dye | Store of Lapis Lazuli Dye.
+Diamond Block | Diamonds | Store of Diamonds.
+Gold Block | Gold Ingots | Store of Gold Ingots.
+Iron Block | Iron Ingots | Store of Iron Ingots.
+Emerald Block | Emeralds | Store of Emeralds.
+Coal Block | Coal | Store of Coal.
+Stone Brick | Stone | Building material.
+Wooden Stairs | Wooden Planks | Used to build staircases.
+Stone Stairs | Cobblestone or Sandstone or Brick or Stone Brick or Nether Brick or Quartz or Red Sandstone | Used to build staircases.
+Cobblestone Wall | Cobblestone or Moss Stone | Decorative block that similar to fences cannot be jumped over.
+Block of Redstone | Redstone | Redstone power source.
+Block of Quartz | Nether Quartz | Building material.
+Chiseled Quartz Block | Quartz Slabs | Building material.
+Pillar Quartz Block | Blocks of Quartz | Building material.
+Quartz Bricks | Blocks of Quartz | Building material.
+Stained Clay | Hardened Clay & Dye | Building material.
+Hay Bale | Wheat | Decorative block and food for horses.
+Granite | Diorite & Nether Quartz | Type of rock.
+Andesite | Diorite & Cobblestone | Type of rock.
+Diorite | Cobblestone & Nether Quartz | Type of rock.
+Polished Granite | Granite | Building material.
+Polished Andesite | Andesite | Building material.
+Polished Diorite | Diorite | Building material.
+Prismarine | Prismarine Shard | Type of rock.
+Prismarine Bricks | Prismarine Shard | Building material.
+Dark Prismarine | Prismarine Shards & Black Dye | Building material.
+Sea Lantern | Prismarine Crystals & Prismarine Shard | Light source.
+Coarse Dirt | Dirt & Gravel | Similar to normal dirt however grass cannot spread to it.
+Slime Block | Slimeball | Can be used to push other blocks using pistons.
+Moss Stone | Cobblestone & Vines or Moss Block | Building material.
+Mossy Stone Brick | Stone Brick & Vines or Moss Block | Building material.
+Chiseled Stone Brick | Stock Brick Slab | Building material.
+Red Sandstone | Red Sand | Building material.
+Smooth Red Sandstone | Red Sandstone | Building material.
+Chiseled Red Sandstone | Red Sandstone Slab | Building material.
+Purpur Block | Popped Chorus Fruit | Building material.
+Purpur Pillar | Purpur Slab | Building material.
+Magma Block | Magma Cream | Causes damage when stepped on.
+Nether Wart Block | Nether Wart | Decoration.
+Nether Brick | Nether Brick (Item) | Building material.
+Red Nether Brick | Nether Wart & Nether Brick | Building material.
+Chiseled Nether Bricks | Nether Brick Slabs | Building material.
+Bone Block | Bone Meal | Decoration and store of Bone Meal.
+Dried Kelp Block | Dried Kelp | Can be used as fuel in furnaces.
+Packed Ice | Ice | Ice building material.
+Blue Ice | Packed Ice | Ice building material.
+Honey Block | Honey Bottles | Sticky block that slows down players and entities.
+Honeycomb Block | Honeycomb | Decoration.
+Stripped Wood | Stripped Log | Building material.
+Polished Basalt | Basalt | Building material.
+Polished Blackstone | Blackstone | Building material.
+Chiseled Polished Blackstone | Polished Blackstone Slabs | Building material.
+Polished Blackstone Bricks | Polished Blackstone | Building material.
+Block of Netherite | Netherite Ingots | Store of Netherite.
+Block of Amethyst | Amethyst Shards | Store of Amethyst.
+Block of Copper | Copper Ingots | Store of Copper.
+Cut Copper | Blocks of Copper | Building material.
+Waxed Block of Copper | Block of Copper & Honeycomb | Block of Copper that will not oxidize and change color over time.
+Dripstone Block | Pointed Dripstone | Will cause Dripstone to grow below it when there is a water source above.
+Muddy Mangrove Roots | Mud & Mangrove Roots | Decoration.
+Packed Mud | Mud & Wheat | Used to craft Mud Bricks.
+Mud Bricks | Packed Mud | Decoration.
+Block of Bamboo | Bamboo | Log-like block.
+Bamboo Planks | Block of Bamboo or Block of Stripped Bamboo | Building material.
+Bamboo Mosaic | Bamboo Slabs | Decoration.
+Chiseled Bookshelf | Wooden Slabs & Wooden Planks | Block that can hold up to 6 books.
+Copper Grate | Blocks of Copper | Decorative semi-transparent block.
+
+[Back to top]
+H2: Tool Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Pickaxes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to mine stone blocks and ores.
+Axes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to chop wood blocks faster than by hand.
+Shovels | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to dig sand, gravel, dirt, grass and snow faster than by hand.
+Hoes | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Used to till dirt blocks in preparation for growing crops.
+Fishing Rod | Sticks & String | Can be cast into water to catch fish.
+Flint & Steel | Iron Ingot & Flint | Used to light fires, ignite TNT and open nether portals.
+Compass | Iron Ingots & Redstone | Points to the spawn point.
+Clock | Gold Ingots & Redstone | Display the in-game time.
+Bucket | Iron Ingots | Used to transport water, lava and milk.
+Shears | Iron Ingots | Used to collect wool from sheep and leaves from trees.
+Shulker Box | Shulker Shell & Chest | Portable chests.
+Spyglass | Amethyst Shard & Copper Ingots | Gives a zoomed in view of distant objects when right clicked.
+Recovery Compass | Echo Shards & Compass | Points to where the player last died.
+Brush | Feather & Copper Ingot & Stick | Can be used on suspicious sand and suspicious gravel to excavate items.
+
+[Back to top]
+H2: Defence Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Helmets | Leather or Iron Ingots or Gold Ingots or Diamonds | Head armor.
+Chestplates | Leather or Iron Ingots or Gold Ingots or Diamonds | Chest armor.
+Leggings | Leather or Iron Ingots or Gold Ingots or Diamonds | Leg armor.
+Boots | Leather or Iron Ingots or Gold Ingots or Diamonds | Foot armor.
+Swords | Sticks & Wooden Planks or Cobblestone or Blackstone or Iron Ingots or Gold Ingots or Diamonds | Deal more damage to mobs and other players than by hand.
+Bow | String & Sticks | Used to shoot arrows.
+Arrow | Flint & Stick & Feather | Ammunition for bows.
+Horse Armor | Leather | Special type of armor worn by horses.
+Shield | Planks & Iron Ingot | Protects player against attack.
+Spectral Arrow | Glowstone Dust & Arrow | Gives player or mob glowing effect when hit.
+Tipped Arrow | Lingering potion & Arrows | Inflict targets with status effects.
+Conduit | Nautilus Shell & Heart of the Sea | Provides conduit power to nearby players underwater.
+Turtle Shell | Scute | Helmet that gives the player water breating effect.
+Crossbow | Sticks & Iron Ingot & String & Tripwire Hook | Weapon used to fire arrows further and more accurately than a bow.
+Mace | Heavy Core & Breeze Rod | Attack weapon that negates fall damage if used by the player on an entity when falling.
+Wind Charge | Breeze Rod | Weapon that can knock entities back.
+
+[Back to top]
+H2: Mechanism Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Pressure Plates | Wooden Planks or Stone or Polished Blackstone | Send a redstone signal when stepped on by a player or mob.
+Weighted Pressure Plates | Iron Ingots or Gold Ingots | Similar to regular pressure plates, but the signal strength increases as more items are added.
+Trapdoor | Wooden Planks | Horizontal door activated by clicking or redstone.
+Fence Gate | Wooden Planks & Sticks | Gate that can be opened like a door.
+Buttons | Wooden Planks or Stone or Polished Blackstone | Sends a short redstone signal when pressed.
+Lever | Stick & Cobblestone | Sends a redstone signal that can be turned on and off.
+Redstone Repeater | Stone & Redstone Torch & Redstone | Used as a repeater, diode or delayer in redstone circuits.
+Redstone Torch | Stick & Redstone | Constantly sends a redstone signal.
+Jukebox | Wooden Planks & Diamond | Used to play music discs.
+Dispenser | Cobblestone & Bow & Redstone | Holds and shoots out items when powered.
+Piston | Wooden Planks & Cobblestone & Iron Ingot & Redstone | Pushes other blocks when powered.
+Sticky Piston | Piston & Slime Ball | Pushes blocks and also pulls them back.
+Minecart | Iron Ingots | Used to travel along rail.
+Powered Minecart | Minecart & Furnace | Pushes other minecarts along track using fuel.
+Storage Minecart | Minecart & Chest | Used to transport blocks and items along track.
+Rail | Iron Ingots & Stick | Guide for minecarts.
+Powered Rail | Gold Ingots & Stick & Redstone | Speeds up minecarts when powered.
+Detector Rail | Iron Ingots & Stone Pressure Plate & Redstone | Sends a redstone signal when crossed by a minecart.
+Redstone Lamp | Redstone & Glowstone Block | Light source when powered by redstone.
+Tripwire Hook | Iron Ingot & Stick & Wooden Plank | Used to create a tripwire that activates a redstone signal.
+Activator Rail | Iron Ingots & Sticks & Redstone Torch | Used to activate TNT minecarts and minecarts with hoppers.
+Daylight Sensor | Glass & Nether Quartz & Wooden Slabs | Emits a redstone signal during daylight.
+Dropper | Cobblestone & Redstone | Drops items (similar to a dispenser) when powered.
+Hopper | Iron Ingots & Chest | Moves items into and out of chests, dispensers and other blocks that can hold items.
+Minecart with Hopper | Hopper & Minecart | Minecart that functions in the same way as a hopper.
+Minecart with TNT | TNT & Minecart | Minecart that explodes when triggered by activator rail.
+Redstone Comparator | Redstone Torches & Stone & Nether Quartz | Used in redstone circuitry.
+Trapped Chest | Chest & Tripwire Hook | Chest that emits a redstone signal when opened.
+Iron Trapdoor | Iron Ingots | Trapdoor activated by redstone.
+Observer | Cobblestone & Redstone Dust & Nether Quartz | Emits a redstone signal when the block it is facing is updated.
+Target | Redstone Dust & Hay Bale | Emits a redstone signal when hit by projectiles, such as arrows, eggs or snowballs.
+Calibrated Sculk Sensor | Amethyst Shards & Sculk Sensor | Can be calibrated by varying the strength of a redstone input to detect all kinds of nearby activity.
+Copper Bulb | Blocks of Copper & Redstone Dust & Blaze Rod | Light source that toggles on or off when it receives a restone signal.
+Copper Trapdoor | Copper Ingots | Horizontal door activated by clicking or redstone.
+Crafter | Iron Ingots & Crafting Table & Redstone Dust & Dropper | Special block that can be configured to automatically craft other blocks.
+
+[Back to top]
+H2: Food Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Bowl | Wooden Planks | Used to craft different types of stew.
+Mushroom Stew | Bowl & Red Mushroom & Brown Mushroom | Restores 6 hunger points.
+Bread | Wheat | Restores 5 hunger points.
+Golden Apple | Apple & Gold Nuggets | Restores 4 hunger points.
+Sugar | Sugar Cane | Used to create cake.
+Cake | Milk Buckets & Sugar & Wheat & Egg | Heals 2 hunger points per use for a total of 7 uses.
+Cookies | Wheat & Cocoa Beans | Restores 2 hunger points.
+Melon Block | Melon Slice | Used to store melon slices.
+Melon Seeds | Melon Slice | Can be planted on farmland.
+Pumpkin Seeds | Pumpkin | Can be planted on farmland.
+Golden Carrot | Carrot & Gold Nuggets | Used as a brewing ingredient and restores 6 hunger points.
+Pumpkin Pie | Pumpkin & Egg & Sugar | Restores 8 hunger points.
+Rabbit Stew | Mushroom & Bowl & Cooked Rabbit & Carrot & Baked Potato | Restores 10 hunger points.
+Suspicious Stew | Red Mushroom & Brown Mushroom & Bowl & Any Flower | Restores 6 hunger points.
+Honey Bottle | Glass Bottles & Honey Block | Restores 6 hunger points.
+
+[Back to top]
+H2: Other Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Bed | Wooden Planks & Wool | Used to forward time to day during nights.
+Painting | Sticks & Wool | Decoration.
+Paper | Sugar Cane | Used to create maps and books.
+Book | Paper & Leather | Used to create bookshelfs and book & quills.
+Book and Quill | Book & Feather & Ink Sac | Can be written in and edited.
+Map | Paper & Compass | Creates an image of explored parts of the world.
+Glass Panes | Glass Blocks or Stained Glass Blocks | Panes of glass similar to fences.
+Iron Bars | Iron Ingots | Similar properties to fences however only 1 block high.
+Gold Ingot | Gold Nugget | Used to craft a number of other items.
+Nether Brick Fence | Nether Brick (item) & Nether Bricks | Similar to normal fences but made out of nether brick.
+Eye of Ender | Ender Pearl & Blaze Powder | Can be used to locate strongholds.
+Enchantment Table | Book, Diamond & Obsidian. | Used to enchant tools, weapons, armor and other items.
+Fire Charge | Blaze Powder & Coal & Gunpowder | Creates fire and can be shot out of dispensers.
+Ender Chest | Obsidian & Eye of Ender | Used for storage. All Ender Chests in a world access the same storage slots.
+Beacon | Glass & Obsidian & Nether Star | Emits light beam and provides temporary player buffs when placed on a pyramid made of emerald, diamond, netherite, gold or iron blocks.
+Anvil | Iron Block & Iron Ingot | Used to repair items and combine enchantments.
+Flower Pot | Bricks | Decoration.
+Item Frame | Sticks & Leather | Used to display items and blocks on walls.
+Carrot on a Stick | Fishing Rod & Carrot | Can be used to control saddled pigs.
+Warped Fungus on a Stick | Fishing Rod & Warped Fungus | Can be used to control saddled striders.
+Firework Rocket | Gunpowder & Paper & Firework Star | Items that can be launched into the sky. The more gunpowder added the higher the rocket will fly.
+Firework Star | Gunpowder & Dye & an extra ingredient (optional) | The dye determines the color of the firework and the extra ingredient determines the special effect.
+Lead | String & Slimeball | Used to leash mobs.
+Carpets | Wool | Thin block that can be used as a decoration.
+Stained Glass | Glass Blocks & Dye | Building material and decoration.
+Leather | Rabbit hide | Used as a crafting ingredient including for armor.
+Banner | Wool & Stick | Decoration.
+Armor Stand | Stone Slab & Stick | Used to display armor, mob heads & pumpkins.
+End Rod | Blaze Rod & Popped Chorus Fruit | Decorative light source.
+End Crystal | Glass & Eye of Ender  & Ghast Tear | Item found in The End.
+Iron Nugget | Iron Ingot | Small piece of iron.
+Concrete Powder | Dye & Sand & Gravel | Turns into concrete when in contact with water or lava.
+Campfire | Sticks & Logs & Coal | Light source and used to cook food.
+Soul Campfire | Sticks & Logs & Soul Sand or Soul Soil | Light source and used to cook food.
+Scaffolding | Bamboo & String | Used to help the player climb when building.
+Barrel | Wood Slabs & Wooden Planks | Used to store items.
+Blast Furnace | Iron Ingots & Furnace & Smooth Stone | Used to smelt items.
+Smoker | Logs & Furnace | Used to cook food items.
+Cartography Table | Paper & Wooden Planks | Used for cloning, zooming out and locking maps.
+Composter | Wooden Slabs | Converts crops and plants into bone meal.
+Fletching Table | Flint & Wooden Planks | Fletcher's job site block in villages.
+Smithing Table | Iron Ingots & Wooden Planks | Toolsmith's job site block in villages.
+Stonecutter | Iron Ingot & Stone | Used to craft stone-related blocks.
+Grindstone | Sticks & Stone Slab & Wooden Planks | Used to repair items and tools, and also remove enchantments.
+Lanterns | Iron Nuggets & Torch or Soul Torch | Blocks that emit light.
+Lectern | Wood Slabs & Bookshelf | Used to hold books.
+Loom | String & Wooden Planks | Used to apply patterns to banners.
+Beehive | Wooden Planks & Honeycomb | Craftable version of a bees nest.
+Netherite Ingot | Netherite Scraps & Gold Ingots | Used as a smithing ingredient to make Netherite tools, weapons and armor.
+Chain | Iron Nuggets & Iron Ingot | Decoration that can also be used to suspend bells and lanterns.
+Respawn Anchor | Crying Obsidian & Glowstone | Allows the player to set a respawn point in the Nether.
+Lodestone | Chiseled Stone Bricks & Netherite Ingot | Using a compass on a Lodestone block will make the compass always point towards that specific block.
+Soul Torch | Coal & Stick & Soul Sand or Soul Soil | Light source.
+Candle | String & Honeycomb | Light source.
+Dyed Candle | Candle & Matching Dye | Light source.
+Glow Item Frame | Item Frame & Glow Ink Sac | Illuminates the item held within.
+Lightning Rod | Copper Ingots | Prevents flammable structures from catching fire during thunderstorms by redirecting lightning strikes.
+Moss Carpet | Moss Blocks | Decoration.
+Tinted Glass | Amethyst Shards & Glass | Tinted version of glass blocks.
+Music Disc 5 | Disc Fragment 5 | Can be played in jukeboxes.
+Boat with Chest | Chest & Boat | Regular Minecraft boat that can also transport items.
+Decorated Pot | Pottery Sherds or Bricks | Decoration.
+Hanging Sign | Chains & Matching Stripped Logs or Blocks of Stripped Bamboo | Can be used to display text.
+Bamboo Raft | Bamboo Planks | Bamboo version of the regular boat.
+Raft with Chest | Chest & Bamboo Raft | Regular raft that can also transport items.
+Copper Door | Copper Ingots | Door that can be opened and closed by clicking or by a redstone signal.
+
+Wool & Stick
+[Back to top]
+H2: Dye Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Bone Meal | Bone | Can be used to make crops, trees and tall grass grow instantly.
+Light Gray Dye | Azure Bluet or Oxeye Daisy or White Tulip or Black Dye & White Dye or Gray Dye & White Dye | Used to dye various other items.
+Gray Dye | Black Dye & White Dye | Used to dye various other items.
+Rose Red | Red Tulip or Rose Bush | Used to dye various other items.
+Orange Dye | Orange Tulip or Torchflower or Rose Red & Dandelion Yellow | Used to dye various other items.
+Dandelion Yellow | Dandelion or Sunflower | Used to dye various other items.
+Lime Dye | Green Dye & White Dye | Used to dye various other items.
+Light Blue Dye | Blue Orchid or Blue Dye & White Dye | Used to dye various other items.
+Cyan Dye | Blue Dye & Green Dye or Pitcher Plant | Used to dye various other items.
+Purple Dye | Blue Dye & Red Dye | Used to dye various other items.
+Magenta Dye | Purple Dye & Pink Dye or Allium or Lilac | Used to dye various other items.
+Pink Dye | Pink Tulip or Peony or Pink Petals or Red Dye & White Dye | Used to dye various other items.
+White Dye | Bone Meal or Lily of the Valley | Used to dye various other items.
+Blue Dye | Lapis Lazuli or Cornflower | Used to dye various other items.
+Brown Dye | Cocoa Beans | Used to dye various other items.
+Black Dye | Ink Sac or Wither Rose | Used to dye various other items.
+
+[Back to top]
+H2: Wool Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Wool | String | Building material that can also be colored with dyes.
+Light Gray Wool | Wool & Light Gray Dye | Building material and decoration.
+Gray Wool | Wool & Gray Dye | Building material and decoration.
+Black Wool | Wool & Black Dye | Building material and decoration.
+Red Wool | Wool & Rose Red | Building material and decoration.
+Orange Wool | Wool & Orange Dye | Building material and decoration.
+Yellow Wool | Wool & Dandelion Yellow | Building material and decoration.
+Lime Wool | Wool & Lime Dye | Building material and decoration.
+Green Wool | Wool & Cactus Green | Building material and decoration.
+Light Blue Wool | Wool & Light Blue Dye | Building material and decoration.
+Cyan Wool | Wool & Cyan Dye | Building material and decoration.
+Blue Wool | Wool & Blue Dye | Building material and decoration.
+Purple Wool | Wool & Purple Dye | Building material and decoration.
+Magenta Wool | Wool & Magenta Dye | Building material and decoration.
+Pink Wool | Wool & Pink Dye | Building material and decoration.
+Brown Wool | Wool & Brown Dye | Building material and decoration.
+
+[Back to top]
+H2: Brewing Recipes
+
+TABLE:
+Name | Ingredients | Image | Description
+Glass Bottle | Glass | Used in brewing.
+Cauldron | Iron Ingot | Block that holds water.
+Brewing Stand | Blaze Rod & Cobblestone | Used in brewing.
+Blaze Powder | Blaze Rod | Used to craft an Eye of Ender and Magma Cream.
+Magma Cream | Slimeball & Blaze Powder | Used in potions.
+Fermented Spider Eye | Spider Eye, Brown Mushroom & Sugar | Used in potions.
+Glistering Melon | Melon Slice & Gold Nugget | Used in potions.
+
+[Back to top]
+- Minecraft Skins
+- Minecraft Servers
 
 ========================================
 PAGE NAME: SMELTING

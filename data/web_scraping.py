@@ -28,7 +28,8 @@ WIKI_PAGES = {
     "mobs": "https://minecraft.wiki/w/Mob",
     "blocks": "https://minecraft.wiki/w/Block",
     "items": "https://minecraft.wiki/w/Item",
-    "crafting": "https://minecraft.wiki/w/Crafting",
+    "crafting information": "https://minecraft.wiki/w/Crafting",
+    "crafting recipes": "https://www.minecraftcrafting.info",
     "smelting": "https://minecraft.wiki/w/Smelting",
     "tutorials": "https://minecraft.wiki/w/Tutorials",  # TODO: tutorials are only links, make sure the tool can provide the links
     "redstone": "https://minecraft.wiki/w/Redstone_circuits",
@@ -201,6 +202,8 @@ def _clean_scraped_text(text: str) -> str:
         "References",
         "External links",
         "Navigation",
+        "Changed recipes",
+        "Complete recipe list",
     ]
 
     for section in unwanted_h2_sections:
