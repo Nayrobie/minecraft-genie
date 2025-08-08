@@ -233,8 +233,13 @@ def _clean_scraped_text(text: str) -> str:
     footnote_pattern = r"↑[a-z]+(?=[A-Z]|\s|[^a-zA-Z])"
     cleaned_text = re.sub(footnote_pattern, "↑", cleaned_text)
 
+    # Remove elements from crafting recipes website
+    crafting_banner = "BasicBlocksToolsDefenceMechanismFoodOtherDyeWoolBrewing"
+    if crafting_banner in cleaned_text:
+        cleaned_text = cleaned_text.replace(crafting_banner, "")
+        cleaned_text = cleaned_text.replace(" | Image", "")
+        cleaned_text = cleaned_text.replace("[Back to top]", "")
     return cleaned_text.strip()
-
 
 def _scrape_multiple_pages(pages: dict) -> dict:
     """
