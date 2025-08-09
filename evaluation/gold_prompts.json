@@ -136,5 +136,288 @@
         "source_type": "table",
         "source_link": "https://minecraft.wiki/w/Enchanting",
         "comment": "Should mention the incompatibility of Mending and Infinity on bows"
+    },
+    {
+        "question": "What prevents a passive mob from despawning?",
+        "expected_answer_contains": [
+            "name tag"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Mob",
+        "comment": "Should mention name tags and their effect on mob despawning."
+    },
+    {
+        "question": "How far can the mob wander around if there is a player nearby? In blocks.",
+        "expected_answer_contains": [
+            "32",
+            "blocks"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Mob",
+        "comment": "Should mention the 32-block wandering radius of mobs when a player is nearby."
+    },
+    {
+        "question": "What's the radius in blocks for most mobs to be aware of the player?",
+        "expected_answer_contains": [
+            "16",
+            "blocks"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Mob",
+        "comment": "Should mention the 16-block awareness radius of mobs when a player is nearby."
+    },
+    {
+        "question": "What's the name of the one upcoming mob?",
+        "expected_answer_contains": [
+            "copper",
+            "golem"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Mob",
+        "comment": "Should mention the copper golem."
+    },
+    {
+        "question": "List the blocks that are affected by gravity. They are 11 of them.",
+        "expected_answer_contains": [
+            "sand",
+            "red sand",
+            "gravel",
+            "anvil",
+            "dragon egg",
+            "concrete powder",
+            "scaffolding",
+            "snow layer",
+            "pointed dripstone",
+            "suspicious gravel",
+            "suspicious sand"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Block",
+        "comment": "Should list all 11 blocks affected by gravity."
+    },
+    {
+        "question": "What's the maximum block height for a player to automatically step up from a lower to a higher height block?",
+        "expected_answer_contains": [
+            "0.6",
+            "3/5",
+            "250/127"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Block",
+        "comment": "Should mention that the height difference from the block the player is standing on and the higher one should be at most 0.6 (3/5) of a block or 250/127 feet."
+    },
+    {
+        "question": "List all the different material for fences.",
+        "expected_answer_contains": [
+            "wood",
+            "cobblestone",
+            "nether",
+            "spruce",
+            "cherry",
+            "birch",
+            "jungle",
+            "acacia",
+            "dark oak",
+            "bamboo",
+            "warped",
+            "pale oak",
+            "crimson"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Block",
+        "comment": "Should mention light-emitting block crafted from blaze powder."
+    },
+    {
+        "question": "How long till entities despawn on the ground? Is there an entity that never despawns?",
+        "expected_answer_contains": [
+            "5",
+            "minutes",
+            "nether",
+            "star"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Item",
+        "comment": "Should mention that entities on the ground despawn after 5 minutes. The nether star is an entity that never despawns."
+    },
+    {
+        "question": "Which item is used to teleport the player?",
+        "expected_answer_contains": [
+            "ender pearl"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Item",
+        "comment": "Should mention ender pearl and teleportation."
+    },
+    {
+        "question": "List the items that can only stack up to 16.",
+        "expected_answer_contains": [
+            "snowball",
+            "empty bucket",
+            "sign",
+            "egg",
+            "ender pearl"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Item",
+        "comment": "Should mention items that can only stack up to 16, including snowballs, empty buckets, signs, eggs, and ender pearls."
+    },
+    {
+        "question": "How can I automate crafting?",
+        "expected_answer_contains": [
+            "hopper",
+            "crafter"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Crafting",
+        "comment": "Should mention hoppers or a crafter as ways to automate crafting."
+    },
+    {
+        "question": "What are the ingredients to craft a note block?",
+        "expected_answer_contains": [
+            "wooden planks",
+            "redstone"
+        ],
+        "source_type": "table",
+        "source_link": "https://www.minecraftcrafting.info",
+        "comment": "Should mention wooden planks and redstone as ingredients for crafting a note block."
+    },
+    {
+        "question": "What are the ingredients to craft a diorite?",
+        "expected_answer_contains": [
+            "quartz",
+            "cobblestone"
+        ],
+        "source_type": "table",
+        "source_link": "https://www.minecraftcrafting.info",
+        "comment": "Should mention quartz and cobblestone as ingredients for crafting diorite."
+    },
+    {
+        "question": "What are the ingredients to craft a purpur block?",
+        "expected_answer_contains": [
+            "popped chorus fruit"
+        ],
+        "source_type": "table",
+        "source_link": "https://www.minecraftcrafting.info",
+        "comment": "Should mention popped chorus fruit as the ingredient for crafting a purpur block."
+    },
+    {
+        "question": "What are the ingredients to craft a crafter?",
+        "expected_answer_contains": [
+            "iron ingots",
+            "redstone dust",
+            "crafting table",
+            "dropper"
+        ],
+        "source_type": "table",
+        "source_link": "https://www.minecraftcrafting.info",
+        "comment": "Should mention iron ingots, redstone, and crafting table as the ingredients for crafting a crafter."
+    },
+    {
+        "question": "How long in game ticks and seconds does it take for a blast furnance to smelt an item?",
+        "expected_answer_contains": [
+            "5 seconds",
+            "100",
+            "ticks"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Smelting",
+        "comment": "Should mention that a blast furnace takes 5 seconds or 100 ticks to smelt an item."
+    },
+    {
+        "question": "What can be cooked in a smoker?",
+        "expected_answer_contains": [
+            "food"
+        ],
+        "source_type": "table",
+        "source_link": "https://minecraft.wiki/w/Smelting",
+        "comment": "Should mention bread recipe and wheat."
+    },
+    {
+        "question": "What gear can be put into blast furnaces?",
+        "expected_answer_contains": [
+            "tools",
+            "armor",
+            "weapons",
+            "horse armor"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Smelting",
+        "comment": "Should mention that blast furnaces can smelt tools, armor, weapons, and horse armor."
+    },
+    {
+        "question": "How to make leaf litter, lime dye and cracked stone bricks?",
+        "expected_answer_contains": [
+            "leaves",
+            "sea pickle",
+            "stone bricks"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Smelting",
+        "comment": "Should mention that blast furnaces can smelt tools, armor, weapons, and horse armor."
+    },
+    {
+        "question": "Give me the tutorial link for advancement guides.",
+        "expected_answer_contains": [
+            "https://minecraft.wiki/w/Tutorial:Advancement_guides"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Tutorials",
+        "comment": "Should return the URL."
+    },
+    {
+        "question": "Give me a guide to build nether portals.",
+        "expected_answer_contains": [
+            "https://minecraft.wiki/w/Tutorial:Nether_portals"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Tutorials",
+        "comment": "Should return the URL."
+    },
+    {
+        "question": "How to survive in hardcore mode? Any guides?",
+        "expected_answer_contains": [
+            "https://minecraft.wiki/w/Tutorial:Hardcore_mode"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Tutorials",
+        "comment": "Should return the URL."
+    },
+    {
+        "question": "Describe the difference between a transmission circuit and a logic circuit in Minecraft redstone.",
+        "expected_answer_contains": [
+            "transmit",
+            "signal",
+            "logic gate",
+            "AND",
+            "OR"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Redstone_circuits",
+        "comment": "Should explain transmission circuits (signal movement) vs logic circuits (signal operations like AND/OR gates)."
+    },
+    {
+        "question": "What is a monostable circuit and how is it used in Minecraft redstone builds?",
+        "expected_answer_contains": [
+            "pulse",
+            "duration",
+            "monostable",
+            "circuit"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Redstone_circuits",
+        "comment": "Should mention monostable circuits, pulse generation, and their use for controlling signal duration."
+    },
+    {
+        "question": "List and briefly describe three advanced redstone mechanisms that use memory circuits or piston circuits.",
+        "expected_answer_contains": [
+            "RS latch",
+            "T flip-flop",
+            "piston door",
+            "memory",
+            "mechanism"
+        ],
+        "source_type": "text",
+        "source_link": "https://minecraft.wiki/w/Redstone_circuits",
+        "comment": "Should list and describe RS latch, T flip-flop, piston door, or other advanced memory/piston mechanisms."
     }
 ]
