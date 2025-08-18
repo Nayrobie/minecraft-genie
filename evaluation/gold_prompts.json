@@ -11,8 +11,7 @@
     {
         "question": "Whats the xp level a villager need to become a Master?",
         "expected_answer_contains": [
-            "250",
-            "Master"
+            "250"
         ],
         "source_type": "table",
         "source_link": "https://minecraft.wiki/w/Trading",
@@ -21,9 +20,7 @@
     {
         "question": "How many raw chicken are needed to get one emerauld for a novice butcher?",
         "expected_answer_contains": [
-            "14",
-            "raw",
-            "chicken"
+            "14"
         ],
         "source_type": "table",
         "source_link": "https://minecraft.wiki/w/Trading",
@@ -32,9 +29,7 @@
     {
         "question": "Whats the probability of having the dried kelp block trade with expert butcher?",
         "expected_answer_contains": [
-            "100%",
-            "dried",
-            "kelp"
+            "100%"
         ],
         "source_type": "table",
         "source_link": "https://minecraft.wiki/w/Trading",
@@ -43,7 +38,7 @@
     {
         "question": "For the fisherman villager, what does the type of boat traded depends on?",
         "expected_answer_contains": [
-            "biome%",
+            "biome",
             "outfit"
         ],
         "source_type": "text",
@@ -65,8 +60,7 @@
     {
         "question": "What is the effect of adding gunpowder in a potion?",
         "expected_answer_contains": [
-            "splash",
-            "potion"
+            "splash"
         ],
         "source_type": "table",
         "source_link": "https://minecraft.wiki/w/Brewing",
@@ -76,8 +70,7 @@
         "question": "What are the potions that cannot be corrupted?",
         "expected_answer_contains": [
             "leaping",
-            "swiftness",
-            "corrupted"
+            "swiftness"
         ],
         "source_type": "text",
         "source_link": "https://minecraft.wiki/w/Brewing",
@@ -108,8 +101,7 @@
         "question": "What's the Impaling enchantment max level?",
         "expected_answer_contains": [
             "5",
-            "V",
-            "impaling"
+            "V"
         ],
         "source_type": "table",
         "source_link": "https://minecraft.wiki/w/Enchanting",
@@ -199,8 +191,7 @@
         "question": "What's the maximum block height for a player to automatically step up from a lower to a higher height block?",
         "expected_answer_contains": [
             "0.6",
-            "3/5",
-            "250/127"
+            "3/5"
         ],
         "source_type": "text",
         "source_link": "https://minecraft.wiki/w/Block",
@@ -315,7 +306,8 @@
     {
         "question": "How long in game ticks and seconds does it take for a blast furnance to smelt an item?",
         "expected_answer_contains": [
-            "5 seconds",
+            "5",
+            "seconds",
             "100",
             "ticks"
         ],

@@ -93,3 +93,5 @@ if __name__ == "__main__":
     print(f"➡️ {len(docs)} semantic chunks ready for embedding.")
 
     build_vector_index(docs)
+    
+    print("✅ Embedding complete.")
