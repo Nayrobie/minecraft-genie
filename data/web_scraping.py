@@ -241,6 +241,7 @@ def _clean_scraped_text(text: str) -> str:
         cleaned_text = cleaned_text.replace("[Back to top]", "")
     return cleaned_text.strip()
 
+
 def _scrape_multiple_pages(pages: dict) -> dict:
     """
     Scrape multiple wiki pages and return their content.

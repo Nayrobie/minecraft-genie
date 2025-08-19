@@ -11,12 +11,14 @@ from llama_index.core import VectorStoreIndex, StorageContext
 import chromadb
 
 from dotenv import load_dotenv, find_dotenv
+
 load_dotenv(find_dotenv(), override=False)  # loads .env from project root if present
 
 GOLD_PROMPTS_PATH = "evaluation/gold_prompts.json"
 DB_PATH = "db/minecraft_lore"
 COLLECTION_NAME = "minecraft_lore"
 K_DEFAULT = 5  # default top-k for retrieval
+
 
 def _load_gold_prompts(path: Path) -> List[dict]:
     """
@@ -39,6 +41,7 @@ def _load_gold_prompts(path: Path) -> List[dict]:
                 print(f"❌ Warning: Missing or empty '{key}' in prompt: {prompt}")
     print(f"✅ Loaded {len(prompts)} gold prompts from {path}")
     return prompts
+
 
 def _normalize_url(url: Optional[str]) -> str:
     """
@@ -68,6 +71,7 @@ def _normalize_url(url: Optional[str]) -> str:
         url = url[4:] if url.startswith("www.") else url
         return url
 
+
 def _normalize_text(text: Optional[str]) -> str:
     """
     Normalize free text for substring matching.
@@ -83,6 +87,7 @@ def _normalize_text(text: Optional[str]) -> str:
     lowered = text.lower()
     collapsed = re.sub(r"\s+", " ", lowered).strip()
     return collapsed
+
 
 def _extract_url_from_hit(hit) -> str:
     """
@@ -109,6 +114,7 @@ def _extract_url_from_hit(hit) -> str:
     m = re.search(r"https?://(?:www\.)?minecraft\.wiki[^\s\)]*", text)
     return m.group(0) if m else ""
 
+
 def _get_retriever(k_default: int = K_DEFAULT):
     """
     Create and return a LlamaIndex retriever backed by Chroma.
@@ -120,9 +126,11 @@ def _get_retriever(k_default: int = K_DEFAULT):
         Any: A LlamaIndex retriever object with similarity_top_k preset.
     """
     client = chromadb.PersistentClient(path=DB_PATH)
-    collection = client.get_or_create_collection(COLLECTION_NAME)
+    collection = client.get_collection(COLLECTION_NAME)
     try:
-        print(f"[Chroma] Collection '{COLLECTION_NAME}' contains {collection.count()} items at '{DB_PATH}'")
+        print(
+            f"[Chroma] Collection '{COLLECTION_NAME}' contains {collection.count()} items at '{DB_PATH}'"
+        )
     except Exception:
         pass
     vector_store = ChromaVectorStore(chroma_collection=collection)
@@ -138,10 +146,15 @@ def _get_retriever(k_default: int = K_DEFAULT):
         embed_model=embed_model,
     )
     retriever = index.as_retriever(similarity_top_k=k_default)
-    print(f"✅ Retriever initialized with collection '{COLLECTION_NAME}' containing {collection.count()} items")
+    print(
+        f"✅ Retriever initialized with collection '{COLLECTION_NAME}' containing {collection.count()} items"
+    )
     return retriever
 
-def _evaluate_retriever(gold_prompts: List[dict], retriever, k: int = K_DEFAULT) -> Tuple[List[dict], Dict[str, float]]:
+
+def _evaluate_retriever(
+    gold_prompts: List[dict], retriever, k: int = K_DEFAULT
+) -> Tuple[List[dict], Dict[str, float]]:
     """
     Evaluate retrieval quality against gold prompts without invoking an LLM.
 
@@ -171,7 +184,7 @@ def _evaluate_retriever(gold_prompts: List[dict], retriever, k: int = K_DEFAULT)
         expected_norm_snips = [_normalize_text(s) for s in expected_snippets if s]
 
         hits = retriever.retrieve(question)
-        
+
         # Build normalized views of retrieved data
         hit_texts_norm = [_normalize_text(h.get_text()) for h in hits]
         hit_urls_norm = [_normalize_url(_extract_url_from_hit(h)) for h in hits]
@@ -179,11 +192,13 @@ def _evaluate_retriever(gold_prompts: List[dict], retriever, k: int = K_DEFAULT)
         hit_scores = [float(getattr(h, "score", 0.0)) for h in hits]
 
         for rank, hit in enumerate(hits, start=1):
-            print(f"      Hit {rank}: URL={_extract_url_from_hit(hit)}, Score={getattr(hit, 'score', 0.0)}")
+            print(
+                f"      Hit {rank}: URL={_extract_url_from_hit(hit)}, Score={getattr(hit, 'score', 0.0)}"
+            )
 
         # URL Hit@K and MRR@K (Mean Reciprocal Rank)
-        hit_at_k_url = 0.0 # how often does the retriever bring back the right page within K results
-        mrr_at_k_url = 0.0 # how high, on average, the right page is ranked.
+        hit_at_k_url = 0.0  # how often does the retriever bring back the right page within K results
+        mrr_at_k_url = 0.0  # how high, on average, the right page is ranked.
         if expected_url:
             for rank, u in enumerate(hit_urls_norm, start=1):
                 if u and u == expected_url:
@@ -195,23 +210,30 @@ def _evaluate_retriever(gold_prompts: List[dict], retriever, k: int = K_DEFAULT)
         def snippet_covered(snippet_norm: str) -> bool:
             return any(snippet_norm in txt for txt in hit_texts_norm)
 
-        contains_all_at_k = 1.0 if expected_norm_snips and all(snippet_covered(s) for s in expected_norm_snips) else 0.0
+        contains_all_at_k = (
+            1.0
+            if expected_norm_snips
+            and all(snippet_covered(s) for s in expected_norm_snips)
+            else 0.0
+        )
 
-        # Row & tallies
-        rows.append({
-            "question": question,
-            "expected_answer_contains": expected_snippets,
-            "source_link": expected_url_raw,
-            "k": k,
-            "hit_at_k_url": hit_at_k_url if expected_url else None,
-            "mrr_at_k_url": mrr_at_k_url if expected_url else None,
-            "contains_all_at_k": contains_all_at_k,
-            "top1_url": hit_urls_norm[0] if hit_urls_norm else "",
-            "top1_score": hit_scores[0] if hit_scores else None,
-            "topk_urls": hit_urls_norm,
-            "topk_titles": hit_titles,
-            "comment": item.get("comment", ""),
-        })
+        # Row
+        rows.append(
+            {
+                "question": question,
+                "expected_answer_contains": expected_snippets,
+                "source_link": expected_url_raw,
+                "k": k,
+                "hit_at_k_url": hit_at_k_url if expected_url else None,
+                "mrr_at_k_url": mrr_at_k_url if expected_url else None,
+                "contains_all_at_k": contains_all_at_k,
+                "top1_url": hit_urls_norm[0] if hit_urls_norm else "",
+                "top1_score": hit_scores[0] if hit_scores else None,
+                "topk_urls": hit_urls_norm,
+                "topk_titles": hit_titles,
+                "comment": item.get("comment", ""),
+            }
+        )
 
         if expected_url:
             hit_url_sum += hit_at_k_url
@@ -236,19 +258,10 @@ def _evaluate_retriever(gold_prompts: List[dict], retriever, k: int = K_DEFAULT)
 
     return rows, summary
 
+
 def main() -> None:
-    """
-    Entry point: load gold prompts, build retriever, run evaluation, and write artifacts.
-
-    Args:
-        None
-
-    Return:
-        None
-    """
     print("➡️ Starting retriever evaluation ...")
-    gold_path = Path(GOLD_PROMPTS_PATH)
-    gold_prompts = _load_gold_prompts(gold_path)
+    gold_prompts = _load_gold_prompts(Path(GOLD_PROMPTS_PATH))
     retriever = _get_retriever(k_default=K_DEFAULT)
     rows, summary = _evaluate_retriever(gold_prompts, retriever, k=K_DEFAULT)
 
