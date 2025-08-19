@@ -6,15 +6,15 @@ H1: Trading
 Tradingis agameplaymechanic that allowsplayersto exchangeemeraldsforitems, and vice versa, withvillagersandwandering traders.
 H2: Mechanics
 Pressinguseon an adultvillagerwith a profession, or on awandering trader, opens a menu, allowing a player to trade with that merchant. This action pauses any pathfinding the merchant was doing and makes it face you. If the merchant takesdamagewhile trading, the trading menu closes. The same thing happens if they walk or are transported far enough away.
-All transactions involveemeralds. Trading is the only legitimate method of acquiring theglobe banner pattern,woodland explorer maps,trial explorer mapsandocean explorer mapsinSurvivalmode. It is also the onlyrenewableway to obtainbells,diamondgear[note 1],lapis lazuli‌[BEonly],bottles o' enchanting,glass,sand,red sand,coral blocks,arrow of decay‌[BEonly]andsmall dripleaves.
+All transactions involveemeralds. Trading is the only method of acquiring theglobe banner pattern,woodland explorer map,trial explorer map, andocean explorer mapinSurvivalmode. It is also the onlyrenewableway to obtainbells,diamondgear,[note 1]lapis lazuli‌[BEonly],bottles o' enchanting,glass,sand,red sand,coral blocks,arrow of decay,‌[BEonly]andsmall dripleaves.
 H3: Level
-Villagers have five career levels that can be increased by trading with them. Each villager starts at the "novice" level. A villager's level can be seen in the trading menu. The badge they wear can also be identified: stone for a novice, iron for an apprentice, gold for a journeyman, emerald for an expert, and diamond for a master. Trading until the villager's trading bar gets full unlocks the next level of trades. When a player trades with a villager, both the villager and the player gainexperience. All villager trades reward the player with 3–6experience, plus an additional 5 experience if the villager levels up due to the trade. Trading with a wandering trader also rewards the player with some experience, although the trader does not have experience levels to gain. A villager levels up when its experience bar becomes full and gains up to two‌[JEonly]or three‌[BEonly]new trades, along with keeping their old ones. Additionally, a villager receives aRegenerationeffect, and becomes surrounded by purple particles for ten seconds.
-Trades from the Master level would still reward the villager with experience, but it has no actual effect as the villager can't level up any further.
-Each badge is 2x3 pixels, except the Novice (stone) badge, which is 4x4 pixels.
+Villagers have five career levels that can be increased by trading with them. Each villager starts at the novice level. A villager's level can be seen in the trading menu. The badge that a villager wears can also be identified: stone for a novice, iron for an apprentice, gold for a journeyman, emerald for an expert, and diamond for a master. Trading until the villager's trading bar gets full unlocks the next level of trades. When a player trades with a villager, both the villager and the player gainexperience. All villager trades reward the player with 3–6experienceplus an additional 5 experience if the villager levels up with the trade. Trading with a wandering trader also rewards the player with some experience, although the trader does not have experience levels to gain. A villager levels up when its experience bar becomes full and gains up to two‌[JEonly]or three‌[BEonly]new trades and retains its existing trades. Additionally, a villager receives aRegenerationeffect and becomes surrounded by purple particles for ten seconds.
+Trades from the master level would still reward the villager with experience, but it has no actual effect as the villager can't level up any further.
+Each badge is 2x3 pixels except the novice (stone) badge, which is 4x4 pixels.
 
 TABLE:
 Level | Badge | Name | Total villager experience required
-1 | Novice | 0 / None / N/A
+1 | Novice | 0
 2 | Apprentice | 10
 3 | Journeyman | 70
 4 | Expert | 150
@@ -32,12 +32,14 @@ The first factor is demand. An item that was sold out gets a price increase for 
 The second way to affect prices is theHero of the Villageeffect, gained from successfully completing a raid, which temporarily reduces prices for the affected player depending on the level of the effect.
 Finally, players get personal discounts or penalties‌[Java Editiononly]based on their reputation with a particular villager. A positive reputation is gained bycuringzombie villagers (the cured villager gives a much larger permanent discount than the temporary discount given by nearby villagers). Giving azombie villagertheWeaknesseffect and then feeding it agolden applestarts the curing process. After five minutes, it transforms into a villager. The permanent discount is capped at one cure, while the temporary discount is capped at eight cures[needs testing]. Players can also gain negative reputation by hitting or killing villagers, and positive reputation by trading. InBedrock Edition, negative reputation can reduce or eliminate discounts but does not result in penalties.
 H2: Non-trading villagers
-If the player attempts to trade with a non-trading villager inJava Edition, they grunt and bob their head, but if the player tries to do the same thing inBedrock Edition, nothing happens.
+If the player attempts to trade with a non-trading villager inJava Edition, it grunts and bobs its head, but if the player tries to do the same thing inBedrock Edition, nothing happens.
 H3: Nitwit
 Nitwits are green-coated villagers. They cannot gain a profession.
 While they can be used for breeding, it is not possible to get a baby nitwit by breeding adult nitwits.
 H3: Unemployed villager
 Villagers without a job cannot trade. They only wear their biome outfits. An unemployed villager gains a profession by claiming an unclaimedjob site block. For example, an unclaimedcartography tableconverts an unemployed villager into a cartographer when the villager claims it, and both the villager and the table emit green particles. An inaccessible (or destroyed) job site block causes the connected villager to lose its profession, but that does not affect the player'spopularityin the village.
+H3: Baby villagers
+The appearance of baby villagers is the same as that of the corresponding adult unemployed villagers, but their bodies are smaller. They can't get a job and trade.
 H2: Trade offers
 The villager pictured on the right is from the plains biome. To see villager professions dressed for other biomes, seeVillagers§ Professions.
 InJava Edition, starting from Novice, at each level two additional trades become available, unless there is only one trade within that level. If there are more than two possible trades, two are randomly selected.
@@ -115,8 +117,8 @@ Master | 9 | 100% | 100% | 8 ×Emerald | Globe Banner Pattern | 12 | Low | 30
 10 | 100% | 100% | 14 ×Emerald+Compass | Woodland Explorer Map | 12 | High | 30
 
 - ↑The structure that the map leads to depends on the biome the villager is from. Seethe table abovefor more details. Each of the three possible maps are counted as independent trades, so a villager trading multiple maps is possible.
-- ↑Java Edition, all copies of the map traded by a particular villager lead to the same structure. In worlds that do not have the structure, this trade is not offered.
-inBedrock Edition, Cartographers adopting the profession in the Nether or the End do not offer explorer maps.
+- ↑InJava Edition, all copies of the map traded by a particular villager lead to the same structure. In worlds that do not have the structure, this trade is not offered.
+InBedrock Edition, Cartographers adopting the profession in the Nether or the End do not offer explorer maps.
 - ↑The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
 H3: Cleric
 Job site block:Brewing Stand
@@ -546,10 +548,10 @@ H3: Base potions
 Base potions are potions without effects, brewed by adding a single base ingredient to a water bottle. Of these, only the awkward potion can be imbued with an effect ingredient to create a potion with an effect.‌[Java Editiononly]
 
 TABLE:
-Potion | Reagent, base | Precursor to
+Potion | Recipe(s) | Precursor to
 Awkward potion | Effect potions
-Mundane potion | None‌[JEonly]Effect Potions‌[BEonly]
-Thick potion | None‌[JEonly]Effect Potions‌[BEonly]
+Mundane potion | None‌[JEonly]Potion of Weakness‌[BEonly]
+Thick potion | None‌[JEonly]Potion of Weakness‌[BEonly]
 
 H3: Effect potions
 Effect potions are primarily created by adding an effect ingredient to an awkward potion, which is created by adding nether wart to a water bottle. Certain effects require a potion to be corrupted by a fermented spider eye. The potion ofWeaknesscan additionally be created by simply adding a fermented spider eye to a water bottle, and it is the only potion that can be brewed withoutnether wart.
@@ -557,7 +559,7 @@ Undead mobsreact differently to effects than other mobs. They take damage from p
 H4: Positive effects
 
 TABLE:
-Potion | Reagent, base | Extended | Enhanced | Effects
+Potion | Recipe | Extended | Enhanced | Effects
 Potion of Healing | — | Potion of Healing | Instant Health: Restores health by 4HP.Enhanced:Instant HealthII: Restores health by 8HP.
 Potion of Fire Resistance(3:00) | Potion of Fire Resistance(8:00) | — | Fire Resistance: Gives immunity to damage from fire, lava, magma blocks, campfires, andblazes' fireballs.
 Potion of Regeneration(0:45) | Potion of Regeneration(1:30‌[JEonly]2:00‌[BEonly]) | Potion of Regeneration(0:22) | Regeneration: Restores health byevery 2.5 seconds.Enhanced:RegenerationII: Restores health byevery 1.25 seconds.
@@ -567,7 +569,7 @@ Potion of Night Vision(3:00) | Potion of Night Vision(8:00) | — | Night Vision
 Potion of Invisibility(3:00) | Potion of Invisibility(8:00) | — | Invisibility: Renders the player invisible. Equipped items are still visible.
 Potion of Water Breathing(3:00) | Potion of Water Breathing(8:00) | — | Water Breathing: Prevents the oxygen bar from depleting when underwater.
 Potion of Leaping(3:00) | Potion of Leaping(8:00) | Potion of Leaping(1:30) | Jump Boost: Increases jump height by 50%.Enhanced:Jump BoostII: Increases jump height by 150%.
-Potion of Slow Falling(1:30) | Potion of Slow Falling(4:00) | — | Slow Falling: Fall speed and acceleration is significantly reduced and fall damage is completely negated.
+Potion of Slow Falling(1:30) | Potion of Slow Falling(4:00) | — | Slow Falling: Significantly reduces fall speed and acceleration and negates all fall damage.
 
 Enhanced:Instant HealthII: Restores health by 8HP.
 Enhanced:RegenerationII: Restores health byevery 1.25 seconds.
@@ -577,9 +579,9 @@ Enhanced:Jump BoostII: Increases jump height by 150%.
 H4: Negative effects
 
 TABLE:
-Potion | Reagent, base(s) | Extended | Enhanced | Effects | Notes
+Potion | Recipe(s) | Extended | Enhanced | Effects | Notes
 Potion of Poison(0:45) | Potion of Poison(1:30‌[JEonly]2:00‌[BEonly]) | Potion of Poison(0:21‌[JEonly]0:22‌[BEonly])) | Poison: Depletes health by 1HPevery 1.25 seconds.Enhanced:PoisonII: Depletes health by 1HPevery 0.6 seconds. | —
-Potion of Weakness(1:30) | Potion of Weakness(4:00) | — | Weakness: Reduces player's melee attack damage by 4HP. | Can be used in combination with a golden apple to cure Zombie Villagers.Can also be brewed with a fermented spider eye and a potion of Strength, awkward, mundane, long mundane, or thick potion.‌[BEonly]
+Potion of Weakness(1:30) | Potion of Weakness(4:00) | — | Weakness: Reduces player's melee attack damage by 4HP. | Can be used in combination with a golden apple to cure Zombie Villagers.Can also be brewed with fermented spider eye and potion of Strength or awkward, mundane, long mundane, or thick potion.‌[BEonly]
 Potion of Harming | — | Potion of Harming | Instant Damage: Inflicts 6HPdamage.Enhanced:Instant DamageII: Inflicts 12HP× 6damage. | —
 Potion of Slowness(1:30) | Potion of Slowness(4:00) | Potion of Slowness(0:20) | Slowness: Reduces movement speed by 15%.Enhanced:SlownessIV: Reduces movement speed by 60%. | —
 Potion of Oozing(3:00) | — | — | Oozing: Spawns two size-2 slimes nearby when killed | —
@@ -588,7 +590,7 @@ Potion of Infestation(3:00) | — | — | Infested: Has a 10% chance to spawn 1�
 Potion of Wind Charging(3:00) | — | — | Wind Charged: Emits a wind burst when killed | —
 
 Enhanced:PoisonII: Depletes health by 1HPevery 0.6 seconds.
-Can also be brewed with a fermented spider eye and a potion of Strength, awkward, mundane, long mundane, or thick potion.‌[BEonly]
+Can also be brewed with fermented spider eye and potion of Strength or awkward, mundane, long mundane, or thick potion.‌[BEonly]
 Enhanced:Instant DamageII: Inflicts 12HP× 6damage.
 Enhanced:SlownessIV: Reduces movement speed by 60%.
 - Spawns 2–3 cobwebs nearby when killed
@@ -596,7 +598,7 @@ Enhanced:SlownessIV: Reduces movement speed by 60%.
 H4: Mixed effects
 
 TABLE:
-Potion | Reagent, base | Extended | Enhanced | Effects
+Potion | Recipe | Extended | Enhanced | Effects
 Potion of the Turtle Master(0:20) | Potion of the Turtle Master(0:40) | Potion of the Turtle Master(0:20) | SlownessIV,ResistanceIII: Reduces movement speed by 60% and reduces incoming damage by 60%.Enhanced:SlownessVI,ResistanceIV: Reduces movement speed by 90% and reduces incoming damage by 80%.
 
 Enhanced:SlownessVI,ResistanceIV: Reduces movement speed by 90% and reduces incoming damage by 80%.
@@ -604,7 +606,7 @@ H3: Cures
 Cures are brewed from awkward potions using differentelements. Drinking these removes the specified bad effect. They cannot be modified into splash, lingering, extended, or enhanced versions.
 
 TABLE:
-Potion | Reagent, base | Effect
+Potion | Recipe | Effect
 Antidote | CuresPoison
 Elixir | CuresWeakness
 Eye drops | CuresBlindness
@@ -612,6 +614,8 @@ Tonic | CuresNausea
 
 H3: Unbrewable potions
 The potion ofLuck‌[JEonly]and the potion ofDecay‌[BEonly]cannot be brewed, and can be obtained only through commands or theCreative inventory.
+H3: Custom recipes
+InBedrock Edition, brewing recipes can be customized throughaddonsusing the same system as other recipes.
 H2: Trivia
 - AlthoughJebsaid that inJava Edition Beta 1.9 Prerelease 3there would be 161 possible different potion combinations with 2,653 in the future, in the actual third pre-release only 22 different potions could be made without the use of external programs. Of those, 19 potions had one of 8 different effects.
 - By modifying theitemNBT using an editor orcommands, it is possible to get a potion that cannot be upgraded into a splash potion.
@@ -737,7 +741,7 @@ Cleaving​[upcomingJE Combat Tests] | Increases the damage and shield stun time
 - ↑Treasure enchantments are those that can't be obtained using anenchanting tableand aren't generated onrandomlyenchanted equipment sold by villagers or worn by mobs. If a treasure enchantment is tradable, it has double the price (before capping to 64 emeralds) compared to a non-treasure enchantment of the same level.
 - ↑Tradable enchantments are those that can be generated onEnchanted Bookssold bylibrarians.This does not cover book trading options in theVillager Trade Rebalanceexperiment.Randomlyenchanted tradable equipment generates only non-treasure enchantments.
 H2: Summary of enchantments by item
-Enchantments that have multiple levels are shown with their maximum level numbers. Mutually exclusive enchantments can be combined usingcommands(e.g.,/give@s bow[enchantments={infinity:1,mending:1}]). Also, a player can exceed the maximum levels of enchantments (e.g.,/give@s netherite_sword[enchantments={fire_aspect:10}]). However, if that number goes above10thetranslation stringis exposed and it looks like this:
+Enchantments that have multiple levels are shown with their maximum level numbers. Mutually exclusive enchantments can be combined usingcommands(e.g.,/give@s bow[enchantments={infinity:1,mending:1}]). Also, a player can exceed the maximum levels of enchantments (e.g.,/give@s netherite_sword[enchantments={fire_aspect:10}]). However, if that number goes above10the translation string is exposed and it looks like this:
 [1]
 
 TABLE:
@@ -998,10 +1002,10 @@ Boss mobs are special hostile mobs that are tougher and more dangerous than othe
 IMAGE_LABEL: Ender Dragon
 IMAGE_LABEL: Wither
 H3: Upcoming mobs
-These mobs are planned to be added in the upcomingFall Drop 2025.
+These mobs are planned to be added in the upcomingThird Drop 2025.
 IMAGE_LABEL: Copper Golem[3][4]
 H3: Similar entities
-These entities are grouped within the “living entities” category in the game code. InBedrock Edition, they are all under the mob class.
+These entities are grouped within the “living entities” category in the game code. InBedrock Edition, they are all under themobclass.
 IMAGE_LABEL: Armor Stand
 IMAGE_LABEL: Camera[s 1]
 IMAGE_LABEL: Player
@@ -1011,7 +1015,7 @@ Most of the mobs are classified into categories, such as theanimalsor themonster
 H3: Weaknesses and immunities
 Some mobs are weak or immune to certain type of damage. For example, aquatic creatures, such asturtlesandguardians, take more damage from tridents that are enchanted withImpaling‌[Java Editiononly]‌[untilJE Combat Tests]. All undead mobs are healed bypotionsofHarmingand take extra damage from weapons enchanted withSmite, along with taking damage from potions ofHealing. Many of these weaknesses and immunities are a result of what category (see below) of mobs that mob falls into.
 H3: Undead mobs
-This group of mobs includesbogged,drowned, old zombie villagers,husks,phantoms,skeletons,skeleton horses,strays,withers,wither skeletons,zoglins,zombies,zombie horses,zombie villagers, andzombified piglins. These mobs are damaged by potions of Healing, healed by potions of Harming, are unaffected by Regeneration and Poison, and are immune to drowning (except for husks and zombies, which transform into zombies and drowned if submerged underwater, respectively). Zombies, zombie villagers, drowned, skeletons, strays, bogged, and phantoms burn when under direct sunlight, unless they are touching water or wearing a helmet. Under theFire Resistanceeffect, these undead mobs still catch fire in direct sunlight but are not damaged by it. All undead mobs except for drowned, phantoms, and withers cannot swim and sink when in water. All undead mobs take extra damage from weapons enchanted withSmite, and are ignored by withers.
+This group of mobs includesbogged,drowned, old zombie villagers,husks,phantoms,skeletons,skeleton horses,strays,withers,wither skeletons,zoglins,zombies,zombie horses,zombie villagers, andzombified piglins. These mobs are damaged by potions of Healing, healed by potions of Harming, are unaffected by Regeneration and Poison, and are immune to drowning (except for husks and zombies, which transform into zombies and drowned if submerged underwater, respectively). Zombies, zombie villagers, drowned, skeletons, strays, bogged, and phantoms burn when under direct sunlight, unless they are touching water or wearing a helmet. Under theFire Resistanceeffect, these undead mobs still catch fire in direct sunlight but are not damaged by it. All undead mobs except for drowned, phantoms, and withers cannot swim and sink when in water. All undead mobs take extra damage from weapons enchanted withSmite, are ignored by withers, and scarearmadillosinto hiding into their shells.
 Many undead mobs can spawn with the ability to pick upitemsand equipment from the ground. Some can sometimes spawn wearingarmor, or holdingtoolsorweapons.
 H3: Aquatic mobs
 This group of mobs includesaxolotls,dolphins,squid,glow squid,guardians,elder guardians,tadpoles,turtles,cod,salmon,pufferfish, andtropical fish, but not drowned.[7]They take extra damage from tridents enchanted withImpaling,‌[Java Editiononly]‌[untilJE Combat Tests]and, except axolotls, do not cause pufferfish to inflate nor take damage from them. All aquatic mobs except dolphins are immune to drowning, and all except guardians, elder guardians, and turtles take suffocation damage if out of water for too long. Aquatic mobs have the ability to freely swim vertically, whereas other mobs simply float on the surface of thewateror sink.
@@ -1410,7 +1414,6 @@ H2: Trivia
 - Despite the term mob being derived from mobile entity, supplementary material consistently uses it within theMinecraftuniverse. Characters fromMinecraft Story Modebegin calling monsters mobs starting inOrder Up, whereasFarnumrefers to himself as a “mobologist.”
 - InBedrock Edition, due to the lack of a "living entity" class of entities,armor stands,cameras, and evenplayersare internally represented as "mobs". This has no direct effect on how these entities behave. However, inJava Edition, theadvancementsandstatisticsclassify them as mobs.
 - Mobs mistake some blocks forair, such ascarpets,snow, andstring.
-H2: Notes
 
 ========================================
 PAGE NAME: BLOCKS
@@ -1663,6 +1666,7 @@ H2: List of blocks
 - Copper Grate
 - Copper Lantern​[upcoming]
 - Copper Ore
+- Copper Torch​[upcoming]
 - Copper Trapdoor
 - Cornflower
 - Cracked Deepslate Bricks
@@ -1910,8 +1914,8 @@ H2: List of blocks
 - Large Amethyst Bud
 - Large Fern
 - Lava
-- Lectern
 - Leaf Litter
+- Lectern
 - Lever
 - Light
 - Light Blue Banner
@@ -2520,6 +2524,7 @@ Technical blocks serve various purposes during events within the game, or use a 
 - Cherry Wall Hanging Sign
 - Cherry Wall Sign
 - Chiseled Purpur‌[BEonly]
+- Copper Wall Torch​[upcoming]
 - Creeper Wall Head
 - Crimson Wall Hanging Sign
 - Crimson Wall Sign
@@ -2687,9 +2692,25 @@ Anitemis an object that can exist withininventoriesofplayers,mobs, orarmor stand
 H2: Behavior
 Some items, whenused, place ablock(ItemBlock) orentity(minecart, spawn eggs, etc.) version of themselves into the game world. Put simply, they are an item when in theinventory, and a block when placed. For example,boatsturn into an entity when placed, andbedsturn into a group of blocks when placed. When selected in thehotbar, items briefly display their names above theHUD.
 The only method by which an item can be properly displayed within the game environment is to place it into anitem frame.
+H3: Thrown items
 If an item that does not become a block is dropped, it becomes anentityrepresented by a sprite that floats above the ground. It remains for 5 minutes in a loadedchunkbefore despawning (except for thenether star), unless the player walks over it to pick it up, it is picked up by a mob,hopperorminecart with hopper, or it is destroyed byfire,lava,cactus,explosion,void, or/kill.
 A submerged object ascends toward the water's surface. If the water is flowing, the object is pushed along with it.
 Hoppers draw in any items that are placed above them if they are notpoweredby redstone.
+
+TABLE:
+Thrown item properties
+Drag-H | 0.99 | Gravity | -0.04m/tick2
+Drag-Y | 0.98
+Ticking order | 3
+Launch angle calculator[note 1]
+Given a target coordinate and an initial speed, calculate the thrown item launch angle to hit the target.Target is hit afterticks.
+X | 0–1 | Yaw | deg
+Y | 0–1 | Pitch | degUnreachable
+Z | 0–1 | Speed | 0.6m/tick
+
+0.98
+degUnreachable
+- ↑Yaw and pitch follow theMinecraft'sconvention, thus zero yaw is directed at +Z (south) and looking upwards corresponds to negative values of pitch.
 H3: Stacking
 Items can either stack up to 64 or 16, or not stack at all:
 - Most items can stack to 64. This includes allblocks.
@@ -4247,23 +4268,23 @@ Nether Bricks
 Basalt
 Sand
 H2: Fuel
-There are multiple fuels that can be used to smelt items. The type of fuel that should be used depends on the number of items in question.
-For larger jobs, a singlelava bucketor ablock of coalcan smelt more items than can fit in the furnace, a lava bucket being able to smelt 100 blocks and ablock of coalbeing able to smelt 80 —both input and output are limited to a maximum of astackof 64 items (with some items not being able to be stacked or being possible to stack only 16 of them).
+There are multiple fuels that can be used to smelt items.
+A singlelava bucketor ablock of coalcan smelt more items than can fit in the furnace, a lava bucket being able to smelt 100 blocks and ablock of coalbeing able to smelt 80 —both input and output are limited to a maximum of astackof 64 items (with some items not being able to be stacked or being possible to stack only 16 of them).
 This is the specific table for all the fuels:
 
 TABLE:
 Fuel | Burning time(seconds)[note 1] | Number of operations per fuel | Number of operations per stack (64) of fuel[note 2] | Seconds per log[note 3] | Seconds per bamboo[note 4] | Amount needed to smelt a stack (64) of items | Notes
-Lava Bucket | 100016:4020000 ticks | 100 | 100 | None used | None used | 0.64 | If a lava bucket is used as fuel, anempty bucketremains in the fuel slot.
+Lava Bucket | 100016:4020000 ticks | 100 | 100 (6400) | None used | None used | 0.64 | If a lava bucket is used as fuel, anempty bucketremains in the fuel slot.
 Block of Coal | 80013:2016000 ticks | 80 | 5120 | None used | None used | 0.8
-Dried Kelp Block | 2003:204000  ticks | 20 | 1280 | None used | None used | 3.2
+Dried Kelp Block | 2003:204000  ticks | 20[note 5] | 1280 | None used | None used | 3.2
 Blaze Rod | 1202:002400 ticks | 12 | 768 | None used | None used | 51⁄3
 Coal | 801:201600 ticks | 8 | 512 | None used | None used | 8
-Charcoal | 801:201600 ticks | 8 | 512 | 70[note 5] | None used | 8
-AnyBoat | 601200 ticks | 6 | 6 | 48 | 22⁄3 | 102⁄3
-AnyBoat with Chest | 601200 ticks | 6 | 6 | 186⁄13(~18.46) | 11⁄39(~1.03) | 102⁄3
+Charcoal | 801:201600 ticks | 8 | 512 | 70[note 6] | None used | 8
+AnyBoat | 601200 ticks | 6 | 6 (384) | 48 | 22⁄3 | 102⁄3
+AnyBoat with Chest | 601200 ticks | 6 | 6 (384) | 186⁄13(~18.46) | 11⁄39(~1.03) | 102⁄3
 Bamboo Mosaic | 15300 ticks | 1.5 | 96 | None used | 31⁄3 | 422⁄3
 Bamboo Mosaic Slab | 7.5150 ticks | 0.75 | 48 | 60 | 31⁄3 | 851⁄3 | ‌[Java Editiononly]
-15300 ticks[note 6] | 1.5 | 96 | 120[note 6] | 62⁄3[note 6] | 422⁄3 | ‌[Bedrock Editiononly]
+15300 ticks[note 7] | 1.5 | 96 | 120[note 7] | 62⁄3[note 7] | 422⁄3 | ‌[Bedrock Editiononly]
 Bamboo Mosaic Stairs | 15300 ticks | 1.5 | 96 | None used | 31⁄3 | 422⁄3
 Chiseled Bookshelf | 15300 ticks | 1.5 | 96 | 213⁄16(2.8125) | 4⁄9(0.4) | 422⁄3
 Block of BambooorBlock of Stripped Bamboo | 15300 ticks | 1.5 | 96 | None used | 12⁄3 | 422⁄3
@@ -4271,7 +4292,7 @@ OverworldLogorStripped Log | 15300 ticks | 1.5 | 96 | 15 | None used | 422⁄3
 OverworldWoodorStripped Wood | 15300 ticks | 1.5 | 96 | 11.25 | None used | 422⁄3
 OverworldPlanks | 15300 ticks | 1.5 | 96 | 60 | 31⁄3 | 422⁄3
 OverworldWooden Slab | 7.5150 ticks | 0.75 | 48 | 60 | 31⁄3 | 851⁄3 | ‌[Java Editiononly]
-15300 ticks[note 6] | 1.5 | 96 | 120[note 6] | 62⁄3[note 6] | 422⁄3 | ‌[Bedrock Editiononly]
+15300 ticks[note 7] | 1.5 | 96 | 120[note 7] | 62⁄3[note 7] | 422⁄3 | ‌[Bedrock Editiononly]
 OverworldWooden Stairs | 15300 ticks | 1.5 | 96 | 40 | 22⁄9(2.2) | 422⁄3
 OverworldWooden Pressure Plate | 15300 ticks | 1.5 | 96 | 30 | 12⁄3 | 422⁄3
 OverworldWooden Button | 5100 ticks | 0.5 | 32 | 20 | 11⁄9(1.1) | 128
@@ -4295,20 +4316,20 @@ Daylight Detector | 15300 ticks | 1.5 | 96 | 40 | 22⁄9(2.2) | 422⁄3
 Jukebox | 15300 ticks | 1.5 | 96 | 7.5 | 5⁄12(0.416) | 422⁄3
 Note Block | 15300 ticks | 1.5 | 96 | 7.5 | 5⁄12(0.416) | 422⁄3
 Invicon Shelf.png: Inventory sprite for Shelf in Minecraft as shown in-game linking to Shelf with description: ShelfShelf | 15300 ticks | 1.5 | 96 | 7.5 | 5⁄12(0.416) | 422⁄3 | ​[upcoming]
-AnyBanner | 15300 ticks | 1.5 | 24 | 120 | 7.5 | 422⁄3
-Crossbow | 15300 ticks | 1.5 | 1.5 | 262⁄3 | 123⁄37(1.621) | 422⁄3 | ‌[Java Editiononly]
-10200 ticks | 1 | 1 | 177⁄9(17.7) | 13⁄37(1.081) | 64 | ‌[Bedrock Editiononly]
-Bow | 15300 ticks | 1.5 | 1.5 | 40 | 2.5 | 422⁄3 | ‌[Java Editiononly]
-10200 ticks | 1 | 1 | 262⁄3 | 12⁄3 | 64 | ‌[Bedrock Editiononly]
-Fishing Rod | 15300 ticks | 1.5 | 1.5 | 40 | 2.5 | 422⁄3
+AnyBanner | 15300 ticks | 1.5 | 24 (96) | 120 | 7.5 | 422⁄3
+Crossbow | 15300 ticks | 1.5 | 1.5 (96) | 262⁄3 | 123⁄37(1.621) | 422⁄3 | ‌[Java Editiononly]
+10200 ticks | 1 | 1 (64) | 177⁄9(17.7) | 13⁄37(1.081) | 64 | ‌[Bedrock Editiononly]
+Bow | 15300 ticks | 1.5 | 1.5 (96) | 40 | 2.5 | 422⁄3 | ‌[Java Editiononly]
+10200 ticks | 1 | 1 (64) | 262⁄3 | 12⁄3 | 64 | ‌[Bedrock Editiononly]
+Fishing Rod | 15300 ticks | 1.5 | 1.5 (96) | 40 | 2.5 | 422⁄3
 OverworldWooden Door | 10200 ticks | 1 | 64 | 20 | 11⁄9(1.1) | 64
-OverworldSign | 10200 ticks | 1 | 16 | 186⁄13(~18.46) | 10⁄29(~0.34) | 64
-OverworldHanging Sign | 10200 ticks | 1 | 16 | 10 | 11⁄9(1.1) | 64
-Wooden Pickaxe | 10200 ticks | 1 | 1 | 10 | 4⁄7(~0.57) | 64
-Wooden Shovel | 10200 ticks | 1 | 1 | 20 | 13⁄17(~1.18) | 64
-Wooden Hoe | 10200 ticks | 1 | 1 | 131⁄3 | 10⁄13(~0.77) | 64
-Wooden Axe | 10200 ticks | 1 | 1 | 10 | 4⁄7(~0.57) | 64
-Wooden Sword | 10200 ticks | 1 | 1 | 16 | 10⁄11(0.90) | 64
+OverworldSign | 10200 ticks | 1 | 16 (64) | 186⁄13(~18.46) | 10⁄29(~0.34) | 64
+OverworldHanging Sign | 10200 ticks | 1 | 16 (64) | 10 | 11⁄9(1.1) | 64
+Wooden Pickaxe | 10200 ticks | 1 | 1 (64) | 10 | 4⁄7(~0.57) | 64
+Wooden Shovel | 10200 ticks | 1 | 1 (64) | 20 | 13⁄17(~1.18) | 64
+Wooden Hoe | 10200 ticks | 1 | 1 (64) | 131⁄3 | 10⁄13(~0.77) | 64
+Wooden Axe | 10200 ticks | 1 | 1 (64) | 10 | 4⁄7(~0.57) | 64
+Wooden Sword | 10200 ticks | 1 | 1 (64) | 16 | 10⁄11(0.90) | 64
 Bowl | 5100 ticks | 0.5 | 32 | 262⁄3 | 113⁄27(1.481) | 128 | ‌[Java Editiononly]
 10200 ticks | 1 | 64 | 531⁄3 | 226⁄27(2.962) | 64 | ‌[Bedrock Editiononly]
 AnySapling/non-solid block withsaplingsItemTag(e.g. propagule) | 5100 ticks | 0.5 | 32 | None used | None used | 128
@@ -4327,6 +4348,7 @@ Scaffolding | 2.550 ticks | 0.25 | 16 | None used | 2.5 | 256
 - ↑Items in red are not stackable, items in yellow only stack up to 16.
 - ↑Calculated as the burning time in seconds divided by the number of logs used to make one fuel when all wood ingredients are made from logs. Items in red are not made entirely of wood.
 - ↑Calculated as the burning time in seconds divided by the amount of bamboo used to make one fuel when all wood ingredient are made from bamboo. Items in red are not made entirely of bamboo.
+- ↑Requires 9 smelting operations to obtain, so net output is 11 operations.
 - ↑80 seconds of fuel per log, but 10 seconds are needed to smelt the charcoal, so the net time is 70 seconds.
 - ↑Wooden slabs have the same burn time as planks due to a bug; seeMCPE-94368.
 H2: Hopper automation
@@ -4396,6 +4418,7 @@ H3: Shelters
 H2: General
 Getting to know the game better. These are for when the player is comfortably established.
 - [Achievement guide](https://minecraft.wiki/w/Tutorial:Achievement_guide)
+- [Legacy Console Edition](https://minecraft.wiki/w/Tutorial:Achievement_guide/Legacy_Console_Edition)
 - [Advancement guide](https://minecraft.wiki/w/Tutorial:Advancement_guide)
 - [Minecraft tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Minecraft_tab)
 - [Nether tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Nether_tab)
@@ -4435,6 +4458,7 @@ Getting to know the game better. These are for when the player is comfortably es
 - [Village mechanics](https://minecraft.wiki/w/Village_mechanics)
 - [Trading](https://minecraft.wiki/w/Tutorial:Trading)
 - [Zombie siege defense](https://minecraft.wiki/w/Tutorial:Zombie_siege_defense)
+- [Legacy Console Edition](https://minecraft.wiki/w/Tutorial:Achievement_guide/Legacy_Console_Edition)
 - [Minecraft tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Minecraft_tab)
 - [Nether tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/Nether_tab)
 - [The End tab](https://minecraft.wiki/w/Tutorial:Advancement_guide/The_End_tab)
@@ -4864,7 +4888,6 @@ Some aspects of signal transmission can be helpful to understand: transmission t
 TABLE:
 ...
 
-Many circuits are already one-way simply because their output comes from a block that can't take input. For example, a signal cannot be pushed back into a circuit through a redstone torch except through the block it's attached to.
 H3: Logic circuit
 Alogic gateis a circuit that takes one or more inputs and produces a single output when some condition has been met. The strength of the input signal in these circuits usually doesn't matter. When an input or output supplies a redstone signal, it is usually just referred to as "on", and when there is no signal, it is referred to as "off". For example, an AND gate takes two redstone signals as input, and outputs a redstone signal only if both inputs are greater than 0. That is, an AND gate is on only when both inputs are on.
 In electronic or programming diagrams, logic gates are typically shown as if they were individual devices; However, when building redstone devices inMinecraft, all logic gates are formed from multiple blocks and components, which interact to produce the desired results.
