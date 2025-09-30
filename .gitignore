@@ -8,10 +8,8 @@ ENV/
 env.bak/
 venv.bak/
 
-# Python cache files
+# cache files
 __pycache__/
-
-# Ruff cache
 .ruff_cache/
 
 # Chroma DB and vector storage
@@ -19,8 +17,9 @@ db/minecraft_lore/
 *.bin
 *.sqlite3
 
-# VSCode settings
+# settings
 .vscode/
+.qodo/
 
 # OS metadata
 .DS_Store
