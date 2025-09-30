@@ -178,7 +178,6 @@
             "dragon egg",
             "concrete powder",
             "scaffolding",
-            "snow layer",
             "pointed dripstone",
             "suspicious gravel",
             "suspicious sand"
@@ -191,7 +190,7 @@
         "question": "What's the maximum block height for a player to automatically step up from a lower to a higher height block?",
         "expected_answer_contains": [
             "0.6",
-            "3/5"
+            "3⁄5"
         ],
         "source_type": "text",
         "source_link": "https://minecraft.wiki/w/Block",

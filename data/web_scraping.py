@@ -2,6 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import json
+from urllib.parse import urlparse
+import re
+from typing import Optional, List
+from bs4 import Tag
 
 # TODO: finish gold examples
 # create an eval.py script to test the examples
@@ -37,6 +41,59 @@ WIKI_PAGES = {
 
 DEBUG = True
 
+def _extract_intro_before_first_table(soup: BeautifulSoup) -> str:
+    """
+    Extract only the introductory paragraphs that occur before the first table.
+
+    Args:
+        soup (BeautifulSoup): Parsed HTML document.
+
+    Return:
+        str: Intro text before the first table (collapsed), or empty string.
+    """
+    # Choose a broad main container
+    main: Tag | None = soup.select_one("main, .mw-parser-output, #content, body")
+    if not main:
+        return ""
+
+    first_table: Optional[Tag] = main.find("table")
+    if not first_table:
+        # No tables; just return top paragraphs
+        paras: List[str] = []
+        for p in main.find_all("p"):
+            txt = p.get_text(" ", strip=True)
+            if txt:
+                paras.append(txt)
+        return re.sub(r"\s{2,}", " ", " ".join(paras)).strip()
+
+    # Collect text from siblings that appear BEFORE the first table
+    paras: List[str] = []
+    for el in list(main.children):
+        if isinstance(el, Tag) and el.name == "table":
+            break
+        if isinstance(el, Tag) and el.name in {"p", "div"}:
+            txt = el.get_text(" ", strip=True)
+            if txt:
+                paras.append(txt)
+    intro: str = " ".join(paras)
+    return re.sub(r"\s{2,}", " ", intro).strip()
+
+def _is_minecraftcrafting(url: str) -> bool:
+    """
+    Check whether a URL belongs to minecraftcrafting.info.
+
+    Args:
+        url (str): Absolute URL.
+
+    Return:
+        bool: True if host is minecraftcrafting.info, else False.
+    """
+    try:
+        host = urlparse(url).netloc.lower()
+    except Exception:
+        return False
+    return "minecraftcrafting.info" in host
+
 
 def _scrape_page(url: str) -> str:
     """
@@ -49,6 +106,8 @@ def _scrape_page(url: str) -> str:
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
+
+    is_crafting_site = _is_minecraftcrafting(url)
 
     # Remove edit links from HTML before processing
     for edit_link in soup.find_all(
@@ -73,6 +132,12 @@ def _scrape_page(url: str) -> str:
     )
 
     icon_classes = ["icon", "mob-icon"]
+
+    # Special handling for minecraftcrafting.info: capture only the intro text before the first table once.
+    if is_crafting_site:
+        intro_text = _extract_intro_before_first_table(soup)
+        if intro_text:
+            content_parts.append(intro_text)
 
     for element in elements:
         # Extracts image/icon labels inline if this is an icon container
@@ -146,18 +211,18 @@ def _scrape_page(url: str) -> str:
                     if is_tutorials_page:
                         a_tag = li.find("a")
                         if a_tag and a_tag.get("href"):
-                            link_text = a_tag.get_text(strip=True)
+                            link_text = a_tag.get_text(" ", strip=True)
                             href = a_tag.get("href")
                             if href.startswith("/"):
                                 href = f"https://minecraft.wiki{href}"
                             list_content.append(f"- [{link_text}]({href})")
                         else:
-                            li_text = li.get_text(strip=True)
+                            li_text = li.get_text(" ", strip=True)
                             if li_text:
                                 list_content.append(f"- {li_text}")
                     else:
                         # For other pages, just output text
-                        li_text = li.get_text(strip=True)
+                        li_text = li.get_text(" ", strip=True)
                         if li_text:
                             list_content.append(f"- {li_text}")
                 if list_content:
@@ -165,7 +230,11 @@ def _scrape_page(url: str) -> str:
 
         elif element.name == "p":
             # Process paragraphs
-            text = element.get_text(strip=True)
+            # For minecraftcrafting.info we will add only the intro before the first table,
+            # so skip generic paragraph capture entirely to avoid duplicating table text into a single long line.
+            if is_crafting_site:
+                continue
+            text = element.get_text(" ", strip=True)
             if text:
                 content_parts.append(text)
 

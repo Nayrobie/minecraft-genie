@@ -84,6 +84,13 @@ def _normalize_text(text: Optional[str]) -> str:
     """
     if not text:
         return ""
+    # Normalize common symbols
+    text = text.replace("∕", "/").replace("／", "/")  # all variants of '/'
+    text = text.replace("’", "'").replace("‘", "'")  # single quotes
+    text = text.replace("“", "\"").replace("”", "\"")  # double quotes
+    text = text.replace("–", "-").replace("—", "-")  # dashes
+    text = text.replace("\u00A0", " ")  # non-breaking spaces
+    # Lowercase and collapse whitespace
     lowered = text.lower()
     collapsed = re.sub(r"\s+", " ", lowered).strip()
     return collapsed
