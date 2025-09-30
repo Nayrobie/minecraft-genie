@@ -78,7 +78,7 @@ def _extract_intro_before_first_table(soup: BeautifulSoup) -> str:
     intro: str = " ".join(paras)
     return re.sub(r"\s{2,}", " ", intro).strip()
 
-def _is_minecraftcrafting(url: str) -> bool:
+def _is_minecraft_crafting_webpage(url: str) -> bool:
     """
     Check whether a URL belongs to minecraftcrafting.info.
 
@@ -95,6 +95,148 @@ def _is_minecraftcrafting(url: str) -> bool:
     return "minecraftcrafting.info" in host
 
 
+def _fetch_soup(url: str) -> BeautifulSoup:
+    """Fetch URL and parse into BeautifulSoup."""
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
+    return BeautifulSoup(response.text, "html.parser")
+
+
+def _cleanup_edit_sections(soup: BeautifulSoup) -> None:
+    """Remove edit links and related artifacts from the soup in-place."""
+    for edit_link in soup.find_all(["span", "a"], class_=["mw-editsection", "mw-editsection-bracket"]):
+        edit_link.decompose()
+    for unwanted in soup.find_all(["span"], class_=["mw-headline"]):
+        if unwanted.find("span", class_="mw-editsection"):
+            unwanted.find("span", class_="mw-editsection").decompose()
+
+
+def _debug_dump_soup(soup: BeautifulSoup) -> None:
+    """Optionally print a preview of the soup for debugging."""
+    if DEBUG:
+        print(soup.prettify()[:2000])
+
+
+def _get_relevant_elements(soup: BeautifulSoup) -> List[Tag]:
+    """Return the sequence of elements we care to extract in order."""
+    return soup.find_all([
+        "p", "table", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "div"
+    ])
+
+
+def _extract_icon_label(element: Tag) -> Optional[str]:
+    """Extract icon/mob label text if the element is an icon container."""
+    icon_classes = {"icon", "mob-icon"}
+    if element.name != "div":
+        return None
+    elem_classes = set(element.get("class", []))
+    if not (elem_classes & icon_classes):
+        return None
+
+    name_div = element.find_next_sibling("div", class_="name") or element.find_next_sibling("div", class_="mob-name")
+    if name_div:
+        img_name = name_div.get_text(strip=True)
+        if img_name:
+            return f"IMAGE_LABEL: {img_name}"
+        return None
+
+    name_child = element.find("div", class_="name") or element.find("div", class_="mob-name")
+    if name_child:
+        img_name = name_child.get_text(strip=True)
+        if img_name:
+            return f"IMAGE_LABEL: {img_name}"
+        return None
+
+    img_tag = element.find("img")
+    if img_tag:
+        alt_text = img_tag.get("alt")
+        title_text = img_tag.get("title")
+        label = alt_text or title_text
+        if label:
+            return f"IMAGE_LABEL: {label}"
+
+    possible_name = element.get_text(strip=True)
+    if possible_name:
+        return f"IMAGE_LABEL: {possible_name}"
+    return None
+
+
+def _extract_table_text(element: Tag) -> Optional[str]:
+    """Extract table rows as pipe-separated text with TABLE header."""
+    if element.name != "table":
+        return None
+
+    table_content: List[str] = []
+    rows = element.find_all("tr")
+    for row in rows:
+        cells = row.find_all(["th", "td"])
+        if cells:
+            row_text = " | ".join(
+                cell.get_text(strip=True)
+                for cell in cells
+                if cell.get_text(strip=True)
+            )
+            if row_text:
+                table_content.append(row_text)
+
+    if table_content:
+        return "\nTABLE:\n" + "\n".join(table_content) + "\n"
+    return None
+
+
+def _extract_header_text(element: Tag) -> Optional[str]:
+    """Extract header text formatted with level prefix (e.g., H2:)."""
+    if element.name not in ["h1", "h2", "h3", "h4", "h5", "h6"]:
+        return None
+    header_text = element.get_text(strip=True)
+    if header_text:
+        return f"{element.name.upper()}: {header_text}"
+    return None
+
+
+def _extract_list_text(element: Tag, is_tutorials_page: bool) -> Optional[str]:
+    """Extract list items, preserving links for tutorials page."""
+    if element.name not in ["ul", "ol"]:
+        return None
+
+    list_items = element.find_all("li")
+    if not list_items:
+        return None
+
+    list_content: List[str] = []
+    for li in list_items:
+        if is_tutorials_page:
+            a_tag = li.find("a")
+            if a_tag and a_tag.get("href"):
+                link_text = a_tag.get_text(" ", strip=True)
+                href = a_tag.get("href")
+                if href.startswith("/"):
+                    href = f"https://minecraft.wiki{href}"
+                list_content.append(f"- [{link_text}]({href})")
+            else:
+                li_text = li.get_text(" ", strip=True)
+                if li_text:
+                    list_content.append(f"- {li_text}")
+        else:
+            li_text = li.get_text(" ", strip=True)
+            if li_text:
+                list_content.append(f"- {li_text}")
+
+    if list_content:
+        return "\n".join(list_content)
+    return None
+
+
+def _extract_paragraph_text(element: Tag, is_crafting_site: bool) -> Optional[str]:
+    """Extract paragraph text unless suppressed for crafting site."""
+    if element.name != "p":
+        return None
+    if is_crafting_site:
+        return None
+    text = element.get_text(" ", strip=True)
+    return text if text else None
+
+
 def _scrape_page(url: str) -> str:
     """
     Scrape the content of a wiki page and return it as a string.
@@ -103,35 +245,17 @@ def _scrape_page(url: str) -> str:
     Returns:
         str: The text content of the page including paragraphs and tables in original order.
     """
-    response = requests.get(url, timeout=30)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = _fetch_soup(url)
 
-    is_crafting_site = _is_minecraftcrafting(url)
+    is_crafting_site = _is_minecraft_crafting_webpage(url)
 
-    # Remove edit links from HTML before processing
-    for edit_link in soup.find_all(
-        ["span", "a"], class_=["mw-editsection", "mw-editsection-bracket"]
-    ):
-        edit_link.decompose()
+    _cleanup_edit_sections(soup)
+    _debug_dump_soup(soup)
 
-    for unwanted in soup.find_all(["span"], class_=["mw-headline"]):
-        if unwanted.find("span", class_="mw-editsection"):
-            unwanted.find("span", class_="mw-editsection").decompose()
+    content_parts: List[str] = []
 
-    if DEBUG:
-        print(soup.prettify()[:2000])  # Print first 2000 characters
-
-    content_parts = []
     # Determine if this is the tutorials page
     is_tutorials_page = url == WIKI_PAGES["tutorials"]
-
-    # Find all relevant elements in order (paragraphs, tables, headers, etc.)
-    elements = soup.find_all(
-        ["p", "table", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "div"]
-    )
-
-    icon_classes = ["icon", "mob-icon"]
 
     # Special handling for minecraftcrafting.info: capture only the intro text before the first table once.
     if is_crafting_site:
@@ -139,104 +263,36 @@ def _scrape_page(url: str) -> str:
         if intro_text:
             content_parts.append(intro_text)
 
-    for element in elements:
-        # Extracts image/icon labels inline if this is an icon container
-        if element.name == "div" and any(
-            cls in element.get("class", []) for cls in icon_classes
-        ):
-            name_div = element.find_next_sibling(
-                "div", class_="name"
-            ) or element.find_next_sibling("div", class_="mob-name")
-            if name_div:
-                img_name = name_div.get_text(strip=True)
-                if img_name:
-                    content_parts.append(f"IMAGE_LABEL: {img_name}")
-                continue
-
-            name_child = element.find("div", class_="name") or element.find(
-                "div", class_="mob-name"
-            )
-            if name_child:
-                img_name = name_child.get_text(strip=True)
-                if img_name:
-                    content_parts.append(f"IMAGE_LABEL: {img_name}")
-                continue
-
-            img_tag = element.find("img")
-            if img_tag:
-                alt_text = img_tag.get("alt")
-                title_text = img_tag.get("title")
-                label = alt_text or title_text
-                if label:
-                    content_parts.append(f"IMAGE_LABEL: {label}")
-                    continue
-
-            possible_name = element.get_text(strip=True)
-            if possible_name:
-                content_parts.append(f"IMAGE_LABEL: {possible_name}")
+    # Find all relevant elements in order (paragraphs, tables, headers, etc.)
+    for element in _get_relevant_elements(soup):
+        # 1) Icon/mob labels
+        icon_label = _extract_icon_label(element)
+        if icon_label:
+            content_parts.append(icon_label)
             continue
 
-        # Process table, headers, lists, and paragraphs
-        if element.name == "table":
-            # Process table
-            table_content = []
-            rows = element.find_all("tr")
-            for row in rows:
-                cells = row.find_all(["th", "td"])
-                if cells:
-                    row_text = " | ".join(
-                        cell.get_text(strip=True)
-                        for cell in cells
-                        if cell.get_text(strip=True)
-                    )
-                    if row_text:
-                        table_content.append(row_text)
+        # 2) Tables
+        table_text = _extract_table_text(element)
+        if table_text:
+            content_parts.append(table_text)
+            continue
 
-            if table_content:
-                content_parts.append("\nTABLE:\n" + "\n".join(table_content) + "\n")
+        # 3) Headers
+        header_text = _extract_header_text(element)
+        if header_text:
+            content_parts.append(header_text)
+            continue
 
-        elif element.name in ["h1", "h2", "h3", "h4", "h5", "h6"]:
-            # Process headers
-            header_text = element.get_text(strip=True)
-            if header_text:
-                content_parts.append(f"{element.name.upper()}: {header_text}")
+        # 4) Lists
+        list_text = _extract_list_text(element, is_tutorials_page)
+        if list_text:
+            content_parts.append(list_text)
+            continue
 
-        elif element.name in ["ul", "ol"]:
-            # Process lists
-            list_items = element.find_all("li")
-            if list_items:
-                list_content = []
-                for li in list_items:
-                    # Only extract links for tutorials page
-                    if is_tutorials_page:
-                        a_tag = li.find("a")
-                        if a_tag and a_tag.get("href"):
-                            link_text = a_tag.get_text(" ", strip=True)
-                            href = a_tag.get("href")
-                            if href.startswith("/"):
-                                href = f"https://minecraft.wiki{href}"
-                            list_content.append(f"- [{link_text}]({href})")
-                        else:
-                            li_text = li.get_text(" ", strip=True)
-                            if li_text:
-                                list_content.append(f"- {li_text}")
-                    else:
-                        # For other pages, just output text
-                        li_text = li.get_text(" ", strip=True)
-                        if li_text:
-                            list_content.append(f"- {li_text}")
-                if list_content:
-                    content_parts.append("\n".join(list_content))
-
-        elif element.name == "p":
-            # Process paragraphs
-            # For minecraftcrafting.info we will add only the intro before the first table,
-            # so skip generic paragraph capture entirely to avoid duplicating table text into a single long line.
-            if is_crafting_site:
-                continue
-            text = element.get_text(" ", strip=True)
-            if text:
-                content_parts.append(text)
+        # 5) Paragraphs
+        para_text = _extract_paragraph_text(element, is_crafting_site)
+        if para_text:
+            content_parts.append(para_text)
 
     return "\n".join(content_parts)
 

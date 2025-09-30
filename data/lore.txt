@@ -51,24 +51,24 @@ TABLE:
 Armorer
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 40% | 15 ×Coal | Emerald | 16 | Low | 2
-2 | 25% | 40% | 5 ×Emerald | Iron Helmet | 12 | High | 1
-25% | 40% | 9 ×Emerald | Iron Chestplate | 12 | High | 1
-25% | 40% | 7 ×Emerald | Iron Leggings | 12 | High | 1
-25% | 40% | 4 ×Emerald | Iron Boots | 12 | High | 1
-Apprentice | 3 | 100% | 50% | 4 ×Iron Ingot | Emerald | 12 | Low | 10
-4 | 33% | 50% | 36 ×Emerald | Bell | 12 | High | 5
-33% | 50% | 3 ×Emerald | Chainmail Leggings | 12 | High | 5
-33% | 50% | Emerald | Chainmail Boots | 12 | High | 5
-Journeyman | 5 | 100% | 40% | Lava Bucket | Emerald | 12 | Low | 20
-6 | 100% | 40% | Diamond | Emerald | 12 | Low | 20
-7 | 33% | 40% | Emerald | Chainmail Helmet | 12 | High | 10
-33% | 40% | 4 ×Emerald | Chainmail Chestplate | 12 | High | 10
-33% | 40% | 5 ×Emerald | Shield | 12 | High | 10
-Expert | 8 | 50% | 100% | 19–33 ×Emerald | Enchanted Diamond Leggings[t 1] | 3 | High | 15
-50% | 100% | 13–27 ×Emerald | Enchanted Diamond Boots[t 1] | 3 | High | 15
-Master | 9 | 50% | 100% | 13–27 ×Emerald | Enchanted Diamond Helmet[t 1] | 3 | High | 30
-50% | 100% | 21–35 ×Emerald | Enchanted Diamond Chestplate[t 1] | 3 | High | 30
+Novice | 1 | 100% | 40% | 15 ×Coal | Emerald | 16 | 0.05 | 2
+2 | 25% | 40% | 5 ×Emerald | Iron Helmet | 12 | 0.2 | 1
+25% | 40% | 9 ×Emerald | Iron Chestplate | 12 | 0.2 | 1
+25% | 40% | 7 ×Emerald | Iron Leggings | 12 | 0.2 | 1
+25% | 40% | 4 ×Emerald | Iron Boots | 12 | 0.2 | 1
+Apprentice | 3 | 100% | 50% | 4 ×Iron Ingot | Emerald | 12 | 0.05 | 10
+4 | 33% | 50% | 36 ×Emerald | Bell | 12 | 0.2 | 5
+33% | 50% | 3 ×Emerald | Chainmail Leggings | 12 | 0.2 | 5
+33% | 50% | Emerald | Chainmail Boots | 12 | 0.2 | 5
+Journeyman | 5 | 100% | 40% | Lava Bucket | Emerald | 12 | 0.05 | 20
+6 | 100% | 40% | Diamond | Emerald | 12 | 0.05 | 20
+7 | 33% | 40% | Emerald | Chainmail Helmet | 12 | 0.2 | 10
+33% | 40% | 4 ×Emerald | Chainmail Chestplate | 12 | 0.2 | 10
+33% | 40% | 5 ×Emerald | Shield | 12 | 0.2 | 10
+Expert | 8 | 50% | 100% | 19–33 ×Emerald | Enchanted Diamond Leggings[t 1] | 3 | 0.2 | 15
+50% | 100% | 13–27 ×Emerald | Enchanted Diamond Boots[t 1] | 3 | 0.2 | 15
+Master | 9 | 50% | 100% | 13–27 ×Emerald | Enchanted Diamond Helmet[t 1] | 3 | 0.2 | 30
+50% | 100% | 21–35 ×Emerald | Enchanted Diamond Chestplate[t 1] | 3 | 0.2 | 30
 
 - ↑ a b c d When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments .
 H3: Butcher
@@ -78,17 +78,17 @@ TABLE:
 Butcher
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 33% | 50% | 14 ×Raw Chicken | Emerald | 16 | Low | 2
-33% | 50% | 4 ×Raw Rabbit | Emerald | 16 | Low | 2
-33% | 50% | 7 ×Raw Porkchop | Emerald | 16 | Low | 2
-2 | 100% | 50% | Emerald | Rabbit Stew | 12 | Low | 1
-Apprentice | 3 | 100% | 67% | 15 ×Coal | Emerald | 16 | Low | 2
-4 | 50% | 67% | Emerald | 8 ×Cooked Chicken | 16 | Low | 5
-50% | 67% | Emerald | 5 ×Cooked Porkchop | 16 | Low | 5
-Journeyman | 5 | 50% | 100% | 10 ×Raw Beef | Emerald | 16 | Low | 20
-50% | 100% | 7 ×Raw Mutton | Emerald | 16 | Low | 20
-Expert | 6 | 100% | 100% | 10 ×Dried Kelp Block | Emerald | 12 | Low | 30
-Master | 7 | 100% | 100% | 10 ×Sweet Berries | Emerald | 12 | Low | 30
+Novice | 1 | 33% | 50% | 14 ×Raw Chicken | Emerald | 16 | 0.05 | 2
+33% | 50% | 4 ×Raw Rabbit | Emerald | 16 | 0.05 | 2
+33% | 50% | 7 ×Raw Porkchop | Emerald | 16 | 0.05 | 2
+2 | 100% | 50% | Emerald | Rabbit Stew | 12 | 0.05 | 1
+Apprentice | 3 | 100% | 67% | 15 ×Coal | Emerald | 16 | 0.05 | 2
+4 | 50% | 67% | Emerald | 8 ×Cooked Chicken | 16 | 0.05 | 5
+50% | 67% | Emerald | 5 ×Cooked Porkchop | 16 | 0.05 | 5
+Journeyman | 5 | 50% | 100% | 10 ×Raw Beef | Emerald | 16 | 0.05 | 20
+50% | 100% | 7 ×Raw Mutton | Emerald | 16 | 0.05 | 20
+Expert | 6 | 100% | 100% | 10 ×Dried Kelp Block | Emerald | 12 | 0.05 | 30
+Master | 7 | 100% | 100% | 10 ×Sweet Berries | Emerald | 12 | 0.05 | 30
 
 H3: Cartographer
 Job site block: Cartography Table
@@ -104,17 +104,17 @@ TABLE:
 Cartographer
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 100% | 24 ×Paper | Emerald | 12 | Low | 2
-2 | 100% | 100% | 7 ×Emerald | Empty Map | 12 | Low | 1
-Apprentice | 3 | 100% | 50% | 11 ×Glass Pane | Emerald | 12 | Low | 10
-4 | 100% | 100% | 8 ×Emerald+Compass | Explorer Map[t 1] | 12 | High | 5
-Journeyman | 5 | 50% | 67% | Compass | Emerald | 12 | Low | 10
-50% | 67% | 13 ×Emerald+Compass | Ocean Explorer Map[t 2] | 12 | High | 10
-6 | 100% | 67% | 12 ×Emerald+Compass | Trial Explorer Map[t 2] | 12 | High | 10
-Expert | 7 | 100% | 12% | 7 ×Emerald | Item Frame | 12 | Low | 15
-8 | 100% | 100% | 3 ×Emerald | Any color Banner[t 3] | 12 | Low | 15
-Master | 9 | 100% | 100% | 8 ×Emerald | Globe Banner Pattern | 12 | Low | 30
-10 | 100% | 100% | 14 ×Emerald+Compass | Woodland Explorer Map | 12 | High | 30
+Novice | 1 | 100% | 100% | 24 ×Paper | Emerald | 12 | 0.05 | 2
+2 | 100% | 100% | 7 ×Emerald | Empty Map | 12 | 0.05 | 1
+Apprentice | 3 | 100% | 50% | 11 ×Glass Pane | Emerald | 12 | 0.05 | 10
+4 | 100% | 100% | 8 ×Emerald+Compass | Explorer Map[t 1] | 12 | 0.2 | 5
+Journeyman | 5 | 50% | 67% | Compass | Emerald | 12 | 0.05 | 10
+50% | 67% | 13 ×Emerald+Compass | Ocean Explorer Map[t 2] | 12 | 0.2 | 10
+6 | 100% | 67% | 12 ×Emerald+Compass | Trial Explorer Map[t 2] | 12 | 0.2 | 10
+Expert | 7 | 100% | 12% | 7 ×Emerald | Item Frame | 12 | 0.05 | 15
+8 | 100% | 100% | 3 ×Emerald | Any color Banner[t 3] | 12 | 0.05 | 15
+Master | 9 | 100% | 100% | 8 ×Emerald | Globe Banner Pattern | 12 | 0.05 | 30
+10 | 100% | 100% | 14 ×Emerald+Compass | Woodland Explorer Map | 12 | 0.2 | 30
 
 - ↑ The structure that the map leads to depends on the biome the villager is from. See the table above for more details. Each of the three possible maps are counted as independent trades, so a villager trading multiple maps is possible.
 - ↑ a b In Java Edition , all copies of the map traded by a particular villager lead to the same structure. In worlds that do not have the structure, this trade is not offered.
@@ -127,17 +127,17 @@ TABLE:
 Cleric
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 100% | 32 ×Rotten Flesh | Emerald | 16 | Low | 2
-2 | 100% | 100% | Emerald | 2 ×Redstone Dust | 12 | Low | 1
-Apprentice | 3 | 100% | 100% | 3 ×Gold Ingot | Emerald | 12 | Low | 10
-4 | 100% | 100% | Emerald | Lapis Lazuli | 12 | Low | 5
-Journeyman | 5 | 100% | 100% | 2 ×Rabbit's Foot | Emerald | 12 | Low | 20
-6 | 100% | 100% | 4 ×Emerald | Glowstone | 12 | Low | 10
-Expert | 7 | 50% | 67% | 4 ×Turtle Scute | Emerald | 12 | Low | 30
-50% | 67% | 9 ×Glass Bottle | Emerald | 12 | Low | 30
-8 | 100% | 67% | 5 ×Emerald | Ender Pearl | 12 | Low | 15
-Master | 9 | 100% | 100% | 22 ×Nether Wart | Emerald | 12 | Low | 30
-10 | 100% | 100% | 3 ×Emerald | Bottle o' Enchanting | 12 | Low | 30
+Novice | 1 | 100% | 100% | 32 ×Rotten Flesh | Emerald | 16 | 0.05 | 2
+2 | 100% | 100% | Emerald | 2 ×Redstone Dust | 12 | 0.05 | 1
+Apprentice | 3 | 100% | 100% | 3 ×Gold Ingot | Emerald | 12 | 0.05 | 10
+4 | 100% | 100% | Emerald | Lapis Lazuli | 12 | 0.05 | 5
+Journeyman | 5 | 100% | 100% | 2 ×Rabbit's Foot | Emerald | 12 | 0.05 | 20
+6 | 100% | 100% | 4 ×Emerald | Glowstone | 12 | 0.05 | 10
+Expert | 7 | 50% | 67% | 4 ×Turtle Scute | Emerald | 12 | 0.05 | 30
+50% | 67% | 9 ×Glass Bottle | Emerald | 12 | 0.05 | 30
+8 | 100% | 67% | 5 ×Emerald | Ender Pearl | 12 | 0.05 | 15
+Master | 9 | 100% | 100% | 22 ×Nether Wart | Emerald | 12 | 0.05 | 30
+10 | 100% | 100% | 3 ×Emerald | Bottle o' Enchanting | 12 | 0.05 | 30
 
 H3: Farmer
 Job site block: Composter
@@ -146,25 +146,25 @@ TABLE:
 Farmer
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 25% | 40% | 20 ×Wheat | Emerald | 16 | Low | 2
-25% | 40% | 26 ×Potato | Emerald | 16 | Low | 2
-25% | 40% | 22 ×Carrot | Emerald | 16 | Low | 2
-25% | 40% | 15 ×Beetroot | Emerald | 16 | Low | 2
-2 | 100% | 40% | Emerald | 6 ×Bread | 16 | Low | 1
-Apprentice | 3 | 100% | 67% | 6 ×Pumpkin | Emerald | 12 | Low | 10
-4 | 50% | 67% | Emerald | 4 ×Pumpkin Pie | 12 | Low | 5
-50% | 67% | Emerald | 4 ×Apple | 16 | Low | 5
-Journeyman | 5 | 100% | 100% | 4 ×Melon | Emerald | 12 | Low | 20
-6 | 100% | 100% | 3 ×Emerald | 18 ×Cookie | 12 | Low | 10
-Expert | 7 | 17% | 29% | Emerald | Suspicious Stew[t 1] | 12 | Low | 15
-17% | 29% | Emerald | Suspicious Stew[t 2] | 12 | Low | 15
-17% | 29% | Emerald | Suspicious Stew[t 3] | 12 | Low | 15
-17% | 29% | Emerald | Suspicious Stew[t 4] | 12 | Low | 15
-17% | 29% | Emerald | Suspicious Stew[t 5] | 12 | Low | 15
-17% | 29% | Emerald | Suspicious Stew[t 6] | 12 | Low | 15
-8 | 100% | 29% | Emerald | Cake | 12 | Low | 15
-Master | 9 | 50% | 100% | 3 ×Emerald | 3 ×Golden Carrot | 12 | Low | 30
-50% | 100% | 4 ×Emerald | 3 ×Glistering Melon Slice | 12 | Low | 30
+Novice | 1 | 25% | 40% | 20 ×Wheat | Emerald | 16 | 0.05 | 2
+25% | 40% | 26 ×Potato | Emerald | 16 | 0.05 | 2
+25% | 40% | 22 ×Carrot | Emerald | 16 | 0.05 | 2
+25% | 40% | 15 ×Beetroot | Emerald | 16 | 0.05 | 2
+2 | 100% | 40% | Emerald | 6 ×Bread | 16 | 0.05 | 1
+Apprentice | 3 | 100% | 67% | 6 ×Pumpkin | Emerald | 12 | 0.05 | 10
+4 | 50% | 67% | Emerald | 4 ×Pumpkin Pie | 12 | 0.05 | 5
+50% | 67% | Emerald | 4 ×Apple | 16 | 0.05 | 5
+Journeyman | 5 | 100% | 100% | 4 ×Melon | Emerald | 12 | 0.05 | 20
+6 | 100% | 100% | 3 ×Emerald | 18 ×Cookie | 12 | 0.05 | 10
+Expert | 7 | 17% | 29% | Emerald | Suspicious Stew[t 1] | 12 | 0.05 | 15
+17% | 29% | Emerald | Suspicious Stew[t 2] | 12 | 0.05 | 15
+17% | 29% | Emerald | Suspicious Stew[t 3] | 12 | 0.05 | 15
+17% | 29% | Emerald | Suspicious Stew[t 4] | 12 | 0.05 | 15
+17% | 29% | Emerald | Suspicious Stew[t 5] | 12 | 0.05 | 15
+17% | 29% | Emerald | Suspicious Stew[t 6] | 12 | 0.05 | 15
+8 | 100% | 29% | Emerald | Cake | 12 | 0.05 | 15
+Master | 9 | 50% | 100% | 3 ×Emerald | 3 ×Golden Carrot | 12 | 0.05 | 30
+50% | 100% | 4 ×Emerald | 3 ×Glistering Melon Slice | 12 | 0.05 | 30
 
 - ↑ The stew gives 6 seconds of Blindness in Java Edition and 5-7 seconds in Bedrock Edition
 - ↑ The stew gives 8 seconds of Jump Boost in Java Edition and 7-10 seconds in Bedrock Edition
@@ -179,18 +179,18 @@ TABLE:
 Fisherman
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 50% | 50% | 20 ×String | Emerald | 16 | Low | 2
-50% | 50% | 10 ×Coal | Emerald | 16 | Low | 2
-2 | 50% | 50% | 3 ×Emerald | Bucket of Cod | 16 | Low | 1
-50% | 50% | 6 ×Raw Cod+Emerald | 6 ×Cooked Cod | 16 | Low | 1
-Apprentice | 3 | 100% | 67% | 15 ×Raw Cod | Emerald | 16 | Low | 10
-4 | 50% | 67% | 2 ×Emerald | Campfire | 12 | Low | 5
-50% | 67% | 6 ×Raw Salmon+Emerald | 6 ×Cooked Salmon | 16 | Low | 5
-Journeyman | 5 | 100% | 100% | 13 ×Raw Salmon | Emerald | 16 | Low | 20
-6 | 100% | 100% | 8–22 ×Emerald | Enchanted Fishing Rod[t 1] | 3 | High | 10
-Expert | 7 | 100% | 100% | 6 ×Tropical Fish | Emerald | 12 | Low | 30
-Master | 8 | 100% | 100% | 4 ×Pufferfish | Emerald | 12 | Low | 30
-9 | 100% | 100% | Boat[t 2] | Emerald | 12 | Low | 30
+Novice | 1 | 50% | 50% | 20 ×String | Emerald | 16 | 0.05 | 2
+50% | 50% | 10 ×Coal | Emerald | 16 | 0.05 | 2
+2 | 50% | 50% | 3 ×Emerald | Bucket of Cod | 16 | 0.05 | 1
+50% | 50% | 6 ×Raw Cod+Emerald | 6 ×Cooked Cod | 16 | 0.05 | 1
+Apprentice | 3 | 100% | 67% | 15 ×Raw Cod | Emerald | 16 | 0.05 | 10
+4 | 50% | 67% | 2 ×Emerald | Campfire | 12 | 0.05 | 5
+50% | 67% | 6 ×Raw Salmon+Emerald | 6 ×Cooked Salmon | 16 | 0.05 | 5
+Journeyman | 5 | 100% | 100% | 13 ×Raw Salmon | Emerald | 16 | 0.05 | 20
+6 | 100% | 100% | 8–22 ×Emerald | Enchanted Fishing Rod[t 1] | 3 | 0.2 | 10
+Expert | 7 | 100% | 100% | 6 ×Tropical Fish | Emerald | 12 | 0.05 | 30
+Master | 8 | 100% | 100% | 4 ×Pufferfish | Emerald | 12 | 0.05 | 30
+9 | 100% | 100% | Boat[t 2] | Emerald | 12 | 0.05 | 30
 
 - ↑ When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments .
 - ↑ The type of boat trade depends on the biome outfit of the villager. Plains villagers buy oak boats, taiga and snowy villagers buy spruce boats, desert and jungle villagers buy jungle boats, savanna villagers buy acacia boats, and swamp villagers buy dark oak boats.
@@ -201,18 +201,18 @@ TABLE:
 Fletcher
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 67% | 32 ×Stick | Emerald | 16 | Low | 2
-2 | 50% | 67% | Emerald | 16 ×Arrow | 12 | Low | 1
-50% | 67% | 10 ×Gravel+Emerald | 10 ×Flint | 12 | Low | 1
-Apprentice | 3 | 100% | 100% | 26 ×Flint | Emerald | 12 | Low | 10
-4 | 100% | 100% | 2 ×Emerald | Bow | 12 | Low | 5
-Journeyman | 5 | 100% | 100% | 14 ×String | Emerald | 16 | Low | 20
-6 | 100% | 100% | 3 ×Emerald | Crossbow | 12 | Low | 10
-Expert | 7 | 100% | 100% | 24 ×Feather | Emerald | 16 | Low | 30
-8 | 100% | 100% | 7–21 ×Emerald | Enchanted Bow[t 1] | 3 | Low | 15
-Master | 9 | 100% | 67% | 8 ×Tripwire Hook | Emerald | 12 | Low | 30
-10 | 50% | 67% | 8–22 ×Emerald | Enchanted Crossbow[t 1] | 3 | Low | 15
-50% | 67% | 2 ×Emerald+ 5 ×Arrow | 5 ×Tipped Arrow[t 2] | 12 | Low | 30
+Novice | 1 | 100% | 67% | 32 ×Stick | Emerald | 16 | 0.05 | 2
+2 | 50% | 67% | Emerald | 16 ×Arrow | 12 | 0.05 | 1
+50% | 67% | 10 ×Gravel+Emerald | 10 ×Flint | 12 | 0.05 | 1
+Apprentice | 3 | 100% | 100% | 26 ×Flint | Emerald | 12 | 0.05 | 10
+4 | 100% | 100% | 2 ×Emerald | Bow | 12 | 0.05 | 5
+Journeyman | 5 | 100% | 100% | 14 ×String | Emerald | 16 | 0.05 | 20
+6 | 100% | 100% | 3 ×Emerald | Crossbow | 12 | 0.05 | 10
+Expert | 7 | 100% | 100% | 24 ×Feather | Emerald | 16 | 0.05 | 30
+8 | 100% | 100% | 7–21 ×Emerald | Enchanted Bow[t 1] | 3 | 0.05 | 15
+Master | 9 | 100% | 67% | 8 ×Tripwire Hook | Emerald | 12 | 0.05 | 30
+10 | 50% | 67% | 8–22 ×Emerald | Enchanted Crossbow[t 1] | 3 | 0.05 | 15
+50% | 67% | 2 ×Emerald+ 5 ×Arrow | 5 ×Tipped Arrow[t 2] | 12 | 0.05 | 30
 
 - ↑ a b When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments .
 - ↑ In Java Edition , the type of arrow is chosen randomly from all possible brewable potions with effects, including extended and strengthened versions. In Bedrock Edition , the type of arrow is randomly chosen from 15 options: Night Vision , Invisibility , Leaping , Fire Resistance , Swiftness , Slowness , Water Breathing , Healing , Harming , Poison , Regeneration , Strength , Weakness , Turtle Master , or Decay (Level 2).
@@ -223,18 +223,18 @@ TABLE:
 Leatherworker
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 67% | 6 ×Leather | Emerald | 16 | Low | 2
-2 | 50% | 67% | 3 ×Emerald | Leather Pants[t 1] | 12 | High | 1
-50% | 67% | 7 ×Emerald | Leather Tunic[t 1] | 12 | High | 1
-Apprentice | 3 | 100% | 67% | 26 ×Flint | Emerald | 12 | Low | 10
-4 | 50% | 67% | 5 ×Emerald | Leather Cap[t 1] | 12 | High | 5
-50% | 67% | 4 ×Emerald | Leather Boots[t 1] | 12 | High | 5
-Journeyman | 5 | 100% | 100% | 9 ×Rabbit Hide | Emerald | 12 | Low | 20
-6 | 100% | 100% | 7 ×Emerald | Leather Tunic[t 1] | 12 | High | 10
-Expert | 7 | 100% | 100% | 4 ×Turtle Scute | Emerald | 12 | Low | 30
-8 | 100% | 100% | 6 ×Emerald | Leather Horse Armor[t 1] | 12 | High | 15
-Master | 9 | 50% | 100% | 5 ×Emerald | Leather Cap[t 1] | 12 | High | 30
-50% | 100% | 6 ×Emerald | Saddle | 12 | High | 30
+Novice | 1 | 100% | 67% | 6 ×Leather | Emerald | 16 | 0.05 | 2
+2 | 50% | 67% | 3 ×Emerald | Leather Pants[t 1] | 12 | 0.2 | 1
+50% | 67% | 7 ×Emerald | Leather Tunic[t 1] | 12 | 0.2 | 1
+Apprentice | 3 | 100% | 67% | 26 ×Flint | Emerald | 12 | 0.05 | 10
+4 | 50% | 67% | 5 ×Emerald | Leather Cap[t 1] | 12 | 0.2 | 5
+50% | 67% | 4 ×Emerald | Leather Boots[t 1] | 12 | 0.2 | 5
+Journeyman | 5 | 100% | 100% | 9 ×Rabbit Hide | Emerald | 12 | 0.05 | 20
+6 | 100% | 100% | 7 ×Emerald | Leather Tunic[t 1] | 12 | 0.2 | 10
+Expert | 7 | 100% | 100% | 4 ×Turtle Scute | Emerald | 12 | 0.05 | 30
+8 | 100% | 100% | 6 ×Emerald | Leather Horse Armor[t 1] | 12 | 0.2 | 15
+Master | 9 | 50% | 100% | 5 ×Emerald | Leather Cap[t 1] | 12 | 0.2 | 30
+50% | 100% | 6 ×Emerald | Saddle | 12 | 0.2 | 30
 
 - ↑ a b c d e f g The leather armor has a random color created by two dyes (possibly the same dye twice.)
 H3: Librarian
@@ -244,20 +244,20 @@ TABLE:
 Librarian
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 67% | 24 ×Paper | Emerald | 16 | Low | 2
-2 | 50% | 67% | 9 ×Emerald | Bookshelf | 12 | Low | 1
-50% | 67% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | High | 1
-Apprentice | 3 | 100% | 67% | 4 ×Book | Emerald | 12 | Low | 10
-4 | 50% | 67% | Emerald | Lantern | 12 | Low | 5
-50% | 67% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | High | 5
-Journeyman | 5 | 100% | 67% | 5 ×Ink Sac | Emerald | 12 | Low | 20
-6 | 50% | 67% | Emerald | 4 ×Glass | 12 | Low | 10
-50% | 67% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | High | 10
-Expert | 7 | 100% | 50% | Book and Quill+Book and Quill[t 2] | Emerald | 12 | Low | 30
-8 | 33% | 50% | 4 ×Emerald | Compass | 12 | Low | 15
-33% | 50% | 5 ×Emerald | Clock | 12 | Low | 15
-33% | 50% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | High | 15
-Master | 9 | 100% | 100% | 20 ×Emerald | Name Tag | 12 | Low | 30
+Novice | 1 | 100% | 67% | 24 ×Paper | Emerald | 16 | 0.05 | 2
+2 | 50% | 67% | 9 ×Emerald | Bookshelf | 12 | 0.05 | 1
+50% | 67% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | 0.2 | 1
+Apprentice | 3 | 100% | 67% | 4 ×Book | Emerald | 12 | 0.05 | 10
+4 | 50% | 67% | Emerald | Lantern | 12 | 0.05 | 5
+50% | 67% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | 0.2 | 5
+Journeyman | 5 | 100% | 67% | 5 ×Ink Sac | Emerald | 12 | 0.05 | 20
+6 | 50% | 67% | Emerald | 4 ×Glass | 12 | 0.05 | 10
+50% | 67% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | 0.2 | 10
+Expert | 7 | 100% | 50% | Book and Quill+Book and Quill[t 2] | Emerald | 12 | 0.05 | 30
+8 | 33% | 50% | 4 ×Emerald | Compass | 12 | 0.05 | 15
+33% | 50% | 5 ×Emerald | Clock | 12 | 0.05 | 15
+33% | 50% | 5–64 ×Emerald+Book | Enchanted Book[t 1] | 12 | 0.2 | 15
+Master | 9 | 100% | 100% | 20 ×Emerald | Name Tag | 12 | 0.05 | 30
 
 - ↑ a b c d The enchantment is chosen randomly with equal chance of any enchantment type occurring (except for Soul Speed , Swift Sneak , and Wind Burst ) and equal chance to get any level of the enchantment, meaning high-level enchantments are as likely as low-level enchantments. It is possible for a librarian to sell the same book more than once.
 The price in emeralds depends on the enchantment level and "treasure" status. The minimum price of a book is given by 2 + 3 * (enchantment level), while the maximum price is 6 + 13 * (enchantment level). The possible values are 5–19 emeralds for Lvl I, 8–32 for Lvl II, 11–45 for Lvl III, 14–58 for Lvl IV, and 17–71 for Lvl V. For treasure enchantments the price is doubled. The cost is capped at 64 emeralds. All values below this cap are equally probable.
@@ -282,22 +282,22 @@ TABLE:
 Mason
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 100% | 10 ×Clay Ball | Emerald | 16 | Low | 2
-2 | 100% | 100% | Emerald | 10 ×Brick | 16 | Low | 1
-Apprentice | 3 | 100% | 100% | 20 ×Stone | Emerald | 16 | Low | 10
-4 | 100% | 100% | Emerald | 4 ×Chiseled Stone Bricks | 16 | Low | 5
-Journeyman | 5 | 33% | 29% | 16 ×Granite | Emerald | 16 | Low | 20
-33% | 29% | 16 ×Andesite | Emerald | 16 | Low | 20
-33% | 29% | 16 ×Diorite | Emerald | 16 | Low | 20
-6 | 25% | 29% | Emerald | 4 ×Dripstone Block | 16 | Low | 10
-25% | 29% | Emerald | 4 ×Polished Andesite | 16 | Low | 10
-25% | 29% | Emerald | 4 ×Polished Diorite | 16 | Low | 10
-25% | 29% | Emerald | 4 ×Polished Granite | 16 | Low | 10
-Expert | 7 | 100% | 6% | 12 ×Nether Quartz | Emerald | 12 | Low | 30
-8 | 50% | 74% | Emerald | Any color Stained Terracotta[t 1] | 12 | Low | 15
-50% | 74% | Emerald | Any color Glazed Terracotta[t 1] | 12 | Low | 15
-Master | 9 | 50% | 100% | Emerald | Quartz Pillar | 12 | Low | 30
-50% | 100% | Emerald | Block of Quartz | 12 | Low | 30
+Novice | 1 | 100% | 100% | 10 ×Clay Ball | Emerald | 16 | 0.05 | 2
+2 | 100% | 100% | Emerald | 10 ×Brick | 16 | 0.05 | 1
+Apprentice | 3 | 100% | 100% | 20 ×Stone | Emerald | 16 | 0.05 | 10
+4 | 100% | 100% | Emerald | 4 ×Chiseled Stone Bricks | 16 | 0.05 | 5
+Journeyman | 5 | 33% | 29% | 16 ×Granite | Emerald | 16 | 0.05 | 20
+33% | 29% | 16 ×Andesite | Emerald | 16 | 0.05 | 20
+33% | 29% | 16 ×Diorite | Emerald | 16 | 0.05 | 20
+6 | 25% | 29% | Emerald | 4 ×Dripstone Block | 16 | 0.05 | 10
+25% | 29% | Emerald | 4 ×Polished Andesite | 16 | 0.05 | 10
+25% | 29% | Emerald | 4 ×Polished Diorite | 16 | 0.05 | 10
+25% | 29% | Emerald | 4 ×Polished Granite | 16 | 0.05 | 10
+Expert | 7 | 100% | 6% | 12 ×Nether Quartz | Emerald | 12 | 0.05 | 30
+8 | 50% | 74% | Emerald | Any color Stained Terracotta[t 1] | 12 | 0.05 | 15
+50% | 74% | Emerald | Any color Glazed Terracotta[t 1] | 12 | 0.05 | 15
+Master | 9 | 50% | 100% | Emerald | Quartz Pillar | 12 | 0.05 | 30
+50% | 100% | Emerald | Block of Quartz | 12 | 0.05 | 30
 
 - ↑ a b The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
 H3: Shepherd
@@ -307,32 +307,32 @@ TABLE:
 Shepherd
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 25% | 40% | 18 ×White Wool | Emerald | 16 | Low | 2
-25% | 40% | 18 ×Brown Wool | Emerald | 16 | Low | 2
-25% | 40% | 18 ×Black Wool | Emerald | 16 | Low | 2
-25% | 40% | 18 ×Gray Wool | Emerald | 16 | Low | 2
-2 | 100% | 40% | 2 ×Emerald | Shears | 12 | Low | 1
-Apprentice | 3 | 20% | 5% | 12 ×White Dye | Emerald | 16 | Low | 10
-20% | 5% | 12 ×Gray Dye | Emerald | 16 | Low | 10
-20% | 5% | 12 ×Black Dye | Emerald | 16 | Low | 10
-20% | 5% | 12 ×Light Blue Dye | Emerald | 16 | Low | 10
-20% | 5% | 12 ×Lime Dye | Emerald | 16 | Low | 10
-4 | 50% | 68% | Emerald | Any color Wool[t 1] | 16 | Low | 5
-50% | 68% | Emerald | 4 ×Any color Carpet[t 1] | 16 | Low | 5
-Journeyman | 5 | 20% | 10% | 12 ×Yellow Dye | Emerald | 16 | Low | 20
-20% | 10% | 12 ×Light Gray Dye | Emerald | 16 | Low | 20
-20% | 10% | 12 ×Orange Dye | Emerald | 16 | Low | 20
-20% | 10% | 12 ×Red Dye | Emerald | 16 | Low | 20
-20% | 10% | 12 ×Pink Dye | Emerald | 16 | Low | 20
-6 | 100% | 95% | 3 ×Emerald | Any color Bed[t 1] | 12 | Low | 10
-Expert | 7 | 17% | 9% | 12 ×Brown Dye | Emerald | 16 | Low | 30
-17% | 9% | 12 ×Purple Dye | Emerald | 16 | Low | 30
-17% | 9% | 12 ×Blue Dye | Emerald | 16 | Low | 30
-17% | 9% | 12 ×Green Dye | Emerald | 16 | Low | 30
-17% | 9% | 12 ×Magenta Dye | Emerald | 16 | Low | 30
-17% | 9% | 12 ×Cyan Dye | Emerald | 16 | Low | 30
-8 | 100% | 94% | 3 ×Emerald | Any color Banner[t 1] | 12 | Low | 15
-Master | 9 | 100% | 100% | 2 ×Emerald | 3 ×Painting | 12 | Low | 30
+Novice | 1 | 25% | 40% | 18 ×White Wool | Emerald | 16 | 0.05 | 2
+25% | 40% | 18 ×Brown Wool | Emerald | 16 | 0.05 | 2
+25% | 40% | 18 ×Black Wool | Emerald | 16 | 0.05 | 2
+25% | 40% | 18 ×Gray Wool | Emerald | 16 | 0.05 | 2
+2 | 100% | 40% | 2 ×Emerald | Shears | 12 | 0.05 | 1
+Apprentice | 3 | 20% | 5% | 12 ×White Dye | Emerald | 16 | 0.05 | 10
+20% | 5% | 12 ×Gray Dye | Emerald | 16 | 0.05 | 10
+20% | 5% | 12 ×Black Dye | Emerald | 16 | 0.05 | 10
+20% | 5% | 12 ×Light Blue Dye | Emerald | 16 | 0.05 | 10
+20% | 5% | 12 ×Lime Dye | Emerald | 16 | 0.05 | 10
+4 | 50% | 68% | Emerald | Any color Wool[t 1] | 16 | 0.05 | 5
+50% | 68% | Emerald | 4 ×Any color Carpet[t 1] | 16 | 0.05 | 5
+Journeyman | 5 | 20% | 10% | 12 ×Yellow Dye | Emerald | 16 | 0.05 | 20
+20% | 10% | 12 ×Light Gray Dye | Emerald | 16 | 0.05 | 20
+20% | 10% | 12 ×Orange Dye | Emerald | 16 | 0.05 | 20
+20% | 10% | 12 ×Red Dye | Emerald | 16 | 0.05 | 20
+20% | 10% | 12 ×Pink Dye | Emerald | 16 | 0.05 | 20
+6 | 100% | 95% | 3 ×Emerald | Any color Bed[t 1] | 12 | 0.05 | 10
+Expert | 7 | 17% | 9% | 12 ×Brown Dye | Emerald | 16 | 0.05 | 30
+17% | 9% | 12 ×Purple Dye | Emerald | 16 | 0.05 | 30
+17% | 9% | 12 ×Blue Dye | Emerald | 16 | 0.05 | 30
+17% | 9% | 12 ×Green Dye | Emerald | 16 | 0.05 | 30
+17% | 9% | 12 ×Magenta Dye | Emerald | 16 | 0.05 | 30
+17% | 9% | 12 ×Cyan Dye | Emerald | 16 | 0.05 | 30
+8 | 100% | 94% | 3 ×Emerald | Any color Banner[t 1] | 12 | 0.05 | 15
+Master | 9 | 100% | 100% | 2 ×Emerald | 3 ×Painting | 12 | 0.05 | 30
 
 - ↑ a b c d The list of possible offers contains individual offers for each color, so multiple colors may be offered by the same villager as separate trades.
 H3: Toolsmith
@@ -342,22 +342,22 @@ TABLE:
 Toolsmith
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 40% | 15 ×Coal | Emerald | 16 | Low | 2
-2 | 25% | 40% | Emerald | Stone Axe | 12 | High | 1
-25% | 40% | Emerald | Stone Shovel | 12 | High | 1
-25% | 40% | Emerald | Stone Pickaxe | 12 | High | 1
-25% | 40% | Emerald | Stone Hoe | 12 | High | 1
-Apprentice | 3 | 100% | 100% | 4 ×Iron Ingot | Emerald | 12 | Low | 10
-4 | 100% | 100% | 36 ×Emerald | Bell | 12 | High | 5
-Journeyman | 5 | 100% | 40% | 30 ×Flint | Emerald | 12 | Low | 20
-6 | 25% | 40% | 6–20 ×Emerald | Enchanted Iron Axe[t 1] | 3 | High | 10
-25% | 40% | 7–21 ×Emerald | Enchanted Iron Shovel[t 1] | 3 | High | 10
-25% | 40% | 8–22 ×Emerald | Enchanted Iron Pickaxe[t 1] | 3 | High | 10
-25% | 40% | 4 ×Emerald | Diamond Hoe | 3 | High | 10
-Expert | 7 | 100% | 67% | Diamond | Emerald | 12 | Low | 30
-8 | 50% | 67% | 17–31 ×Emerald | Enchanted Diamond Axe[t 1] | 3 | High | 15
-50% | 67% | 10–24 ×Emerald | Enchanted Diamond Shovel[t 1] | 3 | High | 15
-Master | 9 | 100% | 100% | 18–32 ×Emerald | Enchanted Diamond Pickaxe[t 1] | 3 | High | 30
+Novice | 1 | 100% | 40% | 15 ×Coal | Emerald | 16 | 0.05 | 2
+2 | 25% | 40% | Emerald | Stone Axe | 12 | 0.2 | 1
+25% | 40% | Emerald | Stone Shovel | 12 | 0.2 | 1
+25% | 40% | Emerald | Stone Pickaxe | 12 | 0.2 | 1
+25% | 40% | Emerald | Stone Hoe | 12 | 0.2 | 1
+Apprentice | 3 | 100% | 100% | 4 ×Iron Ingot | Emerald | 12 | 0.05 | 10
+4 | 100% | 100% | 36 ×Emerald | Bell | 12 | 0.2 | 5
+Journeyman | 5 | 100% | 40% | 30 ×Flint | Emerald | 12 | 0.05 | 20
+6 | 25% | 40% | 6–20 ×Emerald | Enchanted Iron Axe[t 1] | 3 | 0.2 | 10
+25% | 40% | 7–21 ×Emerald | Enchanted Iron Shovel[t 1] | 3 | 0.2 | 10
+25% | 40% | 8–22 ×Emerald | Enchanted Iron Pickaxe[t 1] | 3 | 0.2 | 10
+25% | 40% | 4 ×Emerald | Diamond Hoe | 3 | 0.2 | 10
+Expert | 7 | 100% | 67% | Diamond | Emerald | 12 | 0.05 | 30
+8 | 50% | 67% | 17–31 ×Emerald | Enchanted Diamond Axe[t 1] | 3 | 0.2 | 15
+50% | 67% | 10–24 ×Emerald | Enchanted Diamond Shovel[t 1] | 3 | 0.2 | 15
+Master | 9 | 100% | 100% | 18–32 ×Emerald | Enchanted Diamond Pickaxe[t 1] | 3 | 0.2 | 30
 
 - ↑ a b c d e f When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments .
 H3: Weaponsmith
@@ -367,15 +367,15 @@ TABLE:
 Weaponsmith
 Level | Bedrock Edition | Java Edition | Item wanted | Item given | Trades instock | Price multiplier | Villager XP
 Slot | Probability | Probability
-Novice | 1 | 100% | 67% | 15 ×Coal | Emerald | 16 | Low | 2
-2 | 100% | 67% | 3 ×Emerald | Iron Axe | 12 | High | 1
-3 | 100% | 67% | 7–21 ×Emerald | Enchanted Iron Sword[t 1] | 3 | Low | 1
-Apprentice | 4 | 100% | 100% | 4 ×Iron Ingot | Emerald | 12 | Low | 10
-5 | 100% | 100% | 36 ×Emerald | Bell | 12 | High | 5
-Journeyman | 6 | 100% | 100% | 24 ×Flint | Emerald | 12 | Low | 20
-Expert | 7 | 100% | 100% | Diamond | Emerald | 12 | Low | 30
-8 | 100% | 100% | 17–31 ×Emerald | Enchanted Diamond Axe[t 1] | 3 | High | 15
-Master | 9 | 100% | 100% | 13–27 ×Emerald | Enchanted Diamond Sword[t 1] | 3 | High | 30
+Novice | 1 | 100% | 67% | 15 ×Coal | Emerald | 16 | 0.05 | 2
+2 | 100% | 67% | 3 ×Emerald | Iron Axe | 12 | 0.2 | 1
+3 | 100% | 67% | 7–21 ×Emerald | Enchanted Iron Sword[t 1] | 3 | 0.05 | 1
+Apprentice | 4 | 100% | 100% | 4 ×Iron Ingot | Emerald | 12 | 0.05 | 10
+5 | 100% | 100% | 36 ×Emerald | Bell | 12 | 0.2 | 5
+Journeyman | 6 | 100% | 100% | 24 ×Flint | Emerald | 12 | 0.05 | 20
+Expert | 7 | 100% | 100% | Diamond | Emerald | 12 | 0.05 | 30
+8 | 100% | 100% | 17–31 ×Emerald | Enchanted Diamond Axe[t 1] | 3 | 0.2 | 15
+Master | 9 | 100% | 100% | 13–27 ×Emerald | Enchanted Diamond Sword[t 1] | 3 | 0.2 | 30
 
 - ↑ a b c When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments .
 H2: Wandering trader offers
@@ -405,7 +405,7 @@ One of 9Logs | 8 | 4
 3 | Podzol | 3 | 6
 5 | Potion of InvisibilityDuration: 8:00 | 1 | 1
 6 | Blue Ice | 1 | 6
-6-20 | Enchanted[note 2]Iron Pickaxe | 1 | 1
+6-20[note 2] | Enchanted[note 3]Iron Pickaxe | 1 | 1
 
 
 TABLE:
@@ -447,28 +447,29 @@ Nautilus Shell | 1 | 5
 3
 H2: Notes
 - ↑ Technically, diamond armor (not other types of diamond gear) can also be obtained renewably from zombies and skeletons; however, these mobs only have a 0.04% ( 1 ⁄ 25,000 ) chance to spawn with diamond armor, rendering this an extremely impractical way to obtain such armor.
+- ↑ The price is random and independent of the enchantment.
 - ↑ When creating an enchantment offer, the game uses a random enchantment level from 5 to 19. The enchantments are never treasure enchantments .
 H2: Achievements
 
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
 PS4 | Other
+The Haggler | Acquire or spend 30 Emeralds by trading withvillagersor withwandering trader. [sic] | — | 30 | Silver
 Buy Low, Sell High | Trade for the best possible price. | Buy something for 1 emerald, or when theHero of the Villageeffect is applied. | 50 | Gold
+Treasure Hunter | Acquire a map from a cartographervillager, then enter the revealed structure | Visit the structure indicated while the purchased map is in your main hand (hotbar). | 40 | Silver
 Master Trader | Trade for 1,000emeralds. | Obtain 1,000 emeralds from trading with villagers. | 30 | Silver
 Star trader | Trade with avillagerat the build height limit. | — | 20 | Silver
-The Haggler | Acquire or spend 30 Emeralds by trading withvillagersor withwandering trader. [sic] | — | 30 | Silver
-Treasure Hunter | Acquire a map from a cartographervillager, then enter the revealed structure | Visit the structure indicated while the purchased map is in your main hand (hotbar). | 40 | Silver
 
 H2: Advancements
 
 TABLE:
 Icon | Advancement | In-game description | Actual requirements (if different)
-Cover Me with Diamonds | Diamond armor saves lives | Have any type of diamondarmorin the inventory.
 Getting an Upgrade | Construct a better Pickaxe | Have astone pickaxein the inventory.
-Isn't It Iron Pick | Upgrade your Pickaxe | Have aniron pickaxein the inventory.
-Star Trader | Trade with a Villager at thebuild height limit | Stand on any block that is higher than 318 and trade with avillagerorwandering trader.
 Suit Up | Protect yourself with a piece of iron armor | Have any type of ironarmorin the inventory.
+Isn't It Iron Pick | Upgrade your Pickaxe | Have aniron pickaxein the inventory.
+Cover Me with Diamonds | Diamond armor saves lives | Have any type of diamondarmorin the inventory.
 What a Deal! | Successfully trade with a Villager | Take an item from avillagerorwandering trader'stradingoutput slot.
+Star Trader | Trade with a Villager at thebuild height limit | Stand on any block that is higher than 318 and trade with avillagerorwandering trader.
 
 H2: Trivia
 - While diamonds are not renewable (except via vault, which is impractical in normal gameplay), many of their products (armor, tools, and weapons) are renewable via trading.
@@ -510,10 +511,12 @@ Generally, upgrading a potion involves a trade-off between duration and potency.
 H4: Corrupting effect
 A fermented spider eye changes a potion's base effect, often reversing it or producing a negative potion.
 - A corrupted potion usually does the opposite of the original effect.
-- Corrupting an enhanced or extended potion into an effect that supports the modifier results in a potion with the same modifier applied. Enhanced potions of Leaping or Swiftness cannot be corrupted.
+- Corrupting an enhanced or extended potion into an effect that supports the modifier results in a potion with the same modifier applied. Enhanced potions of Leaping or Swiftness cannot be corrupted. In Bedrock Edition , potions of Strength II corrupt into regular potions of Weakness .
 - Enhanced potions of Leaping or Swiftness cannot be corrupted.
+- In Bedrock Edition , potions of Strength II corrupt into regular potions of Weakness .
 - A potion of Invisibility is considered the "corrupted" version of a potion of Night Vision .
 - Enhanced potions of Leaping or Swiftness cannot be corrupted.
+- In Bedrock Edition , potions of Strength II corrupt into regular potions of Weakness .
 H4: Splash and lingering potions
 By adding gunpowder, a drinking potion can be turned into a splash potion , which can be thrown to coat entities within the place of impact with a status effect. Subsequently, adding dragon's breath to a splash potion makes a lingering potion, creating a cloud that inflicts effects on entities that enter its area.
 - Splash potions and lingering potions can be modified in the same manner as their normal counterparts. For instance, a splash water bottle can be brewed with any of the base ingredients; the result remains a splash potion.
@@ -581,7 +584,7 @@ H4: Negative effects
 TABLE:
 Potion | Recipe(s) | Extended | Enhanced | Effects | Notes
 Potion of Poison(0:45) | Potion of Poison(1:30‌[JEonly]2:00‌[BEonly]) | Potion of Poison(0:21‌[JEonly]0:22‌[BEonly])) | Poison: Depletes health by 1HPevery 1.25 seconds.Enhanced:PoisonII: Depletes health by 1HPevery 0.6 seconds. | —
-Potion of Weakness(1:30) | Potion of Weakness(4:00) | — | Weakness: Reduces player's melee attack damage by 4HP. | Can be used in combination with a golden apple to cure Zombie Villagers.Can also be brewed with fermented spider eye and potion of Strength or awkward, mundane, long mundane, or thick potion.‌[BEonly]
+Potion of Weakness(1:30) | Potion of Weakness(4:00) | — | Weakness: Reduces player's melee attack damage by 4HP. | Can be used in combination with a golden apple to cure zombie villagers.
 Potion of Harming | — | Potion of Harming | Instant Damage: Inflicts 6HPdamage.Enhanced:Instant DamageII: Inflicts 12HP× 6damage. | —
 Potion of Slowness(1:30) | Potion of Slowness(4:00) | Potion of Slowness(0:20) | Slowness: Reduces movement speed by 15%.Enhanced:SlownessIV: Reduces movement speed by 60%. | —
 Potion of Oozing(3:00) | — | — | Oozing: Spawns two size-2 slimes nearby when killed | —
@@ -590,7 +593,6 @@ Potion of Infestation(3:00) | — | — | Infested: Has a 10% chance to spawn 1�
 Potion of Wind Charging(3:00) | — | — | Wind Charged: Emits a wind burst when killed | —
 
 Enhanced: Poison II: Depletes health by 1 HP every 0.6 seconds.
-Can also be brewed with fermented spider eye and potion of Strength or awkward, mundane, long mundane, or thick potion.‌ [ BE only ]
 Enhanced: Instant Damage II: Inflicts 12 HP × 6 damage.
 Enhanced: Slowness IV: Reduces movement speed by 60%.
 - Spawns 2–3 cobwebs nearby when killed
@@ -602,6 +604,14 @@ Potion | Recipe | Extended | Enhanced | Effects
 Potion of the Turtle Master(0:20) | Potion of the Turtle Master(0:40) | Potion of the Turtle Master(0:20) | SlownessIV,ResistanceIII: Reduces movement speed by 60% and reduces incoming damage by 60%.Enhanced:SlownessVI,ResistanceIV: Reduces movement speed by 90% and reduces incoming damage by 80%.
 
 Enhanced: Slowness VI, Resistance IV: Reduces movement speed by 90% and reduces incoming damage by 80%.
+H4: Bedrock Editionexclusive recipes
+Brewing recipes in Bedrock Edition are a superset of that in Java Edition , which means that all Java Edition recipes are also available in Bedrock Edition , but not the other way round.
+
+TABLE:
+Potion | Recipe | Effect | Notes
+Potion of Weakness(1:30) | Weakness: Reduces player's melee attack damage by 4HP. | —
+Potions of StrengthII are brewed into regularpotions of Weakness.
+
 H3: Cures
 Cures are brewed from awkward potions using different elements . Drinking these removes the specified bad effect. They cannot be modified into splash, lingering, extended, or enhanced versions.
 
@@ -625,7 +635,7 @@ PAGE NAME: ENCHANTING
 URL: https://minecraft.wiki/w/Enchanting
 ========================================
 H1: Enchanting
-Enchanting is the process of augmenting armor , tools , and weapons . A glint animation appears on items to show that they are enchanted.
+Enchanting is the process of improving armor , tools , and weapons . A glint animation appears on items to show that they are enchanted.
 H2: Enchanting equipment
 
 TABLE:
@@ -707,7 +717,7 @@ Efficiency | Increasesmining efficiency. | No | Yes | V | 10
 Feather Falling | Reduces fall damage. | No | Yes | IV | 5
 Fire Aspect | Sets targets on fire. | No | Yes | II | 2
 Fire Protection | Reduces fire damage and burning time. | No | Yes | Blast Protection, Protection, Projectile Protection | IV | 5
-Flame | Arrows set targets on fire. | No | Yes | I | 2
+Flame | Fired arrows are burning, setting targets on fire. | No | Yes | I | 2
 Fortune | Chance to receive more item drops from certain blocks. | No | Yes | Silk Touch | III | 2
 Frost Walker | Turns water intofrosted icebeneath the wearer's feet, and provides immunity tocampfireandmagma blockdamage. | Yes | Yes | Depth Strider | II | 2
 Impaling | InJava Edition, increases damage against aquatic mobs. InBedrock Edition, increases damage against mobs in water or rain. | No | Yes | V | 2
@@ -731,7 +741,7 @@ Sharpness | Increases melee damage. | No | Yes | Bane of Arthropods, Smite, Brea
 Silk Touch | Certain blocks that would otherwise drop different items or nothing will drop themselves instead. | No | Yes | Fortune | I | ‌[BEonly] | 1
 Smite | Increases damage dealt againstundeadmobs. | No | Yes | Bane of Arthropods, Sharpness, Breach, Density | V | ‌[BEonly] | ‌[JEonly] | 5
 Soul Speed | Movement speed onsoul sandis increased instead of decreased, and movement speed onsoul soilis increased. | Yes | No | III | 1
-Sweeping Edge‌[Java Editiononly] | Increases the damage of a sword sweep attack. This increase applies to nearby entities that are close to the attacked entity, but does not apply to the attacked entity itself. | No | Yes | III | 2
+Sweeping Edge‌[JEonly] | Increases the damage of a sword sweep attack. This increase applies to nearby entities that are close to the attacked entity, but does not apply to the attacked entity itself. | No | Yes | III | 2
 Swift Sneak | Lessens the movement speed reduction that occurs when sneaking. | Yes | No | III | 1
 Thorns | Random chance to damage entities that attack the user, at the cost of increasing incurred durability damage. | No | Yes | III | ‌[BEonly]‌[BEonly]‌[BEonly]‌[BEonly] | ‌[JEonly]‌[JEonly]‌[JEonly]‌[JEonly] | 1
 Unbreaking | Gives a chance for items to ignore durability loss, effectively increasing their durability. | No | Yes | III | 5
@@ -966,7 +976,7 @@ IMAGE_LABEL: Trader Llama
 IMAGE_LABEL: Wolf
 IMAGE_LABEL: Zombified Piglin
 H3: Hostile mobs
-Hostile mobs are dangerous, aggressive mobs that always attack the player within their respective detection ranges. Certain non-hostile mobs such as chickens , skeleton horses and spiders can be mounted by hostile mobs on rare occasions , and become hostile.
+Hostile mobs are dangerous, aggressive mobs that always attack the player within their respective detection ranges. Undead horses are associated with hostile mobs, always spawning alongside one of them, they are however, harmless on their own.
 IMAGE_LABEL: Blaze
 IMAGE_LABEL: Bogged
 IMAGE_LABEL: Breeze
@@ -1002,47 +1012,29 @@ Boss mobs are special hostile mobs that are tougher and more dangerous than othe
 IMAGE_LABEL: Ender Dragon
 IMAGE_LABEL: Wither
 H3: Upcoming mobs
-These mobs are planned to be added in the upcoming Third Drop 2025 .
-IMAGE_LABEL: Copper Golem[3][4]
+These mobs are planned to be added in the upcoming game drops The Copper Age and Mounts of Mayhem .
+IMAGE_LABEL: Copper Golem
+IMAGE_LABEL: Nautilus
+IMAGE_LABEL: Zombie Nautilus
 H3: Similar entities
-These entities are grouped within the “living entities” category in the game code. In Bedrock Edition , they are all under the mob class.
+These entities are grouped within the “living entities” category in the game code. In Bedrock Edition , they are all under the mob entity family.
 IMAGE_LABEL: Armor Stand
-IMAGE_LABEL: Camera[s 1]
+IMAGE_LABEL: Camera‌[BE&eduonly][s 1]
+IMAGE_LABEL: Mannequin​[upcomingJE]
 IMAGE_LABEL: Player
 - ↑ Unused in Bedrock Edition
 H2: Classification
-Most of the mobs are classified into categories, such as the animals or the monsters . Some creatures are then further classified into more specific groups, based on detailed characteristics and properties they share with other members of that group. There are a total of four mob classifications that display unique characteristics from other mobs.
-H3: Weaknesses and immunities
-Some mobs are weak or immune to certain type of damage. For example, aquatic creatures, such as turtles and guardians , take more damage from tridents that are enchanted with Impaling ‌ [ Java Edition only ] ‌ [ until JE Combat Tests ] . All undead mobs are healed by potions of Harming and take extra damage from weapons enchanted with Smite , along with taking damage from potions of Healing . Many of these weaknesses and immunities are a result of what category (see below) of mobs that mob falls into.
-H3: Undead mobs
-This group of mobs includes bogged , drowned , old zombie villagers, husks , phantoms , skeletons , skeleton horses , strays , withers , wither skeletons , zoglins , zombies , zombie horses , zombie villagers , and zombified piglins . These mobs are damaged by potions of Healing, healed by potions of Harming, are unaffected by Regeneration and Poison, and are immune to drowning (except for husks and zombies, which transform into zombies and drowned if submerged underwater, respectively). Zombies, zombie villagers, drowned, skeletons, strays, bogged, and phantoms burn when under direct sunlight, unless they are touching water or wearing a helmet. Under the Fire Resistance effect, these undead mobs still catch fire in direct sunlight but are not damaged by it. All undead mobs except for drowned, phantoms, and withers cannot swim and sink when in water. All undead mobs take extra damage from weapons enchanted with Smite , are ignored by withers, and scare armadillos into hiding into their shells.
-Many undead mobs can spawn with the ability to pick up items and equipment from the ground. Some can sometimes spawn wearing armor , or holding tools or weapons .
-H3: Aquatic mobs
-This group of mobs includes axolotls , dolphins , squid , glow squid , guardians , elder guardians , tadpoles , turtles , cod , salmon , pufferfish , and tropical fish , but not drowned. [ 7 ] They take extra damage from tridents enchanted with Impaling ,‌ [ Java Edition only ] ‌ [ until JE Combat Tests ] and, except axolotls, do not cause pufferfish to inflate nor take damage from them. All aquatic mobs except dolphins are immune to drowning, and all except guardians, elder guardians, and turtles take suffocation damage if out of water for too long. Aquatic mobs have the ability to freely swim vertically, whereas other mobs simply float on the surface of the water or sink.
-H3: Arthropods
-This group consists of mobs based on arthropods , namely bees , cave spiders , endermites , silverfish , and spiders . They take extra damage and receive the Slowness IV effect when attacked with weapons enchanted with Bane of Arthropods .
-H3: Illagers
-This group includes pillagers , illusioners ‌ [ JE only ] , evokers , and vindicators . They are immune to evoker fangs damage and ignored by vindicators named "Johnny". They are hostile toward adult villagers , wandering traders , iron golems and players in Survival or Adventure mode. Ravagers , witches , and vexes accompany them in raids but are not illagers themselves. Illusioners (and witches‌ [ Bedrock Edition only ] ) can see players or targets through blocks.
-H3: Knockback resistance
+H2: Knockback resistance
 Some non-boss mobs resist a certain percentage of knockback from attacks.
 
 TABLE:
 Mob | Knockback resistance
-Agent | 100% (are invulnerable)
-Drowned | 0%–5% (determined on spawn)
-Hoglin | 60%
-Husk | 0%–5% (determined on spawn)
-Glow Squid | 85%
-Iron Golem | 100%
-NPC | 100% (are invulnerable)
+AgentNPC | 100% (are invulnerable)
+DrownedHuskZombieZombie VillagerZombified Piglin | 0%–5% (determined on spawn)
+Glow SquidSquid | 85%
+HoglinZoglin | 60%
+Iron GolemShulkerWarden | 100%
 Ravager | 70%‌[JEonly]50%‌[BEonly]
-Squid | 85%
-Shulker | 100%
-Warden | 100%
-Zoglin | 60%
-Zombie | 0%–5% (determined on spawn)
-Zombie Villager | 0%–5% (determined on spawn)
-Zombified Piglin | 0%–5% (determined on spawn)
 
 H2: Platform availability
 The following table also applies to Minecraft Education and the China Edition variants, with the Bedrock Edition corresponding to Minecraft Education .
@@ -1064,6 +1056,7 @@ Cat | Yes | Yes
 Cave Spider | Yes | Yes
 Chicken | Yes | Yes
 Cod | Yes | Yes
+Copper Golem | Upcoming | Upcoming
 Cow | Yes | Yes
 Creaking | Yes | Yes
 Creeper | Yes | Yes
@@ -1093,6 +1086,7 @@ Llama | Yes | Yes
 Magma Cube | Yes | Yes
 Mooshroom | Yes | Yes
 Mule | Yes | Yes
+Nautilus | Upcoming | Upcoming
 NPC | No | Yes
 Ocelot | Yes | Yes
 Old Villager | No | Unobtainable
@@ -1137,6 +1131,7 @@ Wolf | Yes | Yes
 Zoglin | Yes | Yes
 Zombie | Yes | Yes
 Zombie Horse | Yes | Yes
+Zombie Nautilus | Upcoming | Upcoming
 Zombie Villager | Yes | Yes
 Zombified Piglin | Yes | Yes
 
@@ -1147,74 +1142,99 @@ H2: Achievements
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
 PS4 | Other
-Body Guard | Create anIron Golem | — | 20 | Bronze
-Cow Tipper | Harvest some leather. | Pick upleatherfrom the ground or viafishing. | 15 | Bronze
-Have a Shearful Day | UseShearsto obtainwoolfrom asheep. | — | 15 | Bronze
-Leader of the Pack | Befriend fivewolves. | Note: This does not have to be in a single game, so multiple games or reloading old saves does count toward this achievement. | 20 | Bronze
 Monster Hunter | Attack and destroy a monster. | Kill a hostilemobor one of the following neutral mobs: an enderman, a piglin, a zombified piglin, a spider, or a cave spider. | 15 | Bronze
-Repopulation | Breed two cows with wheat. | Breed twocowsor twomooshrooms. | 15 | Bronze
-Return to Sender | Destroy aGhastwith a fireball. | Kill a ghast using aghast fireball. | 30 | Silver
-Sniper Duel | Kill a Skeleton with an arrow from more than 50 meters. | Use a launchedarrowto kill askeleton,wither skeleton, orstrayfrom 50 or more blocks away, horizontally. | 30 | Bronze
-The Beginning. | Kill the Wither | Be within a 100.9×100.9×203.5 cuboid centered on the Wither when it drops the nether star. | 40 | Silver
-The Beginning? | Spawn theWither | Be within a 100.9×100.9×103.5 cuboid centered on the Wither when it is spawned. | 20 | Bronze
+Cow Tipper | Harvest some leather. | Pick upleatherfrom the ground or viafishing. | 15 | Bronze
 When Pigs Fly | Use a saddle to ride a pig, and then have the pig get hurt from fall damage while riding it. | Be riding a pig (e.g. using asaddle) when it hits the ground with a fall distance greater than 5. | 40 | Silver
-Zombie Doctor | Cure azombie villager. | Throw asplash potionofweaknessat a zombie villager and give it agolden apple(by facing the zombie and pressing theusekey with a golden apple in your hand). | 40 | Gold
+Leader of the Pack | Befriend fivewolves. | Note: This does not have to be in a single game, so multiple games or reloading old saves does count toward this achievement. | 20 | Bronze
+Sniper Duel | Kill a Skeleton with an arrow from more than 50 meters. | Use a launchedarrowto kill askeleton,wither skeleton, orstrayfrom 50 or more blocks away, horizontally. | 30 | Bronze
+Return to Sender | Destroy aGhastwith a fireball. | Kill a ghast using aghast fireball. | 30 | Silver
+Repopulation | Breed two cows with wheat. | Breed twocowsor twomooshrooms. | 15 | Bronze
 Archer | Kill acreeperwith arrows. | — | 10 | Bronze
-Bee our guest | Use aCampfireto collect Honey from aBeehiveusing a Bottle without aggravating thebees. | — | 15 | Bronze
-Echolocation | Feed adolphinfishto have it lead you to treasure | Feed a dolphin cod or salmon and have it lure you to treasure. | 20 | Silver
-Great View From Up Here | Levitate up 50 blocks from the attacks of aShulker | Ascend at least 50 blocks while under the levitation effect from a shulker. | 20 | Bronze
-I've got a bad feeling about this | Kill aPillager Captain. | — | 20 | Bronze
-Kill the Beast! | Defeat aRavager. | — | 30 | Silver
+Have a Shearful Day | UseShearsto obtainwoolfrom asheep. | — | 15 | Bronze
+Body Guard | Create anIron Golem | — | 20 | Bronze
+Zombie Doctor | Cure azombie villager. | Throw asplash potionofweaknessat a zombie villager and give it agolden apple(by facing the zombie and pressing theusekey with a golden apple in your hand). | 40 | Gold
 Lion Hunter | Gain the trust of anOcelot. | — | 15 | Bronze
-Plethora of Cats | Befriend twenty straycats. | Befriend and tame twenty stray cats found invillages. They do not all need to be tamed in a single world. | 20 | Silver
-The Deep End | Defeat anElder Guardian | — | 30 | Silver
+The Beginning? | Spawn theWither | Be within a 100.9×100.9×103.5 cuboid centered on the Wither when it is spawned. | 20 | Bronze
+The Beginning. | Kill the Wither | Be within a 100.9×100.9×203.5 cuboid centered on the Wither when it drops the nether star. | 40 | Silver
 The End... Again... | Respawn theEnderdragon[sic] | — | 30 | Silver
-Total Beelocation | Move and place aBee Nest, with 3 bees inside, usingSilk Touch. | — | 30 | Silver
+The Deep End | Defeat anElder Guardian | — | 30 | Silver
+Great View From Up Here | Levitate up 50 blocks from the attacks of aShulker | Ascend at least 50 blocks while under the levitation effect from a shulker. | 20 | Bronze
+Echolocation | Feed adolphinfishto have it lead you to treasure | Feed a dolphin cod or salmon and have it lure you to treasure. | 20 | Silver
 Where have you been? | Receive a gift from a tamed cat in the morning. | The gift must be picked up from the ground. | 20 | Bronze
 Zoologist | Breed two pandas with bamboo. | — | 40 | Gold
-Birthday Song | Have an Allay drop a cake at a noteblock | Tame anallayby giving it a cake while having dropped cake items and play anote blocknearby. | 10 | Bronze
-Feels Like Home | Take a Strider for a loooong [sic] ride on a lava lake in theOverworld. | In the Overworld, use astriderto ride on a lava lake for a distance of 50 meters from the point where the ride starts. | 20 | Silver
+Plethora of Cats | Befriend twenty straycats. | Befriend and tame twenty stray cats found invillages. They do not all need to be tamed in a single world. | 20 | Silver
+I've got a bad feeling about this | Kill aPillager Captain. | — | 20 | Bronze
+Kill the Beast! | Defeat aRavager. | — | 30 | Silver
+Bee our guest | Use aCampfireto collect Honey from aBeehiveusing a Bottle without aggravating thebees. | — | 15 | Bronze
+Total Beelocation | Move and place aBee Nest, with 3 bees inside, usingSilk Touch. | — | 30 | Silver
 Oooh, shiny! | Distract aPiglinusinggold | Give a piglin a gold item while it is aggressive toward the player. | 30 | Silver
-Over-Overkill | Deal 50 hearts of damage in a single hit using theMace | Damage can be dealt to any mob, even those that do not have 50 hearts of health overall. | 20 | Silver
-Star trader | Trade with avillagerat the build height limit. | — | 20 | Silver
-The Healing Power of Friendship! | Team up with anaxolotland win a fight | Be near​[more information needed]to an axolotl when killing a hostile aquatic mob while the axolotl is fighting it (not playing dead). | 30 | Silver
 Whatever Floats Your Goat | Get in a boat and float with agoat | Use a boat and put a goat inside that boat, then ride it. | 20 | Bronze
+The Healing Power of Friendship! | Team up with anaxolotland win a fight | Be near​[more information needed]an axolotl when killing a hostile aquatic mob while the axolotl is fighting it (not playing dead). | 30 | Silver
+Star trader | Trade with avillagerat the build height limit. | — | 20 | Silver
+Feels Like Home | Take a Strider for a loooong [sic] ride on a lava lake in theOverworld. | In the Overworld, use astriderto ride on a lava lake for a distance of 50 blocks from the point where the ride starts. | 20 | Silver
+Birthday Song | Have an Allay drop a cake at a noteblock | Tame anallayby giving it a cake while having dropped cake items and play anote blocknearby. | 10 | Bronze
 With Our Powers Combined! | Have all 3 froglights in your inventory | Acquire at least one of each pearlescent, verdant, and ochrefroglightsin your inventory at the same time. | 30 | Gold
+Over-Overkill | Deal 50 hearts of damage in a single hit using theMace | Damage can be dealt to any mob, even those that do not have 50 hearts of health overall. | 20 | Silver
 
 H2: Advancements
 Advancements are made when a player accomplishes something that is either rare to accomplish or sometimes easy to do so (such as Adventure for killing or getting killed by an entity).
 
 TABLE:
 Icon | Advancement | In-game description | Actual requirements (if different)
-Free the End | Good luck | Kill theender dragon.If multiple players are involved in the dragon fight, only the player that deals the final blow to the dragon receives the advancement.
-How Did We Get Here? | Have every effect applied at the same time | Haveallof these 33 statuseffectsapplied to the player at the same time:AbsorptionBad OmenBlindnessConduit PowerDarknessDolphin's GraceFire ResistanceGlowingHasteHero of the VillageHungerInfestedInvisibilityJump BoostLevitationMining FatigueNauseaNight VisionOozingPoisonRaid OmenRegenerationResistanceSlow FallingSlownessSpeedStrengthTrial OmenWater BreathingWeaknessWeavingWind ChargedWitherThe source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.See also:Tutorial:Advancement guide/Nether tab § How Did We Get Here?This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.
-Into Fire | Relieve a Blaze of its rod | Have ablaze rodin the inventory.
-Oh Shiny | Distract Piglins with gold | While aggravated, give apiglinoneof these 25 gold-related items in the#piglin_loveditem tag:BellBlock of GoldBlock of Raw GoldClockEnchanted Golden AppleGilded BlackstoneGlistering Melon SliceGold IngotGold OreGolden AppleGolden AxeGolden BootsGolden CarrotGolden ChestplateGolden HelmetGolden HoeGolden Horse ArmorGolden LeggingsGolden PickaxeGolden ShovelGolden SwordLight Weighted Pressure PlateNether Gold OreDeepslate Gold OreRaw GoldThe player must not be wearing any gold armor. Other gold-related items do not distract the piglin and do not trigger this advancement.
+Zombie Doctor | Weaken and then cure a Zombie Villager | Useagolden appleon azombie villagerunder theWeaknesseffect; the advancement is granted when the zombie villagerconverts into a villager.Inmultiplayer, only theplayerthat feeds the golden apple gets the advancement.
 Return to Sender | Destroy a Ghast with a fireball | Kill aghastby deflecting a ghast fireball back into it via hitting or shooting a projectile at the fireball.
-Spooky Scary Skeleton | Obtain a Wither Skeleton's skull | Have awither skeleton skullin the inventory.
-The End... Again... | Respawn the Ender Dragon | Be within a 192 block radius from the coordinates (0.0, 128, 0.0) when anender dragonis summoned usingend crystals.
+Oh Shiny | Distract Piglins with gold | While aggravated, give apiglinoneof these 25 gold-related items in the#piglin_loveditem tag:BellBlock of GoldBlock of Raw GoldClockEnchanted Golden AppleGilded BlackstoneGlistering Melon SliceGold IngotGold OreGolden AppleGolden AxeGolden BootsGolden CarrotGolden ChestplateGolden HelmetGolden HoeGolden Horse ArmorGolden LeggingsGolden PickaxeGolden ShovelGolden SwordLight Weighted Pressure PlateNether Gold OreDeepslate Gold OreRaw GoldThe player must not be wearing any gold armor. Other gold-related items do not distract the piglin and do not trigger this advancement.
 This Boat Has Legs | Ride a Strider with a Warped Fungus on a Stick | Use awarped fungus on a stickwhile riding astrider, decreasing its durability.
 Uneasy Alliance | Rescue a Ghast from the Nether, bring it safely home to the Overworld... and then kill it | Kill aGhastwhile being in theOverworld.
+Spooky Scary Skeleton | Obtain a Wither Skeleton's skull | Have awither skeleton skullin the inventory.
+Into Fire | Relieve a Blaze of its rod | Have ablaze rodin the inventory.
 Withering Heights | Summon the Wither | Be within a 100.9×100.9×103.5 cuboid centered on thewitherwhen it is spawned.
+How Did We Get Here? | Have every effect applied at the same time | Haveallof these 33 statuseffectsapplied to the player at the same time:AbsorptionBad OmenBlindnessConduit PowerDarknessDolphin's GraceFire ResistanceGlowingHasteHero of the VillageHungerInfestedInvisibilityJump BoostLevitationMining FatigueNauseaNight VisionOozingPoisonRaid OmenRegenerationResistanceSlow FallingSlownessSpeedStrengthTrial OmenWater BreathingWeaknessWeavingWind ChargedWitherThe source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.See also:Tutorial:Advancement guide/Nether tab § How Did We Get Here?This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.
+Free the End | Good luck | Kill theender dragon.If multiple players are involved in the dragon fight, only the player that deals the final blow to the dragon receives the advancement.
+The End... Again... | Respawn the Ender Dragon | Be within a 192-block radius from the coordinates (0.0, 128, 0.0) when anender dragonis summoned usingEnd crystals.
 You Need a Mint | Collect Dragon's Breath in a Glass Bottle | Have a bottle ofdragon's breathin the inventory.
-Zombie Doctor | Weaken and then cure a Zombie Villager | Useagolden appleon azombie villagerunder theWeaknesseffect; the advancement is granted when the zombie villagerconverts into a villager.Inmultiplayer, only theplayerthat feeds the golden apple gets the advancement.
-Adventure | Adventure, exploration and combat | Kill anymob, or be killed by anyliving entity.
-Bee Our Guest | Use aCampfireto collect Honey from a Beehive using a Glass Bottle without aggravating the Bees | Useaglass bottleon abeehiveor bee nest while not angering thebeesinside.
-Best Friends Forever | Tame an animal | Tameoneof these 8 tameablemobs:CatDonkeyHorseLlamaMuleParrotTrader LlamaWolfSkeleton HorseandZombie Horsecan be tamed in the same way as a regular horse to gain this advancement with theride command.
 Great View From Up Here | Levitate up 50 blocks from the attacks of aShulker | Move a distance of 50 blocks vertically with theLevitationeffect applied, regardless of direction or whether it is caused by the effect.
-Hired Help | Summon an Iron Golem to help defend a village | Summon aniron golem.
+Adventure | Adventure, exploration and combat | Kill anymob, or be killed by anyliving entity.
 Monster Hunter | Kill any hostile monster | Killoneof these 37mobs:BlazeBoggedBreezeCave SpiderCreaking(by destroying itscreaking heart)CreeperDrownedElder GuardianEnder DragonEndermanEndermiteEvokerGhastGuardianHoglinHuskMagma CubePhantomPiglinPiglin BrutePillagerRavagerShulkerSilverfishSkeletonSlimeSpiderStrayVexVindicatorWitchWitherWither SkeletonZoglinZombieZombie VillagerZombified PiglinOther mobs may be killed, but are ignored for this advancement.
-Monsters Hunted | Kill one of every hostile monster | Killeachof these 37mobs:BlazeBoggedBreezeCave SpiderCreaking(by destroying itscreaking heart)CreeperDrownedElder GuardianEnder DragonEndermanEndermiteEvokerGhastGuardianHoglinHuskMagma CubePhantomPiglinPiglin BrutePillagerRavagerShulkerSilverfishSkeletonSlimeSpiderStrayVexVindicatorWitchWitherWither SkeletonZoglinZombieZombie VillagerZombified PiglinOther mobs may be killed, but are ignored for this advancement.
-Sniper Duel | Kill a Skeleton from at least 50 meters away | Receive kill credit for askeletonthat is at least 50 blocks awayhorizontallyand is killed by a projectile.
-The Parrots and the Bats | Breed two animals together | Breed a pair ofanyof these 26mobs:ArmadilloAxolotlBeeCamelCatChickenCowDonkeyFoxFrogGoatHoglinHorseLlamaMooshroomMuleOcelotPandaPigRabbitSheepSnifferStriderTrader LlamaTurtleWolfAmulemust be the result ofbreedingahorseand adonkeyfor this advancement as they are not breedable together. Other breedable mobs are ignored for this advancement.
-Total Beelocation | Move aBee Nest, with 3Beesinside, usingSilk Touch | Unlike most other advancements, this advancement is granted upon breaking the nest, rather than it entering your inventory.
-Two Birds, One Arrow | Kill two Phantoms with a piercing Arrow | Use acrossbowenchanted withPiercingto kill twophantomswith a single arrow shot.
-Two by Two | Breed all the animals! | Breeda pair ofeachof these 25mobs:ArmadilloAxolotlBeeCamelCatChickenCowDonkeyFoxFrogGoatHoglinHorseLlamaMooshroomMuleOcelotPandaPigRabbitSheepSnifferStriderTurtleWolfA trader llama does not count as allama, and amulemust be the result of breeding ahorseand adonkeyfor this advancement as they are not breedable together. Other breedable mobs can be bred, but are ignored for this advancement.
 What a Deal! | Successfully trade with a Villager | Take an item from avillagerorwandering trader'stradingoutput slot.
-Arbalistic | Kill five uniquemobswith onecrossbowshot | Armor Standalso counts for this advancement.This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.
-Over-Overkill | Deal 50 hearts of damage in a single hit using theMace | Damage can be dealt to any mob, even those that do not have 50 hearts of health overall.
+Monsters Hunted | Kill one of every hostile monster | Killeachof these 37mobs:BlazeBoggedBreezeCave SpiderCreaking(by destroying itscreaking heart)CreeperDrownedElder GuardianEnder DragonEndermanEndermiteEvokerGhastGuardianHoglinHuskMagma CubePhantomPiglinPiglin BrutePillagerRavagerShulkerSilverfishSkeletonSlimeSpiderStrayVexVindicatorWitchWitherWither SkeletonZoglinZombieZombie VillagerZombified PiglinOther mobs may be killed, but are ignored for this advancement.
+Hired Help | Summon an Iron Golem to help defend a village | Summon aniron golem.
+Two Birds, One Arrow | Kill two Phantoms with a piercing Arrow | Use acrossbowenchanted withPiercingto kill twophantomswith a single arrow shot.
 Who's the Pillager Now? | Give a Pillager a taste of their own medicine | Kill apillagerwith acrossbowshot.
+Arbalistic | Kill five uniquemobswith onecrossbowshot | Armor Standalso counts for this advancement.This is a hidden advancement, meaning that it can be viewed by the player only after completing it, regardless of if its child advancement(s), if any, have been completed.
+Sniper Duel | Kill a Skeleton from at least 50 meters away | Receive kill credit for askeletonthat is at least 50 blocks awayhorizontallyand is killed by a projectile.
+Over-Overkill | Deal 50 hearts of damage in a single hit using theMace | Damage can be dealt to any mob, even those that do not have 50 hearts of health overall.
+Bee Our Guest | Use aCampfireto collect Honey from a Beehive using a Glass Bottle without aggravating the Bees | Useaglass bottleon abeehiveor bee nest while not angering thebeesinside.
+The Parrots and the Bats | Breed two animals together | Breed a pair ofanyof these 26mobs:ArmadilloAxolotlBeeCamelCatChickenCowDonkeyFoxFrogGoatHoglinHorseLlamaMooshroomMuleOcelotPandaPigRabbitSheepSnifferStriderTrader LlamaTurtleWolfAmulemust be the result ofbreedingahorseand adonkeyfor this advancement as they are not breedable together. Other breedable mobs are ignored for this advancement.
+Best Friends Forever | Tame an animal | Tameoneof these 8 tameablemobs:CatDonkeyHorseLlamaMuleParrotTrader LlamaWolfSkeleton HorseandZombie Horsecan be tamed in the same way as a regular horse to gain this advancement with theride command.
+Total Beelocation | Move aBee Nest, with 3Beesinside, usingSilk Touch | Unlike most other advancements, this advancement is granted upon breaking the nest, rather than it entering your inventory.
+Two by Two | Breed all the animals! | Breeda pair ofeachof these 25mobs:ArmadilloAxolotlBeeCamelCatChickenCowDonkeyFoxFrogGoatHoglinHorseLlamaMooshroomMuleOcelotPandaPigRabbitSheepSnifferStriderTurtleWolfA trader llama does not count as allama, and amulemust be the result of breeding ahorseand adonkeyfor this advancement as they are not breedable together. Other breedable mobs can be bred, but are ignored for this advancement.
 
+- Bell
+- Block of Gold
+- Block of Raw Gold
+- Clock
+- Enchanted Golden Apple
+- Gilded Blackstone
+- Glistering Melon Slice
+- Gold Ingot
+- Gold Ore
+- Golden Apple
+- Golden Axe
+- Golden Boots
+- Golden Carrot
+- Golden Chestplate
+- Golden Helmet
+- Golden Hoe
+- Golden Horse Armor
+- Golden Leggings
+- Golden Pickaxe
+- Golden Shovel
+- Golden Sword
+- Light Weighted Pressure Plate
+- Nether Gold Ore
+- Deepslate Gold Ore
+- Raw Gold
 - Absorption
 - Bad Omen
 - Blindness
@@ -1249,39 +1269,6 @@ Who's the Pillager Now? | Give a Pillager a taste of their own medicine | Kill a
 - Wind Charged
 - Wither
 The source of the effects is irrelevant for the purposes of this advancement. Other status effects may be applied to the player, but are ignored for this advancement.
-- Bell
-- Block of Gold
-- Block of Raw Gold
-- Clock
-- Enchanted Golden Apple
-- Gilded Blackstone
-- Glistering Melon Slice
-- Gold Ingot
-- Gold Ore
-- Golden Apple
-- Golden Axe
-- Golden Boots
-- Golden Carrot
-- Golden Chestplate
-- Golden Helmet
-- Golden Hoe
-- Golden Horse Armor
-- Golden Leggings
-- Golden Pickaxe
-- Golden Shovel
-- Golden Sword
-- Light Weighted Pressure Plate
-- Nether Gold Ore
-- Deepslate Gold Ore
-- Raw Gold
-- Cat
-- Donkey
-- Horse
-- Llama
-- Mule
-- Parrot
-- Trader Llama
-- Wolf
 - Blaze
 - Bogged
 - Breeze
@@ -1381,6 +1368,14 @@ The source of the effects is irrelevant for the purposes of this advancement. Ot
 - Strider
 - Trader Llama
 - Turtle
+- Wolf
+- Cat
+- Donkey
+- Horse
+- Llama
+- Mule
+- Parrot
+- Trader Llama
 - Wolf
 - Armadillo
 - Axolotl
@@ -1423,7 +1418,7 @@ H1: Block
 Blocks are the basic units of structure in Minecraft that make up the game's world. Many blocks can be collected and placed anywhere, as well as be used as helpful resources.
 H2: Behavior
 Blocks are arranged in a 3-dimensional grid of 1-cubic-meter cells, although some blocks appear to occupy a partial cell; these include slabs , snow layers, ladders , vines , stairs , turtle eggs , and sea pickles , among others.
-Collectively, blocks and fluids make up the in-game environment, and most can be harvested and utilized in various fashions. Some blocks, such as dirt and sandstone , are opaque and occupy their entire cubic meter, while others, such as glass and flowers , are transparent or non-solid. Explosions destroy some blocks more easily than they destroy others, while some are virtually immune to explosions. They can still be theoreticlly exploded.
+Collectively, blocks and fluids make up the in-game environment, and most can be harvested and utilized in various fashions. Some blocks, such as dirt and sandstone , are opaque and occupy their entire cubic meter, while others, such as glass and flowers , are transparent or non-solid. Explosions destroy some blocks more easily than they destroy others, while some are virtually immune to explosions. They can still be theoretically exploded.
 Air is a special block that acts as a substitute for the absence of blocks. It has two variants: cave air and void air .‌ [ Java Edition only ]
 Some blocks, such as sea lanterns and glowstone , emit light , the amount of which varies widely; see this table of light values for further information. Opaque blocks completely block light, while transparent blocks have no effect on light, block the light, or merely weaken it.
 Almost all blocks ignore gravity, except for sand , red sand , gravel , anvils of all damage levels, dragon eggs , all colors of concrete powder , scaffolding , snow layers‌ [ BE only ] , pointed dripstone , suspicious sand , and suspicious gravel . These turn into entities when their support is removed.
@@ -2115,9 +2110,9 @@ H2: List of blocks
 - Pink Terracotta
 - Pink Tulip
 - Pink Wool
+- Piston
 - Pitcher Crop
 - Pitcher Plant
-- Piston
 - Player Head
 - Podzol
 - Pointed Dripstone
@@ -2705,16 +2700,16 @@ Ticking order | 3
 Launch angle calculator[note 1]
 Given a target coordinate and an initial speed, calculate the thrown item launch angle to hit the target.Target is hit afterticks.
 X | 0–1 | Yaw | deg
-Y | 0–1 | Pitch | degUnreachable
+Y | 0–1 | Pitch | degUnreachable1Direct hit
 Z | 0–1 | Speed | 0.6m/tick
 
 0.98
-deg Unreachable
+deg Unreachable 1 Direct hit
 - ↑ Yaw and pitch follow the Minecraft' s convention , thus zero yaw is directed at +Z (south) and looking upwards corresponds to negative values of pitch.
 H3: Stacking
 Items can either stack up to 64 or 16, or not stack at all:
 - Most items can stack to 64. This includes all blocks .
-- Some items, such as snowballs , empty buckets , eggs , signs and ender pearls , can stack up to a maximum of 16.
+- Some items, such as snowballs , empty buckets , eggs , signs , and ender pearls , can stack up to a maximum of 16.
 - Some other items do not stack at all, such as anything with a durability ( weapons , armor , and tools ), filled buckets , and potions .
 - All items can technically be forced to stack up to 99‌ [ JE only ] or 127‌ [ BE only ] using commands .
 H2: Lists of items
@@ -2796,7 +2791,7 @@ Items corresponding directly to blocks in name and ID are excluded from this lis
 - Wheat Seeds
 - Wind Charge
 H4: Items with use in the world
-These items, when highlighted in a player's hotbar (aka "held"), in the off hand, or equipped in an armor slot, can be used by either attack or use , or can serve a specific purpose (for example, offer the player advantage or disadvantage). Some can be used any time, others only when aiming at specific blocks or entities.
+These items, when highlighted in a player's hotbar (or "held"), in the off hand, or equipped in an armor slot, can be used by either attack or use , or can serve a specific purpose (for example, offer the player advantage or disadvantage). Some can be used any time, others only when aiming at specific blocks or entities.
 - Amethyst Shard
 - Apple
 - Armadillo Scute
@@ -3004,6 +2999,7 @@ These items, when highlighted in a player's hotbar (aka "held"), in the off hand
 - Trial Key
 - Tropical Fish
 - Turtle Shell
+- Water Bottle
 - Warped Fungus on a Stick
 - Wheat
 - White Bundle
@@ -3128,6 +3124,7 @@ H4: Spawn eggs
 Spawn eggs spawn the entity inside them. They cannot be obtained in Survival mode.
 - Armadillo Spawn Egg
 - Allay Spawn Egg
+- Agent Spawn Egg ‌ [ BE & edu only ]
 - Axolotl Spawn Egg
 - Bat Spawn Egg
 - Bee Spawn Egg
@@ -3166,7 +3163,7 @@ Spawn eggs spawn the entity inside them. They cannot be obtained in Survival mod
 - Magma Cube Spawn Egg
 - Mooshroom Spawn Egg
 - Mule Spawn Egg
-- Spawn NPC ‌ [ BE & edu only ]
+- NPC Spawn Egg ‌ [ BE & edu only ]
 - Ocelot Spawn Egg
 - Panda Spawn Egg
 - Parrot Spawn Egg
@@ -3210,9 +3207,8 @@ Spawn eggs spawn the entity inside them. They cannot be obtained in Survival mod
 - Zombie Spawn Egg
 - Zombie Villager Spawn Egg
 - Zombified Piglin Spawn Egg
-H4: Exclusive to Minecraft Education
-These items can be accessed only in Minecraft Education . The agent spawn egg , portfolio , and camera are obtainable through Creative mode and the / give command . The garbage item is obtainable only through invalid lab table recipes or via inventory editing.
-- Agent Spawn Egg
+H4: Minecraft Educationitems
+These items are exclusive to Minecraft Education and Bedrock Edition when the "Minecraft Education features" cheat setting is enabled. The portfolio is exclusive to Minecraft Eductation , and the poster , slate , and camera are obtainable in Bedrock Edition only through inventory editing or add-ons. The garbage item is obtainable only through invalid lab table recipes or via inventory editing.
 - Antidote
 - Black Balloon
 - Bleach
@@ -3256,7 +3252,6 @@ These items can be accessed only in Minecraft Education . The agent spawn egg , 
 - Red Sparkler
 - Silver Balloon
 - Slate
-- Spawn NPC
 - Super Fertilizer
 - Tonic
 - White Balloon
@@ -3483,7 +3478,7 @@ Crafting can be automated using the crafter .
 The simplest way to do this is for the player to add the items for the crafting into the crafter manually, however this process can itself be automated using hoppers . In order to control which slots the hopper puts the item into it is possible to disable certain slots to prevent the input of items. When items are put into a crafter automatically they fill every enabled slot equally from left to right and top to bottom, in that order. If all slots are disabled, then hoppers connected to it cannot put items in it.
 The crafter can craft anything that a normal crafting table can.
 Crafters require a redstone signal to activate.
-Automated crafting is useful in both storage systems and automated farms , as it provides a way to automatically craft items and blocks that once required manual input.
+Automated crafting is useful in both storage systems and automated farms , as it provides a way to automatically craft items and blocks that otherwise requires manual input.
 H3: Recipe book
 The recipe book is a mechanic that serves as a catalog of recipes and as a crafting guide. It shows every crafting recipe that the player has unlocked.
 Crafting recipes are organized in several different categories. The categories differ between Java and Bedrock .
@@ -3501,9 +3496,9 @@ H2: Achievements
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
 PS4 | Other
+Time to Mine! | Use planks and sticks to make apickaxe. | Pick up a woodenpickaxefrom acrafting tableoutput. | 10 | Bronze
 Hot Topic | Construct a furnace out of eight cobblestone blocks. | Pick up afurnacefrom acrafting tableoutput. | 15 | Bronze
 Time to Farm! | Make a Hoe. | Pick up any type ofhoefrom acrafting tableoutput. | 10 | Bronze
-Time to Mine! | Use planks and sticks to make apickaxe. | Pick up a woodenpickaxefrom acrafting tableoutput. | 10 | Bronze
 Time to Strike! | Use planks and sticks to make a sword. | Pick up any type ofswordfrom acrafting tableoutput. | 10 | Bronze
 
 ========================================
@@ -4218,7 +4213,7 @@ TABLE:
 Product | Ingredient | Exp | Usage
 Iron Nugget | Tools,armorandhorse armormade fromiron, chainmail armor | 0.1 | Can be crafted intolanterns,chains, oriron ingots.
 Gold Nugget | Tools, armor and horse armor made fromgold | 0.1 | Can be crafted intogolden carrots,glistering melons, orgold ingots.
-Copper Nugget​[upcoming] | Tools and armor made fromcopper | 0.1 | Can be crafted intocopper ingots.
+Copper Nugget​[upcomingThe Copper Age] | Tools and armor made fromcopper | 0.1 | Can be crafted intocopper chains,copper lanterns, andcopper ingots.
 
 H3: Furnace-only
 These recipes are exclusive to the furnace.
@@ -4301,7 +4296,7 @@ Barrel | 15300 ticks | 1.5 | 96 | 84⁄7(~8.57) | 10⁄21(~0.48) | 422⁄3
 Daylight Detector | 15300 ticks | 1.5 | 96 | 40 | 22⁄9(2.2) | 422⁄3
 Jukebox | 15300 ticks | 1.5 | 96 | 7.5 | 5⁄12(0.416) | 422⁄3
 Note Block | 15300 ticks | 1.5 | 96 | 7.5 | 5⁄12(0.416) | 422⁄3
-Invicon Shelf.png: Inventory sprite for Shelf in Minecraft as shown in-game linking to Shelf with description: ShelfShelf | 15300 ticks | 1.5 | 96 | 7.5 | 5⁄12(0.416) | 422⁄3 | ​[upcoming]
+AnyShelf | 15300 ticks | 1.5 | 96 | 7.5 | 5⁄12(0.416) | 422⁄3 | ​[upcoming]
 AnyBanner | 15300 ticks | 1.5 | 24 (96) | 120 | 7.5 | 422⁄3
 Crossbow | 15300 ticks | 1.5 | 1.5 (96) | 262⁄3 | 123⁄37(1.621) | 422⁄3 | ‌[Java Editiononly]
 10200 ticks | 1 | 1 (64) | 177⁄9(17.7) | 13⁄37(1.081) | 64 | ‌[Bedrock Editiononly]
@@ -4347,12 +4342,12 @@ Icon | Achievement | In-game description | Actual requirements (if different) | 
 PS4 | Other
 Acquire Hardware | Smelt an iron ingot | Pick up aniron ingotfrom afurnaceoutput. | 15 | Bronze
 Delicious Fish | Catch and cook a fish! | Pick up acooked codafter cooking it in afurnace,smoker,campfire, orsoul campfire.Note: This does not work if the block used is connected to a hopper underneath, as the player is not getting the item directly from the output. | 15 | Silver
-Dry Spell | Dry aspongein a furnace | — | 15 | Bronze
 Pork Chop | Cook and eat apork chop. | — | 10 | Bronze
-Rabbit Season | Cook and EatRabbit Meat | — | 15 | Bronze
 Renewable Energy | Smelt wood trunks using charcoal to make more charcoal. | Smelt a woodenlogwithcharcoalas the fuel. | 10 | Bronze
-Smelt Everything! | Connect 3 Chests to a singleFurnaceusing 3Hoppers. | Be within the range of three chests connected to a Furnace with 3 Hoppers.Note: The demonstration shown in the image would not give the achievement. | 15 | Bronze
+Dry Spell | Dry aspongein a furnace | — | 15 | Bronze
 Super Fuel | Power aFurnacewith Lava | Smelt an item using a lava bucket on afurnace,blast furnaceorsmokerand pick up the resulting item from the output slot. | 20 | Bronze
+Smelt Everything! | Connect 3 Chests to a singleFurnaceusing 3Hoppers. | Be within the range of three chests connected to a Furnace with 3 Hoppers.Note: The demonstration shown in the image would not give the achievement. | 15 | Bronze
+Rabbit Season | Cook and EatRabbit Meat | — | 15 | Bronze
 
 H2: Advancements
 
@@ -4389,7 +4384,6 @@ H3: Newcomer survival
 - [Things to do](https://minecraft.wiki/w/Tutorial:Things_to_do)
 - [Things not to do](https://minecraft.wiki/w/Tutorial:Things_not_to_do)
 - [Simple tips and tricks](https://minecraft.wiki/w/Tutorial:Tips_and_tricks)
-- [Survival mode progression](https://minecraft.wiki/w/Tutorial:Game_progression_in_survival_mode)
 - [Your first 10 minutes](https://minecraft.wiki/w/Tutorial:Your_first_10_minutes)
 - [The second day](https://minecraft.wiki/w/Tutorial:The_second_day)
 - [The third day](https://minecraft.wiki/w/Tutorial:The_third_day)
@@ -4850,11 +4844,11 @@ URL: https://minecraft.wiki/w/Redstone_circuits
 H1: Redstone circuits
 A redstone circuit is a build that is primarily focused on dealing with logic and redstone signals. Circuits can be used to transmit redstone signals, perform operations with logic gates , store data, shorten or lengthen redstone signals, make clocks, and more.
 A useful distinction can be made between a circuit performing operations on signals (generating, modifying, combining, etc.), and a mechanism using the environment (moving blocks, opening doors, changing the light level, producing sound, etc). Making this distinction allows us to talk about the various circuits separately, and let all players choose whichever circuits are useful for their purposes. The machines controlled by redstone circuits can range from simple devices such as automatic doors and light switches to complex devices such as elevators, automatic farms, or even in-game computers. However, this article provides only an overview of redstone circuits as above. These can be used to control simple mechanisms, or combined as parts of a larger build. Each circuit type on this page has links to its own page, which provides greater detail about them and give schematics for multiple variations of each.
-Before working with any but the most basic redstone circuits, an understanding of some basic concepts is required: "power", "signal strength", "redstone ticks", and "block updates". Some relevant articles are listed below:
+Before working with any but the most basic redstone circuits, an understanding of some basic concepts is required: "power", "signal strength", "redstone ticks", "block updates", etc. Some relevant articles are listed below:
 - The Redstone mechanics article provides more information on these concepts.
 - The Redstone components article adds a list and description of all blocks that interact with redstone power in general.
 - The Mechanisms tutorial complements this article with an assortment of mechanism designs using circuits described here.
-- The Redstone tips tutorial gives general advice about building redstone menchanisms
+- The Redstone tips tutorial gives general advice about building redstone mechanisms
 H2: Describing circuits
 Most circuits are described using Schematic diagrams; some of these require multiple images to show one or two layers per image. See the Help:Schematic page for details on how various blocks and components are represented.
 H3: Size
@@ -4921,6 +4915,6 @@ H2: Achievements
 TABLE:
 Icon | Achievement | In-game description | Actual requirements (if different) | Gamerscore earned | Trophy type (PS)
 PS4 | Other
-Crafters Crafting Crafters | Be near aCrafterwhen it crafts a Crafter | — | 10 | Bronze
 Inception | Push apistonwith a piston, then pull the original piston with that piston. | — | 20 | Silver
+Crafters Crafting Crafters | Be near aCrafterwhen it crafts a Crafter | — | 10 | Bronze
 
