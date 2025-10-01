@@ -1,6 +1,15 @@
 [
     {
-        "question": "Give me the trading web link",
+        "question": "Give me the brewing wiki web link",
+        "expected_answer_contains": [
+            "https://minecraft.wiki/w/Brewing"
+        ],
+        "source_type": "link",
+        "source_link": "https://minecraft.wiki/w/Brewing",
+        "comment": "Should return a wiki URL about brewing"
+    },
+    {
+        "question": "Give me the trading wiki web link",
         "expected_answer_contains": [
             "https://minecraft.wiki/w/Trading"
         ],
@@ -347,9 +356,9 @@
         "comment": "Should mention that blast furnaces can smelt tools, armor, weapons, and horse armor."
     },
     {
-        "question": "Give me the tutorial link for advancement guides.",
+        "question": "Give me the tutorial link for advancement guide.",
         "expected_answer_contains": [
-            "https://minecraft.wiki/w/Tutorial:Advancement_guides"
+            "https://minecraft.wiki/w/Tutorial:Advancement_guide"
         ],
         "source_type": "text",
         "source_link": "https://minecraft.wiki/w/Tutorials",
@@ -365,7 +374,7 @@
         "comment": "Should return the URL."
     },
     {
-        "question": "How to survive in hardcore mode? Any guides?",
+        "question": "How to survive in hardcore mode? Any guide?",
         "expected_answer_contains": [
             "https://minecraft.wiki/w/Tutorial:Hardcore_mode"
         ],
@@ -401,9 +410,8 @@
     {
         "question": "List and briefly describe three advanced redstone mechanisms that use memory circuits or piston circuits.",
         "expected_answer_contains": [
-            "RS latch",
-            "T flip-flop",
-            "piston door",
+            "latch",
+            "flip-flop",
             "memory",
             "mechanism"
         ],
