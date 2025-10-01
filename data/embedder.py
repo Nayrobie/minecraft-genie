@@ -81,6 +81,7 @@ def split_and_prepare_documents(lore_data: List[dict]) -> List[Document]:
     - Better overlap (50 chars) to avoid splitting key information
     - URLs added to chunk text for searchability
     - Text normalization for special characters
+    - Title and URL added at the beginning for better link retrieval
     """
     splitter = SentenceSplitter(
         chunk_size=512,
@@ -98,9 +99,10 @@ def split_and_prepare_documents(lore_data: List[dict]) -> List[Document]:
         filtered_chunks = filter(filter_redundant_text, chunks)
 
         for chunk in filtered_chunks:
-            # Add source URL to chunk text for searchability
+            # Add title and URL at the beginning and end for better searchability
             # This allows semantic search to find URLs when users ask for links
-            chunk_with_source = f"{chunk}\n\nSource: {entry['url']}"
+            # Format: Title + URL at start, then content, then Source URL at end
+            chunk_with_source = f"Title: {entry['title']}\nURL: {entry['url']}\n\n{chunk}\n\nSource: {entry['url']}"
             
             docs.append(
                 Document(
