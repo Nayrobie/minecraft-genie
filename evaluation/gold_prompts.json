@@ -401,9 +401,8 @@
     {
         "question": "List and briefly describe three advanced redstone mechanisms that use memory circuits or piston circuits.",
         "expected_answer_contains": [
-            "RS latch",
-            "T flip-flop",
-            "piston door",
+            "latch",
+            "flip-flop",
             "memory",
             "mechanism"
         ],

@@ -17,9 +17,11 @@ db/minecraft_lore/
 *.bin
 *.sqlite3
 
-# settings
+# settings & extensions
 .vscode/
 .qodo/
+.idea/
+.qodo_help/
 
 # OS metadata
 .DS_Store
