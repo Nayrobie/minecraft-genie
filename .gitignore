@@ -13,9 +13,8 @@ __pycache__/
 .ruff_cache/
 
 # Chroma DB and vector storage
-db/minecraft_lore/
-*.bin
-*.sqlite3
+storage/
+db/
 
 # settings & extensions
 .vscode/
